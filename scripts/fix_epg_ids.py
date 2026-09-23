@@ -96,9 +96,8 @@ def fix_playlist(filepath, name_to_id):
             else:
                 new_lines.append(line)
         elif line.startswith("#EXTM3U"):
-            if "url-tvg" not in line:
-                line = line.rstrip() + " " + EPG_PLAYLIST_URL
-            new_lines.append(line)
+    line = "#EXTM3U " + EPG_PLAYLIST_URL
+    new_lines.append(line)
         else:
             new_lines.append(line)
 
