@@ -25,6 +25,9 @@ jobs:
 
       - name: Run filter
         run: python scripts/filter_russia.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: Show report
         if: always()
