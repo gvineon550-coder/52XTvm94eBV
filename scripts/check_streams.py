@@ -8,8 +8,30 @@ OUTPUT_FILE = "playlist.m3u"
 TIMEOUT = 15
 MAX_WORKERS = 15
 CHUNK_SIZE = 20000
+ALERT_THRESHOLD = 20
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+
+def send_telegram(message):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        print("Telegram secrets not set, skipping")
+        return
+    try:
+        url = "https://api.telegram.org/bot" + token + "/sendMessage"
+        r = requests.post(
+            url,
+            data={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            timeout=10,
+        )
+        if r.status_code == 200:
+            print("Telegram sent")
+        else:
+            print("Telegram failed: " + str(r.status_code))
+    except Exception as e:
+        print("Telegram error: " + str(e))
 
 
 def parse_m3u(text):
@@ -27,6 +49,10 @@ def parse_m3u(text):
                 i = j
         i += 1
     return channels
+
+
+def get_name(extinf):
+    return extinf.rsplit(",", 1)[-1].strip() if "," in extinf else extinf
 
 
 def is_live_stream(chunk):
@@ -91,6 +117,7 @@ def check_url(url):
 def main():
     if not os.path.exists(MASTER_FILE):
         print("Master file not found: " + MASTER_FILE)
+        send_telegram("вќЊ <b>Kinowalk</b>\nРњР°СЃС‚РµСЂ-С„Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ: " + MASTER_FILE)
         return
 
     with open(MASTER_FILE, "r", encoding="utf-8") as f:
@@ -116,6 +143,7 @@ def main():
     print("Dead: " + str(len(dead)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " РњРЎРљ"
 
     lines = []
     lines.append("#EXTM3U")
@@ -140,7 +168,7 @@ def main():
         report.append("## Dead channels")
         report.append("")
         for ch in dead:
-            name = ch["extinf"].rsplit(",", 1)[-1].strip() if "," in ch["extinf"] else ch["extinf"]
+            name = get_name(ch["extinf"])
             report.append("- " + name + " | " + reasons.get(ch["url"], "unknown"))
         report.append("")
 
@@ -149,6 +177,38 @@ def main():
 
     print("Saved " + OUTPUT_FILE)
     print("Saved report.txt")
+
+    total = len(channels)
+    alive_count = len(alive)
+    dead_count = len(dead)
+    pct = round(alive_count * 100 / total, 1) if total > 0 else 0
+
+    msg_lines = []
+    msg_lines.append("рџ“Љ <b>Kinowalk вЂ” РµР¶РµРґРЅРµРІРЅС‹Р№ РѕС‚С‡С‘С‚</b>")
+    msg_lines.append("")
+    msg_lines.append("рџ•ђ " + now_msk)
+    msg_lines.append("")
+    msg_lines.append("вњ… Р–РёРІС‹С…: <b>" + str(alive_count) + "</b> / " + str(total) + " (" + str(pct) + "%)")
+    msg_lines.append("вќЊ РњС‘СЂС‚РІС‹С…: <b>" + str(dead_count) + "</b>")
+
+    if dead_count > 0 and dead_count <= 15:
+        msg_lines.append("")
+        msg_lines.append("рџљ« <b>РЈРїР°Р»Рё:</b>")
+        for ch in dead[:15]:
+            name = get_name(ch["extinf"])
+            reason = reasons.get(ch["url"], "unknown")
+            msg_lines.append("вЂў " + name + " вЂ” <i>" + reason + "</i>")
+
+    if dead_count > 15:
+        msg_lines.append("")
+        msg_lines.append("рџљ« <b>РЈРїР°Р»Рѕ Р±РѕР»СЊС€Рµ 15 РєР°РЅР°Р»РѕРІ</b>")
+        msg_lines.append("РЎРїРёСЃРѕРє РІ report.txt")
+
+    if dead_count == 0:
+        msg_lines.append("")
+        msg_lines.append("рџЋ‰ Р’СЃРµ РєР°РЅР°Р»С‹ СЂР°Р±РѕС‚Р°СЋС‚!")
+
+    send_telegram("\n".join(msg_lines))
 
 
 main()
