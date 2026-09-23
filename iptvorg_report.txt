@@ -1,6 +1,6 @@
 # IPTV-org RUS Report
 
-Date: 2026-09-23 19:02 UTC
+Date: 2026-09-23 23:06 UTC
 
 ## Funnel
 - Total in source: 669
@@ -10,27 +10,24 @@ Date: 2026-09-23 19:02 UTC
 - Whitelist (skip check): 12
 - Geo-blocked (auto-include): 10
 - To check: 283
-- Alive checked: 227
-- Stable in playlist: 249
+- Alive checked: 233
+- Stable in playlist: 255
 - Filtered as unstable: 0
-- Too new (collecting stats): 227
+- Too new (collecting stats): 233
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
-## Dead today (56)
+## Dead today (50)
 
 - 15+ Music (1080p) | conn_error
 - Afontovo | conn_error
 - alpha Cinema (1080p) | conn_error
 - Arktika 24 (1080p) | conn_error
 - ARTN TV (1080p) [Not 24/7] | http_403
-- Belarus-2 HD (1080p) | conn_error
-- Belarus-3 HD (1080p) [Not 24/7] | conn_error
 - Belarus-4 Gomel | http_404
 - Black Sea TV | http_404
-- CGTN Russian (1080p) | timeout
+- CGTN Russian (1080p) | http_404
 - City Eden KinoSemya [Not 24/7] | http_503
-- City Eden TV [Not 24/7] | http_503
 - Crimea 24 | timeout
 - Detskoe kino [Not 24/7] | http_503
 - Don 24 (1080p) | http_403
@@ -64,11 +61,8 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Sibir 24 (1080p) | conn_error
 - Sibir 24 KYA (1080p) | conn_error
 - Simferopol 24 | conn_error
-- SONGTV Russia | http_503
 - Start Triumf | http_403
-- TV8 (Moldova) [Not 24/7] | too_short_response
 - TV15 (1080p) [Not 24/7] | conn_error
-- TV PRO | http_404
 - Ural 24 (1080p) | conn_error
 - Vera 24 | conn_error
 - Vital Drive | conn_error
