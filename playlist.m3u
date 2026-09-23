@@ -1,11 +1,8 @@
 #EXTM3U
-# Updated: 2026-09-23 17:48 UTC | Alive: 139/153
+# Updated: 2026-09-23 17:55 UTC | Alive: 139/153
 
 #EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="Kinowalk",Kinowalk_tv
 http://kinowalk.hopto.org/kinowalk_live
-
-#EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
-http://kinowalk.hopto.org/legion-tv_live
 
 #EXTINF:-1 tvg-id="yurich_kinomix" tvg-name="KinoMix Юрич" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomix.png" group-title="Kinowalk",KinoMix Юрич
 http://kinowalk.hopto.org/yurich_kinomix_live
@@ -19,11 +16,14 @@ http://kinowalk.hopto.org/movietoper_live
 #EXTINF:-1 tvg-id="timetohorror" tvg-name="TimeToHorror" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_horror.png" group-title="Kinowalk",TimeToHorror
 http://kinowalk.hopto.org/timetohorror_live
 
+#EXTINF:-1 tvg-id="timetomovie" tvg-name="TimeToMovie" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_movie.png" group-title="Kinowalk",TimeToMovie
+http://kinowalk.hopto.org/timetomovie_live
+
 #EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="Kinowalk",Blockbusters Time
 http://kinowalk.hopto.org/blockbusterstime_live
 
-#EXTINF:-1 tvg-id="kinolampa" tvg-name="kinolampa" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolampa.png" group-title="Kinowalk",kinolampa
-http://kinowalk.hopto.org/kinolampa_live
+#EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="Kinowalk",DimponHD
+http://kinowalk.hopto.org/dimpon_live
 
 #EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="Kinowalk",ScripachTV
 http://kinowalk.hopto.org/scripachtv_live
