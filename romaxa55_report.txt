@@ -1,0 +1,18 @@
+# Romaxa55 Russia Report
+
+Date: 2026-09-23 16:03 UTC
+Total in source: 13833
+Russia group: 362
+Alive: 354
+Dead: 8
+
+## Dead channels
+
+- .red (576p) | http_404
+- Bollywood HD (1080p) | http_404
+- Channel One (Russia) HD (720p) | unknown_format
+- Kongress TV (1080p) | http_503
+- LenTV24 | html_page
+- Novorossiya TV (1080p) [Geo-blocked] | too_short_response
+- Oplot TV SD (1080p) [Geo-blocked] | too_short_response
+- Osetiya-Iryston (1080p) | timeout
