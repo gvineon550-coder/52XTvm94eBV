@@ -1,6 +1,6 @@
 # Romaxa55 Russia Report
 
-Date: 2026-09-23 18:11 UTC
+Date: 2026-09-23 18:25 UTC
 
 ## Funnel
 - Total in source: 13833
@@ -11,9 +11,9 @@ Date: 2026-09-23 18:11 UTC
 - Geo-blocked (auto-include): 3
 - To check: 164
 - Alive checked: 162
-- Stable in playlist: 165
-- Filtered as unstable: 0
-- Too new (collecting stats): 162
+- Stable in playlist: 164
+- Filtered as unstable: 1
+- Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
@@ -21,3 +21,7 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
 - Channel One (Russia) HD (720p) | unknown_format
 - LenTV24 | html_page
+
+## Filtered as unstable (1)
+
+- TNT International Belarus (1080p) | uptime 66.7% (2/3)

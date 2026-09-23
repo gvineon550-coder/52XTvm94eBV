@@ -1,0 +1,6 @@
+#EXTM3U
+# Unstable channels (uptime below 70%)
+
+# Uptime: 66.7% (2/3)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/l0RGbRI.png" group-title="Russia",TNT International Belarus (1080p)
+http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
