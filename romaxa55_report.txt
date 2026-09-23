@@ -1,6 +1,6 @@
 # Romaxa55 Russia Report
 
-Date: 2026-09-23 18:35 UTC
+Date: 2026-09-23 18:44 UTC
 
 ## Funnel
 - Total in source: 13833
@@ -8,17 +8,16 @@ Date: 2026-09-23 18:35 UTC
 - After quality (>= 720p): 223 (dropped 139)
 - After URL cleanup: 169 (dropped 54)
 - After dedup: 167 (dropped 2)
+- Whitelist (skip check): 6
 - Geo-blocked (auto-include): 3
-- To check: 164
-- Alive checked: 161
-- Stable in playlist: 164
+- To check: 158
+- Alive checked: 157
+- Stable in playlist: 166
 - Filtered as unstable: 0
 - Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
-## Dead today (3)
+## Dead today (1)
 
-- Channel One (Russia) HD (720p) | unknown_format
-- Kongress TV (1080p) | http_503
 - LenTV24 | html_page

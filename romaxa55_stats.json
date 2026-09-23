@@ -1,87 +1,87 @@
 {
   "2x2 (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "3abn russia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "5 minut tishiny": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "86": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "360°": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "360° news": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "aist tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "amedia hit": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "angel tv russian": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "aris 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "arkhyz 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "astrahan 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "astrahan.ru sport": {
     "checks": 4,
@@ -91,39 +91,39 @@
     "last_ok": "2026-09-23 18:35 UTC"
   },
   "balabol": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "big asia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "blokbaster": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "channel 10 (russia) (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "channel 12": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "channel one (russia)": {
     "checks": 4,
@@ -133,487 +133,487 @@
     "last_ok": null
   },
   "city eden autogid": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden birma play": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden classic music": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinoaction": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinoart": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinoasia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinodetektiv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinodok": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinodrama": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinofantastika": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinoklassika": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinokomediya": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden kinomistika": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden medzdrav": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden play": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden recepty gurmana": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden sirtaki tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "city eden telenovella": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "classic music": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "current time tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "dagestan": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "dikaya okhota": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "dikaya rybalka": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "dom kino premium": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "drive (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "dushevnoe": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "eurasia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "evrokino": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "fashion&lifestyle": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "fashiontv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "groznyj": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "gulli girl": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "hope channel russia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "horoshee kino": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ingushetia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "istoki": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "izvestia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "kapitan fantastika": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "kino 1 (russia)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "kinopremyera": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "kn music tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "komediynoe": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "kongress tv": {
-    "checks": 4,
-    "success": 3,
-    "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:25 UTC"
-  },
-  "krik-tv": {
-    "checks": 4,
+    "checks": 5,
     "success": 4,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
+  },
+  "krik-tv": {
+    "checks": 5,
+    "success": 5,
+    "first_seen": "2026-09-23 16:18 UTC",
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "lentv24": {
-    "checks": 4,
+    "checks": 5,
     "success": 0,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
+    "last_check": "2026-09-23 18:44 UTC",
     "last_ok": null
   },
   "leomax 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "lugansk 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "magnat": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "maidan": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "mezzo live": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "mir 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "mir": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "mma-tv.com": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "moskva 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "moy mir": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "moya stikhiya": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "mtv volgograd": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "muzyka 1": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "muzyka kino": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "nashe muzhskoe": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "nevskiy": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ntm": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "nts": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ntv (russia)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ntv vitrina": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "nvk sakha": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ohotnik i rybolov (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ohotnik i rybolov": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "okko futbol": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "okko prajm sport": {
     "checks": 4,
@@ -630,249 +630,249 @@
     "last_ok": "2026-09-23 18:35 UTC"
   },
   "osetiya-iryston": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "osn": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ostrosyuzhetnoye": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "otv-prim": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "patriot": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "perviy otdel": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "pervyy respublikanskiy": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "pes": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "premialnoe": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "priklyucheniya": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "prima (russia)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "pro business": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "prodvizhenie": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "radio mir": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "radio rossii": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "rt balkan": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "rt documentary russian": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "rtg tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ru.tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "russia-1": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "russia-k": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ryzhiy (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "s1": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "samara-gis": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sankt-peterburg": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sever": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "shef": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "shokiruyushchee": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "shopping live": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "skoraya pomoshch": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "smotrim chestnyy detektiv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sochi24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sochi live": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "solovyov live": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "songtv russia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sportivnyy": {
     "checks": 4,
@@ -882,109 +882,109 @@
     "last_ok": "2026-09-23 18:35 UTC"
   },
   "star cinema": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "star family": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "strana fm": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "sts": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "subbota!": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "surgut 24": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "svoyo tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tavriya": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "teledom": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "telekanal krasnodar": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tkr": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tnt international belarus": {
-    "checks": 4,
-    "success": 3,
+    "checks": 5,
+    "success": 4,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tnv-tatarstan": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tolk": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tooku": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "trace sport stars russia": {
     "checks": 4,
@@ -994,157 +994,157 @@
     "last_ok": "2026-09-23 18:35 UTC"
   },
   "travel+adventure": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "tv pro": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "u": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "ugra-tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "univer tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "unknown russia": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "v gostyakh u skazki": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "v mire zhivotnykh": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "vesti fm": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "viju+ comedy": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "viju+ megahit": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "viju+ planet": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "viju+ premiere": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "viju+ serial": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "vitrina tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "vmeste-rf": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "volga": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "yapervyy": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "za! tv": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "zhivaya priroda": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "zoopark (576i)": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   },
   "zvezda plus": {
-    "checks": 4,
-    "success": 4,
+    "checks": 5,
+    "success": 5,
     "first_seen": "2026-09-23 16:18 UTC",
-    "last_check": "2026-09-23 18:35 UTC",
-    "last_ok": "2026-09-23 18:35 UTC"
+    "last_check": "2026-09-23 18:44 UTC",
+    "last_ok": "2026-09-23 18:44 UTC"
   }
 }

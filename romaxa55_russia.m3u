@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated: 2026-09-23 18:35 UTC | Total: 164
+# Updated: 2026-09-23 18:44 UTC | Total: 166
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
@@ -36,9 +36,6 @@ https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9WcnjQN.png" group-title="Russia",Astrahan 24 (720p)
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Russia",Astrahan.Ru Sport (720p)
-https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/balabol_vse.jpg" group-title="Russia",Balabol (1080p)
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
@@ -181,6 +178,9 @@ https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="Russia",Komediynoe HD (1080p)
 http://stream.mcquack.net/74/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://tvcongress.ru/bitrix/templates/mbntheme/img/logo_tvc.svg" group-title="Russia",Kongress TV (1080p)
+https://live-3.otcnet.ru/congresstv/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="Russia",Krik-TV (1080p)
 http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
 
@@ -255,12 +255,6 @@ http://stream.mcquack.net/194/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png" group-title="Russia",Okko Futbol (1080p)
 http://stream.mcquack.net/491/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/kQq5DMU.png" group-title="Russia",Okko Prajm Sport (1080p)
-http://stream.mcquack.net/493/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/SYOaOQc.png" group-title="Russia",Okko Sport (1080p)
-http://stream.mcquack.net/492/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N0Zn4zU.png" group-title="Russia",Osetiya-Iryston (1080p)
 https://osir.mediacdn.ru/cdn/osetia/playlist.m3u8
@@ -367,9 +361,6 @@ https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nM7LbmV.png" group-title="Russia",SONGTV Russia
 https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="Russia",Sportivnyy (1080p)
-https://live-3.otcnet.ru/sportivny/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/5sis895.png" group-title="Russia",Star Cinema
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 
@@ -414,9 +405,6 @@ http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Russia",Tooku (1080p)
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Russia",Trace Sport Stars Russia (720p)
-https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="Russia",Travel+Adventure HD (1080p)
 http://stream.mcquack.net/206/index.m3u8
@@ -483,6 +471,24 @@ https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="Russia",Zvezda Plus HD (1080p)
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Russia",Astrahan.Ru Sport (720p)
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Russia",Channel One (Russia) HD (720p)
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/kQq5DMU.png" group-title="Russia",Okko Prajm Sport (1080p)
+http://stream.mcquack.net/493/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/SYOaOQc.png" group-title="Russia",Okko Sport (1080p)
+http://stream.mcquack.net/492/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="Russia",Sportivnyy (1080p)
+https://live-3.otcnet.ru/sportivny/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="Russia",Trace Sport Stars Russia (720p)
+https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://radiopotok.ru/f/station/512/1812.png" group-title="Russia [Geo]",Radio 1 (Russia) (720p) [Geo-blocked]
 https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
