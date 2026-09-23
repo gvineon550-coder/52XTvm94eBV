@@ -23,13 +23,19 @@ def send_telegram(message):
         url = "https://api.telegram.org/bot" + token + "/sendMessage"
         r = requests.post(
             url,
-            data={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            json={
+                "chat_id": chat_id,
+                "text": message,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+            },
             timeout=10,
         )
         if r.status_code == 200:
             print("Telegram sent")
         else:
             print("Telegram failed: " + str(r.status_code))
+            print("Response: " + r.text)
     except Exception as e:
         print("Telegram error: " + str(e))
 
@@ -191,7 +197,7 @@ def main():
     msg_lines.append("вњ… Р–РёРІС‹С…: <b>" + str(alive_count) + "</b> / " + str(total) + " (" + str(pct) + "%)")
     msg_lines.append("вќЊ РњС‘СЂС‚РІС‹С…: <b>" + str(dead_count) + "</b>")
 
-    if dead_count > 0 and dead_count <= 15:
+    if 0 < dead_count <= 15:
         msg_lines.append("")
         msg_lines.append("рџљ« <b>РЈРїР°Р»Рё:</b>")
         for ch in dead[:15]:
@@ -202,7 +208,7 @@ def main():
     if dead_count > 15:
         msg_lines.append("")
         msg_lines.append("рџљ« <b>РЈРїР°Р»Рѕ Р±РѕР»СЊС€Рµ 15 РєР°РЅР°Р»РѕРІ</b>")
-        msg_lines.append("РЎРїРёСЃРѕРє РІ report.txt")
+        msg_lines.append("РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє вЂ” РІ report.txt")
 
     if dead_count == 0:
         msg_lines.append("")
