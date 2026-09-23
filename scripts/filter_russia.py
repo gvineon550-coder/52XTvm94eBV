@@ -15,7 +15,7 @@ TIMEOUT = 15
 MAX_WORKERS = 15
 CHUNK_SIZE = 20000
 
-TARGET_GROUPS = {"russia", "СЂРѕСЃСЃРёСЏ", "ru"}
+TARGET_GROUPS = {"russia", "россия", "ru"}
 
 MIN_QUALITY = 720
 MIN_CHECKS = 3
@@ -37,13 +37,19 @@ def send_telegram(message):
         url = "https://api.telegram.org/bot" + token + "/sendMessage"
         r = requests.post(
             url,
-            data={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            json={
+                "chat_id": chat_id,
+                "text": message,
+                "parse_mode": "HTML",
+                "disable_web_page_preview": True,
+            },
             timeout=10,
         )
         if r.status_code == 200:
             print("Telegram sent")
         else:
             print("Telegram failed: " + str(r.status_code))
+            print("Response: " + r.text)
     except Exception as e:
         print("Telegram error: " + str(e))
 
@@ -209,7 +215,7 @@ def main():
         text = r.text
     except Exception as e:
         print("Download failed: " + str(e))
-        send_telegram("вќЊ <b>Romaxa55</b>\nРќРµ СѓРґР°Р»РѕСЃСЊ СЃРєР°С‡Р°С‚СЊ РїР»РµР№Р»РёСЃС‚:\n" + str(e))
+        send_telegram("❌ <b>Romaxa55</b>\nНе удалось скачать плейлист:\n" + str(e))
         return
 
     all_channels = parse_m3u(text)
@@ -274,7 +280,7 @@ def main():
     print("Alive checked: " + str(len(alive_checked)) + " / " + str(len(check_channels)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " РњРЎРљ"
+    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " МСК"
 
     stats = load_stats()
 
@@ -391,27 +397,27 @@ def main():
     print("Saved " + REPORT_FILE)
 
     msg_lines = []
-    msg_lines.append("рџ“Љ <b>Romaxa55 Russia вЂ” РµР¶РµРґРЅРµРІРЅС‹Р№ РѕС‚С‡С‘С‚</b>")
+    msg_lines.append("📊 <b>Romaxa55 Russia — ежедневный отчёт</b>")
     msg_lines.append("")
-    msg_lines.append("рџ•ђ " + now_msk)
+    msg_lines.append("🕐 " + now_msk)
     msg_lines.append("")
-    msg_lines.append("вњ… Р’ РїР»РµР№Р»РёСЃС‚Рµ: <b>" + str(len(stable)) + "</b>")
-    msg_lines.append("рџЊЌ Geo-blocked: " + str(len(geo_channels)))
-    msg_lines.append("вќЊ РњС‘СЂС‚РІС‹С… СЃРµРіРѕРґРЅСЏ: <b>" + str(len(dead_today)) + "</b>")
-    msg_lines.append("вљ пёЏ РќРµСЃС‚Р°Р±РёР»СЊРЅС‹С… (РѕС‚СЃРµСЏРЅРѕ): " + str(len(unstable)))
-    msg_lines.append("рџ†• РќРѕРІС‹С… (СЃРѕР±РёСЂР°РµРј СЃС‚Р°С‚РёСЃС‚РёРєСѓ): " + str(new_channels))
+    msg_lines.append("✅ В плейлисте: <b>" + str(len(stable)) + "</b>")
+    msg_lines.append("🌍 Geo-blocked: " + str(len(geo_channels)))
+    msg_lines.append("❌ Мёртвых сегодня: <b>" + str(len(dead_today)) + "</b>")
+    msg_lines.append("⚠️ Нестабильных (отсеяно): " + str(len(unstable)))
+    msg_lines.append("🆕 Новых (собираем статистику): " + str(new_channels))
     msg_lines.append("")
-    msg_lines.append("рџ“Ґ РСЃС‚РѕС‡РЅРёРє: " + str(len(all_channels)) + " РєР°РЅР°Р»РѕРІ")
-    msg_lines.append("рџ‡·рџ‡є Russia: " + str(len(russia_all)))
-    msg_lines.append("рџ§№ РџРѕСЃР»Рµ С„РёР»СЊС‚СЂРѕРІ: " + str(len(deduped)))
+    msg_lines.append("📥 Источник: " + str(len(all_channels)) + " каналов")
+    msg_lines.append("🇷🇺 Russia: " + str(len(russia_all)))
+    msg_lines.append("🧹 После фильтров: " + str(len(deduped)))
 
     if dead_today and len(dead_today) <= 10:
         msg_lines.append("")
-        msg_lines.append("рџљ« <b>РЈРїР°Р»Рё СЃРµРіРѕРґРЅСЏ:</b>")
+        msg_lines.append("🚫 <b>Упали сегодня:</b>")
         for ch in dead_today[:10]:
             name = get_name(ch["extinf"])
             reason = reasons.get(ch["url"], "unknown")
-            msg_lines.append("вЂў " + name + " вЂ” <i>" + reason + "</i>")
+            msg_lines.append("• " + name + " — <i>" + reason + "</i>")
 
     send_telegram("\n".join(msg_lines))
 
