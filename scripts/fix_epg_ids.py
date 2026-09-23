@@ -81,6 +81,9 @@ def fix_playlist(filepath, name_to_id):
     new_lines = []
 
     for line in lines:
+        if line.startswith("#EXTM3U"):
+            new_lines.append("#EXTM3U " + EPG_PLAYLIST_URL)
+            continue
         if line.startswith("#EXTINF"):
             total += 1
             name = extract_name(line)
@@ -95,11 +98,8 @@ def fix_playlist(filepath, name_to_id):
                 new_lines.append(new_line)
             else:
                 new_lines.append(line)
-        elif line.startswith("#EXTM3U"):
-    line = "#EXTM3U " + EPG_PLAYLIST_URL
-    new_lines.append(line)
-        else:
-            new_lines.append(line)
+            continue
+        new_lines.append(line)
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("\n".join(new_lines))
