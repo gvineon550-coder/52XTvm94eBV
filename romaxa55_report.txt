@@ -1,18 +1,24 @@
 # Romaxa55 Russia Report
 
-Date: 2026-09-23 16:03 UTC
-Total in source: 13833
-Russia group: 362
-Alive: 354
-Dead: 8
+Date: 2026-09-23 16:18 UTC
 
-## Dead channels
+## Funnel
+- Total in source: 13833
+- Russia group: 362
+- After quality (>= 720p): 223 (dropped 139)
+- After URL cleanup: 169 (dropped 54)
+- After dedup: 167 (dropped 2)
+- Geo-blocked (auto-include): 3
+- To check: 164
+- Alive checked: 161
+- Stable in playlist: 164
+- Filtered as unstable: 0
+- Too new (collecting stats): 161
 
-- .red (576p) | http_404
-- Bollywood HD (1080p) | http_404
+Thresholds: min quality 720p, min checks 3, uptime >= 70%
+
+## Dead today (3)
+
 - Channel One (Russia) HD (720p) | unknown_format
-- Kongress TV (1080p) | http_503
 - LenTV24 | html_page
-- Novorossiya TV (1080p) [Geo-blocked] | too_short_response
-- Oplot TV SD (1080p) [Geo-blocked] | too_short_response
-- Osetiya-Iryston (1080p) | timeout
+- TNT International Belarus (1080p) | too_short_response
