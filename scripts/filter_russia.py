@@ -27,6 +27,27 @@ BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga")
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 
+def send_telegram(message):
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        print("Telegram secrets not set, skipping")
+        return
+    try:
+        url = "https://api.telegram.org/bot" + token + "/sendMessage"
+        r = requests.post(
+            url,
+            data={"chat_id": chat_id, "text": message, "parse_mode": "HTML"},
+            timeout=10,
+        )
+        if r.status_code == 200:
+            print("Telegram sent")
+        else:
+            print("Telegram failed: " + str(r.status_code))
+    except Exception as e:
+        print("Telegram error: " + str(e))
+
+
 def parse_m3u(text):
     channels = []
     lines = text.splitlines()
@@ -188,6 +209,7 @@ def main():
         text = r.text
     except Exception as e:
         print("Download failed: " + str(e))
+        send_telegram("вќЊ <b>Romaxa55</b>\nРќРµ СѓРґР°Р»РѕСЃСЊ СЃРєР°С‡Р°С‚СЊ РїР»РµР№Р»РёСЃС‚:\n" + str(e))
         return
 
     all_channels = parse_m3u(text)
@@ -232,7 +254,7 @@ def main():
     for ch in geo_channels:
         ch["extinf"] = mark_geo(ch["extinf"])
 
-    print("Geo-blocked (skip check): " + str(len(geo_channels)))
+    print("Geo-blocked: " + str(len(geo_channels)))
     print("To check: " + str(len(check_channels)))
 
     results = {}
@@ -250,9 +272,9 @@ def main():
     dead_today = [ch for ch in check_channels if not results.get(ch["url"])]
 
     print("Alive checked: " + str(len(alive_checked)) + " / " + str(len(check_channels)))
-    print("Geo auto-included: " + str(len(geo_channels)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " РњРЎРљ"
 
     stats = load_stats()
 
@@ -292,7 +314,7 @@ def main():
     stable = stable + geo_channels
 
     print("Stable: " + str(len(stable)))
-    print("Unstable (filtered): " + str(len(unstable)))
+    print("Unstable: " + str(len(unstable)))
     print("Too new: " + str(new_channels))
 
     lines = []
@@ -367,8 +389,31 @@ def main():
 
     print("Saved " + OUTPUT_FILE)
     print("Saved " + REPORT_FILE)
-    if unstable:
-        print("Saved " + UNSTABLE_FILE)
+
+    msg_lines = []
+    msg_lines.append("рџ“Љ <b>Romaxa55 Russia вЂ” РµР¶РµРґРЅРµРІРЅС‹Р№ РѕС‚С‡С‘С‚</b>")
+    msg_lines.append("")
+    msg_lines.append("рџ•ђ " + now_msk)
+    msg_lines.append("")
+    msg_lines.append("вњ… Р’ РїР»РµР№Р»РёСЃС‚Рµ: <b>" + str(len(stable)) + "</b>")
+    msg_lines.append("рџЊЌ Geo-blocked: " + str(len(geo_channels)))
+    msg_lines.append("вќЊ РњС‘СЂС‚РІС‹С… СЃРµРіРѕРґРЅСЏ: <b>" + str(len(dead_today)) + "</b>")
+    msg_lines.append("вљ пёЏ РќРµСЃС‚Р°Р±РёР»СЊРЅС‹С… (РѕС‚СЃРµСЏРЅРѕ): " + str(len(unstable)))
+    msg_lines.append("рџ†• РќРѕРІС‹С… (СЃРѕР±РёСЂР°РµРј СЃС‚Р°С‚РёСЃС‚РёРєСѓ): " + str(new_channels))
+    msg_lines.append("")
+    msg_lines.append("рџ“Ґ РСЃС‚РѕС‡РЅРёРє: " + str(len(all_channels)) + " РєР°РЅР°Р»РѕРІ")
+    msg_lines.append("рџ‡·рџ‡є Russia: " + str(len(russia_all)))
+    msg_lines.append("рџ§№ РџРѕСЃР»Рµ С„РёР»СЊС‚СЂРѕРІ: " + str(len(deduped)))
+
+    if dead_today and len(dead_today) <= 10:
+        msg_lines.append("")
+        msg_lines.append("рџљ« <b>РЈРїР°Р»Рё СЃРµРіРѕРґРЅСЏ:</b>")
+        for ch in dead_today[:10]:
+            name = get_name(ch["extinf"])
+            reason = reasons.get(ch["url"], "unknown")
+            msg_lines.append("вЂў " + name + " вЂ” <i>" + reason + "</i>")
+
+    send_telegram("\n".join(msg_lines))
 
 
 main()
