@@ -24,6 +24,15 @@ MIN_UPTIME = 0.7
 BAD_PORTS = {":8080", ":8000", ":9999", ":8888"}
 BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga")
 
+# Каналы, которые НЕ проверяются — сразу в плейлист
+WHITELIST = [
+    "channel one",
+    "channel one russia",
+    "первый канал",
+    "1tv",
+    "ort",
+]
+
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 
@@ -106,6 +115,15 @@ def base_name(extinf):
     return name
 
 
+def is_whitelisted(extinf):
+    """Канал в белом списке? Тогда не проверяем."""
+    name = base_name(extinf)
+    for w in WHITELIST:
+        if w in name:
+            return True
+    return False
+
+
 def is_bad_url(url):
     u = url.lower()
     if re.match(r'^https?://\d+\.\d+\.\d+\.\d+', u):
@@ -157,7 +175,6 @@ def is_live_stream(chunk):
     if chunk[:8] == b"\x89PNG\r\n\x1a\n":
         return False, "png_image"
 
-    # Серая зона: нестандартный формат, но поток большой — считаем живым
     if len(chunk) > 5000:
         return True, "unknown_but_big"
 
@@ -258,12 +275,23 @@ def main():
     dropped_dups = len(after_clean) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
 
-    geo_channels = [ch for ch in deduped if is_geo_blocked(ch["extinf"])]
-    check_channels = [ch for ch in deduped if not is_geo_blocked(ch["extinf"])]
+    # Разделяем: whitelist, geo-blocked, обычные
+    whitelist_channels = []
+    geo_channels = []
+    check_channels = []
+
+    for ch in deduped:
+        if is_whitelisted(ch["extinf"]):
+            whitelist_channels.append(ch)
+        elif is_geo_blocked(ch["extinf"]):
+            geo_channels.append(ch)
+        else:
+            check_channels.append(ch)
 
     for ch in geo_channels:
         ch["extinf"] = mark_geo(ch["extinf"])
 
+    print("Whitelist (skip check): " + str(len(whitelist_channels)))
     print("Geo-blocked: " + str(len(geo_channels)))
     print("To check: " + str(len(check_channels)))
 
@@ -321,7 +349,8 @@ def main():
         else:
             unstable.append(ch)
 
-    stable = stable + geo_channels
+    # Whitelist + geo идут в плейлист без статистики
+    stable = stable + whitelist_channels + geo_channels
 
     print("Stable: " + str(len(stable)))
     print("Unstable: " + str(len(unstable)))
@@ -366,6 +395,7 @@ def main():
     report.append("- After quality (>= " + str(MIN_QUALITY) + "p): " + str(len(after_quality)) + " (dropped " + str(dropped_quality) + ")")
     report.append("- After URL cleanup: " + str(len(after_clean)) + " (dropped " + str(dropped_mud) + ")")
     report.append("- After dedup: " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
+    report.append("- Whitelist (skip check): " + str(len(whitelist_channels)))
     report.append("- Geo-blocked (auto-include): " + str(len(geo_channels)))
     report.append("- To check: " + str(len(check_channels)))
     report.append("- Alive checked: " + str(len(alive_checked)))
@@ -407,6 +437,7 @@ def main():
     msg_lines.append("")
     msg_lines.append("✅ В плейлисте: <b>" + str(len(stable)) + "</b>")
     msg_lines.append("🌍 Geo-blocked: " + str(len(geo_channels)))
+    msg_lines.append("⭐ Whitelist: " + str(len(whitelist_channels)))
     msg_lines.append("❌ Мёртвых сегодня: <b>" + str(len(dead_today)) + "</b>")
     msg_lines.append("⚠️ Нестабильных (отсеяно): " + str(len(unstable)))
     msg_lines.append("🆕 Новых (собираем статистику): " + str(new_channels))
