@@ -13,7 +13,7 @@ STATS_FILE = "romaxa55_stats.json"
 
 TIMEOUT = 15
 MAX_WORKERS = 15
-CHUNK_SIZE = 20000
+CHUNK_SIZE = 50000
 
 TARGET_GROUPS = {"russia", "россия", "ru"}
 
@@ -137,12 +137,12 @@ def is_live_stream(chunk):
     if not chunk or len(chunk) < 100:
         return False, "too_short_response"
 
-    head = chunk[:1000]
+    head = chunk[:2000]
 
     if b"#EXTM3U" in head or b"#EXT-X-" in head:
         return True, "hls_playlist"
 
-    if b"ftyp" in head[:200] or b"moof" in head or b"moov" in head:
+    if b"ftyp" in head[:500] or b"moof" in head or b"moov" in head:
         return True, "mp4_stream"
 
     ts_count = chunk.count(b"\x47")
@@ -156,6 +156,10 @@ def is_live_stream(chunk):
         return False, "jpeg_image"
     if chunk[:8] == b"\x89PNG\r\n\x1a\n":
         return False, "png_image"
+
+    # Серая зона: нестандартный формат, но поток большой — считаем живым
+    if len(chunk) > 5000:
+        return True, "unknown_but_big"
 
     return False, "unknown_format"
 
