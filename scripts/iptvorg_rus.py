@@ -342,7 +342,7 @@ def main():
     print("Too new: " + str(new_channels))
 
     lines = []
-    lines.append("#EXTM3U")
+    lines.append('#EXTM3U url-tvg="https://iptv-org.github.io/epg/index.xml"')
     lines.append("# Updated: " + now + " | Total: " + str(len(stable)))
     lines.append("")
     for ch in stable:
