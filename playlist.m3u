@@ -1,20 +1,11 @@
 #EXTM3U
-# Updated: 2026-09-24 03:15 UTC | Alive: 141/153
-
-#EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="Kinowalk",Kinowalk_tv
-http://kinowalk.hopto.org/kinowalk_live
+# Updated: 2026-09-24 09:43 UTC | Alive: 140/153
 
 #EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
 http://kinowalk.hopto.org/legion-tv_live
 
-#EXTINF:-1 tvg-id="yurich_kinomix" tvg-name="KinoMix Юрич" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomix.png" group-title="Kinowalk",KinoMix Юрич
-http://kinowalk.hopto.org/yurich_kinomix_live
-
-#EXTINF:-1 tvg-id="movietoper" tvg-name="MovieToper" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/movietoper.png" group-title="Kinowalk",MovieToper
-http://kinowalk.hopto.org/movietoper_live
-
-#EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="Kinowalk",Blockbusters Time
-http://kinowalk.hopto.org/blockbusterstime_live
+#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="Kinowalk",Video_Prokat
+http://kinowalk.hopto.org/video_prokat_live
 
 #EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="Kinowalk",DimponHD
 http://kinowalk.hopto.org/dimpon_live
@@ -22,11 +13,8 @@ http://kinowalk.hopto.org/dimpon_live
 #EXTINF:-1 tvg-id="maldrvsetv" tvg-name="Малдер всё тв hd" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maldrvsetv.png" group-title="Kinowalk",Малдер всё тв hd
 http://kinowalk.hopto.org/maldrvsetv_live
 
-#EXTINF:-1 tvg-id="videoarsenal" tvg-name="VideoArsenal" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videoarsenal.png" group-title="Kinowalk",VideoArsenal
-http://kinowalk.hopto.org/videoarsenal_live
-
-#EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="Kinowalk",ScripachTV
-http://kinowalk.hopto.org/scripachtv_live
+#EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="Kinowalk",Kino Jam
+http://kinowalk.hopto.org/kinojam_live
 
 #EXTINF:-1 tvg-id="selecaotv" tvg-name="SeleCaoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv.png" group-title="Kinowalk",SeleCaoTV
 http://kinowalk.hopto.org/selecaotv_live
@@ -37,26 +25,11 @@ http://kinowalk.hopto.org/selecaotv1_live
 #EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="Kinowalk",Фильмы сериалы трансляции
 http://kinowalk.hopto.org/id582512126_live
 
-#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
-http://kinowalk.hopto.org/films_serials_24_7_live_live
-
-#EXTINF:-1 tvg-id="serialtv" tvg-name="SerialTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serialtv.jpg" group-title="Kinowalk",SerialTV
-http://kinowalk.hopto.org/serialtv_live
-
 #EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="Kinowalk",Just enjoy serial4u
 http://kinowalk.hopto.org/serial4u_live
 
 #EXTINF:-1 tvg-id="video_serial" tvg-name="VideoSerial" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_serial.jpg" group-title="Kinowalk",VideoSerial
 http://kinowalk.hopto.org/video_serial_live
-
-#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="Kinowalk",ФИЛЬМЫ у Максима
-http://kinowalk.hopto.org/mmaxim0vich_live
-
-#EXTINF:-1 tvg-id="kanaldisneyonline" tvg-name="Канал Disney Онлайн" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kanaldisneyonline.jpg" group-title="Kinowalk",Канал Disney Онлайн
-http://kinowalk.hopto.org/kanaldisneyonline_live
-
-#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="Kinowalk",Тоха Киноман
-http://kinowalk.hopto.org/kinomania_stream_live
 
 #EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="Kinowalk",Коновал ТВ
 http://kinowalk.hopto.org/tvkonoval_live
@@ -66,9 +39,6 @@ http://kinowalk.hopto.org/alex.films_live
 
 #EXTINF:-1 tvg-id="jtxonline" tvg-name="JTX Online" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/jtxonline.png" group-title="Kinowalk",JTX Online
 http://kinowalk.hopto.org/jtxonline_live
-
-#EXTINF:-1 tvg-id="kinofon" tvg-name="kinofon_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofon.png" group-title="Kinowalk",kinofon_
-http://kinowalk.hopto.org/kinofon_live
 
 #EXTINF:-1 tvg-id="perviryad" tvg-name="Пᛊየᛒьᵻӥ የጸሏ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/perviryad.png" group-title="Kinowalk",Пᛊየᛒьᵻӥ የጸሏ
 http://kinowalk.hopto.org/perviryad_live
@@ -163,9 +133,6 @@ http://kinowalk.hopto.org/yegor_yegorych_live
 #EXTINF:-1 tvg-id="and7610" tvg-name="VHS кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/and7610.png" group-title="Kinowalk",VHS кино
 http://kinowalk.hopto.org/and7610_live
 
-#EXTINF:-1 tvg-id="cinematime" tvg-name="Cinema Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cinematime.png" group-title="Kinowalk",Cinema Time
-http://kinowalk.hopto.org/cinematime_live
-
 #EXTINF:-1 tvg-id="boh_music" tvg-name="BOH" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/boh_music.png" group-title="Kinowalk",BOH
 http://kinowalk.hopto.org/boh_music_live
 
@@ -177,9 +144,6 @@ http://kinowalk.hopto.org/noir_live
 
 #EXTINF:-1 tvg-id="igrocomp" tvg-name="IGROComp" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/igrocomp.jpg" group-title="Kinowalk",IGROComp
 http://kinowalk.hopto.org/igrocomp_live
-
-#EXTINF:-1 tvg-id="kinowalk_prime" tvg-name="Kinowalk prime" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_prime.png" group-title="Kinowalk",Kinowalk prime
-http://kinowalk.hopto.org/kinowalk_prime_live
 
 #EXTINF:-1 tvg-id="play4fun" tvg-name="Play 4 Fun" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/play4fun.jpg" group-title="Kinowalk",Play 4 Fun
 http://kinowalk.hopto.org/play4fun_live
@@ -364,9 +328,6 @@ http://kinowalk.hopto.org/russerials_live
 #EXTINF:-1 tvg-id="vbrusdancepops80" tvg-name="VBRusDancePops80-90" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vbrusdancepops80.png" group-title="Kinowalk",VBRusDancePops80-90
 http://kinowalk.hopto.org/vbrusdancepops80_live
 
-#EXTINF:-1 tvg-id="dak3767" tvg-name="KinoMix Юрич 2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dak3767.png" group-title="Kinowalk",KinoMix Юрич 2
-http://kinowalk.hopto.org/dak3767_live
-
 #EXTINF:-1 tvg-id="umelyiretro" tvg-name="Um! Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/umelyiretro.png" group-title="Kinowalk",Um! Music
 http://kinowalk.hopto.org/umelyiretro_live
 
@@ -423,3 +384,39 @@ http://kinowalk.hopto.org/film4khdclub_live
 
 #EXTINF:-1 tvg-id="paranormal404" tvg-name="ПАРАНОРМАЛЬНЫЙ АРХИВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/paranormal404_live.jpg" group-title="Kinowalk",ПАРАНОРМАЛЬНЫЙ АРХИВ
 http://kinowalk.hopto.org/paranormal404_live
+
+#EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="Kinowalk",Kinowalk_tv
+http://kinowalk.hopto.org/kinowalk_live
+
+#EXTINF:-1 tvg-id="yurich_kinomix" tvg-name="KinoMix Юрич" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomix.png" group-title="Kinowalk",KinoMix Юрич
+http://kinowalk.hopto.org/yurich_kinomix_live
+
+#EXTINF:-1 tvg-id="movietoper" tvg-name="MovieToper" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/movietoper.png" group-title="Kinowalk",MovieToper
+http://kinowalk.hopto.org/movietoper_live
+
+#EXTINF:-1 tvg-id="timetohorror" tvg-name="TimeToHorror" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_horror.png" group-title="Kinowalk",TimeToHorror
+http://kinowalk.hopto.org/timetohorror_live
+
+#EXTINF:-1 tvg-id="timetomovie" tvg-name="TimeToMovie" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_movie.png" group-title="Kinowalk",TimeToMovie
+http://kinowalk.hopto.org/timetomovie_live
+
+#EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="Kinowalk",Blockbusters Time
+http://kinowalk.hopto.org/blockbusterstime_live
+
+#EXTINF:-1 tvg-id="kinolampa" tvg-name="kinolampa" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolampa.png" group-title="Kinowalk",kinolampa
+http://kinowalk.hopto.org/kinolampa_live
+
+#EXTINF:-1 tvg-id="videoarsenal" tvg-name="VideoArsenal" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videoarsenal.png" group-title="Kinowalk",VideoArsenal
+http://kinowalk.hopto.org/videoarsenal_live
+
+#EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="Kinowalk",ScripachTV
+http://kinowalk.hopto.org/scripachtv_live
+
+#EXTINF:-1 tvg-id="cinematime" tvg-name="Cinema Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cinematime.png" group-title="Kinowalk",Cinema Time
+http://kinowalk.hopto.org/cinematime_live
+
+#EXTINF:-1 tvg-id="kinowalk_prime" tvg-name="Kinowalk prime" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_prime.png" group-title="Kinowalk",Kinowalk prime
+http://kinowalk.hopto.org/kinowalk_prime_live
+
+#EXTINF:-1 tvg-id="dak3767" tvg-name="KinoMix Юрич 2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dak3767.png" group-title="Kinowalk",KinoMix Юрич 2
+http://kinowalk.hopto.org/dak3767_live

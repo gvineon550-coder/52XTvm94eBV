@@ -1,17 +1,19 @@
 # Report
 
-Date: 2026-09-24 03:15 UTC
-Alive: 141
-Dead: 12
+Date: 2026-09-24 09:43 UTC
+Alive: 140
+Dead: 13
+Whitelist: 12
 
 ## Dead channels
 
-- Video_Prokat | http_503
-- TimeToHorror | http_503
-- TimeToMovie | http_503
-- kinolampa | http_503
-- Kino Jam | http_503
-- ZubrilomFilm | http_404
+- ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE | http_503
+- SerialTV | http_503
+- ФИЛЬМЫ у Максима | http_503
+- Канал Disney Онлайн | http_503
+- Тоха Киноман | http_503
+- ZubrilomFilm | http_503
+- kinofon_ | http_503
 - Snoochies Boochies | http_404
 - ROMEO Video | http_404
 - ДиТи | http_404
