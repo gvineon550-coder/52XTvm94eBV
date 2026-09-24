@@ -2,8 +2,10 @@ import os
 import re
 import json
 import concurrent.futures
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import requests
+
+MSK = timezone(timedelta(hours=3))
 
 SOURCE_URL = "https://iptv-org.github.io/iptv/languages/rus.m3u"
 OUTPUT_FILE = "iptvorg_rus.m3u"
@@ -298,7 +300,7 @@ def main():
     print("Alive checked: " + str(len(alive_checked)) + " / " + str(len(check_channels)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " МСК"
+    now_msk = datetime.now(MSK).strftime("%d.%m.%Y %H:%M") + " МСК"
 
     stats = load_stats()
 
