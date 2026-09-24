@@ -119,6 +119,7 @@ def fix_playlist(filepath, name_to_id):
     lines = text.splitlines()
     fixed = 0
     total = 0
+    skipped_existing = 0
     new_lines = []
 
     for line in lines:
@@ -126,6 +127,12 @@ def fix_playlist(filepath, name_to_id):
             new_lines.append("#EXTM3U " + EPG_PLAYLIST_URL)
             continue
         if line.startswith("#EXTINF"):
+            m = re.search(r'tvg-id="([^"]*)"', line)
+            if m and m.group(1).strip():
+                skipped_existing += 1
+                new_lines.append(line)
+                continue
+
             total += 1
             name = extract_name(line)
             key = normalize(name)
@@ -147,7 +154,7 @@ def fix_playlist(filepath, name_to_id):
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("\n".join(new_lines))
 
-    print(filepath + ": fixed " + str(fixed) + " / " + str(total))
+    print(filepath + ": fixed " + str(fixed) + " / " + str(total) + " (skipped existing: " + str(skipped_existing) + ")")
     return fixed, total
 
 
