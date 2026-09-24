@@ -34,6 +34,16 @@ WHITELIST = [
     "рен тв",
     "рен-тв",
     "rentv",
+    "russia hd",
+    "russia-hd",
+    "russia1 hd",
+    "russia 1 hd",
+    "россия hd",
+    "россия-hd",
+    "россия 1 hd",
+    "россия1 hd",
+    "rossiya hd",
+    "rossiya-hd",
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
