@@ -1,7 +1,9 @@
 import os
 import concurrent.futures
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 import requests
+
+MSK = timezone(timedelta(hours=3))
 
 MASTER_FILE = "Keuqxg2a9Dd.m3u"
 OUTPUT_FILE = "playlist.m3u"
@@ -187,7 +189,7 @@ def main():
     print("Dead: " + str(len(dead)))
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    now_msk = datetime.now(timezone.utc).strftime("%d.%m.%Y %H:%M") + " МСК"
+    now_msk = datetime.now(MSK).strftime("%d.%m.%Y %H:%M") + " МСК"
 
     lines = []
     lines.append("#EXTM3U")
