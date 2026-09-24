@@ -22,18 +22,23 @@ BAD_DOMAINS = (
 )
 
 KIDS_KEYWORDS = [
-    # Латиница
     "kids", "kid", "junior", "jr", "baby", "cartoon", "toon",
     "nickelodeon", "nick", "nicktoons", "disney", "boomerang",
     "gulli", "tiji", "davinci", "da vinci", "carousel",
     "mult", "multimania", "multilandia",
-    # Кириллица
     "детск", "детcк", "мульт", "малыш", "карусель", "ребенок", "ребёнок",
     "солнце",
 ]
 
 KIDS_EXCEPTIONS = [
     "start air", "start world",
+]
+
+BLOCKED_CHANNELS = [
+    "legislative rada",
+    "rada tv",
+    "рада",
+    "rada",
 ]
 
 
@@ -126,6 +131,14 @@ def is_kids(extinf):
     return False
 
 
+def is_blocked(extinf):
+    name = base_name(extinf)
+    for w in BLOCKED_CHANNELS:
+        if w in name:
+            return True
+    return False
+
+
 def main():
     all_channels = []
     source_stats = {}
@@ -147,8 +160,12 @@ def main():
     dropped_kids = len(all_channels) - len(non_kids)
     print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
 
+    non_blocked = [ch for ch in non_kids if not is_blocked(ch["extinf"])]
+    dropped_blocked = len(non_kids) - len(non_blocked)
+    print("After blocked filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ")")
+
     best = {}
-    for ch in non_kids:
+    for ch in non_blocked:
         key = base_name(ch["extinf"])
         q = get_quality(ch["extinf"])
         clean = 0 if is_bad_url(ch["url"]) else 1
@@ -158,7 +175,7 @@ def main():
             best[key] = (score, ch)
 
     deduped = [v[1] for v in best.values()]
-    dropped_dups = len(non_kids) - len(deduped)
+    dropped_dups = len(non_blocked) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped dups: " + str(dropped_dups) + ")")
 
     def sort_key(ch):
@@ -172,7 +189,7 @@ def main():
     lines = []
     lines.append('#EXTM3U url-tvg="' + EPG_URL + '" x-tvg-url="' + EPG_URL + '"')
     lines.append("# Combined from " + str(len(SOURCES)) + " sources | Updated: " + now)
-    lines.append("# Total: " + str(len(deduped)) + " unique channels | Kids removed")
+    lines.append("# Total: " + str(len(deduped)) + " unique channels | Kids removed | Blocked removed")
     lines.append("")
     for ch in deduped:
         lines.append(ch["extinf"])
