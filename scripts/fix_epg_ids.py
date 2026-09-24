@@ -7,7 +7,6 @@ import requests
 
 EPG_URL = "https://iptvx.one/epg/epg_lite.xml.gz"
 EPG_PLAYLIST_URL = 'url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"'
-SUGGESTIONS_FILE = "epg_suggestions.txt"
 
 PLAYLISTS = [
     "iptvorg_rus.m3u",
@@ -16,22 +15,34 @@ PLAYLISTS = [
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-ALIASES = {
-    "360° news": "360-news",
-    "360°": "360-news",
-    "travelxp russia": "travel-xp-4k",
-    "trace sport stars russia": "trace-sport-stars",
-    "okko sport": "okko-chemp",
-    "okko prajm sport": "okko-chemp",
-    "rtvi us": "rtvi-usa",
-    "nickelodeon cis": "nickelodeon-ru",
-    "nicktoons cis": "nicktoons",
-    "myzen tv": "myzen-tv",
-    "etv+": "etv-plus-ee",
-    "ost west 24": "ostwest",
-    "drive": "eye-drive",
-    "angel tv russian": "angel-tv",
-    "okko futbol": "okko-chemp",
+SYNONYMS = {
+    "channel one": ["первый канал", "первый", "1tv", "ort", "pervii", "pervyy"],
+    "russia 1": ["россия 1", "russia1", "rtr1", "ртр1", "rossiya 1"],
+    "russia 24": ["россия 24", "russia24", "rossiya 24"],
+    "russia k": ["россия к", "russia k", "kultura", "культура"],
+    "ntv": ["нтв", "ntv russia"],
+    "tnt": ["тнт", "tnt russia"],
+    "sts": ["стс", "sts russia"],
+    "tv3": ["тв3", "тв-3", "tv-3"],
+    "ren tv": ["рен тв", "rentv", "ren-tv"],
+    "match tv": ["матч", "match", "matchtv"],
+    "karusel": ["карусель"],
+    "mir": ["мир", "mir 24", "мир 24"],
+    "zvezda": ["звезда", "zvezda tv"],
+    "tvc": ["твц", "tv centr", "тв центр"],
+    "domashniy": ["домашний"],
+    "pyatnica": ["пятница", "пятница!"],
+    "che": ["че", "che!"],
+    "2x2": ["2na2", "2+2", "2x2"],
+    "360": ["360°", "360 news", "360 новости", "360° news"],
+    "amedia": ["амедиа"],
+    "tv1000": ["тв1000", "tv 1000"],
+    "viasat": ["виасат"],
+    "discovery": ["дискавери"],
+    "natgeo": ["national geographic"],
+    "travelxp": ["travel xp", "travel-xp-4k"],
+    "trace sport": ["trace sport stars"],
+    "okko": ["окко", "okko sport", "okko чемпионат", "okko-chemp"],
 }
 
 
@@ -45,6 +56,17 @@ def normalize(name):
     n = re.sub(r'\s+', ' ', n).strip()
     n = n.replace('ё', 'е')
     return n
+
+
+def find_by_synonyms(normalized, name_to_id):
+    for syn_key, syn_list in SYNONYMS.items():
+        candidates = [syn_key] + syn_list
+        for cand in candidates:
+            if cand in normalized:
+                for syn in candidates:
+                    if syn in name_to_id:
+                        return name_to_id[syn]
+    return None
 
 
 def download_epg():
@@ -109,7 +131,7 @@ def fix_playlist(filepath, name_to_id):
             key = normalize(name)
             epg_id = name_to_id.get(key)
             if not epg_id:
-                epg_id = ALIASES.get(key)
+                epg_id = find_by_synonyms(key, name_to_id)
             if epg_id:
                 new_line = re.sub(r'tvg-id="[^"]*"', 'tvg-id="' + epg_id + '"', line, count=1)
                 if 'tvg-id="' not in new_line:
