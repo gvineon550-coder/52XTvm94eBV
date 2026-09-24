@@ -16,7 +16,18 @@ PLAYLISTS = [
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-ALIASES = {}
+ALIASES = {
+    "360 news": "360-news",
+    "rtvi us": "rtvi-usa",
+    "nickelodeon cis": "nickelodeon-ru",
+    "nicktoons cis": "nicktoons",
+    "myzen tv": "myzen-tv",
+    "etv+": "etv-plus-ee",
+    "ost west 24": "ostwest",
+    "drive": "eye-drive",
+    "angel tv russian": "angel-tv",
+    "okko futbol": "okko-chemp",
+}
 
 
 def normalize(name):
@@ -34,17 +45,14 @@ def normalize(name):
 def search_similar(key, epg_keys):
     if not key:
         return []
-    words = [w for w in key.split() if len(w) >= 4]
-    if not words:
-        words = [w for w in key.split() if len(w) >= 3]
-    if not words:
+    first_word = key.split()[0] if key.split() else ""
+    if len(first_word) < 4:
         return []
     found = []
     for epg_key in epg_keys:
-        for w in words:
-            if w in epg_key:
-                found.append(epg_key)
-                break
+        first_epg = epg_key.split()[0] if epg_key.split() else ""
+        if first_epg == first_word:
+            found.append(epg_key)
         if len(found) >= 5:
             break
     return found
@@ -124,12 +132,12 @@ def fix_playlist(filepath, name_to_id, all_suggestions):
             else:
                 new_lines.append(line)
                 variants = search_similar(key, epg_keys)
-                all_suggestions.append({
-                    "playlist": filepath,
-                    "name": name,
-                    "key": key,
-                    "variants": variants,
-                })
+                if variants:
+                    all_suggestions.append({
+                        "playlist": filepath,
+                        "name": name,
+                        "variants": variants,
+                    })
             continue
         new_lines.append(line)
 
@@ -142,19 +150,14 @@ def fix_playlist(filepath, name_to_id, all_suggestions):
 
 def save_suggestions(suggestions, name_to_id):
     with open(SUGGESTIONS_FILE, "w", encoding="utf-8") as f:
-        f.write("# EPG Suggestions\n")
-        f.write("# Формат: НАШ КАНАЛ -> ВАРИАНТЫ в EPG\n")
-        f.write("# Смотри варианты, выбирай правильный, присылай для добавления в ALIASES\n\n")
+        f.write("# EPG Suggestions\n\n")
         for s in suggestions:
             f.write("[" + s["playlist"] + "] " + s["name"] + "\n")
-            if s["variants"]:
-                for v in s["variants"]:
-                    epg_id = name_to_id.get(v, "?")
-                    f.write("    variant: " + v + "  (id: " + epg_id + ")\n")
-            else:
-                f.write("    no variants found\n")
+            for v in s["variants"]:
+                epg_id = name_to_id.get(v, "?")
+                f.write("    " + v + "  (id: " + epg_id + ")\n")
             f.write("\n")
-    print("Saved " + SUGGESTIONS_FILE + ": " + str(len(suggestions)) + " channels without match")
+    print("Saved " + SUGGESTIONS_FILE + ": " + str(len(suggestions)))
 
 
 def main():
