@@ -17,7 +17,12 @@ PLAYLISTS = [
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 ALIASES = {
-    "360 news": "360-news",
+    "360° news": "360-news",
+    "360°": "360-news",
+    "travelxp russia": "travel-xp-4k",
+    "trace sport stars russia": "trace-sport-stars",
+    "okko sport": "okko-chemp",
+    "okko prajm sport": "okko-chemp",
     "rtvi us": "rtvi-usa",
     "nickelodeon cis": "nickelodeon-ru",
     "nicktoons cis": "nicktoons",
@@ -40,22 +45,6 @@ def normalize(name):
     n = re.sub(r'\s+', ' ', n).strip()
     n = n.replace('ё', 'е')
     return n
-
-
-def search_similar(key, epg_keys):
-    if not key:
-        return []
-    first_word = key.split()[0] if key.split() else ""
-    if len(first_word) < 4:
-        return []
-    found = []
-    for epg_key in epg_keys:
-        first_epg = epg_key.split()[0] if epg_key.split() else ""
-        if first_epg == first_word:
-            found.append(epg_key)
-        if len(found) >= 5:
-            break
-    return found
 
 
 def download_epg():
@@ -97,7 +86,7 @@ def extract_name(extinf):
     return extinf.rsplit(",", 1)[-1].strip() if "," in extinf else extinf
 
 
-def fix_playlist(filepath, name_to_id, all_suggestions):
+def fix_playlist(filepath, name_to_id):
     if not os.path.exists(filepath):
         print("Not found: " + filepath)
         return 0, 0
@@ -109,7 +98,6 @@ def fix_playlist(filepath, name_to_id, all_suggestions):
     fixed = 0
     total = 0
     new_lines = []
-    epg_keys = list(name_to_id.keys())
 
     for line in lines:
         if line.startswith("#EXTM3U"):
@@ -131,13 +119,6 @@ def fix_playlist(filepath, name_to_id, all_suggestions):
                 new_lines.append(new_line)
             else:
                 new_lines.append(line)
-                variants = search_similar(key, epg_keys)
-                if variants:
-                    all_suggestions.append({
-                        "playlist": filepath,
-                        "name": name,
-                        "variants": variants,
-                    })
             continue
         new_lines.append(line)
 
@@ -148,27 +129,12 @@ def fix_playlist(filepath, name_to_id, all_suggestions):
     return fixed, total
 
 
-def save_suggestions(suggestions, name_to_id):
-    with open(SUGGESTIONS_FILE, "w", encoding="utf-8") as f:
-        f.write("# EPG Suggestions\n\n")
-        for s in suggestions:
-            f.write("[" + s["playlist"] + "] " + s["name"] + "\n")
-            for v in s["variants"]:
-                epg_id = name_to_id.get(v, "?")
-                f.write("    " + v + "  (id: " + epg_id + ")\n")
-            f.write("\n")
-    print("Saved " + SUGGESTIONS_FILE + ": " + str(len(suggestions)))
-
-
 def main():
     data = download_epg()
     name_to_id = parse_epg(data)
 
-    all_suggestions = []
     for pl in PLAYLISTS:
-        fix_playlist(pl, name_to_id, all_suggestions)
-
-    save_suggestions(all_suggestions, name_to_id)
+        fix_playlist(pl, name_to_id)
 
 
 main()
