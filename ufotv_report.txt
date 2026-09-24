@@ -1,6 +1,6 @@
 # UFOTV Report
 
-Date: 2026-09-24 06:08 UTC
+Date: 2026-09-24 20:38 UTC
 
 ## Funnel
 - Total in source: 523
@@ -9,21 +9,20 @@ Date: 2026-09-24 06:08 UTC
 - Whitelist (skip check): 2
 - Geo-blocked (auto-include): 0
 - To check: 422
-- Alive checked: 392
-- Stable in playlist: 384
-- Filtered as unstable: 10
+- Alive checked: 393
+- Stable in playlist: 395
+- Filtered as unstable: 0
 - Too new (collecting stats): 0
 
 Thresholds: min checks 3, uptime >= 70%
 
-## Dead today (30)
+## Dead today (29)
 
-- ТВЦ HD | timeout
-- Пятый канал HD | timeout
+- Первый FHD | http_409
+- Рен ТВ HD | http_409
 - Русский экстрим | timeout
-- Наша Тема | conn_error
+- КВН ТВ | timeout
 - Поехали! | timeout
-- WF мода HD | conn_error
 - Amedia 2 HD | timeout
 - TV1000 romantica HD | html_page
 - Дом кино Premium HD | timeout
@@ -33,10 +32,10 @@ Thresholds: min checks 3, uptime >= 70%
 - КиноТВ HD | timeout
 - Зоопарк | timeout
 - Тайны галактики HD | timeout
+- HGTV HD | http_404
 - Детский мир | timeout
 - О! | timeout
 - Советские Мультфильмы | http_500
-- Mezzo | conn_error
 - TechnoDanceMusic | err_InvalidSchema
 - EDM Mainstage | http_404
 - RETROHITS | err_InvalidSchema
@@ -48,16 +47,3 @@ Thresholds: min checks 3, uptime >= 70%
 - КИНО05 | http_404
 - Snoochies Boochies | http_404
 - ROMEO Video | http_404
-
-## Filtered as unstable (10)
-
-- Зал суда | uptime 66.7% (2/3)
-- Оружие | uptime 66.7% (2/3)
-- VHS-ка | uptime 66.7% (2/3)
-- VHS-ка Сериал HD | uptime 66.7% (2/3)
-- FlixSnip HD | uptime 66.7% (2/3)
-- Kion Хит HD | uptime 66.7% (2/3)
-- National Geographic HD | uptime 66.7% (2/3)
-- Приключения HD | uptime 66.7% (2/3)
-- Лёва | uptime 66.7% (2/3)
-- VIVA Russia | uptime 66.7% (2/3)
