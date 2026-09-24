@@ -1,6 +1,6 @@
 # UFOTV Report
 
-Date: 2026-09-24 01:42 UTC
+Date: 2026-09-24 06:08 UTC
 
 ## Funnel
 - Total in source: 523
@@ -9,29 +9,35 @@ Date: 2026-09-24 01:42 UTC
 - Whitelist (skip check): 2
 - Geo-blocked (auto-include): 0
 - To check: 422
-- Alive checked: 398
-- Stable in playlist: 400
-- Filtered as unstable: 0
-- Too new (collecting stats): 398
+- Alive checked: 392
+- Stable in playlist: 384
+- Filtered as unstable: 10
+- Too new (collecting stats): 0
 
 Thresholds: min checks 3, uptime >= 70%
 
-## Dead today (24)
+## Dead today (30)
 
-- Зал суда | conn_error
-- Оружие | conn_error
+- ТВЦ HD | timeout
+- Пятый канал HD | timeout
+- Русский экстрим | timeout
+- Наша Тема | conn_error
+- Поехали! | timeout
+- WF мода HD | conn_error
+- Amedia 2 HD | timeout
 - TV1000 romantica HD | html_page
-- VHS-ка | conn_error
-- VHS-ка Сериал HD | conn_error
-- FlixSnip HD | conn_error
+- Дом кино Premium HD | timeout
+- НТВ Хит | timeout
+- Победа | timeout
 - Феникс+Кино | html_page
-- Kion Хит HD | conn_error
-- National Geographic HD | http_404
-- Приключения HD | conn_error
-- Лёва | conn_error
+- КиноТВ HD | timeout
+- Зоопарк | timeout
+- Тайны галактики HD | timeout
+- Детский мир | timeout
+- О! | timeout
 - Советские Мультфильмы | http_500
+- Mezzo | conn_error
 - TechnoDanceMusic | err_InvalidSchema
-- VIVA Russia | http_503
 - EDM Mainstage | http_404
 - RETROHITS | err_InvalidSchema
 - FantasticMistyc | err_InvalidSchema
@@ -42,3 +48,16 @@ Thresholds: min checks 3, uptime >= 70%
 - КИНО05 | http_404
 - Snoochies Boochies | http_404
 - ROMEO Video | http_404
+
+## Filtered as unstable (10)
+
+- Зал суда | uptime 66.7% (2/3)
+- Оружие | uptime 66.7% (2/3)
+- VHS-ка | uptime 66.7% (2/3)
+- VHS-ка Сериал HD | uptime 66.7% (2/3)
+- FlixSnip HD | uptime 66.7% (2/3)
+- Kion Хит HD | uptime 66.7% (2/3)
+- National Geographic HD | uptime 66.7% (2/3)
+- Приключения HD | uptime 66.7% (2/3)
+- Лёва | uptime 66.7% (2/3)
+- VIVA Russia | uptime 66.7% (2/3)
