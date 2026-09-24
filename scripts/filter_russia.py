@@ -22,9 +22,8 @@ MIN_CHECKS = 3
 MIN_UPTIME = 0.7
 
 BAD_PORTS = {":8080", ":8000", ":9999", ":8888"}
-BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga")
+BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga", "cinerama.uz")
 
-# Каналы, которые НЕ проверяются — сразу в плейлист
 WHITELIST = [
     "channel one",
     "channel one russia",
@@ -116,7 +115,6 @@ def base_name(extinf):
 
 
 def is_whitelisted(extinf):
-    """Канал в белом списке? Тогда не проверяем."""
     name = base_name(extinf)
     for w in WHITELIST:
         if w in name:
@@ -132,7 +130,7 @@ def is_bad_url(url):
         if port in u:
             return True, "bad_port" + port
     for dom in BAD_DOMAINS:
-        if dom + "/" in u or dom + ":" in u:
+        if dom + "/" in u or dom + ":" in u or dom + "?" in u:
             return True, "bad_domain" + dom
     return False, ""
 
@@ -275,7 +273,6 @@ def main():
     dropped_dups = len(after_clean) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
 
-    # Разделяем: whitelist, geo-blocked, обычные
     whitelist_channels = []
     geo_channels = []
     check_channels = []
@@ -349,7 +346,6 @@ def main():
         else:
             unstable.append(ch)
 
-    # Whitelist + geo идут в плейлист без статистики
     stable = stable + whitelist_channels + geo_channels
 
     print("Stable: " + str(len(stable)))
