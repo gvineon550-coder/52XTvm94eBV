@@ -1,0 +1,34 @@
+# UFOTV Report
+
+Date: 2026-09-24 01:17 UTC
+
+## Funnel
+- Total in source: 523
+- After URL cleanup: 450 (dropped 73)
+- After dedup: 437 (dropped 13)
+- Whitelist (skip check): 2
+- Geo-blocked (auto-include): 0
+- To check: 435
+- Alive checked: 421
+- Stable in playlist: 423
+- Filtered as unstable: 0
+- Too new (collecting stats): 421
+
+Thresholds: min checks 3, uptime >= 70%
+
+## Dead today (14)
+
+- TV1000 romantica HD | html_page
+- Феникс+Кино | html_page
+- Советские Мультфильмы | http_500
+- TechnoDanceMusic | err_InvalidSchema
+- EDM Mainstage | http_404
+- RETROHITS | err_InvalidSchema
+- FantasticMistyc | err_InvalidSchema
+- TV Series | err_InvalidSchema
+- TDM KINO | err_InvalidSchema
+- ZubrilomFilm | http_404
+- Коновал ТВ | http_404
+- КИНО05 | http_404
+- Snoochies Boochies | http_404
+- ROMEO Video | http_404
