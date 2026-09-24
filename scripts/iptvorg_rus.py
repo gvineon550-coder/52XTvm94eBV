@@ -25,25 +25,58 @@ BAD_PORTS = {":8080", ":8000", ":9999", ":8888"}
 BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga", "cinerama.uz")
 
 WHITELIST = [
+    # Первый канал
     "channel one",
     "первый канал",
     "1tv",
     "ort",
+    # Ren TV
     "ren tv",
     "ren-tv",
     "рен тв",
     "рен-тв",
     "rentv",
+    # Россия 1
+    "russia-1",
+    "russia 1",
+    "russia1",
+    "россия-1",
+    "россия 1",
+    "россия1",
+    "rossiya-1",
+    "rossiya 1",
+    "rossiya1",
+    # Россия 24
+    "russia-24",
+    "russia 24",
+    "russia24",
+    "россия-24",
+    "россия 24",
+    "россия24",
+    "rossiya-24",
+    "rossiya 24",
+    "rossiya24",
+    # Россия К / Культура
+    "russia-k",
+    "russia k",
+    "russiak",
+    "россия-к",
+    "россия к",
+    "россияк",
+    "rossiya-k",
+    "rossiya k",
+    "kultura",
+    "культура",
+    # Россия HD / просто Россия
     "russia hd",
     "russia-hd",
-    "russia1 hd",
-    "russia 1 hd",
     "россия hd",
     "россия-hd",
-    "россия 1 hd",
-    "россия1 hd",
     "rossiya hd",
     "rossiya-hd",
+    "russia",
+    "россия",
+    "rossiya",
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
