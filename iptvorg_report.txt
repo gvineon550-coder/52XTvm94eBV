@@ -1,29 +1,34 @@
 # IPTV-org RUS Report
 
-Date: 2026-09-24 12:06 UTC
+Date: 2026-09-24 12:39 UTC
 
 ## Funnel
 - Total in source: 672
-- After quality (>= 720p): 433 (dropped 239)
-- After URL cleanup: 297 (dropped 136)
-- After dedup: 291 (dropped 6)
-- Whitelist (skip check): 40
+- Whitelist (found in source, BEFORE filters): 94
+- Non-whitelist: 578
+- After quality (>= 720p): 366 (dropped 212)
+- After URL cleanup: 256 (dropped 110)
+- After dedup: 251 (dropped 5)
+- Whitelist after dedup: 80
 - Geo-blocked (auto-include): 9
 - To check: 242
-- Alive checked: 206
-- Stable in playlist: 251
-- Filtered as unstable: 4
+- Alive checked: 205
+- Stable in playlist: 293
+- Filtered as unstable: 1
 - Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
-## Dead today (36)
+Whitelist channels are included REGARDLESS of quality, URL, uptime.
+
+## Dead today (37)
 
 - 15+ Music (1080p) | conn_error
 - Afontovo | conn_error
 - alpha Cinema (1080p) | conn_error
 - Arktika 24 (1080p) | conn_error
 - ARTN TV (1080p) [Not 24/7] | http_403
+- Belarus-4 Gomel | http_404
 - Black Sea TV | http_404
 - City Eden KinoSemya [Not 24/7] | http_503
 - Crimea 24 | timeout
@@ -56,9 +61,6 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Vostok 24 (1080p) | conn_error
 - Zapad 24 (1080p) | conn_error
 
-## Filtered as unstable (4)
+## Filtered as unstable (1)
 
-- Belarus-2 HD (1080p) | uptime 66.7% (4/6)
-- Belarus-3 HD (1080p) [Not 24/7] | uptime 50.0% (3/6)
-- Belarus-4 Gomel | uptime 16.7% (1/6)
-- TV8 (Moldova) [Not 24/7] | uptime 66.7% (4/6)
+- Belarus-3 HD (1080p) [Not 24/7] | uptime 57.1% (4/7)
