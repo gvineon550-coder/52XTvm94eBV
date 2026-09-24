@@ -1,11 +1,13 @@
 import os
 import re
+import json
 from datetime import datetime, timezone, timedelta
 
 MSK = timezone(timedelta(hours=3))
 
 OUTPUT_FILE = "all_channels.m3u"
 EPG_URL = "https://iptvx.one/epg/epg_lite.xml.gz"
+QUALITY_FILE = "quality_data.json"
 
 SOURCES = [
     "playlist.m3u",
@@ -139,6 +141,32 @@ def is_blocked(extinf):
     return False
 
 
+def load_quality_data():
+    """Загружает список мёртвых каналов от quality_check.py"""
+    if not os.path.exists(QUALITY_FILE):
+        print("Quality data not found: " + QUALITY_FILE + " (skip filter)")
+        return {}
+    try:
+        with open(QUALITY_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        print("Quality data loaded: " + str(len(data)) + " entries")
+        return data
+    except Exception as e:
+        print("Quality data error: " + str(e))
+        return {}
+
+
+def is_dead_by_quality(extinf, quality_data):
+    """Проверяет, помечен ли канал как мёртвый в quality_data.json"""
+    if not quality_data:
+        return False
+    name = base_name(extinf)
+    entry = quality_data.get(name)
+    if not entry:
+        return False
+    return entry.get("action") == "remove"
+
+
 def main():
     all_channels = []
     source_stats = {}
@@ -156,16 +184,35 @@ def main():
 
     print("Total before filter: " + str(len(all_channels)))
 
+    # 1. Детские
     non_kids = [ch for ch in all_channels if not is_kids(ch["extinf"])]
     dropped_kids = len(all_channels) - len(non_kids)
     print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
 
+    # 2. Заблокированные
     non_blocked = [ch for ch in non_kids if not is_blocked(ch["extinf"])]
     dropped_blocked = len(non_kids) - len(non_blocked)
     print("After blocked filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ")")
 
-    best = {}
+    # 3. Мёртвые по данным Quality Check
+    quality_data = load_quality_data()
+    non_dead = []
+    dropped_dead = 0
+    dropped_dead_names = []
     for ch in non_blocked:
+        if is_dead_by_quality(ch["extinf"], quality_data):
+            dropped_dead += 1
+            if len(dropped_dead_names) < 10:
+                dropped_dead_names.append(get_name(ch["extinf"]))
+        else:
+            non_dead.append(ch)
+    print("After quality filter: " + str(len(non_dead)) + " (dropped dead: " + str(dropped_dead) + ")")
+    if dropped_dead_names:
+        print("  Removed by quality: " + ", ".join(dropped_dead_names))
+
+    # 4. Дедуп
+    best = {}
+    for ch in non_dead:
         key = base_name(ch["extinf"])
         q = get_quality(ch["extinf"])
         clean = 0 if is_bad_url(ch["url"]) else 1
@@ -175,9 +222,10 @@ def main():
             best[key] = (score, ch)
 
     deduped = [v[1] for v in best.values()]
-    dropped_dups = len(non_blocked) - len(deduped)
+    dropped_dups = len(non_dead) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped dups: " + str(dropped_dups) + ")")
 
+    # Сортировка
     def sort_key(ch):
         group = get_group(ch["extinf"]) or "zzz"
         return (group, get_name(ch["extinf"]).lower())
@@ -189,7 +237,7 @@ def main():
     lines = []
     lines.append('#EXTM3U url-tvg="' + EPG_URL + '" x-tvg-url="' + EPG_URL + '"')
     lines.append("# Combined from " + str(len(SOURCES)) + " sources | Updated: " + now)
-    lines.append("# Total: " + str(len(deduped)) + " unique channels | Kids removed | Blocked removed")
+    lines.append("# Total: " + str(len(deduped)) + " unique channels | Kids removed | Blocked removed | Dead removed")
     lines.append("")
     for ch in deduped:
         lines.append(ch["extinf"])
@@ -201,9 +249,14 @@ def main():
 
     print("Saved " + OUTPUT_FILE)
     print("")
-    print("Source breakdown:")
-    for src, count in source_stats.items():
-        print("  " + src + ": " + str(count))
+    print("=== ИТОГО ===")
+    print("Источников: " + str(len(source_stats)))
+    print("Всего: " + str(len(all_channels)))
+    print("Детских удалено: " + str(dropped_kids))
+    print("Заблокированных удалено: " + str(dropped_blocked))
+    print("Мёртвых по Quality удалено: " + str(dropped_dead))
+    print("Дублей удалено: " + str(dropped_dups))
+    print("В финале: " + str(len(deduped)))
 
 
 main()
