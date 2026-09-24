@@ -25,7 +25,7 @@ http://live2-aisttv.cdnvideo.ru/aisttv2/aisttv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="amedia-hit" tvg-logo="https://i.imgur.com/a8ZBGBw.png" group-title="Russia",Amedia Hit (1080p)
 http://stream.mcquack.net/162/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Russia",Angel TV Russian (720p)
+#EXTINF:-1 tvg-id="angel-tv" tvg-logo="https://i.imgur.com/qKLEGU7.png" group-title="Russia",Angel TV Russian (720p)
 https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="Russia",Aris 24 (720p) [Not 24/7]
@@ -124,7 +124,7 @@ http://stream.mcquack.net/275/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rJpQtvK.png" group-title="Russia",Dom kino Premium HD (1080p)
 http://stream.mcquack.net/108/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FnuwfSC.png" group-title="Russia",Drive (576i)
+#EXTINF:-1 tvg-id="eye-drive" tvg-logo="https://i.imgur.com/FnuwfSC.png" group-title="Russia",Drive (576i)
 https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vTRHAvD.png" group-title="Russia",Dushevnoe HD (1080p)
@@ -253,7 +253,7 @@ https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/Bj1jI7F.png" group-title="Russia",Ohotnik i rybolov HD (1080p)
 http://stream.mcquack.net/194/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png" group-title="Russia",Okko Futbol (1080p)
+#EXTINF:-1 tvg-id="okko-chemp" tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png" group-title="Russia",Okko Futbol (1080p)
 http://stream.mcquack.net/491/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/N0Zn4zU.png" group-title="Russia",Osetiya-Iryston (1080p)
