@@ -1,0 +1,242 @@
+{
+  "russia-k +2": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-k +4": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-k +7": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "telecafe (russia)": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "sts love (576i)": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "smotrim 100% klassika": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "smotrim 100% fakty": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "smotrim 100% prazdnik": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "ntv (russia) +1": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "ntv (russia) +2": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "ntv (russia) +4": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "ntv (russia) +7": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +4": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +5": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +6": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +7": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +8": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-1 +9": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "russia-24": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "city eden birma play": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "2x2 (576i)": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "angel tv russian": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "channel 10 (russia) (576i)": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "city eden kinodok": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "city eden recepty gurmana": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "city eden sirtaki tv": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "leomax 24": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "ntv vitrina": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "osetiya-iryston": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "pervyy respublikanskiy": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "radio rossii": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "subbota!": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "tavriya": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "unknown russia": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "univer tv": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "yapervyy": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "smotrim 100% lyubov": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "vremya": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "smotrim 100% muzhskoe": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "belarus-5 internet": {
+    "status": "dead",
+    "last_check": "2026-09-24 18:27 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  }
+}
