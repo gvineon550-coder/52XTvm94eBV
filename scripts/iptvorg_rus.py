@@ -166,7 +166,8 @@ def base_name(extinf):
 def is_whitelisted(extinf):
     name = base_name(extinf)
     for w in WHITELIST:
-        if w in name:
+        pattern = r'(?<![a-zа-яё0-9])' + re.escape(w) + r'(?![a-zа-яё0-9])'
+        if re.search(pattern, name):
             return True
     return False
 
@@ -284,7 +285,6 @@ def choose_best_whitelist(channels):
         key = base_name(ch["extinf"])
         q = get_quality(ch["extinf"])
         bad, _ = is_bad_url(ch["url"])
-        # score: (чистота_url, качество). Чистый URL важнее.
         score = (0 if bad else 1, q)
         if key not in best or score > best[key][0]:
             best[key] = (score, ch)
@@ -305,13 +305,11 @@ def main():
     all_channels = parse_m3u(text)
     print("Total in source: " + str(len(all_channels)))
 
-    # === ШАГ 1: отделяем whitelist ДО всех фильтров ===
     whitelist_all = [ch for ch in all_channels if is_whitelisted(ch["extinf"])]
     non_whitelist = [ch for ch in all_channels if not is_whitelisted(ch["extinf"])]
     print("Whitelist (found in source): " + str(len(whitelist_all)))
     print("Non-whitelist: " + str(len(non_whitelist)))
 
-    # === ШАГ 2: обрабатываем не-whitelist как раньше ===
     after_quality = []
     dropped_quality = 0
     for ch in non_whitelist:
@@ -342,11 +340,12 @@ def main():
     dropped_dups = len(after_clean) - len(deduped)
     print("After dedup (non-whitelist): " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
 
-    # === ШАГ 3: whitelist - только дедуп, никаких фильтров ===
     whitelist_channels = choose_best_whitelist(whitelist_all)
     print("Whitelist after dedup: " + str(len(whitelist_channels)))
+    print("Whitelist channels:")
+    for ch in whitelist_channels:
+        print("  + " + get_name(ch["extinf"]) + " | " + ch["url"][:80])
 
-    # === ШАГ 4: из non-whitelist отделяем geo и check ===
     geo_channels = []
     check_channels = []
 
@@ -416,7 +415,6 @@ def main():
         else:
             unstable.append(ch)
 
-    # Финальная сборка: stable от проверенных + whitelist + geo
     stable = stable + whitelist_channels + geo_channels
 
     print("Stable: " + str(len(stable)))
@@ -476,6 +474,12 @@ def main():
     report.append("Thresholds: min quality " + str(MIN_QUALITY) + "p, min checks " + str(MIN_CHECKS) + ", uptime >= " + str(int(MIN_UPTIME * 100)) + "%")
     report.append("")
     report.append("Whitelist channels are included REGARDLESS of quality, URL, uptime.")
+    report.append("")
+
+    report.append("## Whitelist channels (" + str(len(whitelist_channels)) + ")")
+    report.append("")
+    for ch in whitelist_channels:
+        report.append("- " + get_name(ch["extinf"]) + " | " + ch["url"])
     report.append("")
 
     if dead_today:
