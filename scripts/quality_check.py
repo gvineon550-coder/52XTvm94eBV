@@ -300,6 +300,7 @@ def run_checks_in_batches(channels):
                     result = {"status": "dead", "error": type(e).__name__}
                 result["name"] = get_name(ch["extinf"])
                 result["url"] = ch["url"]
+                result["is_whitelist"] = is_whitelisted(ch["extinf"])
                 all_results.append(result)
 
         ok_count = sum(1 for r in all_results if r["status"] == "alive")
@@ -313,7 +314,7 @@ def run_checks_in_batches(channels):
 
 
 def write_csv(results):
-    fields = ["name", "status", "resolution", "width", "height", "codec", "fps", "bitrate_mbps", "error", "url"]
+    fields = ["name", "status", "resolution", "width", "height", "codec", "fps", "bitrate_mbps", "error", "url", "is_whitelist"]
     with open(CSV_FILE, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
         writer.writeheader()
@@ -322,7 +323,7 @@ def write_csv(results):
 
 
 def write_quality_data(results):
-    """Сохраняет мёртвые каналы в JSON. Объединяет со старыми (макс 30 дней)."""
+    """Сохраняет мёртвые каналы в JSON. НЕ включает whitelist. Объединяет со старыми (макс 30 дней)."""
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     now_dt = datetime.now(timezone.utc)
 
@@ -336,6 +337,7 @@ def write_quality_data(results):
 
     checked_keys = set()
     data = {}
+    whitelist_kept = 0
 
     for r in results:
         raw = r["name"].lower().strip()
@@ -344,6 +346,11 @@ def write_quality_data(results):
         key = re.sub(r'\[[^\]]*\]', '', key)
         key = re.sub(r'\s+', ' ', key).strip()
         checked_keys.add(key)
+
+        # Whitelist-каналы НЕ пишем в quality_data.json — они всегда остаются
+        if r.get("is_whitelist"):
+            whitelist_kept += 1
+            continue
 
         if r["status"] == "dead":
             entry = {
@@ -371,7 +378,7 @@ def write_quality_data(results):
     with open(QUALITY_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("Quality data saved: " + str(len(data)) + " entries (kept old: " + str(kept_old) + ")")
+    print("Quality data saved: " + str(len(data)) + " entries (kept old: " + str(kept_old) + ", whitelist protected: " + str(whitelist_kept) + ")")
     return data
 
 
@@ -437,8 +444,8 @@ def main():
     msg.append("🔬 Результат:")
     msg.append("✅ Живых: " + str(stats["alive"]))
     msg.append("❌ Мёртвых: " + str(stats["dead"]))
-    msg.append("⚠️ Низкий битрейт (<1 Мбит/с): " + str(stats["low_bitrate"]))
-    msg.append("🐢 Низкий FPS (<29): " + str(stats["low_fps"]))
+    msg.append("⚠️ Низкий битрейт (меньше 1 Мбит/с): " + str(stats["low_bitrate"]))
+    msg.append("🐢 Низкий FPS (меньше 29): " + str(stats["low_fps"]))
     msg.append("📺 SD-разрешение: " + str(stats["low_res"]))
     msg.append("")
     msg.append("🗑 К удалению из all_channels: " + str(len(quality_data)))
