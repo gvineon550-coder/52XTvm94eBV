@@ -1,0 +1,6 @@
+quality_report.txt
+quality_results.csv
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
