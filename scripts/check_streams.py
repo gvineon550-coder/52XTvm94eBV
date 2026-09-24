@@ -8,7 +8,19 @@ OUTPUT_FILE = "playlist.m3u"
 TIMEOUT = 15
 MAX_WORKERS = 15
 CHUNK_SIZE = 20000
-ALERT_THRESHOLD = 20
+
+WHITELIST = [
+    "kinowalk",
+    "movietoper",
+    "timetomovie",
+    "timetohorror",
+    "blockbusters time",
+    "kinolampa",
+    "videoarsenal",
+    "kinomix юрич",
+    "cinema time",
+    "scripachtv",
+]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
@@ -35,7 +47,6 @@ def send_telegram(message):
             print("Telegram sent")
         else:
             print("Telegram failed: " + str(r.status_code))
-            print("Response: " + r.text)
     except Exception as e:
         print("Telegram error: " + str(e))
 
@@ -59,6 +70,19 @@ def parse_m3u(text):
 
 def get_name(extinf):
     return extinf.rsplit(",", 1)[-1].strip() if "," in extinf else extinf
+
+
+def base_name(extinf):
+    name = get_name(extinf).lower().strip()
+    return name
+
+
+def is_whitelisted(extinf):
+    name = base_name(extinf)
+    for w in WHITELIST:
+        if w in name:
+            return True
+    return False
 
 
 def is_live_stream(chunk):
@@ -131,19 +155,33 @@ def main():
 
     print("Total channels: " + str(len(channels)))
 
+    whitelist_channels = []
+    check_channels = []
+
+    for ch in channels:
+        if is_whitelisted(ch["extinf"]):
+            whitelist_channels.append(ch)
+        else:
+            check_channels.append(ch)
+
+    print("Whitelist (skip check): " + str(len(whitelist_channels)))
+    print("To check: " + str(len(check_channels)))
+
     results = {}
     reasons = {}
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        future_map = {pool.submit(check_url, ch["url"]): ch["url"] for ch in channels}
+        future_map = {pool.submit(check_url, ch["url"]): ch["url"] for ch in check_channels}
         for fut in concurrent.futures.as_completed(future_map):
             url = future_map[fut]
             ok, reason = fut.result()
             results[url] = ok
             reasons[url] = reason
 
-    alive = [ch for ch in channels if results.get(ch["url"])]
-    dead = [ch for ch in channels if not results.get(ch["url"])]
+    alive_checked = [ch for ch in check_channels if results.get(ch["url"])]
+    dead = [ch for ch in check_channels if not results.get(ch["url"])]
+
+    alive = alive_checked + whitelist_channels
 
     print("Alive: " + str(len(alive)) + " / " + str(len(channels)))
     print("Dead: " + str(len(dead)))
@@ -169,6 +207,7 @@ def main():
     report.append("Date: " + now)
     report.append("Alive: " + str(len(alive)))
     report.append("Dead: " + str(len(dead)))
+    report.append("Whitelist: " + str(len(whitelist_channels)))
     report.append("")
     if dead:
         report.append("## Dead channels")
@@ -195,6 +234,7 @@ def main():
     msg_lines.append("🕐 " + now_msk)
     msg_lines.append("")
     msg_lines.append("✅ Живых: <b>" + str(alive_count) + "</b> / " + str(total) + " (" + str(pct) + "%)")
+    msg_lines.append("⭐ Whitelist: " + str(len(whitelist_channels)))
     msg_lines.append("❌ Мёртвых: <b>" + str(dead_count) + "</b>")
 
     if 0 < dead_count <= 15:
