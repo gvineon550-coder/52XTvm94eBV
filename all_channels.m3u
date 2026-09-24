@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz" x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz"
-# Combined from 4 sources | Updated: 2026-09-24 15:34 UTC
-# Total: 738 unique channels | Kids removed
+# Combined from 4 sources | Updated: 2026-09-24 15:48 UTC
+# Total: 737 unique channels | Kids removed | Blocked removed
 
 #EXTINF:-1 tvg-id="Nostalgia.ru@SD" tvg-logo="https://i.imgur.com/YBdBc0J.png" group-title="Classic",Nostalgia (Russia) (576p)
 http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
@@ -715,9 +715,6 @@ http://kinowalk.hopto.org/equilibrium_live
 
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19254112/avatar?change_time=1736877622&croped=1&mh=140&mw=140" tvg-id="no_epg_cinema" group-title="Kinowalk TV", 𝕂𝔸ℂℂ𝔼𝕋𝔸
 http://kinowalk.hopto.org/kasseta_live
-
-#EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/960px-Rada_TV_%282021%29.svg.png" http-user-agent="curl/8.16.0" group-title="Legislative",Rada TV (1080p)
-https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/RADA.m3u8
 
 #EXTINF:-1 tvg-id="Cinema.ru@SD" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="Movies",Cinema (Russia) (576p)
 http://flussonic.linkintel.ru/cinema/index.m3u8
