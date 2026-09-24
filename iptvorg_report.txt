@@ -1,32 +1,30 @@
 # IPTV-org RUS Report
 
-Date: 2026-09-24 11:54 UTC
+Date: 2026-09-24 12:06 UTC
 
 ## Funnel
 - Total in source: 672
 - After quality (>= 720p): 433 (dropped 239)
 - After URL cleanup: 297 (dropped 136)
 - After dedup: 291 (dropped 6)
-- Whitelist (skip check): 11
-- Geo-blocked (auto-include): 10
-- To check: 270
-- Alive checked: 220
-- Stable in playlist: 238
-- Filtered as unstable: 3
+- Whitelist (skip check): 40
+- Geo-blocked (auto-include): 9
+- To check: 242
+- Alive checked: 206
+- Stable in playlist: 251
+- Filtered as unstable: 4
 - Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
-## Dead today (50)
+## Dead today (36)
 
 - 15+ Music (1080p) | conn_error
 - Afontovo | conn_error
 - alpha Cinema (1080p) | conn_error
 - Arktika 24 (1080p) | conn_error
 - ARTN TV (1080p) [Not 24/7] | http_403
-- Belarus-4 Gomel | http_404
 - Black Sea TV | http_404
-- CGTN Russian (1080p) | http_404
 - City Eden KinoSemya [Not 24/7] | http_503
 - Crimea 24 | timeout
 - Detskoe kino [Not 24/7] | http_503
@@ -37,7 +35,6 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - LenTV24 | html_page
 - Millet (720p) | conn_error
 - MuzzOne | timeout
-- National Geographic (Russia) (1080p) | http_404
 - Next TV (1080p) [Not 24/7] | conn_error
 - Nizhniy Novgorod 24 (1080p) | conn_error
 - Novyi Russkii (720p) | conn_error
@@ -45,17 +42,6 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Perviy Krymskiy (720p) | conn_error
 - Qonaev Media | timeout
 - RU.TV Kids (720p) | http_403
-- Russia-1 (1080p) | conn_error
-- Russia-1 +4 (1080p) | conn_error
-- Russia-1 +5 (1080p) | conn_error
-- Russia-1 +6 (1080p) | conn_error
-- Russia-1 +7 (1080p) | conn_error
-- Russia-1 +8 (1080p) | conn_error
-- Russia-1 +9 (1080p) | conn_error
-- Russia-24 (1080p) | conn_error
-- Russia-K +2 (1080p) | conn_error
-- Russia-K +4 (1080p) | conn_error
-- Russia-K +7 (1080p) | conn_error
 - Samara 24 (1080p) | conn_error
 - Shayan TV (1080p) | http_403
 - Sibir 24 (1080p) | conn_error
@@ -70,8 +56,9 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Vostok 24 (1080p) | conn_error
 - Zapad 24 (1080p) | conn_error
 
-## Filtered as unstable (3)
+## Filtered as unstable (4)
 
-- Belarus-2 HD (1080p) | uptime 60.0% (3/5)
-- Belarus-3 HD (1080p) [Not 24/7] | uptime 40.0% (2/5)
-- TV8 (Moldova) [Not 24/7] | uptime 60.0% (3/5)
+- Belarus-2 HD (1080p) | uptime 66.7% (4/6)
+- Belarus-3 HD (1080p) [Not 24/7] | uptime 50.0% (3/6)
+- Belarus-4 Gomel | uptime 16.7% (1/6)
+- TV8 (Moldova) [Not 24/7] | uptime 66.7% (4/6)
