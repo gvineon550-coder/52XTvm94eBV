@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated: 2026-09-24 09:43 UTC | Alive: 140/153
+# Updated: 2026-09-24 14:35 UTC | Alive: 141/153
 
 #EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
 http://kinowalk.hopto.org/legion-tv_live
@@ -22,14 +22,14 @@ http://kinowalk.hopto.org/selecaotv_live
 #EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="Kinowalk",SeleCaoTV1
 http://kinowalk.hopto.org/selecaotv1_live
 
-#EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="Kinowalk",Фильмы сериалы трансляции
-http://kinowalk.hopto.org/id582512126_live
-
 #EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="Kinowalk",Just enjoy serial4u
 http://kinowalk.hopto.org/serial4u_live
 
 #EXTINF:-1 tvg-id="video_serial" tvg-name="VideoSerial" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_serial.jpg" group-title="Kinowalk",VideoSerial
 http://kinowalk.hopto.org/video_serial_live
+
+#EXTINF:-1 tvg-id="kanaldisneyonline" tvg-name="Канал Disney Онлайн" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kanaldisneyonline.jpg" group-title="Kinowalk",Канал Disney Онлайн
+http://kinowalk.hopto.org/kanaldisneyonline_live
 
 #EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="Kinowalk",Коновал ТВ
 http://kinowalk.hopto.org/tvkonoval_live
@@ -39,6 +39,9 @@ http://kinowalk.hopto.org/alex.films_live
 
 #EXTINF:-1 tvg-id="jtxonline" tvg-name="JTX Online" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/jtxonline.png" group-title="Kinowalk",JTX Online
 http://kinowalk.hopto.org/jtxonline_live
+
+#EXTINF:-1 tvg-id="kinofon" tvg-name="kinofon_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofon.png" group-title="Kinowalk",kinofon_
+http://kinowalk.hopto.org/kinofon_live
 
 #EXTINF:-1 tvg-id="perviryad" tvg-name="Пᛊየᛒьᵻӥ የጸሏ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/perviryad.png" group-title="Kinowalk",Пᛊየᛒьᵻӥ የጸሏ
 http://kinowalk.hopto.org/perviryad_live

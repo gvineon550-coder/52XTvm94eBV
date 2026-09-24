@@ -1,19 +1,18 @@
 # Report
 
-Date: 2026-09-24 09:43 UTC
-Alive: 140
-Dead: 13
+Date: 2026-09-24 14:35 UTC
+Alive: 141
+Dead: 12
 Whitelist: 12
 
 ## Dead channels
 
+- Фильмы сериалы трансляции | http_503
 - ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE | http_503
 - SerialTV | http_503
 - ФИЛЬМЫ у Максима | http_503
-- Канал Disney Онлайн | http_503
 - Тоха Киноман | http_503
-- ZubrilomFilm | http_503
-- kinofon_ | http_503
+- ZubrilomFilm | http_404
 - Snoochies Boochies | http_404
 - ROMEO Video | http_404
 - ДиТи | http_404
