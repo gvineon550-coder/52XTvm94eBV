@@ -29,6 +29,11 @@ WHITELIST = [
     "первый канал",
     "1tv",
     "ort",
+    "ren tv",
+    "ren-tv",
+    "рен тв",
+    "рен-тв",
+    "rentv",
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
