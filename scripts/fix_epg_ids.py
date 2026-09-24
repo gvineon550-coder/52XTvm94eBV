@@ -7,6 +7,7 @@ import requests
 
 EPG_URL = "https://iptvx.one/epg/epg_lite.xml.gz"
 EPG_PLAYLIST_URL = 'url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"'
+SUGGESTIONS_FILE = "epg_suggestions.txt"
 
 PLAYLISTS = [
     "iptvorg_rus.m3u",
@@ -14,6 +15,8 @@ PLAYLISTS = [
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+ALIASES = {}
 
 
 def normalize(name):
@@ -26,6 +29,25 @@ def normalize(name):
     n = re.sub(r'\s+', ' ', n).strip()
     n = n.replace('ё', 'е')
     return n
+
+
+def search_similar(key, epg_keys):
+    if not key:
+        return []
+    words = [w for w in key.split() if len(w) >= 4]
+    if not words:
+        words = [w for w in key.split() if len(w) >= 3]
+    if not words:
+        return []
+    found = []
+    for epg_key in epg_keys:
+        for w in words:
+            if w in epg_key:
+                found.append(epg_key)
+                break
+        if len(found) >= 5:
+            break
+    return found
 
 
 def download_epg():
@@ -67,7 +89,7 @@ def extract_name(extinf):
     return extinf.rsplit(",", 1)[-1].strip() if "," in extinf else extinf
 
 
-def fix_playlist(filepath, name_to_id):
+def fix_playlist(filepath, name_to_id, all_suggestions):
     if not os.path.exists(filepath):
         print("Not found: " + filepath)
         return 0, 0
@@ -79,6 +101,7 @@ def fix_playlist(filepath, name_to_id):
     fixed = 0
     total = 0
     new_lines = []
+    epg_keys = list(name_to_id.keys())
 
     for line in lines:
         if line.startswith("#EXTM3U"):
@@ -89,6 +112,8 @@ def fix_playlist(filepath, name_to_id):
             name = extract_name(line)
             key = normalize(name)
             epg_id = name_to_id.get(key)
+            if not epg_id:
+                epg_id = ALIASES.get(key)
             if epg_id:
                 new_line = re.sub(r'tvg-id="[^"]*"', 'tvg-id="' + epg_id + '"', line, count=1)
                 if 'tvg-id="' not in new_line:
@@ -98,6 +123,13 @@ def fix_playlist(filepath, name_to_id):
                 new_lines.append(new_line)
             else:
                 new_lines.append(line)
+                variants = search_similar(key, epg_keys)
+                all_suggestions.append({
+                    "playlist": filepath,
+                    "name": name,
+                    "key": key,
+                    "variants": variants,
+                })
             continue
         new_lines.append(line)
 
@@ -108,12 +140,32 @@ def fix_playlist(filepath, name_to_id):
     return fixed, total
 
 
+def save_suggestions(suggestions, name_to_id):
+    with open(SUGGESTIONS_FILE, "w", encoding="utf-8") as f:
+        f.write("# EPG Suggestions\n")
+        f.write("# Формат: НАШ КАНАЛ -> ВАРИАНТЫ в EPG\n")
+        f.write("# Смотри варианты, выбирай правильный, присылай для добавления в ALIASES\n\n")
+        for s in suggestions:
+            f.write("[" + s["playlist"] + "] " + s["name"] + "\n")
+            if s["variants"]:
+                for v in s["variants"]:
+                    epg_id = name_to_id.get(v, "?")
+                    f.write("    variant: " + v + "  (id: " + epg_id + ")\n")
+            else:
+                f.write("    no variants found\n")
+            f.write("\n")
+    print("Saved " + SUGGESTIONS_FILE + ": " + str(len(suggestions)) + " channels without match")
+
+
 def main():
     data = download_epg()
     name_to_id = parse_epg(data)
 
+    all_suggestions = []
     for pl in PLAYLISTS:
-        fix_playlist(pl, name_to_id)
+        fix_playlist(pl, name_to_id, all_suggestions)
+
+    save_suggestions(all_suggestions, name_to_id)
 
 
 main()
