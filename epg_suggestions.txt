@@ -1,0 +1,1535 @@
+# EPG Suggestions
+# Формат: НАШ КАНАЛ -> ВАРИАНТЫ в EPG
+# Смотри варианты, выбирай правильный, присылай для добавления в ALIASES
+
+[iptvorg_rus.m3u] 3ABN Russia (720p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[iptvorg_rus.m3u] 5 minut tishiny (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] 86 (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] 360° (1080p)
+    variant: 360° international  (id: 360-int)
+    variant: 360° международный  (id: 360-int)
+    variant: 360° новости  (id: 360-news)
+    variant: 360° подмосковье  (id: 360-podmoskovie)
+    variant: краснодар.360°  (id: krasnodar)
+
+[iptvorg_rus.m3u] 360° News (1080p)
+    variant: 360° international  (id: 360-int)
+    variant: 360° международный  (id: 360-int)
+    variant: 360° новости  (id: 360-news)
+    variant: 360° подмосковье  (id: 360-podmoskovie)
+    variant: lifenews 78  (id: 78kanal)
+
+[iptvorg_rus.m3u] Abaza TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] AIST TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Angel TV Russian (720p)
+    variant: angel tv  (id: angel-tv)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: eroluxe russian  (id: eroluxe-russian)
+
+[iptvorg_rus.m3u] Apsua TV
+    no variants found
+
+[iptvorg_rus.m3u] Aqlvoy
+    no variants found
+
+[iptvorg_rus.m3u] Aris 24 (720p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Arkhyz 24 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Astrahan 24 (720p)
+    no variants found
+
+[iptvorg_rus.m3u] BabyFirst (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Balabol (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-1 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-2 HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-3 HD (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-4 Vitebsk (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-5 (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-5 Internet (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Belarus-24 HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Belgorod 24 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Big Asia (720p)
+    variant: clarity4k asia  (id: clarity4k-asia)
+    variant: eroluxe asian  (id: eroluxe-asian)
+    variant: premier sports asia  (id: premier-sport-asia)
+    variant: sky high asian hdr  (id: sky-high-asian-hdr)
+
+[iptvorg_rus.m3u] Blokbaster HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Channel 8 Krasnoyarsk HD (1080p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] Channel 8 Novosibirsk (480i)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] Channel 9 (Israel) (1080p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] Channel 10 (Russia) (576i)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] City Eden AutoGid [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden Birma Play [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: eroluxe cosplay  (id: eroluxe-cosplay)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: oneplay sport 1  (id: oneplay-sport-1-cz)
+    variant: oneplay sport 2  (id: oneplay-sport-2-cz)
+
+[iptvorg_rus.m3u] City Eden Classic Music [Not 24/7]
+    variant: 1hd music  (id: 1hd)
+    variant: 1hd music television  (id: 1hd)
+    variant: 4ever music  (id: 4ever-music)
+    variant: a classic  (id: amedia-hit)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] City Eden KinoAction [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoArt [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoAsia [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoDetektiv [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoDok [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoDrama [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoFantastika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoKlassika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoKomediya [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden KinoMistika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden MedZdrav [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden Play [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: eroluxe cosplay  (id: eroluxe-cosplay)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: oneplay sport 1  (id: oneplay-sport-1-cz)
+    variant: oneplay sport 2  (id: oneplay-sport-2-cz)
+
+[iptvorg_rus.m3u] City Eden Recepty Gurmana [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden Sirtaki TV [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden TeleNovella [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] City Eden TV [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[iptvorg_rus.m3u] Current Time TV (1080p)
+    variant: baby time  (id: baby-time)
+    variant: foodtime  (id: eda-hd)
+    variant: olsib time travel  (id: olsib-timetravel)
+    variant: real time  (id: real-time-it)
+    variant: skyshowtime 1  (id: skyshowtime-1-pl)
+
+[iptvorg_rus.m3u] Dacha (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Dagestan (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Dikaya okhota HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Dikaya rybalka HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Dom kino Premium HD (1080p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: amedia premium  (id: amedia-premium)
+    variant: arena premium 1  (id: arena-premium-1)
+    variant: arena premium 2  (id: arena-premium-2)
+    variant: arena premium 3  (id: arena-premium-3)
+
+[iptvorg_rus.m3u] Dorama HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Drive (576i)
+    variant: eye drive  (id: eye-drive)
+
+[iptvorg_rus.m3u] Dushevnoe HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] DW Russian (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: eroluxe russian  (id: eroluxe-russian)
+    variant: fresh russian  (id: fresh-russian)
+
+[iptvorg_rus.m3u] ETV+ (720p)
+    variant: etv+ эстония  (id: etv-plus-ee)
+
+[iptvorg_rus.m3u] Eurasia (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Evrokino HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] First Music Channel (1080p)
+    variant: 1hd music  (id: 1hd)
+    variant: 1hd music television  (id: 1hd)
+    variant: 4ever music  (id: 4ever-music)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+
+[iptvorg_rus.m3u] Govorit Moskva (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Groznyj
+    no variants found
+
+[iptvorg_rus.m3u] Hit FM
+    variant: 4fun gold hits  (id: 4fun-gold)
+    variant: 4fun hits  (id: 4fun-gold)
+    variant: amedia hit  (id: amedia-hit)
+    variant: axn white  (id: axn-white-pl)
+    variant: bridge tv hits  (id: bridge-tv-dance)
+
+[iptvorg_rus.m3u] Hope Channel Russia (720p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+
+[iptvorg_rus.m3u] Horoshee Kino (720p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[iptvorg_rus.m3u] Huzur TV (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Ingushetia (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Istoki (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Izvestia (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Kapitan Fantastika (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] KinoBoevik (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Kinopremyera HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Komediynoe HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Kongress TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Krik-TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Law TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Lugansk 24
+    no variants found
+
+[iptvorg_rus.m3u] Maidan (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Makon TV (576i)
+    no variants found
+
+[iptvorg_rus.m3u] Mana Tserkov' Onlayn (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Mir 24 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Mir HD (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Mirovoe kino (1080p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[iptvorg_rus.m3u] MMA-TV.com (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Moskva 24 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Moy mir (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Moya stikhiya HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] MTV Volgograd (720p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Muzyka 1 [Not 24/7]
+    variant: kino polska muzyka  (id: kinopolskamuz)
+    variant: kino polska muzyka international  (id: kinopolskamuz-int)
+
+[iptvorg_rus.m3u] Muzyka Kino [Not 24/7]
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[iptvorg_rus.m3u] MyZen TV (1080p)
+    variant: myzen 4к  (id: myzen-4k)
+    variant: myzen.tv  (id: myzen-tv)
+
+[iptvorg_rus.m3u] Nashe Lubimoe Kino Ukraine (1080p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[iptvorg_rus.m3u] Nashe muzhskoe HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Naxcivan TV (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Nevskiy (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Nickelodeon CIS (1080p)
+    variant: nickelodeon baltic  (id: nickelodeon-baltic)
+    variant: nickelodeon  (id: nickelodeon-ru)
+    variant: nickelodeon снг  (id: nickelodeon-ru)
+
+[iptvorg_rus.m3u] Nicktoons CIS (1080p)
+    variant: nicktoons  (id: nicktoons)
+
+[iptvorg_rus.m3u] Novyi Channel (1080p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] NTM (720p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] NTS (1080p) [Not 24/7]
+    variant: sky high quants  (id: sky-high-quants-fhd)
+
+[iptvorg_rus.m3u] NTV (Russia) HD (1080p)
+    variant: ntv tr  (id: ntv-hd-tr)
+
+[iptvorg_rus.m3u] NTV Vitrina (720p)
+    no variants found
+
+[iptvorg_rus.m3u] NVK Sakha (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Ohotnik i rybolov (576i)
+    no variants found
+
+[iptvorg_rus.m3u] Ohotnik i rybolov HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Okko Futbol (1080p)
+    variant: futbol tv telekanali  (id: futbol-tv-uz)
+    variant: okko.чемпионат  (id: okko-chemp)
+    variant: okko спорт чемпионат  (id: okko-chemp)
+    variant: okko tv  (id: okko-tv)
+
+[iptvorg_rus.m3u] Osetiya-Iryston (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] OSN
+    no variants found
+
+[iptvorg_rus.m3u] Ost West 24 (1080p)
+    variant: box western  (id: box-western)
+    variant: eye western  (id: eye-western)
+    variant: mödo wild west  (id: modo-wildwest)
+    variant: olsib the newest  (id: olsib-newest)
+    variant: ostwest  (id: ostwest)
+
+[iptvorg_rus.m3u] Ostrosyuzhetnoye HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] OTV-Prim
+    no variants found
+
+[iptvorg_rus.m3u] Patriot (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Perviy Informationniy HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Perviy otdel (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Pervyy Respublikanskiy
+    no variants found
+
+[iptvorg_rus.m3u] Pes (1080p)
+    variant: sky caccia e pesca  (id: sky-caccia-e-pesca)
+
+[iptvorg_rus.m3u] Premialnoe HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Priklyucheniya HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Prima (Russia) (1080p)
+    variant: prima sport 1  (id: prima-sport-1)
+    variant: prima sport 2  (id: prima-sport-2)
+    variant: prima sport 3  (id: prima-sport-3)
+    variant: prima sport 4  (id: prima-sport-4)
+    variant: prima sport 5  (id: prima-sport-5)
+
+[iptvorg_rus.m3u] Prodvizhenie (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Rada TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Radio Mir (720p)
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[iptvorg_rus.m3u] Radio Rossii (720p)
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[iptvorg_rus.m3u] RAZ 3 International
+    variant: 1+1 international  (id: 1plus1-int)
+    variant: 360° international  (id: 360-int)
+    variant: 8 канал international  (id: 8kanal-eu)
+    variant: al jazeera international  (id: al-jazeera-int)
+    variant: a first international  (id: amedia1)
+
+[iptvorg_rus.m3u] Rossiya 1 Vainah (576i)
+    no variants found
+
+[iptvorg_rus.m3u] RT Balkan (1080p)
+    variant: balkanika  (id: balkanika)
+    variant: tlc balkans  (id: tlc-blk)
+
+[iptvorg_rus.m3u] RT Documentary Russian (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: eroluxe russian  (id: eroluxe-russian)
+    variant: fresh russian  (id: fresh-russian)
+
+[iptvorg_rus.m3u] RTR-Planeta Asia
+    variant: clarity4k asia  (id: clarity4k-asia)
+    variant: eroluxe asian  (id: eroluxe-asian)
+    variant: premier sports asia  (id: premier-sport-asia)
+    variant: sky high asian hdr  (id: sky-high-asian-hdr)
+
+[iptvorg_rus.m3u] RTVi US (1080p)
+    variant: rtvi  (id: rtvi)
+    variant: rtvi европа  (id: rtvi)
+    variant: rtvi retro  (id: rtvi-arhiv)
+    variant: rtvi архив  (id: rtvi-arhiv)
+    variant: rtvi сша  (id: rtvi-usa)
+
+[iptvorg_rus.m3u] Russia-K HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Ryzhiy (576i)
+    no variants found
+
+[iptvorg_rus.m3u] S1 (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Samara-GIS (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] Sankt-Peterburg HD (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Sever
+    no variants found
+
+[iptvorg_rus.m3u] Sevimli TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Shef (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Shokiruyushchee HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Skoraya pomoshch (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Smotrim 100% Detskoe (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim 100% Fakty (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim 100% Klassika (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim 100% Lyubov (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim 100% Muzhskoe (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim 100% Prazdnik (720p)
+    variant: смотрим 100% детское  (id: smotrim-100-detskoe)
+    variant: смотрим 100% факты  (id: smotrim-100-fakty)
+    variant: смотрим 100% классика  (id: smotrim-100-klassika)
+    variant: смотрим 100% любовь  (id: smotrim-100-lubov)
+    variant: смотрим 100% мужское  (id: smotrim-100-muzhskoe)
+
+[iptvorg_rus.m3u] Smotrim Chestnyy Detektiv (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Sochi24 (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Sochi Live (720p) [Not 24/7]
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: abc news live  (id: abc-news-live-us)
+    variant: астрахань live  (id: astrahan-live)
+    variant: bear tv премьера live ru  (id: bear-tv-premiera-live-ru-uhd)
+    variant: box be on edge 1 live  (id: box-beonedge1live)
+
+[iptvorg_rus.m3u] Solovyov Live (1080p)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: abc news live  (id: abc-news-live-us)
+    variant: астрахань live  (id: astrahan-live)
+    variant: bear tv премьера live ru  (id: bear-tv-premiera-live-ru-uhd)
+    variant: box be on edge 1 live  (id: box-beonedge1live)
+
+[iptvorg_rus.m3u] SONGTV Russia
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[iptvorg_rus.m3u] Strana FM
+    no variants found
+
+[iptvorg_rus.m3u] STS HD (1080p)
+    variant: sky high dusts  (id: sky-high-dusts-fhd)
+
+[iptvorg_rus.m3u] STS Love (576i)
+    variant: bear tv love in tel aviv il  (id: bear-tv-love-in-tel-aviv-il-hd)
+    variant: frenchlover  (id: french-lover)
+    variant: french lover  (id: french-lover)
+    variant: love nature  (id: love-nature-4k)
+    variant: magic love  (id: magic-love)
+
+[iptvorg_rus.m3u] Subbota! (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Surgut 24
+    no variants found
+
+[iptvorg_rus.m3u] Svoyo TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Taraqqiyot TV
+    no variants found
+
+[iptvorg_rus.m3u] Tavriya
+    no variants found
+
+[iptvorg_rus.m3u] TBN Baltia (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] TDK 42
+    no variants found
+
+[iptvorg_rus.m3u] Telecafe (Russia) (720p)
+    no variants found
+
+[iptvorg_rus.m3u] TeleDom
+    no variants found
+
+[iptvorg_rus.m3u] Telekanal Krasnodar (1080p)
+    variant: bolajon telekanali  (id: bolajon-uz)
+    variant: ftv telekanali  (id: ftv-uz)
+    variant: futbol tv telekanali  (id: futbol-tv-uz)
+    variant: navo telekanali  (id: navo-uz)
+
+[iptvorg_rus.m3u] TKR (1080p) [Not 24/7]
+    no variants found
+
+[iptvorg_rus.m3u] TNT International Belarus (1080p)
+    variant: 1+1 international  (id: 1plus1-int)
+    variant: 360° international  (id: 360-int)
+    variant: 8 канал international  (id: 8kanal-eu)
+    variant: al jazeera international  (id: al-jazeera-int)
+    variant: a first international  (id: amedia1)
+
+[iptvorg_rus.m3u] TNV-Tatarstan (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Tolk (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Tooku (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Travelxp Russia (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[iptvorg_rus.m3u] Trofei (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] TSV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] TV Mana Russkiy (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] TV PRO
+    variant: bear tv abendprogramm de  (id: bear-tv-abendprogramm-de-hd)
+    variant: olsib pro100 kitchen  (id: olsib-pro100kitchen)
+    variant: pro arena  (id: pro-arena)
+    variant: pro business  (id: pro-business)
+    variant: prodеньги  (id: pro-business)
+
+[iptvorg_rus.m3u] TV-3 HD (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] U (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Ugra-TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Unknown Russia (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[iptvorg_rus.m3u] V gostyakh u skazki (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] V mire zhivotnykh (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Vesti FM (720p)
+    variant: crime + investigation  (id: ci-polsat)
+    variant: id investigation discovery eu  (id: id-xtra-eu)
+    variant: id investigation discovery европа  (id: id-xtra-eu)
+
+[iptvorg_rus.m3u] Vitebsk
+    no variants found
+
+[iptvorg_rus.m3u] Vitrina TV (720p)
+    no variants found
+
+[iptvorg_rus.m3u] Vmeste-RF
+    no variants found
+
+[iptvorg_rus.m3u] Volga
+    no variants found
+
+[iptvorg_rus.m3u] Vremya (720p)
+    no variants found
+
+[iptvorg_rus.m3u] YaPervyy (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Za! TV
+    no variants found
+
+[iptvorg_rus.m3u] Zhivaya priroda (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Zoopark (576i)
+    no variants found
+
+[iptvorg_rus.m3u] Zvezda Plus HD (1080p)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: astro sports plus  (id: astro-sports-plus)
+    variant: bear tv plus de  (id: bear-tv-plus-de-hd)
+    variant: ducktv plus  (id: ducktv-plus)
+    variant: duck tv plus  (id: ducktv-plus)
+
+[iptvorg_rus.m3u] Astrahan.Ru Sport (720p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[iptvorg_rus.m3u] Bashkortostan 24 (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Channel One (Russia) HD (720p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[iptvorg_rus.m3u] Okko Prajm Sport (1080p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[iptvorg_rus.m3u] Okko Sport (1080p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[iptvorg_rus.m3u] Setanta Sports 1 Eurasia (1080p)
+    variant: astro sports plus  (id: astro-sports-plus)
+    variant: astro sports  (id: astro-supersport-uhd)
+    variant: bein sports 1  (id: bein-sport-1)
+    variant: bein sports 2  (id: bein-sport-2)
+    variant: bein sports 3  (id: bein-sport-3)
+
+[iptvorg_rus.m3u] Setanta Sports 2 Eurasia (1080p)
+    variant: astro sports plus  (id: astro-sports-plus)
+    variant: astro sports  (id: astro-supersport-uhd)
+    variant: bein sports 1  (id: bein-sport-1)
+    variant: bein sports 2  (id: bein-sport-2)
+    variant: bein sports 3  (id: bein-sport-3)
+
+[iptvorg_rus.m3u] Sportivnyy (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] Trace Sport Stars Russia (720p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[iptvorg_rus.m3u] UzReport TV (1080p)
+    no variants found
+
+[iptvorg_rus.m3u] NovgorOblTV [Geo-blocked]
+    no variants found
+
+[iptvorg_rus.m3u] NTK 21 [Geo-blocked]
+    no variants found
+
+[iptvorg_rus.m3u] Radio 1 (Russia) (720p) [Geo-blocked]
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[iptvorg_rus.m3u] RTR-Planeta Europe (720p) [Geo-blocked]
+    variant: animal planet europe  (id: animal-planet-eu)
+    variant: brazzers tv europe  (id: brazzers-tv-europe)
+    variant: brazzers tv europe россия  (id: brazzers-tv-europe-ru)
+    variant: cctv4 europe  (id: cctv4)
+    variant: cnbc europe  (id: cnbc-europe)
+
+[iptvorg_rus.m3u] RZD TV (1080p) [Geo-blocked]
+    no variants found
+
+[iptvorg_rus.m3u] Simon (720p) [Geo-blocked]
+    no variants found
+
+[iptvorg_rus.m3u] Tsargrad TV (1080p) [Geo-blocked]
+    no variants found
+
+[iptvorg_rus.m3u] TV Rain (1080p) [Geo-blocked]
+    variant: ictv ukraine  (id: ictv-ukraine)
+    variant: rainews24  (id: rai-news-it)
+    variant: setanta+ ukraine  (id: setanta-plus-ua)
+    variant: setanta sports+ ukraine  (id: setanta-plus-ua)
+    variant: setanta ukraine  (id: setanta-ua)
+
+[romaxa55_russia.m3u] 3ABN Russia (720p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[romaxa55_russia.m3u] 5 minut tishiny (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] 86 (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] 360° (1080p)
+    variant: 360° international  (id: 360-int)
+    variant: 360° международный  (id: 360-int)
+    variant: 360° новости  (id: 360-news)
+    variant: 360° подмосковье  (id: 360-podmoskovie)
+    variant: краснодар.360°  (id: krasnodar)
+
+[romaxa55_russia.m3u] 360° News (1080p)
+    variant: 360° international  (id: 360-int)
+    variant: 360° международный  (id: 360-int)
+    variant: 360° новости  (id: 360-news)
+    variant: 360° подмосковье  (id: 360-podmoskovie)
+    variant: lifenews 78  (id: 78kanal)
+
+[romaxa55_russia.m3u] AIST TV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Angel TV Russian (720p)
+    variant: angel tv  (id: angel-tv)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: eroluxe russian  (id: eroluxe-russian)
+
+[romaxa55_russia.m3u] Aris 24 (720p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] Arkhyz 24 (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Astrahan 24 (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Balabol (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Big Asia (720p)
+    variant: clarity4k asia  (id: clarity4k-asia)
+    variant: eroluxe asian  (id: eroluxe-asian)
+    variant: premier sports asia  (id: premier-sport-asia)
+    variant: sky high asian hdr  (id: sky-high-asian-hdr)
+
+[romaxa55_russia.m3u] Blokbaster HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Channel 10 (Russia) (576i)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[romaxa55_russia.m3u] City Eden AutoGid [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden Birma Play [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: eroluxe cosplay  (id: eroluxe-cosplay)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: oneplay sport 1  (id: oneplay-sport-1-cz)
+    variant: oneplay sport 2  (id: oneplay-sport-2-cz)
+
+[romaxa55_russia.m3u] City Eden Classic Music [Not 24/7]
+    variant: 1hd music  (id: 1hd)
+    variant: 1hd music television  (id: 1hd)
+    variant: 4ever music  (id: 4ever-music)
+    variant: a classic  (id: amedia-hit)
+    variant: bg music channel  (id: bg-music-channel)
+
+[romaxa55_russia.m3u] City Eden KinoAction [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoArt [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoAsia [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoDetektiv [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoDok [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoDrama [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoFantastika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoKlassika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoKomediya [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden KinoMistika [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden MedZdrav [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden Play [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: eroluxe cosplay  (id: eroluxe-cosplay)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: oneplay sport 1  (id: oneplay-sport-1-cz)
+    variant: oneplay sport 2  (id: oneplay-sport-2-cz)
+
+[romaxa55_russia.m3u] City Eden Recepty Gurmana [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden Sirtaki TV [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] City Eden TeleNovella [Not 24/7]
+    variant: city tv  (id: city-tv-bg)
+    variant: medeniyyet tv  (id: medeniyyet)
+    variant: tv1.kg bishkek city  (id: tv1-kg-hd)
+    variant: tv1 bishkek city  (id: tv1-kg-hd)
+
+[romaxa55_russia.m3u] Current Time TV (1080p)
+    variant: baby time  (id: baby-time)
+    variant: foodtime  (id: eda-hd)
+    variant: olsib time travel  (id: olsib-timetravel)
+    variant: real time  (id: real-time-it)
+    variant: skyshowtime 1  (id: skyshowtime-1-pl)
+
+[romaxa55_russia.m3u] Dagestan (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Dikaya okhota HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Dikaya rybalka HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Dom kino Premium HD (1080p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: amedia premium  (id: amedia-premium)
+    variant: arena premium 1  (id: arena-premium-1)
+    variant: arena premium 2  (id: arena-premium-2)
+    variant: arena premium 3  (id: arena-premium-3)
+
+[romaxa55_russia.m3u] Drive (576i)
+    variant: eye drive  (id: eye-drive)
+
+[romaxa55_russia.m3u] Dushevnoe HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Eurasia (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Evrokino HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Fashion&LifeStyle (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] FashionTV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Groznyj
+    no variants found
+
+[romaxa55_russia.m3u] Hope Channel Russia (720p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+
+[romaxa55_russia.m3u] Horoshee Kino (720p)
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[romaxa55_russia.m3u] Ingushetia (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Istoki (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Izvestia (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Kapitan Fantastika (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Kinopremyera HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] KN Music TV
+    variant: 1hd music  (id: 1hd)
+    variant: 1hd music television  (id: 1hd)
+    variant: 4ever music  (id: 4ever-music)
+    variant: bg music channel  (id: bg-music-channel)
+    variant: box music  (id: box-music-4k)
+
+[romaxa55_russia.m3u] Komediynoe HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Kongress TV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Krik-TV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Lugansk 24
+    no variants found
+
+[romaxa55_russia.m3u] Maidan (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Mir 24 (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Mir HD (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] MMA-TV.com (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Moskva 24 (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Moy mir (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Moya stikhiya HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] MTV Volgograd (720p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] Muzyka 1 [Not 24/7]
+    variant: kino polska muzyka  (id: kinopolskamuz)
+    variant: kino polska muzyka international  (id: kinopolskamuz-int)
+
+[romaxa55_russia.m3u] Muzyka Kino [Not 24/7]
+    variant: ale kino+  (id: ale-kino-plus)
+    variant: atv kinoman  (id: atv-kinoman)
+    variant: bcu kinorating  (id: bcu-kinorating)
+    variant: bcu kinozakaz  (id: bcu-media)
+    variant: bcu premium kinozakaz hdr  (id: bcu-premium-kinozakaz-4k-hdr)
+
+[romaxa55_russia.m3u] Nashe muzhskoe HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Nevskiy (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] NTM (720p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] NTS (1080p) [Not 24/7]
+    variant: sky high quants  (id: sky-high-quants-fhd)
+
+[romaxa55_russia.m3u] NTV (Russia) HD (1080p)
+    variant: ntv tr  (id: ntv-hd-tr)
+
+[romaxa55_russia.m3u] NTV Vitrina (720p)
+    no variants found
+
+[romaxa55_russia.m3u] NVK Sakha (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] Ohotnik i rybolov (576i)
+    no variants found
+
+[romaxa55_russia.m3u] Ohotnik i rybolov HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Okko Futbol (1080p)
+    variant: futbol tv telekanali  (id: futbol-tv-uz)
+    variant: okko.чемпионат  (id: okko-chemp)
+    variant: okko спорт чемпионат  (id: okko-chemp)
+    variant: okko tv  (id: okko-tv)
+
+[romaxa55_russia.m3u] Osetiya-Iryston (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] OSN
+    no variants found
+
+[romaxa55_russia.m3u] Ostrosyuzhetnoye HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] OTV-Prim
+    no variants found
+
+[romaxa55_russia.m3u] Patriot (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Perviy otdel (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Pervyy Respublikanskiy
+    no variants found
+
+[romaxa55_russia.m3u] Pes (1080p)
+    variant: sky caccia e pesca  (id: sky-caccia-e-pesca)
+
+[romaxa55_russia.m3u] Premialnoe HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Priklyucheniya HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Prima (Russia) (1080p)
+    variant: prima sport 1  (id: prima-sport-1)
+    variant: prima sport 2  (id: prima-sport-2)
+    variant: prima sport 3  (id: prima-sport-3)
+    variant: prima sport 4  (id: prima-sport-4)
+    variant: prima sport 5  (id: prima-sport-5)
+
+[romaxa55_russia.m3u] Prodvizhenie (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Radio Mir (720p)
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[romaxa55_russia.m3u] Radio Rossii (720p)
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[romaxa55_russia.m3u] RT Balkan (1080p)
+    variant: balkanika  (id: balkanika)
+    variant: tlc balkans  (id: tlc-blk)
+
+[romaxa55_russia.m3u] RT Documentary Russian (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: eroluxe russian  (id: eroluxe-russian)
+    variant: fresh russian  (id: fresh-russian)
+
+[romaxa55_russia.m3u] Russia-1 HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Russia-K HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Ryzhiy (576i)
+    no variants found
+
+[romaxa55_russia.m3u] S1 (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] Samara-GIS (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] Sankt-Peterburg HD (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Sever
+    no variants found
+
+[romaxa55_russia.m3u] Shef (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Shokiruyushchee HD (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Skoraya pomoshch (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Smotrim Chestnyy Detektiv (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Sochi24 (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Sochi Live (720p) [Not 24/7]
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: abc news live  (id: abc-news-live-us)
+    variant: астрахань live  (id: astrahan-live)
+    variant: bear tv премьера live ru  (id: bear-tv-premiera-live-ru-uhd)
+    variant: box be on edge 1 live  (id: box-beonedge1live)
+
+[romaxa55_russia.m3u] Solovyov Live (1080p)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: abc news live  (id: abc-news-live-us)
+    variant: астрахань live  (id: astrahan-live)
+    variant: bear tv премьера live ru  (id: bear-tv-premiera-live-ru-uhd)
+    variant: box be on edge 1 live  (id: box-beonedge1live)
+
+[romaxa55_russia.m3u] SONGTV Russia
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[romaxa55_russia.m3u] Strana FM
+    no variants found
+
+[romaxa55_russia.m3u] STS HD (1080p)
+    variant: sky high dusts  (id: sky-high-dusts-fhd)
+
+[romaxa55_russia.m3u] Subbota! (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Surgut 24
+    no variants found
+
+[romaxa55_russia.m3u] Svoyo TV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Tavriya
+    no variants found
+
+[romaxa55_russia.m3u] TeleDom
+    no variants found
+
+[romaxa55_russia.m3u] Telekanal Krasnodar (1080p)
+    variant: bolajon telekanali  (id: bolajon-uz)
+    variant: ftv telekanali  (id: ftv-uz)
+    variant: futbol tv telekanali  (id: futbol-tv-uz)
+    variant: navo telekanali  (id: navo-uz)
+
+[romaxa55_russia.m3u] TKR (1080p) [Not 24/7]
+    no variants found
+
+[romaxa55_russia.m3u] TNT International Belarus (1080p)
+    variant: 1+1 international  (id: 1plus1-int)
+    variant: 360° international  (id: 360-int)
+    variant: 8 канал international  (id: 8kanal-eu)
+    variant: al jazeera international  (id: al-jazeera-int)
+    variant: a first international  (id: amedia1)
+
+[romaxa55_russia.m3u] TNV-Tatarstan (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Tolk (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Tooku (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] TV PRO
+    variant: bear tv abendprogramm de  (id: bear-tv-abendprogramm-de-hd)
+    variant: olsib pro100 kitchen  (id: olsib-pro100kitchen)
+    variant: pro arena  (id: pro-arena)
+    variant: pro business  (id: pro-business)
+    variant: prodеньги  (id: pro-business)
+
+[romaxa55_russia.m3u] U (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Ugra-TV (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Unknown Russia (1080p)
+    variant: bcu premium russian hdr  (id: bcu-premium-rus-4k-hdr)
+    variant: bcu russia 90s  (id: bcu-russia90s)
+    variant: bcu russian  (id: bcu-russian)
+    variant: box russian  (id: box-russian-4k)
+    variant: deutsche welle russia  (id: deutsche-welle-ru)
+
+[romaxa55_russia.m3u] V gostyakh u skazki (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] V mire zhivotnykh (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Vesti FM (720p)
+    variant: crime + investigation  (id: ci-polsat)
+    variant: id investigation discovery eu  (id: id-xtra-eu)
+    variant: id investigation discovery европа  (id: id-xtra-eu)
+
+[romaxa55_russia.m3u] Vitrina TV (720p)
+    no variants found
+
+[romaxa55_russia.m3u] Vmeste-RF
+    no variants found
+
+[romaxa55_russia.m3u] Volga
+    no variants found
+
+[romaxa55_russia.m3u] YaPervyy (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Za! TV
+    no variants found
+
+[romaxa55_russia.m3u] Zhivaya priroda (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Zoopark (576i)
+    no variants found
+
+[romaxa55_russia.m3u] Zvezda Plus HD (1080p)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: astro sports plus  (id: astro-sports-plus)
+    variant: bear tv plus de  (id: bear-tv-plus-de-hd)
+    variant: ducktv plus  (id: ducktv-plus)
+    variant: duck tv plus  (id: ducktv-plus)
+
+[romaxa55_russia.m3u] Astrahan.Ru Sport (720p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[romaxa55_russia.m3u] Channel One (Russia) HD (720p)
+    variant: adult channel  (id: adult-channel)
+    variant: the adult channel  (id: adult-channel)
+    variant: atameken business channel  (id: atameken-business)
+    variant: auto moto sport channel  (id: auto-motor-sport-de)
+    variant: bg music channel  (id: bg-music-channel)
+
+[romaxa55_russia.m3u] Okko Prajm Sport (1080p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[romaxa55_russia.m3u] Okko Sport (1080p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[romaxa55_russia.m3u] Sportivnyy (1080p)
+    no variants found
+
+[romaxa55_russia.m3u] Trace Sport Stars Russia (720p)
+    variant: 5sport gold  (id: 5sport-gold-il)
+    variant: 5sport live  (id: 5sport-live-il)
+    variant: 5sport plus  (id: 5sport-plus-il)
+    variant: 5sport stars  (id: 5sport-stars-il)
+    variant: arena esport  (id: arena-esport-rs)
+
+[romaxa55_russia.m3u] Radio 1 (Russia) (720p) [Geo-blocked]
+    variant: no epg radio  (id: no_epg_radio)
+    variant: olsib radio  (id: olsib-radio)
+    variant: polskie radio 1  (id: polskie-radio1-pl)
+    variant: polskie radio 2  (id: polskie-radio2-pl)
+    variant: radio italia tv  (id: radio-italia-tv-it)
+
+[romaxa55_russia.m3u] Tsargrad TV (1080p) [Geo-blocked]
+    no variants found
+
+[romaxa55_russia.m3u] TV Rain (1080p) [Geo-blocked]
+    variant: ictv ukraine  (id: ictv-ukraine)
+    variant: rainews24  (id: rai-news-it)
+    variant: setanta+ ukraine  (id: setanta-plus-ua)
+    variant: setanta sports+ ukraine  (id: setanta-plus-ua)
+    variant: setanta ukraine  (id: setanta-ua)
+
