@@ -43,6 +43,23 @@ BLOCKED_CHANNELS = [
     "rada",
 ]
 
+WHITELIST = [
+    "channel one", "первый канал", "1tv", "ort",
+    "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
+    "russia-1", "russia 1", "russia1",
+    "россия-1", "россия 1", "россия1",
+    "rossiya-1", "rossiya 1", "rossiya1",
+    "russia-24", "russia 24", "russia24",
+    "россия-24", "россия 24", "россия24",
+    "rossiya-24", "rossiya 24", "rossiya24",
+    "russia-k", "russia k", "россия-к", "россия к",
+    "rossiya-k", "rossiya k", "kultura", "культура",
+    "russia hd", "россия hd", "rossiya hd",
+    "start air", "start-air", "startair",
+    "start world", "start-world", "startworld",
+    "ntv", "нтв",
+]
+
 
 def parse_m3u(text):
     channels = []
@@ -96,6 +113,15 @@ def base_name(extinf):
     return name
 
 
+def is_whitelisted(extinf):
+    name = base_name(extinf)
+    for w in WHITELIST:
+        pattern = r'(?<![a-zа-яё0-9])' + re.escape(w) + r'(?![a-zа-яё0-9])'
+        if re.search(pattern, name):
+            return True
+    return False
+
+
 def is_bad_url(url):
     u = url.lower()
     if re.match(r'^https?://\d+\.\d+\.\d+\.\d+', u):
@@ -142,7 +168,6 @@ def is_blocked(extinf):
 
 
 def load_quality_data():
-    """Загружает список мёртвых каналов от quality_check.py"""
     if not os.path.exists(QUALITY_FILE):
         print("Quality data not found: " + QUALITY_FILE + " (skip filter)")
         return {}
@@ -157,8 +182,10 @@ def load_quality_data():
 
 
 def is_dead_by_quality(extinf, quality_data):
-    """Проверяет, помечен ли канал как мёртвый в quality_data.json"""
     if not quality_data:
+        return False
+    # Whitelist никогда не удаляется — защита на уровне combine
+    if is_whitelisted(extinf):
         return False
     name = base_name(extinf)
     entry = quality_data.get(name)
@@ -184,33 +211,34 @@ def main():
 
     print("Total before filter: " + str(len(all_channels)))
 
-    # 1. Детские
     non_kids = [ch for ch in all_channels if not is_kids(ch["extinf"])]
     dropped_kids = len(all_channels) - len(non_kids)
     print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
 
-    # 2. Заблокированные
     non_blocked = [ch for ch in non_kids if not is_blocked(ch["extinf"])]
     dropped_blocked = len(non_kids) - len(non_blocked)
     print("After blocked filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ")")
 
-    # 3. Мёртвые по данным Quality Check
     quality_data = load_quality_data()
     non_dead = []
     dropped_dead = 0
+    whitelist_protected = 0
     dropped_dead_names = []
     for ch in non_blocked:
+        if is_whitelisted(ch["extinf"]):
+            whitelist_protected += 1
+            non_dead.append(ch)
+            continue
         if is_dead_by_quality(ch["extinf"], quality_data):
             dropped_dead += 1
             if len(dropped_dead_names) < 10:
                 dropped_dead_names.append(get_name(ch["extinf"]))
         else:
             non_dead.append(ch)
-    print("After quality filter: " + str(len(non_dead)) + " (dropped dead: " + str(dropped_dead) + ")")
+    print("After quality filter: " + str(len(non_dead)) + " (dropped dead: " + str(dropped_dead) + ", whitelist protected: " + str(whitelist_protected) + ")")
     if dropped_dead_names:
         print("  Removed by quality: " + ", ".join(dropped_dead_names))
 
-    # 4. Дедуп
     best = {}
     for ch in non_dead:
         key = base_name(ch["extinf"])
@@ -225,7 +253,6 @@ def main():
     dropped_dups = len(non_dead) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped dups: " + str(dropped_dups) + ")")
 
-    # Сортировка
     def sort_key(ch):
         group = get_group(ch["extinf"]) or "zzz"
         return (group, get_name(ch["extinf"]).lower())
@@ -255,6 +282,7 @@ def main():
     print("Детских удалено: " + str(dropped_kids))
     print("Заблокированных удалено: " + str(dropped_blocked))
     print("Мёртвых по Quality удалено: " + str(dropped_dead))
+    print("Whitelist защищено: " + str(whitelist_protected))
     print("Дублей удалено: " + str(dropped_dups))
     print("В финале: " + str(len(deduped)))
 
