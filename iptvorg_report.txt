@@ -1,29 +1,31 @@
 # IPTV-org RUS Report
 
-Date: 2026-09-23 23:06 UTC
+Date: 2026-09-24 05:16 UTC
 
 ## Funnel
-- Total in source: 669
-- After quality (>= 720p): 432 (dropped 237)
-- After URL cleanup: 311 (dropped 121)
-- After dedup: 305 (dropped 6)
-- Whitelist (skip check): 12
+- Total in source: 672
+- After quality (>= 720p): 433 (dropped 239)
+- After URL cleanup: 297 (dropped 136)
+- After dedup: 291 (dropped 6)
+- Whitelist (skip check): 11
 - Geo-blocked (auto-include): 10
-- To check: 283
-- Alive checked: 233
-- Stable in playlist: 255
-- Filtered as unstable: 0
-- Too new (collecting stats): 233
+- To check: 270
+- Alive checked: 212
+- Stable in playlist: 229
+- Filtered as unstable: 4
+- Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
-## Dead today (50)
+## Dead today (58)
 
 - 15+ Music (1080p) | conn_error
 - Afontovo | conn_error
 - alpha Cinema (1080p) | conn_error
+- Arkhyz 24 (1080p) | timeout
 - Arktika 24 (1080p) | conn_error
 - ARTN TV (1080p) [Not 24/7] | http_403
+- Belarus-3 HD (1080p) [Not 24/7] | conn_error
 - Belarus-4 Gomel | http_404
 - Black Sea TV | http_404
 - CGTN Russian (1080p) | http_404
@@ -33,6 +35,8 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Don 24 (1080p) | http_403
 - Exclusiv TV | err_InvalidSchema
 - Kino 24 (720p) | conn_error
+- Kongress TV (1080p) | conn_error
+- Krik-TV (1080p) | timeout
 - Legendarnyy 24 | conn_error
 - LenTV24 | html_page
 - Millet (720p) | conn_error
@@ -44,6 +48,9 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Osh Pirim (1080p) [Not 24/7] | conn_error
 - Perviy Krymskiy (720p) | conn_error
 - Qonaev Media | timeout
+- Rossiya 1 Vainah (576i) | timeout
+- RT Balkan (1080p) | conn_error
+- RT Documentary Russian (1080p) | conn_error
 - RU.TV Kids (720p) | http_403
 - Russia-1 (1080p) | conn_error
 - Russia-1 +4 (1080p) | conn_error
@@ -61,7 +68,8 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Sibir 24 (1080p) | conn_error
 - Sibir 24 KYA (1080p) | conn_error
 - Simferopol 24 | conn_error
-- Start Triumf | http_403
+- Start Triumf | timeout
+- TV8 (Moldova) [Not 24/7] | too_short_response
 - TV15 (1080p) [Not 24/7] | conn_error
 - Ural 24 (1080p) | conn_error
 - Vera 24 | conn_error
@@ -69,3 +77,10 @@ Thresholds: min quality 720p, min checks 3, uptime >= 70%
 - Volgograd 24 (1080p) | conn_error
 - Vostok 24 (1080p) | conn_error
 - Zapad 24 (1080p) | conn_error
+
+## Filtered as unstable (4)
+
+- Belarus-2 HD (1080p) | uptime 66.7% (2/3)
+- City Eden TV [Not 24/7] | uptime 66.7% (2/3)
+- SONGTV Russia | uptime 66.7% (2/3)
+- TV PRO | uptime 66.7% (2/3)
