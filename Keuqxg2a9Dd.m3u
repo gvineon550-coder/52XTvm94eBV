@@ -458,3 +458,6 @@ http://kinowalk.hopto.org/film4khdclub_live
 
 #EXTINF:-1 tvg-id="paranormal404" tvg-name="ПАРАНОРМАЛЬНЫЙ АРХИВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/paranormal404_live.jpg" group-title="Kinowalk",ПАРАНОРМАЛЬНЫЙ АРХИВ
 http://kinowalk.hopto.org/paranormal404_live
+
+#EXTINF:-1 tvg-id="johan_grohan_live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/johan_grohan_live.jpg" group-title="Kinowalk",Johan Grohan Live
+http://kinowalk.hopto.org/johan_grohan_live
