@@ -15,6 +15,7 @@ WORKFLOWS = [
     ("iptvorg.yml", "IPTV-org RUS"),
     ("ufotv.yml", "UFOTV"),
     ("fix_epg.yml", "Fix EPG IDs"),
+    ("combine.yml", "Combine Playlists"),
 ]
 
 
