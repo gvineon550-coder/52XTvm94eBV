@@ -1,255 +1,255 @@
 {
   "первый": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "россия 1": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "нтв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "россия 24": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "известия": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "москва 24": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rt doc": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "рен тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tht": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "стс": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "тв3": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "пятница": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "суббота": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "че!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "домашний": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "ю": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "твц": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "россия k": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "пятый канал": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "8 канал": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "отр": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "звезда": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "звезда+": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мир": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мир 24": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "соловьев.live": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "харьков z": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "крик-тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rutube tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "ctc love": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tht4": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "тнт 4": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "продвижение": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "русский экстрим": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "квн тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "gagsnetwork": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "драйв": {
     "checks": 1,
@@ -259,11 +259,11 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "телекафе": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "вопросы и ответы": {
     "checks": 1,
@@ -273,24 +273,24 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "время": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "диалоги о рыбалке": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "зал суда": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "здоровое тв": {
@@ -301,130 +301,130 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "кто куда": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "наша тема": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "оружие": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "мужской": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "поехали!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "рыбалка и охота": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "авто 24": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кухня тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "wf мода": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "аппетитный": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "бобер": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "залипательные ролики": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "eurosport1": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "eurosport2": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "матч!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "матч! премьер": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "setanta sports 1": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "setanta sports 2": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "trace sport stars": {
     "checks": 1,
@@ -434,332 +434,332 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "удар": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "mma-tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "khl": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кхл тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nhl network": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "матч! арена": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "extreme sports": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "овертайм тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nba tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "sky sports premier league": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amedia 1": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amedia 2": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amedia hit": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amedia premium": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tv1000": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tv1000 action": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tv1000 русское": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tv1000 romantica": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "vip comedy": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vip megahit": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vip premiere": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vip serial": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "дом кино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "дом кино premium": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   ".sci-fi": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "start air": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинопремьера": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "киносемья": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинохит": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мужское кино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинокомедия": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "киноужас": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "наше новое кино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vhs-ка": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "vhs-ка сериал": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "наш кинопоказ": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "комедийное": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "остросюжетное": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "премиальное": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "шокирующее": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "flixsnip": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "еврокино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "нтв хит": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мосфильм. золотая коллекция": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "киносат": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "победа": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "феникс+кино": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "т24": {
@@ -770,200 +770,200 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "тв21": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "нст": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "plan b": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинотв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "блокбастер": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "хит": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fan": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "sumiko": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "bolt": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kion хит": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "кино и жизнь": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинолаффка": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "apple tv+action time": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "apple tv+woman's story": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amazon prime video mans' club": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "amazon prime video romance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "твой кинотеатр": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "звездные войны": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "гарри поттер": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "marvel": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "discovery channel": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "history": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "viju+ planet": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nat geo wild": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "national geographic": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "viasat explore": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "visast history": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "viasat nature": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "домашние животные": {
     "checks": 1,
@@ -973,81 +973,81 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "зоопарк": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "тайны галактики": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "big planet": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tlc": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "неизвестная планета": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "живая природа": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "love nature": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "hgtv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "epic": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "приключения": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "ocean tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "insight tv": {
     "checks": 1,
@@ -1057,25 +1057,25 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "солнце": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "детский мир": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "2x2": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "в гостях у сказки": {
     "checks": 1,
@@ -1085,18 +1085,18 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "cartoonito": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "о!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nick jr": {
     "checks": 1,
@@ -1120,46 +1120,46 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "tiji": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мульт": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мультиландия": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "лёва": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "da vinci": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "лапки live": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "english club tv": {
     "checks": 1,
@@ -1169,130 +1169,130 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "стс kids": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "канал disney онлайн": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "foxkids remastered": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "jtx online": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "советские мультфильмы": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "том и джерри": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "niknik-tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "deluxe music": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "v2beat": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "radio m2o": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "mm tb rut": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kiss tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "bridge tv fresh": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "муз тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "ru.tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "mezzo": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fon music": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "шансон тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "музыка первого": {
     "checks": 1,
@@ -1302,1746 +1302,1746 @@
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "city tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tmf rus": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "technodancemusic": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "kronehit": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "viva russia": {
-    "checks": 1,
+    "checks": 2,
     "success": 1,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": "2026-09-24 01:17 UTC"
   },
   "viva russia rut": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "europa plus tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "deejay tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record megamix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "edm mainstage": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "retrohits": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "vb русская танцевальная попса 80х-90х": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vb mtv old россия": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vb eurodance hits of 90s & dance hits of 90s": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vb greatest hits & romantic and ballads": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "скрипач тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "selecaotv фильм": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "selecaotv сериал": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kino mix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vhs forever": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "videoarsenal": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fantasticmistyc": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "фильмач": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "epic media love": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "epic media plus": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kino walk": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tv series": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "tdm kino": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "vb всё в одном": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vb российские сериалы": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kinojam": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "akudjitv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "доктор хаус(swat2k)": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "video_prokat": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "movietoper": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "timetohorror": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "timetomovie": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "blockbusters time": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dimpon tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "малдер всё тв": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kinolampa": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "play 4 fun": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kinofon": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "alex.films": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "alexvira": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "zubrilomfilm": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "аpricus live": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "тоха киноман": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "коновал тв": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "neovision tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "re_boot": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кино кино кино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинотеатр без билетов": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинотека full_": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кино05": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "aisman": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "lampotv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "игрун 1997": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "video channel": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "wfliq": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "snoochies boochies": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "комедии 24/7": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "эквилибриум": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "romeo video": {
-    "checks": 1,
+    "checks": 2,
     "success": 0,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
+    "last_check": "2026-09-24 01:42 UTC",
     "last_ok": null
   },
   "maksim films": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "serialtv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "мы из 90-х": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "назад в ссср": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "у края бездны 24/7": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "inmuna live": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "тоха стрим": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "не кино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "solo ink": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "topmoment live": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kinopro": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "baragozz_tv": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "𝕂𝔸ℂℂ𝔼𝕋𝔸": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "первый ряд": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "chowamigo": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "kycman мульт": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dj zour": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% праздник": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% классика": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% любовь": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% мужское": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим честный детектив": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% факты": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "смотрим 100% детское": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "киномистика": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "кинофантастика": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "киноэкшен": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh cinema": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh premiere": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh comedy": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh family": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh rating": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh vhs": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh fantastic": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh series": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh horror": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh adventure": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh romantic": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh thriller": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "fresh kids": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "bcu ссср": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman premium": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman top": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman action": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman thriller": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman мелодрама": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman marvel": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman ужасы": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman комедия": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman vhs": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman рукино": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman miniseries": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman криминальные сериалы": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman комедийные сериалы": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman сваты": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman катастрофы": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman ментовские войны": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman пёс + лихач": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman лесник": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman скорая помощь": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman фитнес": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman relax": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman симпсоны": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman cartoons 90": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman cartoons short": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "cineman cartoons big": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "2-step": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "10's dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "60's dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "70's dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "a state of trance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "afro house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "ambient": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "armin van buuren": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "bass house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "beach party": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "big hits": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "black rap": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "breaks": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "chill house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "chill-out": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "christmas chill": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "christmas": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "complextro": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "d'n'b classics": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dj gvozd": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dj цветкоff": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dancecore": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "darkside": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "david guetta": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "deep": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "disco/funk": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dream dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dream pop": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "dubstep": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "edm classics": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "edm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "electro": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "eurodance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "feel": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "festivals": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "future bass": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "future house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "future rave": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "goa/psy": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "groove/tribal": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "hard bass": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "hardstyle": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "house classics": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "house hits": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "hypnotic": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "innocence": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "jungle": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "lady waks": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "latina dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "liquid funk": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "lo-fi house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "lo-fi": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "martin garrix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "mashup": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "megamix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "melodic techno": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "midtempo": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "minimal/tech": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "moombahton": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nejtrino & baur": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "neurofunk": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "nu dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "old school": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "oliver heldens": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "organic": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "party 24/7": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "phonk": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "pirate station": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "progressive": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rap classics": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rap hits": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rave fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record 80-х": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record classix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record club show": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record gold": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "record": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "reggae": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "remix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "rock": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "russian gold": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "russian hits": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "russian mix": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "summer dance": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "summer lounge": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "synthwave": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "top 100 edm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tech house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "techno": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "technopop": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tecktonik": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tiesto": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "trance classics": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "trancehouse": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "trancemission": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "trap": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "tropical": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "uk garage": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "ultra music festival": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "uplifting": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "vip house": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "workout": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "веснушка fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "гастарбайтер fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "гоп fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "колбасный цех": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "маятник фуко": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "медляк fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "на хайпе": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "на шашлыки!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "нафталин fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "рекорд 00-х": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "руки вверх!": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "русская зима": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "симфония fm": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "сказки mc v": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "супердискотека 90-х": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   },
   "хиты всех времен": {
-    "checks": 1,
-    "success": 1,
+    "checks": 2,
+    "success": 2,
     "first_seen": "2026-09-24 01:17 UTC",
-    "last_check": "2026-09-24 01:17 UTC",
-    "last_ok": "2026-09-24 01:17 UTC"
+    "last_check": "2026-09-24 01:42 UTC",
+    "last_ok": "2026-09-24 01:42 UTC"
   }
 }
