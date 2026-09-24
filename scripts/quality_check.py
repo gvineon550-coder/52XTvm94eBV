@@ -13,6 +13,7 @@ MSK = timezone(timedelta(hours=3))
 PLAYLIST_FILE = "all_channels.m3u"
 REPORT_FILE = "quality_report.txt"
 CSV_FILE = "quality_results.csv"
+QUALITY_FILE = "quality_data.json"
 
 FFPROBE_TIMEOUT = 15
 MAX_WORKERS = 5
@@ -21,6 +22,9 @@ BATCH_SLEEP = 20
 
 MIN_UPTIME = 0.9
 MIN_CHECKS = 5
+
+# Порог битрейта: ниже — считаем поток плохим и отсеиваем
+MIN_BITRATE_MBPS = 0.3
 
 STATS_FILES = [
     "romaxa55_stats.json",
@@ -52,18 +56,33 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 def send_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("Telegram secrets not set, skipping")
-        return
+        return False
     url = "https://api.telegram.org/bot" + TELEGRAM_BOT_TOKEN + "/sendMessage"
     try:
-        requests.post(url, json={
+        r = requests.post(url, json={
             "chat_id": TELEGRAM_CHAT_ID,
             "text": message,
             "parse_mode": "HTML",
             "disable_web_page_preview": True,
         }, timeout=15)
-        print("Telegram sent")
+        if r.status_code == 200:
+            print("Telegram sent (200)")
+            return True
+        print("Telegram HTML failed: " + str(r.status_code) + " - " + r.text[:300])
+
+        r2 = requests.post(url, json={
+            "chat_id": TELEGRAM_CHAT_ID,
+            "text": message,
+            "disable_web_page_preview": True,
+        }, timeout=15)
+        if r2.status_code == 200:
+            print("Telegram sent (plain text fallback)")
+            return True
+        print("Telegram fallback failed: " + str(r2.status_code) + " - " + r2.text[:300])
+        return False
     except Exception as e:
         print("Telegram error: " + str(e))
+        return False
 
 
 def parse_m3u(text):
@@ -166,7 +185,6 @@ def filter_channels():
 
 
 def check_url_with_ffprobe(url):
-    """Запускает ffprobe на URL. Возвращает dict с данными или ошибкой."""
     cmd = [
         "ffprobe",
         "-v", "quiet",
@@ -262,7 +280,6 @@ def check_url_with_ffprobe(url):
 
 
 def run_checks_in_batches(channels):
-    """Проверяет каналы батчами с паузами. Возвращает список результатов."""
     batches = []
     for i in range(0, len(channels), BATCH_SIZE):
         batches.append(channels[i:i + BATCH_SIZE])
@@ -306,13 +323,50 @@ def write_csv(results):
             writer.writerow(r)
 
 
+def write_quality_data(results):
+    """Сохраняет мёртвые и плохие каналы в JSON для combine.py"""
+    now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+    data = {}
+    for r in results:
+        key = r["name"].lower().strip()
+        # Очищаем имя так же, как base_name в combine
+        key = re.sub(r'\(?\s*(FHD|UHD|HD|SD|4K)\s*\)?', '', key, flags=re.IGNORECASE)
+        key = re.sub(r'\(?\s*\d{3,4}p\s*\)?', '', key, flags=re.IGNORECASE)
+        key = re.sub(r'\[[^\]]*\]', '', key)
+        key = re.sub(r'\s+', ' ', key).strip()
+
+        entry = {
+            "status": r["status"],
+            "last_check": now_iso,
+        }
+        if r["status"] == "dead":
+            entry["reason"] = r.get("error", "unknown")
+            entry["action"] = "remove"
+        else:
+            br = r.get("bitrate_mbps", 0)
+            if br > 0 and br < MIN_BITRATE_MBPS:
+                entry["reason"] = "low_bitrate_" + str(br)
+                entry["action"] = "remove"
+            else:
+                continue  # живые и качественные не пишем
+
+        data[key] = entry
+
+    with open(QUALITY_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("Quality data saved: " + str(len(data)) + " entries to remove")
+    return data
+
+
 def analyze(results):
     total = len(results)
     alive = [r for r in results if r["status"] == "alive"]
     dead = [r for r in results if r["status"] != "alive"]
 
     low_fps = [r for r in alive if r.get("fps", 0) > 0 and r.get("fps", 0) < 29]
-    low_bitrate = [r for r in alive if r.get("bitrate_mbps", 0) > 0 and r.get("bitrate_mbps", 0) < 1.0]
+    low_bitrate = [r for r in alive if 0 < r.get("bitrate_mbps", 0) < 1.0]
     low_res = [r for r in alive if r.get("resolution") in ("480p", "576p", "?")]
 
     return {
@@ -336,11 +390,11 @@ def main():
     selected, filter_stats = filter_channels()
 
     if "error" in filter_stats:
-        send_telegram("❌ <b>Quality Check</b>\n" + filter_stats["error"])
+        send_telegram("❌ Quality Check\n" + filter_stats["error"])
         return
 
     if len(selected) == 0:
-        send_telegram("⚠️ <b>Quality Check</b>\nНет каналов для проверки")
+        send_telegram("⚠️ Quality Check\nНет каналов для проверки")
         return
 
     print("Проверяем " + str(len(selected)) + " каналов через ffprobe")
@@ -352,37 +406,33 @@ def main():
     write_csv(results)
     print("CSV записан: " + CSV_FILE)
 
+    quality_data = write_quality_data(results)
+
     stats = analyze(results)
 
     msg = []
-    msg.append("🔬 <b>Quality Check — еженедельный отчёт</b>")
+    msg.append("🔬 Quality Check — еженедельный отчёт")
     msg.append("")
     msg.append("🕐 " + now_msk + " (за " + str(elapsed) + " мин)")
     msg.append("")
-    msg.append("📊 <b>Отобрано для проверки:</b>")
-    msg.append("• Всего в all_channels: " + str(filter_stats["total_in_playlist"]))
+    msg.append("📊 Проверено: " + str(filter_stats["selected"]) + " каналов")
     msg.append("• Whitelist: " + str(filter_stats["whitelist_count"]))
-    msg.append("• Стабильные (uptime ≥" + str(int(MIN_UPTIME * 100)) + "%): " + str(filter_stats["stable_count"]))
-    msg.append("• <b>Проверено: " + str(filter_stats["selected"]) + "</b>")
+    msg.append("• Стабильные: " + str(filter_stats["stable_count"]))
     msg.append("")
-    msg.append("🔬 <b>Результат:</b>")
+    msg.append("🔬 Результат:")
     msg.append("✅ Живых: " + str(stats["alive"]))
-    msg.append("❌ Мёртвых: <b>" + str(stats["dead"]) + "</b>")
+    msg.append("❌ Мёртвых: " + str(stats["dead"]))
     msg.append("⚠️ Низкий битрейт (<1 Мбит/с): " + str(stats["low_bitrate"]))
     msg.append("🐢 Низкий FPS (<29): " + str(stats["low_fps"]))
     msg.append("📺 SD-разрешение: " + str(stats["low_res"]))
+    msg.append("")
+    msg.append("🗑 <b>К удалению из all_channels: " + str(len(quality_data)) + "</b>")
 
     if stats["dead_list"]:
         msg.append("")
-        msg.append("💀 <b>Упали:</b>")
+        msg.append("💀 Топ-5 мёртвых:")
         for r in stats["dead_list"][:5]:
-            msg.append("• " + r["name"] + " — <i>" + r.get("error", "?") + "</i>")
-
-    if stats["low_bitrate_list"]:
-        msg.append("")
-        msg.append("⚠️ <b>Низкий битрейт:</b>")
-        for r in stats["low_bitrate_list"][:5]:
-            msg.append("• " + r["name"] + " — " + str(r.get("bitrate_mbps", 0)) + " Мбит/с")
+            msg.append("• " + r["name"] + " — " + r.get("error", "?"))
 
     send_telegram("\n".join(msg))
 
