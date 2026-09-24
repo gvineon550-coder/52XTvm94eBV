@@ -77,6 +77,13 @@ WHITELIST = [
     "russia",
     "россия",
     "rossiya",
+    # START
+    "start air",
+    "start-air",
+    "startair",
+    "start world",
+    "start-world",
+    "startworld",
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
@@ -268,6 +275,22 @@ def save_stats(stats):
         json.dump(stats, f, ensure_ascii=False, indent=2)
 
 
+def choose_best_whitelist(channels):
+    """Для каждого base_name выбрать лучший вариант:
+    1) сначала приоритет чистого URL (не bad),
+    2) потом по качеству."""
+    best = {}
+    for ch in channels:
+        key = base_name(ch["extinf"])
+        q = get_quality(ch["extinf"])
+        bad, _ = is_bad_url(ch["url"])
+        # score: (чистота_url, качество). Чистый URL важнее.
+        score = (0 if bad else 1, q)
+        if key not in best or score > best[key][0]:
+            best[key] = (score, ch)
+    return [v[1] for v in best.values()]
+
+
 def main():
     print("Downloading: " + SOURCE_URL)
     try:
@@ -282,9 +305,16 @@ def main():
     all_channels = parse_m3u(text)
     print("Total in source: " + str(len(all_channels)))
 
+    # === ШАГ 1: отделяем whitelist ДО всех фильтров ===
+    whitelist_all = [ch for ch in all_channels if is_whitelisted(ch["extinf"])]
+    non_whitelist = [ch for ch in all_channels if not is_whitelisted(ch["extinf"])]
+    print("Whitelist (found in source): " + str(len(whitelist_all)))
+    print("Non-whitelist: " + str(len(non_whitelist)))
+
+    # === ШАГ 2: обрабатываем не-whitelist как раньше ===
     after_quality = []
     dropped_quality = 0
-    for ch in all_channels:
+    for ch in non_whitelist:
         if get_quality(ch["extinf"]) >= MIN_QUALITY:
             after_quality.append(ch)
         else:
@@ -310,16 +340,18 @@ def main():
 
     deduped = list(best_by_name.values())
     dropped_dups = len(after_clean) - len(deduped)
-    print("After dedup: " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
+    print("After dedup (non-whitelist): " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
 
-    whitelist_channels = []
+    # === ШАГ 3: whitelist - только дедуп, никаких фильтров ===
+    whitelist_channels = choose_best_whitelist(whitelist_all)
+    print("Whitelist after dedup: " + str(len(whitelist_channels)))
+
+    # === ШАГ 4: из non-whitelist отделяем geo и check ===
     geo_channels = []
     check_channels = []
 
     for ch in deduped:
-        if is_whitelisted(ch["extinf"]):
-            whitelist_channels.append(ch)
-        elif is_geo_blocked(ch["extinf"]):
+        if is_geo_blocked(ch["extinf"]):
             geo_channels.append(ch)
         else:
             check_channels.append(ch)
@@ -327,7 +359,6 @@ def main():
     for ch in geo_channels:
         ch["extinf"] = mark_geo(ch["extinf"])
 
-    print("Whitelist (skip check): " + str(len(whitelist_channels)))
     print("Geo-blocked: " + str(len(geo_channels)))
     print("To check: " + str(len(check_channels)))
 
@@ -385,9 +416,12 @@ def main():
         else:
             unstable.append(ch)
 
+    # Финальная сборка: stable от проверенных + whitelist + geo
     stable = stable + whitelist_channels + geo_channels
 
     print("Stable: " + str(len(stable)))
+    print("  из них whitelist: " + str(len(whitelist_channels)))
+    print("  из них geo: " + str(len(geo_channels)))
     print("Unstable: " + str(len(unstable)))
     print("Too new: " + str(new_channels))
 
@@ -426,10 +460,12 @@ def main():
     report.append("")
     report.append("## Funnel")
     report.append("- Total in source: " + str(len(all_channels)))
+    report.append("- Whitelist (found in source, BEFORE filters): " + str(len(whitelist_all)))
+    report.append("- Non-whitelist: " + str(len(non_whitelist)))
     report.append("- After quality (>= " + str(MIN_QUALITY) + "p): " + str(len(after_quality)) + " (dropped " + str(dropped_quality) + ")")
     report.append("- After URL cleanup: " + str(len(after_clean)) + " (dropped " + str(dropped_mud) + ")")
     report.append("- After dedup: " + str(len(deduped)) + " (dropped " + str(dropped_dups) + ")")
-    report.append("- Whitelist (skip check): " + str(len(whitelist_channels)))
+    report.append("- Whitelist after dedup: " + str(len(whitelist_channels)))
     report.append("- Geo-blocked (auto-include): " + str(len(geo_channels)))
     report.append("- To check: " + str(len(check_channels)))
     report.append("- Alive checked: " + str(len(alive_checked)))
@@ -438,6 +474,8 @@ def main():
     report.append("- Too new (collecting stats): " + str(new_channels))
     report.append("")
     report.append("Thresholds: min quality " + str(MIN_QUALITY) + "p, min checks " + str(MIN_CHECKS) + ", uptime >= " + str(int(MIN_UPTIME * 100)) + "%")
+    report.append("")
+    report.append("Whitelist channels are included REGARDLESS of quality, URL, uptime.")
     report.append("")
 
     if dead_today:
@@ -470,8 +508,8 @@ def main():
     msg_lines.append("🕐 " + now_msk)
     msg_lines.append("")
     msg_lines.append("✅ В плейлисте: <b>" + str(len(stable)) + "</b>")
-    msg_lines.append("🌍 Geo-blocked: " + str(len(geo_channels)))
     msg_lines.append("⭐ Whitelist: " + str(len(whitelist_channels)))
+    msg_lines.append("🌍 Geo-blocked: " + str(len(geo_channels)))
     msg_lines.append("❌ Мёртвых сегодня: <b>" + str(len(dead_today)) + "</b>")
     msg_lines.append("⚠️ Нестабильных (отсеяно): " + str(len(unstable)))
     msg_lines.append("🆕 Новых (собираем статистику): " + str(new_channels))
