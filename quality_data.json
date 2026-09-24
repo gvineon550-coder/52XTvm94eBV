@@ -1,4 +1,58 @@
 {
+  "rtr-planeta asia": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "dw russian": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "city eden kinodetektiv": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "city eden kinomistika": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "current time tv": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "ntv (russia)": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "tavriya": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
+  "tdk 42": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "ffprobe_rc_1",
+    "action": "remove"
+  },
+  "нтв": {
+    "status": "dead",
+    "last_check": "2026-09-24 20:15 UTC",
+    "reason": "timeout",
+    "action": "remove"
+  },
   "russia-k +2": {
     "status": "dead",
     "last_check": "2026-09-24 18:48 UTC",
