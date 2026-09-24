@@ -19,7 +19,7 @@ MIN_CHECKS = 3
 MIN_UPTIME = 0.7
 
 BAD_PORTS = {":8080", ":8000", ":9999", ":8888"}
-BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga")
+BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga", "cinerama.uz")
 
 WHITELIST = [
     "pervy", "rossia1", "rossia-24", "ntv", "tnt", "sts", "tv3", "piatnica",
@@ -129,7 +129,7 @@ def is_bad_url(url):
         if port in u:
             return True, "bad_port" + port
     for dom in BAD_DOMAINS:
-        if dom + "/" in u or dom + ":" in u:
+        if dom + "/" in u or dom + ":" in u or dom + "?" in u:
             return True, "bad_domain" + dom
     return False, ""
 
