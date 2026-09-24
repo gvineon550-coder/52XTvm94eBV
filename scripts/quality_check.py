@@ -22,8 +22,6 @@ BATCH_SLEEP = 20
 
 MIN_UPTIME = 0.9
 MIN_CHECKS = 5
-
-# Порог битрейта: ниже — считаем поток плохим и отсеиваем
 MIN_BITRATE_MBPS = 0.3
 
 STATS_FILES = [
@@ -324,39 +322,56 @@ def write_csv(results):
 
 
 def write_quality_data(results):
-    """Сохраняет мёртвые и плохие каналы в JSON для combine.py"""
+    """Сохраняет мёртвые каналы в JSON. Объединяет со старыми (макс 30 дней)."""
     now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    now_dt = datetime.now(timezone.utc)
 
+    existing = {}
+    if os.path.exists(QUALITY_FILE):
+        try:
+            with open(QUALITY_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+        except Exception as e:
+            print("Quality file load error: " + str(e))
+
+    checked_keys = set()
     data = {}
+
     for r in results:
-        key = r["name"].lower().strip()
-        # Очищаем имя так же, как base_name в combine
-        key = re.sub(r'\(?\s*(FHD|UHD|HD|SD|4K)\s*\)?', '', key, flags=re.IGNORECASE)
+        raw = r["name"].lower().strip()
+        key = re.sub(r'\(?\s*(FHD|UHD|HD|SD|4K)\s*\)?', '', raw, flags=re.IGNORECASE)
         key = re.sub(r'\(?\s*\d{3,4}p\s*\)?', '', key, flags=re.IGNORECASE)
         key = re.sub(r'\[[^\]]*\]', '', key)
         key = re.sub(r'\s+', ' ', key).strip()
+        checked_keys.add(key)
 
-        entry = {
-            "status": r["status"],
-            "last_check": now_iso,
-        }
         if r["status"] == "dead":
-            entry["reason"] = r.get("error", "unknown")
-            entry["action"] = "remove"
-        else:
-            br = r.get("bitrate_mbps", 0)
-            if br > 0 and br < MIN_BITRATE_MBPS:
-                entry["reason"] = "low_bitrate_" + str(br)
-                entry["action"] = "remove"
-            else:
-                continue  # живые и качественные не пишем
+            entry = {
+                "status": "dead",
+                "last_check": now_iso,
+                "reason": r.get("error", "unknown"),
+                "action": "remove",
+            }
+            data[key] = entry
 
-        data[key] = entry
+    kept_old = 0
+    for key, entry in existing.items():
+        if key in checked_keys:
+            continue
+        last_check_str = entry.get("last_check", "")
+        try:
+            last_check_dt = datetime.strptime(last_check_str, "%Y-%m-%d %H:%M UTC").replace(tzinfo=timezone.utc)
+            age_days = (now_dt - last_check_dt).days
+            if age_days <= 30:
+                data[key] = entry
+                kept_old += 1
+        except Exception:
+            pass
 
     with open(QUALITY_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print("Quality data saved: " + str(len(data)) + " entries to remove")
+    print("Quality data saved: " + str(len(data)) + " entries (kept old: " + str(kept_old) + ")")
     return data
 
 
@@ -426,7 +441,7 @@ def main():
     msg.append("🐢 Низкий FPS (<29): " + str(stats["low_fps"]))
     msg.append("📺 SD-разрешение: " + str(stats["low_res"]))
     msg.append("")
-    msg.append("🗑 <b>К удалению из all_channels: " + str(len(quality_data)) + "</b>")
+    msg.append("🗑 К удалению из all_channels: " + str(len(quality_data)))
 
     if stats["dead_list"]:
         msg.append("")
