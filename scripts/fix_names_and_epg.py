@@ -8,24 +8,23 @@ import requests
 EPG_URL = "https://iptvx.one/epg/epg_lite.xml.gz"
 PLAYLIST = "all_channels.m3u"
 EPG_PLAYLIST_URL = 'url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"'
+NOT_FOUND_FILE = "not_found_in_epg.txt"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-# URL-паттерны: НЕ трогаем эти каналы (kinowalk, rutube, нтв-сериалы)
 SKIP_URL_PATTERNS = [
     "kinowalk.hopto.org",
     "bl.rutube.ru",
     "cdn-dvr.ntv.ru",
 ]
 
-# Ручные исключения: имена, которые НЕ переименовывать (если автопоиск ошибся)
 FORCE_SKIP = [
-    "мир",     # слишком общее
-    "360°",    # разные 360
+    "мир",
+    "360°",
+    "fresh ",
 ]
 
 
 def normalize(name):
-    """Приводит название к единому виду для поиска."""
     if not name:
         return ""
     n = name.lower().strip()
@@ -33,7 +32,7 @@ def normalize(name):
     n = re.sub(r'\([^)]*\)', '', n)
     n = re.sub(r'\[[^\]]*\]', '', n)
     n = re.sub(r'\b(hd|fhd|uhd|sd|4k|1080p|720p|576p|480p|1080i|576i|480i)\b', '', n)
-    n = re.sub(r'[\u2500-\u27bf\u2b00-\u2bff]', '', n)   # убираем разные символы
+    n = re.sub(r'[\u2500-\u27bf\u2b00-\u2bff]', '', n)
     n = re.sub(r'\s+', ' ', n).strip()
     return n
 
@@ -50,7 +49,6 @@ def download_epg():
 
 
 def build_epg_db(data):
-    """Словарь: нормализованное имя -> (tvg_id, оригинальное имя)."""
     epg_db = {}
     count = 0
     print("Parsing EPG...")
@@ -66,10 +64,8 @@ def build_epg_db(data):
                 count += 1
                 if count % 1000 == 0:
                     print("  parsed " + str(count) + " channels")
-            # Очищаем channel ПОСЛЕ обработки
             elem.clear()
         elif elem.tag == "programme":
-            # programme не нужен — сразу очищаем чтобы не копить в памяти
             elem.clear()
 
     print("Total EPG channels: " + str(count) + ", unique names: " + str(len(epg_db)))
@@ -138,7 +134,7 @@ def main():
     renamed = 0
     skipped_url = 0
     skipped_force = 0
-    not_found = 0
+    not_found_names = []
 
     i = 0
     while i < len(lines):
@@ -148,7 +144,6 @@ def main():
             i += 1
             continue
         if line.startswith("#EXTINF"):
-            # Найти URL следующей строки
             url = ""
             if i + 1 < len(lines):
                 url = lines[i + 1].strip()
@@ -156,14 +151,12 @@ def main():
             name = get_name(line)
             key = base_name(line)
 
-            # Пропускаем по URL
             if is_skip_url(url):
                 skipped_url += 1
                 new_lines.append(line)
                 i += 1
                 continue
 
-            # Пропускаем по имени
             if is_force_skip(name):
                 skipped_force += 1
                 new_lines.append(line)
@@ -171,25 +164,23 @@ def main():
                 continue
 
             epg_entry = epg_db.get(normalize(key))
-
             if not epg_entry:
                 epg_entry = epg_db.get(normalize(name))
 
             if epg_entry:
                 tvg_id, epg_name = epg_entry
 
-                # Ставим tvg-id если пустой
                 m = re.search(r'tvg-id="([^"]*)"', line)
                 if not m or not m.group(1).strip():
                     line = set_tvg_id_in_line(line, tvg_id)
                     fixed_epg += 1
 
-                # Переименовываем если имя отличается
                 if epg_name and get_name(line) != epg_name:
                     line = set_name_in_line(line, epg_name)
                     renamed += 1
             else:
-                not_found += 1
+                # Сохраняем имя и нормализованное имя для отладки
+                not_found_names.append((name, normalize(name)))
 
             new_lines.append(line)
             i += 1
@@ -201,14 +192,34 @@ def main():
     with open(PLAYLIST, "w", encoding="utf-8") as f:
         f.write("\n".join(new_lines))
 
+    # Сохраняем ненайденные в файл
+    with open(NOT_FOUND_FILE, "w", encoding="utf-8") as f:
+        f.write("# Каналы, не найденные в EPG (не переименованы)\n")
+        f.write("# Всего: " + str(len(not_found_names)) + "\n")
+        f.write("#\n")
+        f.write("# Имя в плейлисте | Нормализованное имя (для поиска в EPG)\n")
+        f.write("#" + "-" * 70 + "\n")
+        for name, norm in not_found_names:
+            f.write(name + " | " + norm + "\n")
+
     print("")
     print("=== ИТОГО ===")
     print("Fixed tvg-id: " + str(fixed_epg))
     print("Renamed: " + str(renamed))
     print("Skipped by URL: " + str(skipped_url))
     print("Skipped by name: " + str(skipped_force))
-    print("Not found in EPG: " + str(not_found))
+    print("Not found in EPG: " + str(len(not_found_names)))
     print("Saved " + PLAYLIST)
+    print("Saved " + NOT_FOUND_FILE)
+    print("")
+
+    # Выводим ВСЕ ненайденные в лог
+    print("=== НЕ НАЙДЕНЫ В EPG (" + str(len(not_found_names)) + ") ===")
+    for name, norm in not_found_names:
+        print("  " + name + "  →  [" + norm + "]")
+
+    print("")
+    print("=== КОНЕЦ ===")
 
 
 main()
