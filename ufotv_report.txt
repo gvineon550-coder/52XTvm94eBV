@@ -1,6 +1,6 @@
 # UFOTV Report
 
-Date: 2026-09-24 20:38 UTC
+Date: 2026-09-25 06:07 UTC
 
 ## Funnel
 - Total in source: 523
@@ -9,30 +9,29 @@ Date: 2026-09-24 20:38 UTC
 - Whitelist (skip check): 2
 - Geo-blocked (auto-include): 0
 - To check: 422
-- Alive checked: 393
-- Stable in playlist: 395
+- Alive checked: 394
+- Stable in playlist: 396
 - Filtered as unstable: 0
 - Too new (collecting stats): 0
 
 Thresholds: min checks 3, uptime >= 70%
 
-## Dead today (29)
+## Dead today (28)
 
-- Первый FHD | http_409
-- Рен ТВ HD | http_409
 - Русский экстрим | timeout
-- КВН ТВ | timeout
 - Поехали! | timeout
 - Amedia 2 HD | timeout
-- TV1000 romantica HD | html_page
+- TV1000 romantica HD | http_404
 - Дом кино Premium HD | timeout
 - НТВ Хит | timeout
 - Победа | timeout
-- Феникс+Кино | html_page
+- Феникс+Кино | http_404
 - КиноТВ HD | timeout
+- Хит HD | conn_error
+- History HD | conn_error
 - Зоопарк | timeout
 - Тайны галактики HD | timeout
-- HGTV HD | http_404
+- HGTV HD | conn_error
 - Детский мир | timeout
 - О! | timeout
 - Советские Мультфильмы | http_500

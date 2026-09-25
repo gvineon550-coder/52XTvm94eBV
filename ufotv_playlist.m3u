@@ -1,5 +1,8 @@
 #EXTM3U
-# Updated: 2026-09-24 20:38 UTC | Total: 395
+# Updated: 2026-09-25 06:07 UTC | Total: 396
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy.png" tvg-id="pervy" group-title="Основные", Первый FHD
+https://edge08r.mediavitrina.ru/hls-livef6/1tv/index.m3u8?token=v2.KIey19Gb_KXMJOM9seA-W8bdmUtjDkRzjRwlYEzLYmY.fEBOwW7xy3Zkbpmi1BSwwPJiwUh6D9DI1vjoFr0pRMw.1790333114.4cf462dafaa8c89cdf5bc8c149e13998
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rossia1.png" tvg-id="rossia1" group-title="Основные", Россия 1 HD
 https://live.smotrim.ru/vgtrk/0/russia1-hd/1080p.m3u8
@@ -18,6 +21,9 @@ https://bl.rutube.ru/livestream/ca70d39eba2e8771358bbcb4bfbad860/index.m3u8?s=2h
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rt-doc.png" tvg-id="rtd-ru" group-title="Основные",RT Doc HD
 https://flussonic.mkpnet.ru/tv-501eac834b24c3cf/video.m3u8
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rentv.png" tvg-id="rentv" group-title="Основные", Рен ТВ HD
+https://edge08r.mediavitrina.ru/hls-livef5/ren-tv/index.m3u8?token=v2.21nohn4FNGlmkHsvmiom85MR4P4MAQmFIfq-wxvDVdc.FJxUV7Qiorm02OJ9bafH-hmrWHqPuV1pgs-w0j3y-WA.1790333337.7da8d68786fae1c3b91ae839e9ed5b90
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt.png" tvg-id="tnt" group-title="Основные", THT HD
 https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=E0R2kfCL_-Hcl58HPM1jgA&e=2072222110&scheme=https
@@ -93,6 +99,9 @@ https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
 
 #EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epg.iptvx.one/picons/prodvizhenie.png" group-title="Развлекательные",Продвижение HD
 https://bl.rutube.ru/livestream/ff5c11c9a51750f5d33427762abc315c/index.m3u8?s=IBzoayhf0EhnnlzfDnDidg&e=2066519813&scheme=https
+
+#EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epg.iptvx.one/picons/kvn-tv.png" group-title="Развлекательные",КВН ТВ
+https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
 
 #EXTINF:-1 tvg-id="gags-network" tvg-logo="https://epg.iptvx.one/picons/gags-network.png" group-title="Развлекательные",Gagsnetwork
 https://tinyurl.com/upwnsw7p/14024/index.m3u8
@@ -295,9 +304,6 @@ http://stream.mcquack.net/196/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/blokbaster.png" tvg-id="blokbaster-hd" group-title="Кино", Блокбастер HD
 https://tinyurl.com/2x47stw5/1031.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/khit.png" tvg-id="khit-hd" group-title="Кино", Хит HD
-https://ott.ip-tv.workers.dev/stream/L0FBMTU2NVcvaW5kZXgubTN1OA==?key=halva
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/fanhd.png" tvg-id="fanhd" group-title="Кино", FAN HD
 http://stream.mcquack.net/420/index.m3u8
 
@@ -342,9 +348,6 @@ https://bl.rutube.ru/livestream/3abeb7577fd38ac4b8130bb8e03418f2/index.m3u8?s=GD
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" group-title="Познавательные",Discovery Channel HD
 https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=G_MLL6rXsWu3E14ydKWGCg&e=2088894145&scheme=https
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/history.png" tvg-id="history" group-title="Познавательные",History HD
-https://ott.ip-tv.workers.dev/stream/L0hRMDY1Vy9pbmRleC5tM3U4?key=halva
 
 #EXTINF:-1 group-title="Познавательные" tvg-id="viasat-nature-history-hd" tvg-logo="https://epg.iptvx.one/picons/viasat-nature-history-hd.png",viju+ planet
 http://stream.mcquack.net/240/index.m3u8
