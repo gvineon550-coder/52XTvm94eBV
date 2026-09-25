@@ -41,6 +41,8 @@ BLOCKED_URL_PATTERNS = [
     "picarto.tv",
     "rtmp.one.by:1300",
     "tivi-one.net",
+    "catcast.tv",
+    "hf.space",
 ]
 
 RADIO_NAME_KEYWORDS = [
@@ -173,7 +175,6 @@ TVG_CATEGORY = {
     "tolk": "🌍 Регионы", "tooku": "🌍 Регионы",
     "ugra-tv": "🌍 Регионы",
     "volga": "🌍 Регионы", "prima": "🌍 Регионы",
-    "kharkov-z": "🌍 Регионы",
 
     "belarus1": "🌐 Международные", "belarus4": "🌐 Международные",
     "moldova1": "🌐 Международные", "moldova2": "🌐 Международные",
@@ -273,7 +274,6 @@ CATEGORIES_KEYWORDS = {
                   "mcm", "shanson", "шансон", "zhara", "жара",
                   "tnt music", "kn music", "strana fm", "bridge",
                   "fashion tv", "fashiontv", "magnat",
-                  "city eden classic music",
                   "classic music", "deluxe music", "kiss tv",
                   "kronehit", "radio m2o", "tmf rus", "v2beat", "viva",
                   "record megamix", "first music channel", "fon music",
@@ -293,15 +293,13 @@ CATEGORIES_KEYWORDS = {
                           "rybalka", "рыбалка",
                           "kto kuda", "кто куда",
                           "dacha", "дача",
-                          "city eden medzdrav",
                           "ocean tv", "ocean-tv", "docubox",
                           "love nature", "epic hd", "tlc",
                           "travelxp", "viasat explore", "viasat history",
                           "viju planet", "visast history",
                           "atr ", "trofei", "ost west 24",
-                          "city eden recepty",
                           "neizvestnaya planeta", "живая природа",
-                          "приключения", "city eden birma"],
+                          "приключения"],
 
     "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom",
                        "tnt4 comedy", "humor", "юмор",
@@ -315,10 +313,8 @@ CATEGORIES_KEYWORDS = {
                        "кухня тв",
                        "наша тема",
                        "телекафе",
-                       "city eden play",
                        "teledom", "tele dom",
-                       "novyi channel", "quiz tv", "etv+",
-                       "city eden tv"],
+                       "novyi channel", "quiz tv", "etv+"],
 
     "🌍 Регионы": ["krasnoyarsk", "novosibirsk", "dagestan", "ingushetia",
                    "belgorod", "astrahan", "arkhyz", "abaza", "apsua",
@@ -354,7 +350,7 @@ CATEGORIES_KEYWORDS = {
                    "huzur", "mana tserkov", "tbn baltia", "tv mana"],
 
     "🚗 Авто": ["auto plus", "avto 24", "avto24", "drive", "авто",
-                "city eden autogid", "авто 24"],
+                "авто 24"],
 
     "💼 Бизнес": ["pro business", "business"],
 
