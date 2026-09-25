@@ -33,7 +33,7 @@ def normalize(name):
     n = re.sub(r'\([^)]*\)', '', n)
     n = re.sub(r'\[[^\]]*\]', '', n)
     n = re.sub(r'\b(hd|fhd|uhd|sd|4k|1080p|720p|576p|480p|1080i|576i|480i)\b', '', n)
-    n = re.sub(r'[\u2500-\u27bf\u2b00-\u2bff]', '', n)   # убираем разные символы (ℂℂ и т.п.)
+    n = re.sub(r'[\u2500-\u27bf\u2b00-\u2bff]', '', n)   # убираем разные символы
     n = re.sub(r'\s+', ' ', n).strip()
     return n
 
@@ -57,18 +57,19 @@ def build_epg_db(data):
     for event, elem in ET.iterparse(io.BytesIO(data), events=("end",)):
         if elem.tag == "channel":
             ch_id = elem.get("id")
-            if not ch_id:
-                elem.clear()
-                continue
-            for dn in elem.findall("display-name"):
-                if dn.text:
-                    key = normalize(dn.text)
-                    if key and key not in epg_db:
-                        epg_db[key] = (ch_id, dn.text.strip())
-            count += 1
-            if count % 1000 == 0:
-                print("  parsed " + str(count) + " channels")
-            elem.clear()
+            if ch_id:
+                for dn in elem.findall("display-name"):
+                    if dn.text:
+                        key = normalize(dn.text)
+                        if key and key not in epg_db:
+                            epg_db[key] = (ch_id, dn.text.strip())
+                count += 1
+                if count % 1000 == 0:
+                    print("  parsed " + str(count) + " channels")
+
+        # ВСЕГДА очищаем элемент — критично для памяти!
+        elem.clear()
+
     print("Total EPG channels: " + str(count) + ", unique names: " + str(len(epg_db)))
     return epg_db
 
@@ -150,7 +151,6 @@ def main():
             if i + 1 < len(lines):
                 url = lines[i + 1].strip()
 
-            original_line = line
             name = get_name(line)
             key = base_name(line)
 
@@ -171,7 +171,6 @@ def main():
             epg_entry = epg_db.get(normalize(key))
 
             if not epg_entry:
-                # Попробуем поиск по точному нормализованному имени
                 epg_entry = epg_db.get(normalize(name))
 
             if epg_entry:
@@ -183,7 +182,7 @@ def main():
                     line = set_tvg_id_in_line(line, tvg_id)
                     fixed_epg += 1
 
-                # Переименовываем если имя отличается (и в EPG не пусто)
+                # Переименовываем если имя отличается
                 if epg_name and get_name(line) != epg_name:
                     line = set_name_in_line(line, epg_name)
                     renamed += 1
