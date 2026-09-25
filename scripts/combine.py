@@ -26,7 +26,7 @@ KIDS_EXCEPTIONS = ["start air", "start world"]
 
 BLOCKED_CHANNELS = [
     "legislative rada", "rada tv", "рада", "rada",
-    "cineman",          # CineMan — все каналы
+    "cineman",
 ]
 BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
 
@@ -63,10 +63,7 @@ IPTV_CATEGORY_MAP = {
     "weather": "🌤 Погода", "religious": "⛪ Религия",
 }
 
-# ТОЧНЫЕ tvg-id → категория
-# УБРАНЫ мусорные: pervy, ntv, che, mir (они висят на чужих каналах)
 TVG_CATEGORY = {
-    # ФЕДЕРАЛЬНЫЕ
     "tnt": "📺 Федеральные", "tnt4": "📺 Федеральные",
     "sts": "📺 Федеральные", "sts-love": "📺 Федеральные",
     "tv3-ru": "📺 Федеральные",
@@ -83,7 +80,6 @@ TVG_CATEGORY = {
     "russiak": "📺 Федеральные",
     "channel8": "📺 Федеральные",
 
-    # КИНО
     "amedia-hit": "🎬 Кино", "amedia-2": "🎬 Кино",
     "vip-comedy": "🎬 Кино", "vip-megahit": "🎬 Кино",
     "vip-premiere": "🎬 Кино", "vip-serial": "🎬 Кино",
@@ -107,7 +103,6 @@ TVG_CATEGORY = {
     "no_epg_cinema": "🎬 Кино",
     "pes": "🎬 Кино", "shef": "🎬 Кино",
 
-    # СПОРТ
     "match": "⚽ Спорт", "match-tv": "⚽ Спорт",
     "match-arena": "⚽ Спорт", "match-boets": "⚽ Спорт",
     "match-igra": "⚽ Спорт", "match-strana": "⚽ Спорт",
@@ -118,7 +113,6 @@ TVG_CATEGORY = {
     "okko-futbol": "⚽ Спорт", "okko-prajm-sport": "⚽ Спорт",
     "extreme-sports": "⚽ Спорт", "sportivnyy": "⚽ Спорт",
 
-    # МУЗЫКА
     "ru-tv": "🎵 Музыка", "muz-tv": "🎵 Музыка",
     "mtv": "🎵 Музыка", "vh1": "🎵 Музыка",
     "europa-plus": "🎵 Музыка", "songtv": "🎵 Музыка",
@@ -129,7 +123,6 @@ TVG_CATEGORY = {
     "mezzo": "🎵 Музыка", "mezzo-live-hd": "🎵 Музыка",
     "1hd": "🎵 Музыка", "magnat": "🎵 Музыка",
 
-    # НОВОСТИ
     "rbc": "📰 Новости", "rbc-tv": "📰 Новости",
     "izvestia": "📰 Новости", "moskva-24": "📰 Новости",
     "tsargrad": "📰 Новости", "tsargrad-tv": "📰 Новости",
@@ -139,7 +132,6 @@ TVG_CATEGORY = {
     "osn": "📰 Новости", "rt": "📰 Новости",
     "pro-business": "💼 Бизнес",
 
-    # ПОЗНАВАТЕЛЬНЫЕ
     "natgeo": "📚 Познавательные", "national-geographic": "📚 Познавательные",
     "discovery": "📚 Познавательные", "viju-explore": "📚 Познавательные",
     "viju-nature": "📚 Познавательные", "nauka": "📚 Познавательные",
@@ -151,7 +143,6 @@ TVG_CATEGORY = {
     "ohotnik-i-rybolov": "📚 Познавательные", "moya-stikhiya": "📚 Познавательные",
     "viasat-nature-history-hd": "📚 Познавательные",
 
-    # РЕГИОНЫ
     "abaza-tv": "🌍 Регионы", "aist-tv": "🌍 Регионы",
     "apsua-tv": "🌍 Регионы", "aris-24": "🌍 Регионы",
     "arkhyz-24": "🌍 Регионы", "astrahan-24": "🌍 Регионы",
@@ -171,7 +162,6 @@ TVG_CATEGORY = {
     "volga": "🌍 Регионы", "prima": "🌍 Регионы",
     "kharkov-z": "🌍 Регионы",
 
-    # МЕЖДУНАРОДНЫЕ
     "belarus1": "🌐 Международные", "belarus4": "🌐 Международные",
     "moldova1": "🌐 Международные", "moldova2": "🌐 Международные",
     "kentron-tv": "🌐 Международные", "naxcivan-tv": "🌐 Международные",
@@ -184,18 +174,14 @@ TVG_CATEGORY = {
     "ntv-mir": "🌐 Международные", "ren-tv-international": "🌐 Международные",
     "rtvi-us": "🌐 Международные", "raz3international": "🌐 Международные",
 
-    # МАГАЗИНЫ
     "shopping-live": "🛒 Магазины", "leomax-24": "🛒 Магазины",
     "ntv-vitrina": "🛒 Магазины", "vitrina-tv": "🛒 Магазины",
 
-    # РЕЛИГИЯ
     "spas": "⛪ Религия", "soyuz": "⛪ Религия",
     "3abn-russia": "⛪ Религия", "hope-channel-russia": "⛪ Религия",
 
-    # АВТО
     "auto-plus": "🚗 Авто", "avto-24": "🚗 Авто", "drive": "🚗 Авто",
 
-    # РАЗВЛЕЧЕНИЯ
     "fashiontv": "🎭 Развлечения", "krik-tv": "🎭 Развлечения",
     "kvn-tv": "🎭 Развлечения", "tele-dom": "🎭 Развлечения",
     "world-fashion-channel": "🎭 Развлечения",
@@ -335,7 +321,8 @@ CATEGORIES_KEYWORDS = {
                    "tkr", "ткр",
                    "eurasia",
                    "харьков", "tvk (russia)",
-                   "aist tv", "86 (", "channel 12"],
+                   "aist tv", "channel 12",
+                   "86"],
 
     "🌐 Международные": ["belarus", "moldova", "kentron", "naxcivan",
                          "silk way", "rtr planeta", "rtr-planeta", "rtvi",
@@ -382,7 +369,11 @@ CATEGORIES_KEYWORDS = {
                        "360", "8 канал", "карусель", "karusel",
                        "че!", "che!", "ю ", "yu ",
                        "channel 8 (russia)",
-                       "тнт international"],
+                       "тнт international",
+                       "нтв",
+                       "первый",
+                       "мир",
+                       "mir"],
 }
 
 CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
@@ -667,8 +658,6 @@ def main():
             non_dead.append(ch)
     print("After quality: " + str(len(non_dead)) + " (dead: " + str(dropped_dead) + ", wl: " + str(whitelist_protected) + ")")
 
-    # === ДЕДУП ===
-    # 1) Дедуп по имени (берём лучший по качеству)
     best_by_name = {}
     for ch in non_dead:
         key = base_name(ch["extinf"])
@@ -678,7 +667,6 @@ def main():
         if key not in best_by_name or score > best_by_name[key][0]:
             best_by_name[key] = (score, ch)
 
-    # 2) Дедуп по URL (если URL один — оставляем лучший по имени)
     seen_urls = set()
     best = {}
     sorted_items = sorted(best_by_name.items(), key=lambda x: x[1][0], reverse=True)
