@@ -1,11 +1,8 @@
-# Каналы, не найденные в EPG (не переименованы)
-# Всего: 170
+# Каналы, не найденные в EPG
+# Всего: 82
 #
-# Имя в плейлисте | Нормализованное имя (для поиска в EPG)
+# Имя | Нормализованное имя (что искали в EPG)
 #----------------------------------------------------------------------
-Channel 5 (Russia) (576p) | channel 5
-Channel One (Russia) HD (720p) | channel one
-CTC Love | ctc love
 Mir 24 (1080p) | mir 24
 Mir HD (1080p) [Not 24/7] | mir
 Moy mir (720p) | moy mir
@@ -13,7 +10,6 @@ NTV (Russia) +1 (576p) | ntv +1
 NTV (Russia) +2 (576p) | ntv +2
 NTV (Russia) +4 (576p) | ntv +4
 NTV (Russia) +7 (576p) | ntv +7
-REN TV HD (1080p) | ren tv
 Rossiya 1 Vainah (576i) | rossiya 1 vainah
 Russia-1 +4 (1080p) | russia-1 +4
 Russia-1 +5 (1080p) | russia-1 +5
@@ -21,154 +17,70 @@ Russia-1 +6 (1080p) | russia-1 +6
 Russia-1 +7 (1080p) | russia-1 +7
 Russia-1 +8 (1080p) | russia-1 +8
 Russia-1 +9 (1080p) | russia-1 +9
-Russia-1 HD (1080p) | russia-1
-Russia-K HD (1080p) | russia-k
-STS HD (1080p) | sts
 TNT International Belarus (1080p) | tnt international belarus
-TV-3 HD (1080p) | tv-3
-Zvezda Plus HD (1080p) | zvezda plus
 Россия K | россия k
-Belarus-24 HD (1080p) | belarus-24
 Channel 9 (Israel) (1080p) | channel 9
 Govorit Moskva (720p) | govorit moskva
-Izvestia (1080p) | izvestia
-Kongress TV (1080p) | kongress tv
-Maidan (720p) | maidan
-Moskva 24 (1080p) | moskva 24
 OSN | osn
-Perviy Informationniy HD (1080p) | perviy informationniy
-Prodvizhenie (1080p) | prodvizhenie
-Russia-24 (1080p) | russia-24
 Solovyov Live (1080p) | solovyov live
-TV Rain (1080p) [Geo-blocked] | tv rain
-Vmeste-RF | vmeste-rf
 Astrahan.Ru Sport (720p) | astrahan.ru sport
-Belarus-5 (1080p) [Not 24/7] | belarus-5
-Eurosport1 HD | eurosport1
-Eurosport2 HD | eurosport2
 Fast&FunBox (Russia) HD (1080p) | fast&funbox
-MMA-TV.com (1080p) | mma-tv.com
 Okko Futbol (1080p) | okko futbol
 Okko Prajm Sport (1080p) | okko prajm sport
 Okko Sport (1080p) | okko sport
 Setanta Sports 1 Eurasia (1080p) | setanta sports 1 eurasia
 Setanta Sports 2 Eurasia (1080p) | setanta sports 2 eurasia
 Sportivnyy (1080p) | sportivnyy
-Trace Sport Stars Russia (720p) | trace sport stars russia
 Овертайм ТВ | овертайм тв
-Blokbaster HD (1080p) | blokbaster
-Dom kino Premium HD (1080p) | dom kino premium
-Dorama HD (1080p) | dorama
-Dushevnoe HD (1080p) | dushevnoe
-Evrokino HD (1080p) | evrokino
-Kapitan Fantastika (1080p) | kapitan fantastika
 KinoBoevik (1080p) | kinoboevik
-Kinopremyera HD (1080p) | kinopremyera
-Komediynoe HD (1080p) | komediynoe
 Mirovoe kino (1080p) | mirovoe kino
-Nashe Lubimoe Kino Ukraine (1080p) | nashe lubimoe kino ukraine
-Nashe muzhskoe HD (1080p) | nashe muzhskoe
-Ostrosyuzhetnoye HD (1080p) | ostrosyuzhetnoye
-Premialnoe HD (1080p) | premialnoe
-Priklyucheniya HD (1080p) | priklyucheniya
-Shokiruyushchee HD (1080p) | shokiruyushchee
 ТВ21 | тв21
-FashionTV (1080p) | fashiontv
 Hit FM | hit fm
 Kiss TV | kiss tv
 KN Music TV | kn music tv
 Kronehit | kronehit
-MTV Volgograd (720p) [Not 24/7] | mtv volgograd
 radio m2o | radio m2o
 SONGTV Russia | songtv russia
-Strana FM | strana fm
 V2BEAT HD | v2beat
 Залипательные ролики | залипательные ролики
 Шансон ТВ | шансон тв
 ART (Russia) (576p) | art
-Big Asia (720p) | big asia
-Dikaya okhota HD (1080p) | dikaya okhota
-Dikaya rybalka HD (1080p) | dikaya rybalka
-DocuBox Russia (1080p) | docubox russia
-Istoki (1080p) | istoki
 Law TV (1080p) | law tv
-Moya stikhiya HD (1080p) | moya stikhiya
-Nauka (Russia) (1080p) | nauka
-Ohotnik i rybolov HD (1080p) | ohotnik i rybolov
 Ost West 24 (1080p) | ost west 24
-Patriot (720p) | patriot
-Russia-K +2 (1080p) | russia-k +2
-Russia-K +4 (1080p) | russia-k +4
-Russia-K +7 (1080p) | russia-k +7
-RZD TV (1080p) [Geo-blocked] | rzd tv
 Smotrim Chestnyy Detektiv (1080p) | smotrim chestnyy detektiv
-Travelxp Russia (1080p) | travelxp russia
-Trofei (1080p) | trofei
-V mire zhivotnykh (1080p) | v mire zhivotnykh
-Visast History HD | visast history
-Zhivaya priroda (1080p) | zhivaya priroda
 Смотрим Честный детектив HD | смотрим честный детектив
-Channel 8 (Russia) (576p) | channel 8
 ETV+ (720p) | etv+
 Fashion&LifeStyle (1080p) | fashion&lifestyle
-Krik-TV (1080p) | krik-tv
-Novyi Channel (1080p) | novyi channel
-TeleDom | teledom
 TV PRO | tv pro
 WF мода HD | wf мода
 86 (1080p) [Not 24/7] | 86
 Abaza TV (1080p) | abaza tv
 AIST TV (1080p) | aist tv
 Apsua TV | apsua tv
-Aris 24 (720p) [Not 24/7] | aris 24
-Arkhyz 24 (1080p) | arkhyz 24
-Astrahan 24 (720p) | astrahan 24
-Belgorod 24 (1080p) | belgorod 24
 Channel 8 Krasnoyarsk HD (1080p) | channel 8 krasnoyarsk
 Channel 8 Novosibirsk (480i) | channel 8 novosibirsk
-Channel One Eurasia (576p) | channel one eurasia
 Dagestan (1080p) | dagestan
-Eurasia (720p) | eurasia
-Groznyj | groznyj
 Ingushetia (1080p) | ingushetia
 NovgorOblTV [Geo-blocked] | novgorobltv
 NTK 21 [Geo-blocked] | ntk 21
-NTM (720p) [Not 24/7] | ntm
-NTS (1080p) [Not 24/7] | nts
-NVK Sakha (1080p) [Not 24/7] | nvk sakha
 OTV-Prim | otv-prim
-Prima (Russia) (1080p) | prima
 S1 (1080p) [Not 24/7] | s1
 Samara-GIS (1080p) [Not 24/7] | samara-gis
-Sankt-Peterburg HD (720p) | sankt-peterburg
 Sochi Live (720p) [Not 24/7] | sochi live
-Sochi24 (720p) | sochi24
 Svoyo TV (1080p) | svoyo tv
 Telekanal Krasnodar (1080p) | telekanal krasnodar
 TKR (1080p) [Not 24/7] | tkr
-TNV-Tatarstan (720p) | tnv-tatarstan
-Tolk (720p) | tolk
-Tooku (1080p) | tooku
 TVK (Russia) (576p) | tvk
 Ugra-TV (1080p) | ugra-tv
-Volga | volga
-Belarus-1 (1080p) | belarus-1
-Belarus-4 Vitebsk (1080p) | belarus-4 vitebsk
-Channel One CIS (576p) | channel one cis
 Naxcivan TV (720p) | naxcivan tv
-REN TV International (576p) | ren tv international
 RT Balkan (1080p) | rt balkan
-RT Documentary Russian (1080p) | rt documentary russian
 RTR-Planeta Europe (720p) [Geo-blocked] | rtr-planeta europe
-RTVi US (1080p) | rtvi us
 Simon (720p) [Geo-blocked] | simon
 TSV (1080p) | tsv
-Vitebsk | vitebsk
 NTV Vitrina (720p) | ntv vitrina
 Vitrina TV (720p) | vitrina tv
 MyZen TV (1080p) | myzen tv
 3ABN Russia (720p) | 3abn russia
-Hope Channel Russia (720p) | hope channel russia
 Huzur TV (1080p) [Not 24/7] | huzur tv
 Mana Tserkov' Onlayn (1080p) [Not 24/7] | mana tserkov' onlayn
 TBN Baltia (1080p) | tbn baltia
