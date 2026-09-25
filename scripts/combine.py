@@ -59,7 +59,8 @@ WHITELIST = ["channel one", "первый канал", "1tv", "ort",
              "ntv", "нтв"]
 
 URL_CATEGORY_MAP = [
-    ("kinowalk.hopto.org", "🎬 Кино"),
+    ("kinowalk.hopto.org", "🎬 Kinowalk"),
+    ("rutube.ru", "🎬 Rutube"),
     ("5c9327074e25ca86f3111d4085cbbb65", "📺 Федеральные"),
 ]
 
@@ -239,9 +240,7 @@ CATEGORIES_KEYWORDS = {
                 "dom kino", "indiyskoye", "russkiy illusion",
                 "nashe novoe kino", "rodnoe kino", "mosfilm", "мосфильм",
                 "megahit", "vip comedy", "vip premiere",
-                "kinowalk", "movietoper", "timetomovie", "timetohorror",
-                "blockbusters", "kinolampa", "videoarsenal",
-                "cinema time", "scripachtv", "kinolenta", "kinofans",
+                "kinolenta", "kinofans",
                 "kinofon", "kinopro", "kinojam", "kino24",
                 "сериал", "serial", "vhs", "кассета", "kasseta",
                 "film", "фильм", "movie", "кинотеатр", "kinoshkino",
@@ -384,6 +383,7 @@ CATEGORIES_KEYWORDS = {
 }
 
 CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
+                  "🎬 Kinowalk", "🎬 Rutube",
                   "🎵 Музыка", "📚 Познавательные", "🎭 Развлечения",
                   "🌍 Регионы", "🌐 Международные", "🚗 Авто", "💼 Бизнес",
                   "🛒 Магазины", "🌿 Релакс", "🌤 Погода", "⛪ Религия", "📦 Прочее"]
