@@ -1,0 +1,25 @@
+name: Check Duplicates
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.11'
+      - name: Run check
+        run: python scripts/check_duplicates.py
+      - name: Show report in log
+        if: always()
+        run: cat duplicates_report.txt || echo "Report not found"
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v7.0.1
+        with:
+          name: duplicates-report
+          path: duplicates_report.txt
+          retention-days: 7
