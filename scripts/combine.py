@@ -45,7 +45,6 @@ BLOCKED_CHANNELS = [
     "rada",
 ]
 
-# URL-паттерны для полного удаления (радио)
 BLOCKED_URL_PATTERNS = [
     "radiorecord.hostingradio.ru",
     "radiorecord.ru",
@@ -69,12 +68,10 @@ WHITELIST = [
     "ntv", "нтв",
 ]
 
-# === URL-детекция для категорий (приоритет 1) ===
 URL_CATEGORY_MAP = [
     ("kinowalk.hopto.org", "🎬 Кино"),
 ]
 
-# === Маппинг категорий IPTV-org → русские ===
 IPTV_CATEGORY_MAP = {
     "general": "📺 Федеральные",
     "news": "📰 Новости",
@@ -103,7 +100,6 @@ IPTV_CATEGORY_MAP = {
     "religious": "⛪ Религия",
 }
 
-# === Шорткаты tvg-id ===
 SHORT_TVG_MAP = {
     "tnt": "📺 Федеральные",
     "tnt4": "📺 Федеральные",
@@ -113,6 +109,7 @@ SHORT_TVG_MAP = {
     "super": "📺 Федеральные",
     "che": "📺 Федеральные",
     "5kanal-ru": "📺 Федеральные",
+    "sts-love": "📺 Федеральные",
     "rtd-ru": "🌐 Международные",
     "kvn-tv": "🎭 Развлечения",
     "mir-uvlecheniy": "🎭 Развлечения",
@@ -132,7 +129,6 @@ SHORT_TVG_MAP = {
     "no_epg_cinema": "🎬 Кино",
 }
 
-# === Маппинг group-title ===
 GROUP_TITLE_MAP = {
     "movies": "🎬 Кино", "кино": "🎬 Кино", "cinema": "🎬 Кино", "фильмы": "🎬 Кино",
     "sport": "⚽ Спорт", "спорт": "⚽ Спорт", "sports": "⚽ Спорт",
@@ -149,8 +145,13 @@ GROUP_TITLE_MAP = {
     "religion": "⛪ Религия", "религия": "⛪ Религия",
 }
 
-# === Fallback: ключевые слова ===
+# === Keywords. ПОРЯДОК ВАЖЕН: Fresh первым, чтобы не попал в Кино ===
 CATEGORIES_KEYWORDS = {
+    "🎬 Fresh": [
+        "fresh adventure", "fresh family", "fresh fantastic",
+        "fresh horror", "fresh premiere", "fresh rating",
+        "fresh romantic", "fresh series", "fresh thriller",
+    ],
     "📺 Федеральные": [
         "channel one", "первый канал", "1tv", "ort",
         "russia-1", "russia 1", "россия-1", "россия 1", "rossiya-1", "rossiya 1",
@@ -158,9 +159,11 @@ CATEGORIES_KEYWORDS = {
         "russia-k", "россия-к", "россия к", "kultura", "культура",
         "ntv", "нтв", "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
         "tnt", "тнт", "tht", "tnt4", "тнт4",
-        "sts", "стс", "tv3", "тв3", "тв-3",
+        "sts", "стс", "ctc", "ctc love",
+        "tv3", "тв3", "тв-3",
         "tvc", "твц", "tv centr", "тв центр",
         "пятый канал", "5 kanal", "5kanal", "channel 5",
+        "8 канал",
         "karusel", "карусель", "che", "че", "пятница", "pyatnica", "friday",
         "domashniy", "домашний", "zvezda", "звезда",
         "mir", "мир", "otr", "отр", "спас", "spas",
@@ -188,6 +191,7 @@ CATEGORIES_KEYWORDS = {
         "cinema time", "scripachtv",
         "сериал", "serial", "vhs", "кассета", "kasseta",
         "film", "фильм", "movie", "кинотеатр",
+        "bcu",
     ],
     "📰 Новости": [
         "24", "news", "новости", "rbc", "рбк", "izvestia", "известия",
@@ -230,6 +234,7 @@ CATEGORY_ORDER = [
     "📰 Новости",
     "⚽ Спорт",
     "🎬 Кино",
+    "🎬 Fresh",
     "🎵 Музыка",
     "📚 Познавательные",
     "🎭 Развлечения",
@@ -362,7 +367,6 @@ def is_blocked(extinf):
 
 
 def is_blocked_url(url):
-    """Проверяет URL на попадание в BLOCKED_URL_PATTERNS (радио)."""
     u = url.lower()
     for pattern in BLOCKED_URL_PATTERNS:
         if pattern in u:
@@ -494,7 +498,6 @@ def main():
     dropped_kids = len(all_channels) - len(non_kids)
     print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
 
-    # Фильтр заблокированных + радио
     non_blocked = []
     dropped_blocked = 0
     dropped_radio = 0
