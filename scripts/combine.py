@@ -43,6 +43,11 @@ BLOCKED_URL_PATTERNS = [
     "tivi-one.net",
     "catcast.tv",
     "hf.space",
+    "176.118.197.101",
+    "antik.sk",
+    "qazcdn.net",
+    "linkintel.ru",
+    "rian/rus-radio",
 ]
 
 RADIO_NAME_KEYWORDS = [
@@ -61,6 +66,7 @@ WHITELIST = ["channel one", "первый канал", "1tv", "ort",
 URL_CATEGORY_MAP = [
     ("kinowalk.hopto.org", "🎬 Kinowalk"),
     ("rutube.ru", "🎬 Rutube"),
+    ("cdn-dvr.ntv.ru", "🎬 НТВ Сериалы"),
     ("5c9327074e25ca86f3111d4085cbbb65", "📺 Федеральные"),
 ]
 
@@ -383,7 +389,7 @@ CATEGORIES_KEYWORDS = {
 }
 
 CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
-                  "🎬 Kinowalk", "🎬 Rutube",
+                  "🎬 Kinowalk", "🎬 Rutube", "🎬 НТВ Сериалы",
                   "🎵 Музыка", "📚 Познавательные", "🎭 Развлечения",
                   "🌍 Регионы", "🌐 Международные", "🚗 Авто", "💼 Бизнес",
                   "🛒 Магазины", "🌿 Релакс", "🌤 Погода", "⛪ Религия", "📦 Прочее"]
