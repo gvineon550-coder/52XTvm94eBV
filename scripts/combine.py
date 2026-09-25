@@ -11,243 +11,300 @@ EPG_URL = "https://iptvx.one/epg/epg_lite.xml.gz"
 QUALITY_FILE = "quality_data.json"
 IPTV_ORG_CHANNELS_URL = "https://iptv-org.github.io/api/channels.json"
 
-SOURCES = [
-    "playlist.m3u",
-    "romaxa55_russia.m3u",
-    "iptvorg_rus.m3u",
-    "ufotv_playlist.m3u",
-]
+SOURCES = ["playlist.m3u", "romaxa55_russia.m3u", "iptvorg_rus.m3u", "ufotv_playlist.m3u"]
 
 BAD_PORTS = {":8080", ":8000", ":9999", ":8888"}
-BAD_DOMAINS = (
-    ".xyz", ".tk", ".ml", ".cf", ".ga",
-    "cinerama.uz",
-    "tinyurl.com", "bit.ly", "goo.gl", "clck.ru", "is.gd", "t.co", "ow.ly",
-)
+BAD_DOMAINS = (".xyz", ".tk", ".ml", ".cf", ".ga", "cinerama.uz",
+               "tinyurl.com", "bit.ly", "goo.gl", "clck.ru", "is.gd", "t.co", "ow.ly")
 
-KIDS_KEYWORDS = [
-    "kids", "kid", "junior", "jr", "baby", "cartoon", "toon",
-    "nickelodeon", "nick", "nicktoons", "disney", "boomerang",
-    "gulli", "tiji", "davinci", "da vinci", "carousel",
-    "mult", "multimania", "multilandia",
-    "детск", "детcк", "мульт", "малыш", "карусель", "ребенок", "ребёнок",
-    "солнце",
-]
+KIDS_KEYWORDS = ["kids", "kid", "junior", "jr", "baby", "cartoon", "toon",
+                 "nickelodeon", "nick", "nicktoons", "disney", "boomerang",
+                 "gulli", "tiji", "davinci", "da vinci", "carousel",
+                 "mult", "multimania", "multilandia", "kidzone",
+                 "детск", "детcк", "мульт", "малыш", "карусель", "ребенок", "ребёнок"]
+KIDS_EXCEPTIONS = ["start air", "start world"]
 
-KIDS_EXCEPTIONS = [
-    "start air", "start world",
-]
+BLOCKED_CHANNELS = ["legislative rada", "rada tv", "рада", "rada"]
+BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
 
-BLOCKED_CHANNELS = [
-    "legislative rada",
-    "rada tv",
-    "рада",
-    "rada",
-]
+WHITELIST = ["channel one", "первый канал", "1tv", "ort",
+             "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
+             "russia-1", "russia 1", "russia1", "россия-1", "россия 1",
+             "rossiya-1", "rossiya 1", "russia-24", "россия-24", "rossiya-24",
+             "russia-k", "россия-к", "kultura", "культура",
+             "start air", "start-air", "startair", "start world", "start-world", "startworld",
+             "ntv", "нтв"]
 
-BLOCKED_URL_PATTERNS = [
-    "radiorecord.hostingradio.ru",
-    "radiorecord.ru",
-    "hostingradio.ru",
-]
+URL_CATEGORY_MAP = [("kinowalk.hopto.org", "🎬 Кино")]
 
-WHITELIST = [
-    "channel one", "первый канал", "1tv", "ort",
-    "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
-    "russia-1", "russia 1", "russia1",
-    "россия-1", "россия 1", "россия1",
-    "rossiya-1", "rossiya 1", "rossiya1",
-    "russia-24", "russia 24", "russia24",
-    "россия-24", "россия 24", "россия24",
-    "rossiya-24", "rossiya 24", "rossiya24",
-    "russia-k", "russia k", "россия-к", "россия к",
-    "rossiya-k", "rossiya k", "kultura", "культура",
-    "russia hd", "россия hd", "rossiya hd",
-    "start air", "start-air", "startair",
-    "start world", "start-world", "startworld",
-    "ntv", "нтв",
-]
-
-URL_CATEGORY_MAP = [
-    ("kinowalk.hopto.org", "🎬 Кино"),
-]
-
+# IPTV-org DB: убран "general" - иначе кино уходит в Федеральные
 IPTV_CATEGORY_MAP = {
-    "general": "📺 Федеральные",
-    "news": "📰 Новости",
-    "sports": "⚽ Спорт",
-    "movies": "🎬 Кино",
-    "series": "🎬 Кино",
-    "comedy": "🎬 Кино",
-    "classic": "🎬 Кино",
-    "animation": "🎬 Кино",
+    "news": "📰 Новости", "sports": "⚽ Спорт",
+    "movies": "🎬 Кино", "series": "🎬 Кино", "comedy": "🎬 Кино",
+    "classic": "🎬 Кино", "animation": "🎬 Кино",
     "music": "🎵 Музыка",
-    "documentary": "📚 Познавательные",
-    "science": "📚 Познавательные",
-    "culture": "📚 Познавательные",
-    "education": "📚 Познавательные",
-    "entertainment": "🎭 Развлечения",
-    "lifestyle": "🎭 Развлечения",
-    "cooking": "🎭 Развлечения",
-    "family": "🎭 Развлечения",
-    "travel": "🎭 Развлечения",
-    "outdoor": "🎭 Развлечения",
-    "auto": "🚗 Авто",
-    "business": "💼 Бизнес",
-    "shop": "🛒 Магазины",
-    "relax": "🌿 Релакс",
-    "weather": "🌤 Погода",
-    "religious": "⛪ Религия",
+    "documentary": "📚 Познавательные", "science": "📚 Познавательные",
+    "culture": "📚 Познавательные", "education": "📚 Познавательные",
+    "entertainment": "🎭 Развлечения", "lifestyle": "🎭 Развлечения",
+    "cooking": "🎭 Развлечения", "family": "🎭 Развлечения",
+    "travel": "📚 Познавательные", "outdoor": "📚 Познавательные",
+    "auto": "🚗 Авто", "business": "💼 Бизнес",
+    "shop": "🛒 Магазины", "relax": "🌿 Релакс",
+    "weather": "🌤 Погода", "religious": "⛪ Религия",
 }
 
-SHORT_TVG_MAP = {
-    "tnt": "📺 Федеральные",
-    "tnt4": "📺 Федеральные",
-    "pervy": "📺 Федеральные",
-    "kultura": "📺 Федеральные",
-    "yu": "📺 Федеральные",
-    "super": "📺 Федеральные",
-    "che": "📺 Федеральные",
-    "5kanal-ru": "📺 Федеральные",
-    "sts-love": "📺 Федеральные",
-    "rtd-ru": "🌐 Международные",
-    "kvn-tv": "🎭 Развлечения",
-    "mir-uvlecheniy": "🎭 Развлечения",
-    "prodvizhenie": "📰 Новости",
-    "krik-tv": "🎭 Развлечения",
-    "solovjinypomiot": "📰 Новости",
-    "chestny-detektiv": "📚 Познавательные",
-    "smotrim-100-klassika": "🎬 Кино",
-    "smotrim-100-lubov": "🎬 Кино",
-    "smotrim-100-muzhskoe": "🎬 Кино",
-    "smotrim-100-prazdnik": "🎬 Кино",
-    "smotrim-100-fakty": "📚 Познавательные",
-    "kinomist": "🎬 Кино",
-    "cityedem-kinomist": "🎬 Кино",
-    "cityedem-kinoact": "🎬 Кино",
-    "world-fashion-channel": "🎭 Развлечения",
+# ТОЧНЫЕ tvg-id → категория (самый точный уровень)
+TVG_CATEGORY = {
+    # ФЕДЕРАЛЬНЫЕ
+    "pervy": "📺 Федеральные", "ntv": "📺 Федеральные",
+    "tnt": "📺 Федеральные", "tnt4": "📺 Федеральные",
+    "che": "📺 Федеральные", "sts": "📺 Федеральные",
+    "sts-love": "📺 Федеральные", "tv3-ru": "📺 Федеральные",
+    "tvcentr": "📺 Федеральные", "piatnica": "📺 Федеральные",
+    "domashny": "📺 Федеральные", "zvezda": "📺 Федеральные",
+    "zvezda-plus": "📺 Федеральные", "mir": "📺 Федеральные",
+    "mir-24": "📺 Федеральные", "kultura": "📺 Федеральные",
+    "rossia1": "📺 Федеральные", "rossia-24": "📺 Федеральные",
+    "rentv": "📺 Федеральные", "5kanal-ru": "📺 Федеральные",
+    "piaty-int": "📺 Федеральные", "super": "📺 Федеральные",
+    "yu": "📺 Федеральные", "otr": "📺 Федеральные",
+    "tvc": "📺 Федеральные", "360": "📺 Федеральные",
+    "360-lv": "📺 Федеральные",
+
+    # КИНО
+    "amedia-hit": "🎬 Кино", "amedia-2": "🎬 Кино",
+    "vip-comedy": "🎬 Кино", "vip-megahit": "🎬 Кино",
+    "vip-premiere": "🎬 Кино", "vip-serial": "🎬 Кино",
+    "star-family": "🎬 Кино", "star-cinema": "🎬 Кино",
+    "dom-kino": "🎬 Кино", "dom-kino-premium": "🎬 Кино",
+    "kinopokaz": "🎬 Кино", "kinopremyera": "🎬 Кино",
+    "kinohit": "🎬 Кино", "kinomix": "🎬 Кино",
+    "kinokomedija": "🎬 Кино", "kinoseriya": "🎬 Кино",
+    "kinosvidanie": "🎬 Кино", "kinouzhas": "🎬 Кино",
+    "kinosemja": "🎬 Кино", "indiyskoye-kino": "🎬 Кино",
+    "russkiy-illusion": "🎬 Кино", "evrokino": "🎬 Кино",
+    "kapitan-fantastika": "🎬 Кино", "komediynoe": "🎬 Кино",
+    "premialnoe": "🎬 Кино", "priklyucheniya": "🎬 Кино",
+    "shokiruyushchee": "🎬 Кино", "ostrosyuzhetnoye": "🎬 Кино",
+    "nashe-novoe-kino": "🎬 Кино", "rodnoe-kino": "🎬 Кино",
+    "nonestopmovie": "🎬 Кино", "zagar": "🎬 Кино",
+    "skladfilm": "🎬 Кино", "kinolenta": "🎬 Кино",
+    "filmscope": "🎬 Кино", "kinoshkino": "🎬 Кино",
+    "kinofans": "🎬 Кино", "kinojam": "🎬 Кино",
+    "kinopro": "🎬 Кино", "kinofon": "🎬 Кино",
     "no_epg_cinema": "🎬 Кино",
+
+    # СПОРТ
+    "match": "⚽ Спорт", "match-tv": "⚽ Спорт",
+    "match-arena": "⚽ Спорт", "match-boets": "⚽ Спорт",
+    "match-igra": "⚽ Спорт", "match-strana": "⚽ Спорт",
+    "match-ultra": "⚽ Спорт", "khl": "⚽ Спорт",
+    "khl-prime": "⚽ Спорт", "setanta-sports": "⚽ Спорт",
+    "eurosport": "⚽ Спорт", "football": "⚽ Спорт",
+    "mma-tv": "⚽ Спорт", "okko-sport": "⚽ Спорт",
+    "okko-futbol": "⚽ Спорт", "okko-prajm-sport": "⚽ Спорт",
+    "extreme-sports": "⚽ Спорт", "sportivnyy": "⚽ Спорт",
+
+    # МУЗЫКА
+    "ru-tv": "🎵 Музыка", "muz-tv": "🎵 Музыка",
+    "mtv": "🎵 Музыка", "vh1": "🎵 Музыка",
+    "europa-plus": "🎵 Музыка", "songtv": "🎵 Музыка",
+    "bridge": "🎵 Музыка", "mcm": "🎵 Музыка",
+    "mcm-top": "🎵 Музыка", "shanson": "🎵 Музыка",
+    "shanson-tv": "🎵 Музыка", "zhara": "🎵 Музыка",
+    "tnt-music": "🎵 Музыка", "muzyka": "🎵 Музыка",
+    "mezzo": "🎵 Музыка", "mezzo-live-hd": "🎵 Музыка",
+    "1hd": "🎵 Музыка",
+
+    # НОВОСТИ
+    "rbc": "📰 Новости", "rbc-tv": "📰 Новости",
+    "izvestia": "📰 Новости", "moskva-24": "📰 Новости",
+    "tsargrad": "📰 Новости", "tsargrad-tv": "📰 Новости",
+    "tv-rain": "📰 Новости", "solovyov-live": "📰 Новости",
+    "solovjinypomiot": "📰 Новости", "vmeste-rf": "📰 Новости",
+    "prodvizhenie": "📰 Новости", "maidan": "📰 Новости",
+    "osn": "📰 Новости", "rt": "📰 Новости",
+    "pro-business": "💼 Бизнес",
+
+    # ПОЗНАВАТЕЛЬНЫЕ
+    "natgeo": "📚 Познавательные", "national-geographic": "📚 Познавательные",
+    "discovery": "📚 Познавательные", "viju-explore": "📚 Познавательные",
+    "viju-nature": "📚 Познавательные", "nauka": "📚 Познавательные",
+    "istoriya": "📚 Познавательные", "big-planet": "📚 Познавательные",
+    "chestny-detektiv": "📚 Познавательные", "law-tv": "📚 Познавательные",
+    "rzd-tv": "📚 Познавательные", "big-asia": "📚 Познавательные",
+    "travel-adventure": "📚 Познавательные",
+    "dikaya-okhota": "📚 Познавательные", "dikaya-rybalka": "📚 Познавательные",
+    "ohotnik-i-rybolov": "📚 Познавательные", "moya-stikhiya": "📚 Познавательные",
+    "viasat-nature-history-hd": "📚 Познавательные",
+
+    # РЕГИОНЫ
+    "abaza-tv": "🌍 Регионы", "aist-tv": "🌍 Регионы",
+    "apsua-tv": "🌍 Регионы", "aris-24": "🌍 Регионы",
+    "arkhyz-24": "🌍 Регионы", "astrahan-24": "🌍 Регионы",
+    "belgorod-24": "🌍 Регионы", "channel-8-krasnoyarsk": "🌍 Регионы",
+    "channel-8-novosibirsk": "🌍 Регионы", "dagestan": "🌍 Регионы",
+    "eurasia": "🌍 Регионы", "groznyj": "🌍 Регионы",
+    "ingushetia": "🌍 Регионы", "novgor-obl-tv": "🌍 Регионы",
+    "ntk-21": "🌍 Регионы", "ntm": "🌍 Регионы",
+    "nts": "🌍 Регионы", "nvk-sakha": "🌍 Регионы",
+    "otv-prim": "🌍 Регионы", "s1": "🌍 Регионы",
+    "samara-gis": "🌍 Регионы", "sankt-peterburg": "🌍 Регионы",
+    "sochi-live": "🌍 Регионы", "sochi24": "🌍 Регионы",
+    "svoyo-tv": "🌍 Регионы", "telekanal-krasnodar": "🌍 Регионы",
+    "tkr": "🌍 Регионы", "tnv-tatarstan": "🌍 Регионы",
+    "tolk": "🌍 Регионы", "tooku": "🌍 Регионы",
+    "ugra-tv": "🌍 Регионы", "ulytau": "🌍 Регионы",
+    "volga": "🌍 Регионы", "prima": "🌍 Регионы",
+
+    # МЕЖДУНАРОДНЫЕ
+    "belarus1": "🌐 Международные", "belarus4": "🌐 Международные",
+    "moldova1": "🌐 Международные", "moldova2": "🌐 Международные",
+    "kentron-tv": "🌐 Международные", "naxcivan-tv": "🌐 Международные",
+    "silk-way": "🌐 Международные", "rtr-planeta": "🌐 Международные",
+    "rt-balkan": "🌐 Международные", "rtd-ru": "🌐 Международные",
+    "rtg-tv": "🌐 Международные", "simon": "🌐 Международные",
+    "stv-by": "🌐 Международные", "tsv": "🌐 Международные",
+    "channel-one-cis": "🌐 Международные", "channel-one-eurasia": "🌐 Международные",
+    "ntv-mir": "🌐 Международные", "ren-tv-international": "🌐 Международные",
+    "rtvi-us": "🌐 Международные",
+
+    # МАГАЗИНЫ
+    "shopping-live": "🛒 Магазины", "leomax-24": "🛒 Магазины",
+    "ntv-vitrina": "🛒 Магазины", "vitrina-tv": "🛒 Магазины",
+
+    # РЕЛИГИЯ
+    "spas": "⛪ Религия", "soyuz": "⛪ Религия",
+    "3abn-russia": "⛪ Религия", "hope-channel-russia": "⛪ Религия",
+
+    # АВТО
+    "auto-plus": "🚗 Авто", "avto-24": "🚗 Авто", "drive": "🚗 Авто",
+
+    # РАЗВЛЕЧЕНИЯ
+    "fashiontv": "🎭 Развлечения", "krik-tv": "🎭 Развлечения",
+    "kvn-tv": "🎭 Развлечения", "tele-dom": "🎭 Развлечения",
+    "world-fashion-channel": "🎭 Развлечения",
 }
 
+# Grouptitle: УБРАНЫ russia/ru/general
 GROUP_TITLE_MAP = {
     "movies": "🎬 Кино", "кино": "🎬 Кино", "cinema": "🎬 Кино", "фильмы": "🎬 Кино",
-    "sport": "⚽ Спорт", "спорт": "⚽ Спорт", "sports": "⚽ Спорт",
+    "sport": "⚽ Спорт", "спорт": "⚽ Спорт",
     "news": "📰 Новости", "новости": "📰 Новости",
     "music": "🎵 Музыка", "музыка": "🎵 Музыка",
-    "kids": "📦 Прочее", "детск": "📦 Прочее", "детские": "📦 Прочее",
-    "russia": "📺 Федеральные", "россия": "📺 Федеральные", "российские": "📺 Федеральные",
-    "ru": "📺 Федеральные",
-    "general": "📺 Федеральные",
     "documentary": "📚 Познавательные", "познавательные": "📚 Познавательные",
     "entertainment": "🎭 Развлечения", "развлечения": "🎭 Развлечения",
     "auto": "🚗 Авто", "авто": "🚗 Авто",
-    "shop": "🛒 Магазины", "магазин": "🛒 Магазины",
+    "shop": "🛒 Магазины",
     "religion": "⛪ Религия", "религия": "⛪ Религия",
 }
 
-# === Keywords. ПОРЯДОК ВАЖЕН: Fresh первым, чтобы не попал в Кино ===
+# Порядок ВАЖЕН: специфичные категории раньше Федеральных
 CATEGORIES_KEYWORDS = {
-    "🎬 Fresh": [
-        "fresh adventure", "fresh family", "fresh fantastic",
-        "fresh horror", "fresh premiere", "fresh rating",
-        "fresh romantic", "fresh series", "fresh thriller",
-    ],
-    "📺 Федеральные": [
-        "channel one", "первый канал", "1tv", "ort",
-        "russia-1", "russia 1", "россия-1", "россия 1", "rossiya-1", "rossiya 1",
-        "russia-24", "russia 24", "россия-24", "россия 24", "rossiya-24", "rossiya 24",
-        "russia-k", "россия-к", "россия к", "kultura", "культура",
-        "ntv", "нтв", "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
-        "tnt", "тнт", "tht", "tnt4", "тнт4",
-        "sts", "стс", "ctc", "ctc love",
-        "tv3", "тв3", "тв-3",
-        "tvc", "твц", "tv centr", "тв центр",
-        "пятый канал", "5 kanal", "5kanal", "channel 5",
-        "8 канал",
-        "karusel", "карусель", "che", "че", "пятница", "pyatnica", "friday",
-        "domashniy", "домашний", "zvezda", "звезда",
-        "mir", "мир", "otr", "отр", "спас", "spas",
-        "суббота", "subbota", "смотрим", "smotrim",
-    ],
-    "⚽ Спорт": [
-        "match", "матч", "khl", "кхл", "setanta", "sport", "спорт",
-        "eurosport", "football", "футбол", "futbol",
-        "mma", "ufc", "boks", "бокс", "extreme sport", "экстрим",
-        "okko sport", "okko futbol", "sportivnyy", "sportiv",
-        "formula 1", "formula one",
-    ],
-    "🎬 Кино": [
-        "кино", "kino", "cinema", "tv1000", "viju", "amedia", "амедиа",
-        "fox", "fox life", "fx", "sony", "sci-fi", "scifi",
-        "blockbuster", "блокбастер", "kinopokaz", "kinopremyera",
-        "kinohit", "kinomix", "kinokomedija", "kinoseriya", "kinosvidanie",
-        "kinouzhas", "киноужас", "kinosemja", "киносемья",
-        "nashe novoe kino", "rodnoe kino", "russkiy illusion",
-        "mosfilm", "мосфильм", "star cinema", "star family",
-        "premialnoe", "dorama", "индийское", "indiyskoye",
-        "comedy", "комедия", "start air", "start world", "start triumph",
-        "kinowalk", "movietoper", "timetomovie", "timetohorror",
-        "blockbusters", "kinolampa", "videoarsenal", "kinomix юрич",
-        "cinema time", "scripachtv",
-        "сериал", "serial", "vhs", "кассета", "kasseta",
-        "film", "фильм", "movie", "кинотеатр",
-        "bcu",
-    ],
-    "📰 Новости": [
-        "24", "news", "новости", "rbc", "рбк", "izvestia", "известия",
-        "russia today", "cgtn", "france 24", "euronews",
-        "dw", "bbc", "cnn", "vmeste", "вместе",
-        "moskva 24", "москва 24",
-    ],
-    "🎵 Музыка": [
-        "муз", "muz", "mtv", "vh1", "europa plus", "европа плюс",
-        "ru.tv", "ru tv", "rutv", "music box", "музыка", "muzyka",
-        "bridge", "brigde", "1hd", "1 hd music", "mcm",
-        "shanson", "шансон", "zhara", "жара", "tnt music",
-        "sony music", "viva", "a-one", "tracce", "муз-тв",
-    ],
-    "🌍 Регионы": [
-        "астрахань", "astrahan", "белгород", "belgorod",
-        "волгоград", "volgograd", "воронеж", "voronezh",
-        "екатеринбург", "сочи", "sochi", "крым", "crimea",
-        "севастополь", "simferopol", "ульяновск", "самара",
-        "казань", "уфа", "челябинск", "пермь", "тула",
-        "ярославль", "тюмень", "омск", "красноярск",
-        "иркутск", "хабаровск", "владивосток", "сахалин",
-        "мурманск", "архангельск", "вологда", "калининград",
-        "nnov", "novosibirsk", "новосибирск",
-        "ростов", "rostov", "краснодар", "krasnodar",
-        "ставрополь", "stavropol", "махачкала", "грозный",
-        "регион", "region", "область", "край", "республика",
-        "твк", "tvk", "твр", "c1", "енисей", "enisey",
-        "харьков", "kharkov", "vitebsk", "витебск",
-    ],
-    "🌐 Международные": [
-        "rtr planeta", "rtr-planeta", "channel one cis",
-        "channel one eurasia", "ntv mir", "ren tv international",
-        "rt ", "rt balkan", "rt en espanol", "rtg",
-    ],
+    "🎬 Fresh": ["fresh adventure", "fresh family", "fresh fantastic",
+                 "fresh horror", "fresh premiere", "fresh rating",
+                 "fresh romantic", "fresh series", "fresh thriller"],
+
+    "⚽ Спорт": ["okko sport", "okko futbol", "okko prajm", "setanta",
+                "mma-tv", "khl", "khl prime", "eurosport", "football",
+                "match tv", "match! arena", "match! boets", "match! igra",
+                "match! strana", "match! ultra", "sportivnyy", "extreme sport",
+                "astrahan.ru sport", "formula 1"],
+
+    "🎬 Кино": ["amedia", "viju", "tv1000", "tv 1000", "viasat",
+                "kinopokaz", "kinopremyera", "kinohit", "kinomix",
+                "kinokomedija", "kinoseriya", "kinosvidanie",
+                "kinouzhas", "киноужас", "kinosemja",
+                "premialnoe", "ostrosyuzhetnoye", "komediynoe",
+                "dushevnoe", "evrokino", "horoshee kino",
+                "kapitan fantastika", "priklyucheniya", "shokiruyushchee",
+                "star family", "star cinema", "blockbuster",
+                "dom kino", "indiyskoye", "russkiy illusion",
+                "nashe novoe kino", "rodnoe kino", "mosfilm", "мосфильм",
+                "megahit", "vip comedy", "vip premiere",
+                "kinowalk", "movietoper", "timetomovie", "timetohorror",
+                "blockbusters", "kinolampa", "videoarsenal",
+                "cinema time", "scripachtv", "kinolenta", "kinofans",
+                "kinofon", "kinopro", "kinojam", "kino24",
+                "сериал", "serial", "vhs", "кассета", "kasseta",
+                "film", "фильм", "movie", "кинотеатр", "kinoshkino",
+                "filmscope", "skladfilm", "nonestopmovie", "ncd"],
+
+    "📰 Новости": ["izvestia", "moskva 24", "rbc", "рбк", "solovyov",
+                   "tsargrad", "tv rain", "vmeste-rf", "prodvizhenie",
+                   "maidan", "osn", "russia today", "euronews",
+                   "france 24", "dw ", "bbc news", "cnn"],
+
+    "🎵 Музыка": ["ru.tv", "ru tv", "rutv", "муз-тв", "muz-tv", "mtv",
+                  "vh1", "europa plus", "европа плюс", "music box",
+                  "songtv", "mezzo", "muzyka", "1hd", "1 hd music",
+                  "mcm", "shanson", "шансон", "zhara", "жара",
+                  "tnt music", "kn music", "strana fm", "bridge",
+                  "fashion tv", "fashiontv"],
+
+    "📚 Познавательные": ["nat geo", "national geographic", "discovery",
+                          "istoriya", "viju explore", "viju nature",
+                          "nauka", "big planet", "big asia", "law tv",
+                          "rzd tv", "chestny", "dikaya okhota", "dikaya rybalka",
+                          "ohotnik", "moya stikhiya", "v mire zhivotnykh",
+                          "zhivaya priroda", "travel+adventure", "health",
+                          "med-", "recepty"],
+
+    "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom", "teld",
+                       "tnt4 comedy", "humor", "юмор"],
+
+    "🌍 Регионы": ["krasnoyarsk", "novosibirsk", "dagestan", "ingushetia",
+                   "belgorod", "astrahan", "arkhyz", "abaza", "apsua",
+                   "aris 24", "grozny", "uly", "ugra", "tooku", "tolk",
+                   "tnv", "ntm", "nts", "nvk sakha", "volga", "krasnodar",
+                   "prima", "sochi", "svoyo", "telekanal", "sankt-peterburg",
+                   "novgor", "otv-prim", "ntk 21", "хабаровск", "иркутск",
+                   "владивосток", "сахалин", "мурманск", "архангельск",
+                   "вологда", "калининград", "ростов", "ставрополь",
+                   "махачкала", "грозный", "твк", "tvk", "твр",
+                   "енисей", "enisey", "nnov", "vitebsk", "витебск"],
+
+    "🌐 Международные": ["belarus", "moldova", "kentron", "naxcivan",
+                         "silk way", "rtr planeta", "rtvi", "rt balkan",
+                         "rt documentary", "rtd", "rtg", "simon",
+                         "channel one cis", "channel one eurasia",
+                         "ntv mir", "ren tv international", "stv ",
+                         "tsv", "vitebsk"],
+
+    "🛒 Магазины": ["shopping live", "leomax", "vitrina", "shop"],
+
+    "⛪ Религия": ["3abn", "hope channel", "soyuz", "союз", "спас"],
+
+    "🚗 Авто": ["auto plus", "avto 24", "avto24", "drive", "авто"],
+
+    "💼 Бизнес": ["pro business", "business"],
+
+    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ — чтобы кино/спорт перехватывали раньше
+    "📺 Федеральные": ["channel one", "первый канал", "1tv",
+                       "russia-1", "россия 1", "россия-1", "rossiya 1",
+                       "russia-24", "россия 24", "россия-24",
+                       "russia-k", "россия к", "россия-к", "kultura",
+                       "нтв hd", "ntv (russia)", "ntv hd",
+                       "рен тв", "ren tv",
+                       "тнт hd", "tnt hd", "тнт 4", "tht hd", "tht4",
+                       "стс hd", "sts hd", "ctc love", "ctc",
+                       "тв3 hd", "tv-3 hd", "tv3",
+                       "твц hd", "tvcentr", "tv centr",
+                       "пятый канал", "channel 5 (russia)", "5 kanal",
+                       "мир hd", "мир 24", "mir hd", "mir 24", "moy mir",
+                       "отр", "otr",
+                       "суббота", "subbota", "смотрим", "smotrim",
+                       "пятница", "pyatnica", "friday",
+                       "домашний", "domashny",
+                       "звезда", "zvezda",
+                       "360", "8 канал", "карусель", "karusel",
+                       "че!", "che!", "ю ", "yu "],
 }
 
-CATEGORY_ORDER = [
-    "📺 Федеральные",
-    "📰 Новости",
-    "⚽ Спорт",
-    "🎬 Кино",
-    "🎬 Fresh",
-    "🎵 Музыка",
-    "📚 Познавательные",
-    "🎭 Развлечения",
-    "🌍 Регионы",
-    "🌐 Международные",
-    "🚗 Авто",
-    "💼 Бизнес",
-    "🛒 Магазины",
-    "🌿 Релакс",
-    "🌤 Погода",
-    "⛪ Религия",
-    "📦 Прочее",
-]
+CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
+                  "🎵 Музыка", "📚 Познавательные", "🎭 Развлечения",
+                  "🌍 Регионы", "🌐 Международные", "🚗 Авто", "💼 Бизнес",
+                  "🛒 Магазины", "🌿 Релакс", "🌤 Погода", "⛪ Религия", "📦 Прочее"]
 
 
 def parse_m3u(text):
@@ -337,11 +394,9 @@ def is_bad_url(url):
 def is_kids(extinf):
     name = base_name(extinf)
     group = get_group(extinf)
-
     for exc in KIDS_EXCEPTIONS:
         if exc in name:
             return False
-
     for kw in KIDS_KEYWORDS:
         if len(kw) <= 4:
             pattern = r'(?<![a-zа-яё0-9])' + re.escape(kw) + r'(?![a-zа-яё0-9])'
@@ -350,11 +405,9 @@ def is_kids(extinf):
         else:
             if kw in name:
                 return True
-
     for kw in ["kids", "детск", "мульт", "cartoon", "junior"]:
         if kw in group:
             return True
-
     return False
 
 
@@ -368,23 +421,19 @@ def is_blocked(extinf):
 
 def is_blocked_url(url):
     u = url.lower()
-    for pattern in BLOCKED_URL_PATTERNS:
-        if pattern in u:
+    for p in BLOCKED_URL_PATTERNS:
+        if p in u:
             return True
     return False
 
 
 def load_quality_data():
     if not os.path.exists(QUALITY_FILE):
-        print("Quality data not found: " + QUALITY_FILE + " (skip filter)")
         return {}
     try:
         with open(QUALITY_FILE, "r", encoding="utf-8") as f:
-            data = json.load(f)
-        print("Quality data loaded: " + str(len(data)) + " entries")
-        return data
-    except Exception as e:
-        print("Quality data error: " + str(e))
+            return json.load(f)
+    except Exception:
         return {}
 
 
@@ -408,9 +457,8 @@ def download_iptv_org_db():
         data = r.json()
         print("IPTV-org DB: " + str(len(data)) + " channels loaded")
     except Exception as e:
-        print("IPTV-org DB download failed: " + str(e) + " (fallback to keywords)")
+        print("IPTV-org DB failed: " + str(e))
         return {}
-
     mapping = {}
     for ch in data:
         ch_id = ch.get("id")
@@ -422,39 +470,46 @@ def download_iptv_org_db():
             if ru:
                 mapping[ch_id.lower()] = ru
                 break
-
     print("IPTV-org DB mapped: " + str(len(mapping)) + " channels")
     return mapping
 
 
 def get_category(extinf, url, iptv_db):
+    # 1. URL
     url_lower = url.lower()
     for pattern, cat in URL_CATEGORY_MAP:
         if pattern in url_lower:
             return cat, "url"
 
+    # 2. Точный tvg-id
     tvg_id = extract_tvg_id(extinf)
     if tvg_id:
         tvg_id_low = tvg_id.lower()
+        # точное совпадение
+        if tvg_id_low in TVG_CATEGORY:
+            return TVG_CATEGORY[tvg_id_low], "tvg-id"
+        # база IPTV-org
         if tvg_id_low in iptv_db:
             return iptv_db[tvg_id_low], "tvg-id-db"
+        # паттерны в tvg-id
+        t = tvg_id_low
+        if any(p in t for p in ["kino", "film", "cinema", "kasseta", "serial"]):
+            return "🎬 Кино", "tvg-pattern"
+        if any(p in t for p in ["music", "radio", "mtv", "muz"]) and "brigde" not in t:
+            return "🎵 Музыка", "tvg-pattern"
+        if any(p in t for p in ["sport", "match", "futbol"]):
+            return "⚽ Спорт", "tvg-pattern"
+        if any(p in t for p in ["news"]) and "rtvi" not in t:
+            return "📰 Новости", "tvg-pattern"
 
-    if tvg_id and tvg_id in SHORT_TVG_MAP:
-        return SHORT_TVG_MAP[tvg_id], "tvg-id-short"
-
-    if tvg_id:
-        t = tvg_id.lower()
-        if any(p in t for p in ["kino", "film", "cinema", "vhs", "serial", "kasseta"]):
-            return "🎬 Кино", "tvg-id-pattern"
-        if any(p in t for p in ["music", "radio", "fm"]):
-            return "🎵 Музыка", "tvg-id-pattern"
-
+    # 3. group-title (только специфичные)
     group = get_group(extinf)
     if group:
         for k, v in GROUP_TITLE_MAP.items():
             if k in group:
                 return v, "group-title"
 
+    # 4. Keywords (по порядку — специфичные раньше)
     name = base_name(extinf)
     for category, keywords in CATEGORIES_KEYWORDS.items():
         for kw in keywords:
@@ -483,11 +538,9 @@ def main():
 
     for src in SOURCES:
         if not os.path.exists(src):
-            print("Skip (not found): " + src)
             continue
         with open(src, "r", encoding="utf-8") as f:
-            text = f.read()
-        channels = parse_m3u(text)
+            channels = parse_m3u(f.read())
         source_stats[src] = len(channels)
         all_channels.extend(channels)
         print(src + ": " + str(len(channels)) + " channels")
@@ -496,7 +549,7 @@ def main():
 
     non_kids = [ch for ch in all_channels if not is_kids(ch["extinf"])]
     dropped_kids = len(all_channels) - len(non_kids)
-    print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
+    print("After kids: " + str(len(non_kids)) + " (dropped: " + str(dropped_kids) + ")")
 
     non_blocked = []
     dropped_blocked = 0
@@ -509,13 +562,12 @@ def main():
             dropped_radio += 1
             continue
         non_blocked.append(ch)
-    print("After blocked+radio filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ", dropped radio: " + str(dropped_radio) + ")")
+    print("After blocked+radio: " + str(len(non_blocked)) + " (blocked: " + str(dropped_blocked) + ", radio: " + str(dropped_radio) + ")")
 
     quality_data = load_quality_data()
     non_dead = []
     dropped_dead = 0
     whitelist_protected = 0
-    dropped_dead_names = []
     for ch in non_blocked:
         if is_whitelisted(ch["extinf"]):
             whitelist_protected += 1
@@ -523,11 +575,9 @@ def main():
             continue
         if is_dead_by_quality(ch["extinf"], quality_data):
             dropped_dead += 1
-            if len(dropped_dead_names) < 10:
-                dropped_dead_names.append(get_name(ch["extinf"]))
         else:
             non_dead.append(ch)
-    print("After quality filter: " + str(len(non_dead)) + " (dropped dead: " + str(dropped_dead) + ", whitelist protected: " + str(whitelist_protected) + ")")
+    print("After quality: " + str(len(non_dead)) + " (dead: " + str(dropped_dead) + ", wl: " + str(whitelist_protected) + ")")
 
     best = {}
     for ch in non_dead:
@@ -535,18 +585,17 @@ def main():
         q = get_quality(ch["extinf"])
         clean = 0 if is_bad_url(ch["url"]) else 1
         score = (clean, q)
-
         if key not in best or score > best[key][0]:
             best[key] = (score, ch)
 
     deduped = [v[1] for v in best.values()]
     dropped_dups = len(non_dead) - len(deduped)
-    print("After dedup: " + str(len(deduped)) + " (dropped dups: " + str(dropped_dups) + ")")
+    print("After dedup: " + str(len(deduped)) + " (dups: " + str(dropped_dups) + ")")
 
     iptv_db = download_iptv_org_db()
 
     categorized = {}
-    source_used = {"url": 0, "tvg-id-db": 0, "tvg-id-short": 0, "tvg-id-pattern": 0, "group-title": 0, "keywords": 0, "fallback": 0}
+    source_used = {"url": 0, "tvg-id": 0, "tvg-id-db": 0, "tvg-pattern": 0, "group-title": 0, "keywords": 0, "fallback": 0}
 
     for ch in deduped:
         cat, src_used = get_category(ch["extinf"], ch["url"], iptv_db)
@@ -576,11 +625,10 @@ def main():
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    lines = []
-    lines.append('#EXTM3U url-tvg="' + EPG_URL + '" x-tvg-url="' + EPG_URL + '"')
-    lines.append("# Combined from " + str(len(SOURCES)) + " sources | Updated: " + now)
-    lines.append("# Total: " + str(len(sorted_channels)) + " unique channels | Categorized")
-    lines.append("")
+    lines = ['#EXTM3U url-tvg="' + EPG_URL + '" x-tvg-url="' + EPG_URL + '"',
+             "# Combined from " + str(len(SOURCES)) + " sources | Updated: " + now,
+             "# Total: " + str(len(sorted_channels)) + " unique channels | Categorized",
+             ""]
     for ch in sorted_channels:
         lines.append(ch["extinf"])
         lines.append(ch["url"])
@@ -593,14 +641,13 @@ def main():
     print("Saved " + OUTPUT_FILE)
     print("")
     print("=== ИТОГО ===")
-    print("Источников: " + str(len(source_stats)))
     print("Всего: " + str(len(all_channels)))
-    print("Детских удалено: " + str(dropped_kids))
-    print("Заблокированных удалено: " + str(dropped_blocked))
-    print("Радио удалено: " + str(dropped_radio))
-    print("Мёртвых по Quality удалено: " + str(dropped_dead))
-    print("Whitelist защищено: " + str(whitelist_protected))
-    print("Дублей удалено: " + str(dropped_dups))
+    print("Детских: " + str(dropped_kids))
+    print("Заблокированных: " + str(dropped_blocked))
+    print("Радио: " + str(dropped_radio))
+    print("Мёртвых: " + str(dropped_dead))
+    print("Whitelist: " + str(whitelist_protected))
+    print("Дублей: " + str(dropped_dups))
     print("В финале: " + str(len(sorted_channels)))
 
 
