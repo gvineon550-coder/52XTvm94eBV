@@ -27,8 +27,21 @@ KIDS_EXCEPTIONS = ["start air", "start world"]
 BLOCKED_CHANNELS = [
     "legislative rada", "rada tv", "рада", "rada",
     "cineman",
+    "харьков",
 ]
-BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
+
+BLOCKED_URL_PATTERNS = [
+    "radiorecord.hostingradio.ru",
+    "radiorecord.ru",
+    "hostingradio.ru",
+    "tinyurl.com",
+    "freeott.top",
+    "workers.dev",
+    "tvstitch.com",
+    "picarto.tv",
+    "rtmp.one.by:1300",
+    "tivi-one.net",
+]
 
 RADIO_NAME_KEYWORDS = [
     "radio 1", "radio rossii", "radio russia", "radio mir", "radio mayak",
@@ -320,7 +333,6 @@ CATEGORIES_KEYWORDS = {
                    "s1", "samara-gis", "самара",
                    "tkr", "ткр",
                    "eurasia",
-                   "харьков", "tvk (russia)",
                    "aist tv", "channel 12",
                    "86"],
 
@@ -346,7 +358,6 @@ CATEGORIES_KEYWORDS = {
 
     "💼 Бизнес": ["pro business", "business"],
 
-    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ
     "📺 Федеральные": ["channel one", "первый канал", "1tv",
                        "первый fhd",
                        "russia-1", "россия 1", "россия-1", "rossiya 1",
