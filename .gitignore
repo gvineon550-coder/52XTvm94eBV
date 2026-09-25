@@ -15,6 +15,9 @@ ufotv_report.txt
 duplicates_report.txt
 bad_urls_report.txt
 
+# === Скриншоты каналов (старое) ===
+all_channels_AllGroups_screenshots/
+
 # === Python ===
 __pycache__/
 *.pyc
