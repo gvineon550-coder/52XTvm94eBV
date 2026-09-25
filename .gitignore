@@ -1,6 +1,25 @@
+# === Отчёты качества ===
 quality_report.txt
 quality_results.csv
+
+# === Отчёты источников ===
+report.txt
+romaxa55_report.txt
+iptvorg_report.txt
+ufotv_report.txt
+
+# === Временные плейлисты ===
+*_unstable.m3u
+
+# === Отчёты проверок ===
+duplicates_report.txt
+bad_urls_report.txt
+
+# === Python ===
 __pycache__/
 *.pyc
+*.pyo
+
+# === Система ===
 .DS_Store
 Thumbs.db
