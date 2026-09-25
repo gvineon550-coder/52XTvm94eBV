@@ -45,6 +45,13 @@ BLOCKED_CHANNELS = [
     "rada",
 ]
 
+# URL-паттерны для полного удаления (радио)
+BLOCKED_URL_PATTERNS = [
+    "radiorecord.hostingradio.ru",
+    "radiorecord.ru",
+    "hostingradio.ru",
+]
+
 WHITELIST = [
     "channel one", "первый канал", "1tv", "ort",
     "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
@@ -62,11 +69,9 @@ WHITELIST = [
     "ntv", "нтв",
 ]
 
-# === URL-детекция (приоритет 1) ===
+# === URL-детекция для категорий (приоритет 1) ===
 URL_CATEGORY_MAP = [
     ("kinowalk.hopto.org", "🎬 Кино"),
-    ("radiorecord.hostingradio.ru", "🎵 Музыка"),
-    ("radiorecord.ru", "🎵 Музыка"),
 ]
 
 # === Маппинг категорий IPTV-org → русские ===
@@ -98,7 +103,7 @@ IPTV_CATEGORY_MAP = {
     "religious": "⛪ Религия",
 }
 
-# === Шорткаты tvg-id (когда база IPTV-org не находит) ===
+# === Шорткаты tvg-id ===
 SHORT_TVG_MAP = {
     "tnt": "📺 Федеральные",
     "tnt4": "📺 Федеральные",
@@ -125,10 +130,9 @@ SHORT_TVG_MAP = {
     "cityedem-kinoact": "🎬 Кино",
     "world-fashion-channel": "🎭 Развлечения",
     "no_epg_cinema": "🎬 Кино",
-    "no_epg_music": "🎵 Музыка",
 }
 
-# === Маппинг group-title от источников ===
+# === Маппинг group-title ===
 GROUP_TITLE_MAP = {
     "movies": "🎬 Кино", "кино": "🎬 Кино", "cinema": "🎬 Кино", "фильмы": "🎬 Кино",
     "sport": "⚽ Спорт", "спорт": "⚽ Спорт", "sports": "⚽ Спорт",
@@ -145,7 +149,7 @@ GROUP_TITLE_MAP = {
     "religion": "⛪ Религия", "религия": "⛪ Религия",
 }
 
-# === Fallback: ключевые слова в имени ===
+# === Fallback: ключевые слова ===
 CATEGORIES_KEYWORDS = {
     "📺 Федеральные": [
         "channel one", "первый канал", "1tv", "ort",
@@ -153,7 +157,7 @@ CATEGORIES_KEYWORDS = {
         "russia-24", "russia 24", "россия-24", "россия 24", "rossiya-24", "rossiya 24",
         "russia-k", "россия-к", "россия к", "kultura", "культура",
         "ntv", "нтв", "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
-        "tnt", "тнт", "tht", "tnt4", "тнт4", "тнт-4",
+        "tnt", "тнт", "tht", "tnt4", "тнт4",
         "sts", "стс", "tv3", "тв3", "тв-3",
         "tvc", "твц", "tv centr", "тв центр",
         "пятый канал", "5 kanal", "5kanal", "channel 5",
@@ -197,7 +201,6 @@ CATEGORIES_KEYWORDS = {
         "bridge", "brigde", "1hd", "1 hd music", "mcm",
         "shanson", "шансон", "zhara", "жара", "tnt music",
         "sony music", "viva", "a-one", "tracce", "муз-тв",
-        "radio", "fm",
     ],
     "🌍 Регионы": [
         "астрахань", "astrahan", "белгород", "belgorod",
@@ -358,6 +361,15 @@ def is_blocked(extinf):
     return False
 
 
+def is_blocked_url(url):
+    """Проверяет URL на попадание в BLOCKED_URL_PATTERNS (радио)."""
+    u = url.lower()
+    for pattern in BLOCKED_URL_PATTERNS:
+        if pattern in u:
+            return True
+    return False
+
+
 def load_quality_data():
     if not os.path.exists(QUALITY_FILE):
         print("Quality data not found: " + QUALITY_FILE + " (skip filter)")
@@ -412,26 +424,20 @@ def download_iptv_org_db():
 
 
 def get_category(extinf, url, iptv_db):
-    """6 уровней определения категории."""
-
-    # 1. URL-детекция (самый точный для известных хостингов)
     url_lower = url.lower()
     for pattern, cat in URL_CATEGORY_MAP:
         if pattern in url_lower:
             return cat, "url"
 
-    # 2. tvg-id → база IPTV-org (нормализация регистра)
     tvg_id = extract_tvg_id(extinf)
     if tvg_id:
         tvg_id_low = tvg_id.lower()
         if tvg_id_low in iptv_db:
             return iptv_db[tvg_id_low], "tvg-id-db"
 
-    # 3. tvg-id → шорткаты
     if tvg_id and tvg_id in SHORT_TVG_MAP:
         return SHORT_TVG_MAP[tvg_id], "tvg-id-short"
 
-    # 4. tvg-id → паттерны (kino, film, vhs, serial)
     if tvg_id:
         t = tvg_id.lower()
         if any(p in t for p in ["kino", "film", "cinema", "vhs", "serial", "kasseta"]):
@@ -439,14 +445,12 @@ def get_category(extinf, url, iptv_db):
         if any(p in t for p in ["music", "radio", "fm"]):
             return "🎵 Музыка", "tvg-id-pattern"
 
-    # 5. group-title источника
     group = get_group(extinf)
     if group:
         for k, v in GROUP_TITLE_MAP.items():
             if k in group:
                 return v, "group-title"
 
-    # 6. Keywords по имени
     name = base_name(extinf)
     for category, keywords in CATEGORIES_KEYWORDS.items():
         for kw in keywords:
@@ -490,9 +494,19 @@ def main():
     dropped_kids = len(all_channels) - len(non_kids)
     print("After kids filter: " + str(len(non_kids)) + " (dropped kids: " + str(dropped_kids) + ")")
 
-    non_blocked = [ch for ch in non_kids if not is_blocked(ch["extinf"])]
-    dropped_blocked = len(non_kids) - len(non_blocked)
-    print("After blocked filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ")")
+    # Фильтр заблокированных + радио
+    non_blocked = []
+    dropped_blocked = 0
+    dropped_radio = 0
+    for ch in non_kids:
+        if is_blocked(ch["extinf"]):
+            dropped_blocked += 1
+            continue
+        if is_blocked_url(ch["url"]):
+            dropped_radio += 1
+            continue
+        non_blocked.append(ch)
+    print("After blocked+radio filter: " + str(len(non_blocked)) + " (dropped blocked: " + str(dropped_blocked) + ", dropped radio: " + str(dropped_radio) + ")")
 
     quality_data = load_quality_data()
     non_dead = []
@@ -580,6 +594,7 @@ def main():
     print("Всего: " + str(len(all_channels)))
     print("Детских удалено: " + str(dropped_kids))
     print("Заблокированных удалено: " + str(dropped_blocked))
+    print("Радио удалено: " + str(dropped_radio))
     print("Мёртвых по Quality удалено: " + str(dropped_dead))
     print("Whitelist защищено: " + str(whitelist_protected))
     print("Дублей удалено: " + str(dropped_dups))
