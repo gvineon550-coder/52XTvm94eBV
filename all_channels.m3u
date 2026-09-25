@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz" x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz"
-# Combined from 4 sources | Updated: 2026-09-25 11:40 UTC
+# Combined from 4 sources | Updated: 2026-09-25 11:55 UTC
 # Total: 493 unique channels | Categorized
 
 #EXTINF:-1 tvg-id="360-lv" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="📺 Федеральные",360° (1080p)
@@ -41,9 +41,6 @@ https://cdn.ntv.ru/ntv4/playlist.m3u8
 #EXTINF:-1 tvg-id="NTV.ru@Plus7" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📺 Федеральные",NTV (Russia) +7 (576p)
 https://cdn.ntv.ru/ntv7/playlist.m3u8
 
-#EXTINF:-1 tvg-id="ntv" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="📺 Федеральные",NTV (Russia) HD (1080p)
-https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
-
 #EXTINF:-1 tvg-id="RENTV.ru@HD" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="📺 Федеральные",REN TV HD (1080p)
 http://str2.iptvhd.ru:8080/REN_TV/index.m3u8
 
@@ -77,20 +74,11 @@ https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
 #EXTINF:-1 tvg-id="sts" tvg-logo="https://i.imgur.com/ilUzAeb.png" group-title="📺 Федеральные",STS HD (1080p)
 http://stream.mcquack.net/138/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt.png" tvg-id="tnt" group-title="📺 Федеральные", THT HD
-https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=E0R2kfCL_-Hcl58HPM1jgA&e=2072222110&scheme=https
-
-#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epg.iptvx.one/picons/tnt4.png" group-title="📺 Федеральные",THT4 HD
-https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=YmLsZ86xBHJzGryIFXgrmg&e=2069500953&scheme=https
-
 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://i.imgur.com/l0RGbRI.png" group-title="📺 Федеральные",TNT International Belarus (1080p)
 http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
 
 #EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://i.imgur.com/JLAvq8O.png" group-title="📺 Федеральные",TV-3 HD (1080p)
 http://stream.mcquack.net/136/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/KDZvt0Q.png" group-title="📺 Федеральные",U (720p)
-https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
 
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="https://i.imgur.com/NNmjD9Z.png" group-title="📺 Федеральные",Zvezda Plus HD (1080p)
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
@@ -104,20 +92,11 @@ https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" group-title="📺 Федеральные", Звезда+ HD
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/mono.ts.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mir24.png" tvg-id="mir-24" group-title="📺 Федеральные",  Мир 24 HD
-https://bl.rutube.ru/livestream/43269ba8fb179e298b1e497f557e8d2d/index.m3u8?s=AHyYF5k7S-kCLd06laF3_w&e=2069500976&scheme=https
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ntv.png" tvg-id="ntv" group-title="📺 Федеральные",  НТВ HD
-https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=KRpRtdju100oOaCoxpKyPg&e=2066519750&scheme=https
-
 #EXTINF:-1 tvg-logo="http://epg.propg.net/img/channel_icons/906.png" group-title="📺 Федеральные",ОТР
 https://flussonic.mkpnet.ru/tv-22ed9087cd194d2b/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/pervy.png" tvg-id="pervy" group-title="📺 Федеральные", Первый FHD
 https://edge08r.mediavitrina.ru/hls-livef6/1tv/index.m3u8?token=v2.KIey19Gb_KXMJOM9seA-W8bdmUtjDkRzjRwlYEzLYmY.fEBOwW7xy3Zkbpmi1BSwwPJiwUh6D9DI1vjoFr0pRMw.1790333114.4cf462dafaa8c89cdf5bc8c149e13998
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/piatnica.png" tvg-id="piatnica" group-title="📺 Федеральные",  Пятница HD
-https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=XhfUK7cRUF2Ss3pJ9kCOmg&e=2069846622&scheme=https
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/piaty-int.png" tvg-id="5kanal-ru" group-title="📺 Федеральные",Пятый канал HD
 https://edge07d.mediavitrina.ru/hls-livef8/5tv/index.m3u8?token=v2.D6rBSYm-k_PwdgRpAOSZ1Bkluwdq3zNnf75Am1zRBQY.9rKe4zU9Nj3Mw15kHRWWyLwWnOKdERWcOAMPrZ_yhWo.1790333600.1acc9ba9510b5b7dd7eca9e437222d52
@@ -149,12 +128,6 @@ https://stream.smotrim.ru/hls3/fasttv06/playlist_3.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sts.png" tvg-id="sts" group-title="📺 Федеральные",  СТС HD
 https://edge08r.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.JO5tIJ31ApybVUYAgw6G855g740jODgFmq1oHGBnNmI.-71I_ekbSSGavLS2F-Auo9o7HXo9aB52h-Lvd9tjwrw.1790333434.4afb9b3267e056fba6a26d40df0e1e6d
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/super.png" tvg-id="super" group-title="📺 Федеральные",Суббота
-https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?s=ygOk2tDua8hSzJnHH27dwA&e=2069500956&scheme=https
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" group-title="📺 Федеральные",ТВ3 HD
-https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=574vg6yabF0PZrSsdpRKuw&e=2069846623&scheme=https
-
 #EXTINF:-1 tvg-logo="http://epg.propg.net/img/channel_icons/10.png" tvg-id="tvcentr" group-title="📺 Федеральные",  ТВЦ HD
 https://edge08d.mediavitrina.ru/hls-livef6/tvc/index.m3u8?token=v2.kxrXdwPl8R252uAO9usjWKdzYSOe5whB1hrbBLCpyxI.JblBJPls-qv06QfVxaOpDIBkAVNt6zzHmeHOILMjiBw.1790333513.9c6c92a0f6e2beac61d157eb17a3cecb
 
@@ -163,9 +136,6 @@ https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
 
 #EXTINF:-1 tvg-id="che" tvg-logo="https://epg.iptvx.one/picons/che.png" group-title="📺 Федеральные",Че!
 https://flussonic.mkpnet.ru/tv-cf5a26a180f402ef/video.m3u8
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/yu.png" tvg-id="yu" group-title="📺 Федеральные",Ю
-https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?s=x45t0M4xuuiCNqRQBW70Jg&e=2069285051&scheme=https
 
 #EXTINF:-1 tvg-id="Belarus24.by@HD" tvg-logo="https://i.imgur.com/BP7tY6F.png" group-title="📰 Новости",Belarus-24 HD (1080p)
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
@@ -206,9 +176,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/habarovsk/russia24-sd/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.iptv.rt.ru/images/d7efm08mifeaf9jacb30.png" group-title="📰 Новости",Solovyov Live (1080p)
 https://stream.smotrim.ru/hls2/solovievlive/playlist_6.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/34RINpb.png" group-title="📰 Новости",Tsargrad TV (1080p) [Geo-blocked]
-https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?e=2070278263&s=is_mLq_kjPYLsOJ4qj85tw&scheme=https
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Tvrain.svg/960px-Tvrain.svg.png" group-title="📰 Новости",TV Rain (1080p) [Geo-blocked]
 https://wl.tvrain.tv/transcode/ngrp:ses_all/playlist.m3u8
 
@@ -220,12 +187,6 @@ https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/play
 
 #EXTINF:-1 tvg-id="izvestia" tvg-logo="https://epg.iptvx.one/picons/izvestia.png" group-title="📰 Новости",Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-
-#EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://epg.iptvx.one/picons/moskva-24.png" group-title="📰 Новости" ,Москва 24
-https://bl.rutube.ru/livestream/ca70d39eba2e8771358bbcb4bfbad860/index.m3u8?s=2hpFHyGd4ABvaVKRieBvOg&e=2077359297&scheme=https
-
-#EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epg.iptvx.one/picons/prodvizhenie.png" group-title="📰 Новости",Продвижение HD
-https://bl.rutube.ru/livestream/ff5c11c9a51750f5d33427762abc315c/index.m3u8?s=IBzoayhf0EhnnlzfDnDidg&e=2066519813&scheme=https
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot" group-title="📰 Новости",Соловьев.Live HD
 https://stream.smotrim.ru/hls/solovievlive/playlist_6.m3u8
@@ -257,12 +218,6 @@ https://fs.uplink.kz/mma/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="⚽ Спорт",MMA-TV.com (1080p)
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nba-tv.png" tvg-id="nba-tv" group-title="⚽ Спорт", NBA TV
-https://bl.rutube.ru/livestream/d01241e9fd2bc2d65dbf6d74cca02f89/index.m3u8?s=PQW3hpuI4ixSmkvZ8DFYSA&e=2081160974&scheme=https
-
-#EXTINF:-1 group-title="⚽ Спорт" tvg-id="nhl-network-us" tvg-logo="https://epg.iptvx.one/picons/nhl-network-us.png",NHL Network
-https://bl.rutube.ru/livestream/7a485ef5da9fe50ba939f36ca3e6ed96/index.m3u8?s=kzFd14_NM5e7oc008gaZnQ&e=2073777469&scheme=https
-
 #EXTINF:-1 tvg-logo="https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/8986.png" group-title="⚽ Спорт",Okko Futbol (1080p)
 http://stream.mcquack.net/491/index.m3u8
 
@@ -281,26 +236,17 @@ https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" tvg-logo="https://i.imgur.com/ouHunnK.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="⚽ Спорт",Setanta Sports 2 Eurasia (1080p)
 http://stream.mcquack.net/235/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sky-sports-apl.png" tvg-id="sky-sports-apl" group-title="⚽ Спорт",Sky Sports Premier League
-https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=f6Lrx1cPYx2SfJ9mbaHnbw&e=2068506972&scheme=https
-
 #EXTINF:-1 tvg-id="Sport1Baltic.ua@SD" tvg-logo="https://i.imgur.com/aBY7QK4.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="⚽ Спорт",Sport 1 Baltic (1080p)
 http://stream.mcquack.net/461/index.m3u8
 
 #EXTINF:-1 tvg-id="pervy" tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="⚽ Спорт",Sportivnyy (1080p)
 https://live-3.otcnet.ru/sportivny/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt-sports-prem-ar.png" tvg-id="tnt-sports-prem-ar" group-title="⚽ Спорт",TNT SPORTS 1 HD
-https://bl.rutube.ru/livestream/3aa782bace452e7c4b9f81d767512147/index.m3u8?s=hrqmu7iM34XUP7Jw7GqFHg&e=2082500310&scheme=https
-
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-logo="https://i.imgur.com/FabFP5A.png" group-title="⚽ Спорт",Trace Sport Stars Russia (720p)
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="kxl" tvg-logo="https://epg.iptvx.one/picons/kxl.png" group-title="⚽ Спорт",КХЛ ТВ
 https://flussonic.mkpnet.ru/tv-e3d23fc7511b5fcd/video.m3u8
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-tv.png" tvg-id="match-tv" group-title="⚽ Спорт", Матч! HD
-https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=eZv38IdfIqR5Qp4wrPZIog&e=2069500994&scheme=https
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-arena.png" tvg-id="match-arena" group-title="⚽ Спорт",Матч! Арена
 https://flussonic.mkpnet.ru/tv-9dda1dd9d740a9a4/video.m3u8
@@ -317,38 +263,8 @@ http://stream.mcquack.net/279/index.m3u8
 #EXTINF:-1 group-title="🎬 Кино",.Sci-Fi
 https://flussonic.mkpnet.ru/tv-e80cc885d4ae14d1/video.m3u8
 
-#EXTINF:-1 tvg-id="witch" tvg-name="1st_witch" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/witch.jpg" group-title="🎬 Кино",1st_witch
-http://kinowalk.hopto.org/witch_live
-
-#EXTINF:-1 tvg-id="3jiou_tatapuh" tvg-name="3JIou TaTapuH" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/3jiou_tatapuh.jpg" group-title="🎬 Кино",3JIou TaTapuH
-http://kinowalk.hopto.org/3jiou_tatapuh_live
-
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg" group-title="🎬 Кино",5 minut tishiny (1080p)
 https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
-
-#EXTINF:-1 tvg-id="_kurt_tv__live" tvg-name="_Kurt_TV_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kurt_tv__live.jpg" group-title="🎬 Кино",_Kurt_TV_
-http://kinowalk.hopto.org/_kurt_tv__live
-
-#EXTINF:-1 tvg-id="aisman" tvg-name="Aisman" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/aisman.jpg" group-title="🎬 Кино",Aisman
-http://kinowalk.hopto.org/aisman_live
-
-#EXTINF:-1 tvg-id="akudjitv" tvg-name="AkudjiTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/akudjitv.jpg" group-title="🎬 Кино",AkudjiTV
-http://kinowalk.hopto.org/akudjitv_live
-
-#EXTINF:-1 tvg-id="aleksej26" tvg-name="Aleksej 54 rus" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/aleksej26.png" group-title="🎬 Кино",Aleksej 54 rus
-http://kinowalk.hopto.org/aleksej26_live
-
-#EXTINF:-1 tvg-id="alex.films" tvg-name="Alex.Films" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/alex.films.jpg" group-title="🎬 Кино",Alex.Films
-http://kinowalk.hopto.org/alex.films_live
-
-#EXTINF:-1 tvg-id="alexvira" tvg-name="AlexVira" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/alexvira.png" group-title="🎬 Кино",AlexVira
-http://kinowalk.hopto.org/alexvira_live
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-21/cb/00/cb00bf0b844dadef144f7b9fb208e18b.jpg?width=500" tvg-id="no_epg_cinema" group-title="🎬 Кино", Amazon Prime Video mans' club
-https://bl.rutube.ru/livestream/99f8f1d827641b766de62fe9023642fa/index.m3u8?s=VuhfAnwVN0QaMpV2AjMFNQ&e=2088894153&scheme=https
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-19/cb/51/cb517861e0143a571958f43b5c6a0f66.jpg?width=500" tvg-id="no_epg_cinema" group-title="🎬 Кино", Amazon Prime Video Romance
-https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=vDrzYErdC_oimMeApzw5Ig&e=2088894154&scheme=https
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/amedia1.png" tvg-id="amedia1" group-title="🎬 Кино",Amedia 1 HD
 http://stream.mcquack.net/117/index.m3u8
@@ -359,56 +275,20 @@ http://stream.mcquack.net/162/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium" group-title="🎬 Кино", Amedia PREMIUM HD
 https://fs.uplink.kz/amedia_premium_hd/mono.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-28/81/8c/818cc0846fd903cd2943d9cfc9a48486.jpg?size=l" tvg-id="no_epg_cinema" group-title="🎬 Кино", Apple TV+Action Time
-https://bl.rutube.ru/livestream/74bb437ef478a52f42198c50d4241dc7/index.m3u8?s=waj95cuyyi8uqhMviY5J5Q&e=2088331937&scheme=https
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-28/ff/e0/ffe0813d42945ce49830c8631a8eeb72.jpg?size=l" tvg-id="no_epg_cinema" group-title="🎬 Кино", Apple TV+Woman's Story
-https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=MyL89IE96vyCNFX0quwgMA&e=2088331938&scheme=https
-
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/balabol_vse.jpg" group-title="🎬 Кино",Balabol (1080p)
 https://cdn-dvr.ntv.ru/Balabol/index.m3u8
-
-#EXTINF:-1 tvg-id="baragozz_tv" tvg-name="Baragozz_TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/Baragozz_TV.png" group-title="🎬 Кино",Baragozz_TV
-http://kinowalk.hopto.org/baragozz_tv_live
 
 #EXTINF:-1 group-title="🎬 Кино" tvg-rec="7" timeshift="7",BCU СССР HD
 http://stream.mcquack.net/488/index.m3u8
 
-#EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="🎬 Кино",Blockbusters Time
-http://kinowalk.hopto.org/blockbusterstime_live
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/KcOi4Os.png" group-title="🎬 Кино",Blokbaster HD (1080p)
 http://stream.mcquack.net/364/index.m3u8
-
-#EXTINF:-1 tvg-id="boh_music" tvg-name="BOH" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/boh_music.png" group-title="🎬 Кино",BOH
-http://kinowalk.hopto.org/boh_music_live
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/bolt.png" tvg-id="bolt" group-title="🎬 Кино", Bolt HD
 http://stream.mcquack.net/73/index.m3u8
 
-#EXTINF:-1 tvg-id="bossfilm" tvg-name="BOSSFILM" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/bossfilm.jpg" group-title="🎬 Кино",BOSSFILM
-http://kinowalk.hopto.org/bossfilm_live
-
-#EXTINF:-1 tvg-id="bstmsc" tvg-name="bstmsc" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/bstmsc.png" group-title="🎬 Кино",bstmsc
-http://kinowalk.hopto.org/bstmsc_live
-
-#EXTINF:-1 tvg-id="chowamigo" tvg-name="ChowAmigo" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/chowamigo.jpg" group-title="🎬 Кино",ChowAmigo
-http://kinowalk.hopto.org/chowamigo_live
-
 #EXTINF:-1 tvg-id="Cinema.ru@SD" tvg-logo="https://i.imgur.com/b5e9qUA.png" group-title="🎬 Кино",Cinema (Russia) (576p)
 http://flussonic.linkintel.ru/cinema/index.m3u8
-
-#EXTINF:-1 tvg-id="cinematime" tvg-name="Cinema Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cinematime.png" group-title="🎬 Кино",Cinema Time
-http://kinowalk.hopto.org/cinematime_live
-
-#EXTINF:-1 tvg-id="czmmusic" tvg-name="CZM Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/czmmusic.png" group-title="🎬 Кино",CZM Music
-http://kinowalk.hopto.org/czmmusic_live
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://goodgame.ru/files/avatars/av_1643154_P8Jo.jpg" group-title="🎬 Кино", Dimpon TV
-http://kinowalk.hopto.org/dimpon_live
-
-#EXTINF:-1 tvg-id="zsmedia" tvg-name="dj Zour" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zsmedia_live.jpg" group-title="🎬 Кино",dj Zour
-http://kinowalk.hopto.org/zsmedia_live
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/rJpQtvK.png" group-title="🎬 Кино",Dom kino Premium HD (1080p)
 http://stream.mcquack.net/108/index.m3u8
@@ -419,59 +299,17 @@ http://stream.mcquack.net/412/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vTRHAvD.png" group-title="🎬 Кино",Dushevnoe HD (1080p)
 http://stream.mcquack.net/213/index.m3u8
 
-#EXTINF:-1 tvg-id="kinostream_rezerv" tvg-name="DVD online" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinostream_rezerv.jpg" group-title="🎬 Кино",DVD online
-http://kinowalk.hopto.org/kinostream_rezerv_live
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/c4/53/c453149b8774d33966cf7967c0647bfd.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Epic Media Love
-https://bl.rutube.ru/livestream/21f3993ed8291b70208aa06c982c731f/index.m3u8?s=O_uQSQyXnTgjsU14sGfEuw&e=2088807304&scheme=https
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/epic.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Epic Media Plus
-https://bl.rutube.ru/livestream/0ed0696149c131d3a7349372d730d4e6/index.m3u8?s=1HXyp-V_dC9Tc4r0glGRCA&e=2088807305&scheme=https
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8LPtPf6.png" group-title="🎬 Кино",Evrokino HD (1080p)
 http://stream.mcquack.net/385/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/fanhd.png" tvg-id="fanhd" group-title="🎬 Кино", FAN HD
 http://stream.mcquack.net/420/index.m3u8
 
-#EXTINF:-1 tvg-id="film4khdclub" tvg-name="film4khdLIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/film4khdclub_live.png" group-title="🎬 Кино",film4khdLIVE
-http://kinowalk.hopto.org/film4khdclub_live
-
-#EXTINF:-1 tvg-id="filmsserialseveryday" tvg-name="FilmsSerialsEveryDay" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/filmsserialseveryday.jpg" group-title="🎬 Кино",FilmsSerialsEveryDay
-http://kinowalk.hopto.org/filmsserialseveryday_live
-
-#EXTINF:-1 tvg-id="foxkids_remastered" tvg-name="FoxKids-Remastered" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/foxkids_remastered.jpg" group-title="🎬 Кино",FoxKids-Remastered
-http://kinowalk.hopto.org/foxkids_remastered_live
-
-#EXTINF:-1 tvg-id="frxnkl1n" tvg-name="FRXNKL1N" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/frxnkl1n.jpg" group-title="🎬 Кино",FRXNKL1N
-http://kinowalk.hopto.org/frxnkl1n_live
-
-#EXTINF:-1 tvg-id="grislytoe" tvg-name="grislytoe" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/grislytoe_live.jpg" group-title="🎬 Кино",grislytoe
-http://kinowalk.hopto.org/grislytoe_live
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZbOqfy4.png" group-title="🎬 Кино",Horoshee Kino (720p)
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
 
-#EXTINF:-1 tvg-id="hurumburumum" tvg-name="hurumburumum" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/hurumburumum.png" group-title="🎬 Кино",hurumburumum
-http://kinowalk.hopto.org/hurumburumum_live
-
-#EXTINF:-1 tvg-id="igrocomp" tvg-name="IGROComp" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/igrocomp.jpg" group-title="🎬 Кино",IGROComp
-http://kinowalk.hopto.org/igrocomp_live
-
-#EXTINF:-1 tvg-id="inmuna" tvg-name="InMuNa Live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/inmuna.jpg" group-title="🎬 Кино",InMuNa Live
-http://kinowalk.hopto.org/inmuna_live
-
-#EXTINF:-1 tvg-id="johan_grohan_live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/johan_grohan_live.jpg" group-title="🎬 Кино",Johan Grohan Live
-http://kinowalk.hopto.org/johan_grohan_live
-
-#EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="🎬 Кино",Just enjoy serial4u
-http://kinowalk.hopto.org/serial4u_live
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/K3PSHiT.png" group-title="🎬 Кино",Kapitan Fantastika (1080p)
 http://stream.mcquack.net/144/index.m3u8
-
-#EXTINF:-1 tvg-id="katastroff" tvg-name="KatastroFF" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/katastroff.png" group-title="🎬 Кино",KatastroFF
-http://kinowalk.hopto.org/katastroff_live
 
 #EXTINF:-1 tvg-id="Kino1.ua@SD" tvg-logo="https://i.imgur.com/FWVxBWI.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36" group-title="🎬 Кино",Kino 1 (Ukraine) (1080p)
 http://stream.mcquack.net/395/index.m3u8
@@ -479,95 +317,17 @@ http://stream.mcquack.net/395/index.m3u8
 #EXTINF:-1 tvg-id="Kino2.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/uk/3/35/KINO_2_UA.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="🎬 Кино",Kino 2 (1080p)
 http://stream.mcquack.net/465/index.m3u8
 
-#EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="🎬 Кино",Kino Jam
-http://kinowalk.hopto.org/kinojam_live
-
 #EXTINF:-1 tvg-id="KinoBoevik.kz@SD" tvg-logo="https://kt.server-img.lfstrm.tv/images/channel_logos/logo_66b351f01f828dca40d006b3.png" group-title="🎬 Кино",KinoBoevik (1080p)
 https://fs.uplink.kz/kinoboevik/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 tvg-id="kinofans" tvg-name="KinoFans" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofans.jpg" group-title="🎬 Кино",KinoFans
-http://kinowalk.hopto.org/kinofans_live
-
-#EXTINF:-1 tvg-id="kinofon" tvg-name="kinofon_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofon.png" group-title="🎬 Кино",kinofon_
-http://kinowalk.hopto.org/kinofon_live
-
-#EXTINF:-1 tvg-id="kinolampa" tvg-name="kinolampa" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolampa.png" group-title="🎬 Кино",kinolampa
-http://kinowalk.hopto.org/kinolampa_live
-
-#EXTINF:-1 tvg-id="yurich_kinomix" tvg-name="KinoMix Юрич" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomix.png" group-title="🎬 Кино",KinoMix Юрич
-http://kinowalk.hopto.org/yurich_kinomix_live
-
-#EXTINF:-1 tvg-id="dak3767" tvg-name="KinoMix Юрич 2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dak3767.png" group-title="🎬 Кино",KinoMix Юрич 2
-http://kinowalk.hopto.org/dak3767_live
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="🎬 Кино",Kinopremyera HD (1080p)
 https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-id="kinoshnik_8" tvg-name="Kinoshnik_8" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoshnik_8.png" group-title="🎬 Кино",Kinoshnik_8
-http://kinowalk.hopto.org/kinoshnik_8_live
-
-#EXTINF:-1 tvg-id="kinowalk_prime" tvg-name="Kinowalk prime" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_prime.png" group-title="🎬 Кино",Kinowalk prime
-http://kinowalk.hopto.org/kinowalk_prime_live
-
-#EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="🎬 Кино",Kinowalk_tv
-http://kinowalk.hopto.org/kinowalk_live
-
-#EXTINF:-1 tvg-id="moviebytes" tvg-name="KinoБайт-Лучшие фильмы" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/moviebytes_live.jpg" group-title="🎬 Кино",KinoБайт-Лучшие фильмы
-http://kinowalk.hopto.org/moviebytes_live
-
-#EXTINF:-1 tvg-id="kirafreak" tvg-name="Kira_freak1993" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kirafreak_live.png" group-title="🎬 Кино",Kira_freak1993
-http://kinowalk.hopto.org/kirafreak_live
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="🎬 Кино",Komediynoe HD (1080p)
 http://stream.mcquack.net/74/index.m3u8
 
-#EXTINF:-1 tvg-id="kycman" tvg-name="Kycman" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kycman.jpg" group-title="🎬 Кино",Kycman
-http://kinowalk.hopto.org/kycman_live
-
-#EXTINF:-1 tvg-id="lampotv" tvg-name="lampoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/lampotv.png" group-title="🎬 Кино",lampoTV
-http://kinowalk.hopto.org/lampotv_live
-
-#EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="🎬 Кино",LEGION TV
-http://kinowalk.hopto.org/legion-tv_live
-
-#EXTINF:-1 tvg-id="zhekos" tvg-name="LifeZ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zhekos.jpg" group-title="🎬 Кино",LifeZ
-http://kinowalk.hopto.org/zhekos_live
-
-#EXTINF:-1 tvg-id="makarstrim" tvg-name="MAKARSTRIM" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/makarstrim.jpg" group-title="🎬 Кино",MAKARSTRIM
-http://kinowalk.hopto.org/makarstrim_live
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-26/5f/5f/5f5f4258f912baf2c5a5c0a07550183a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Marvel
-https://bl.rutube.ru/livestream/3abeb7577fd38ac4b8130bb8e03418f2/index.m3u8?s=GDM7F7_8DDUK3Mdk_lwaPg&e=2088894153&scheme=https
-
-#EXTINF:-1 tvg-id="maximum" tvg-name="MAX LIVЕ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maximum.png" group-title="🎬 Кино",MAX LIVЕ
-http://kinowalk.hopto.org/maximum_live
-
-#EXTINF:-1 tvg-id="mayhem" tvg-name="Mayhеm" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mayhem_live.jpg" group-title="🎬 Кино",Mayhеm
-http://kinowalk.hopto.org/mayhem_live
-
-#EXTINF:-1 tvg-id="metalalex" tvg-name="MetalAlex" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/metalalex.jpg" group-title="🎬 Кино",MetalAlex
-http://kinowalk.hopto.org/metalalex_live
-
-#EXTINF:-1 tvg-id="meteor" tvg-name="meteor" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/meteor.png" group-title="🎬 Кино",meteor
-http://kinowalk.hopto.org/meteor_live
-
 #EXTINF:-1 tvg-id="Mirovoekino.kz@SD" tvg-logo="https://tele2.server-img.lfstrm.tv/images/channel_logos/logo_65c24031d8bec399a7aa2226.png" group-title="🎬 Кино",Mirovoe kino (1080p)
 https://fs.uplink.kz/mirovoe_kino/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 tvg-id="movietoper" tvg-name="MovieToper" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/movietoper.png" group-title="🎬 Кино",MovieToper
-http://kinowalk.hopto.org/movietoper_live
-
-#EXTINF:-1 tvg-id="mp4_collection" tvg-name="mp4_collection" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mp4_collection.jpg" group-title="🎬 Кино",mp4_collection
-http://kinowalk.hopto.org/mp4_collection_live
-
-#EXTINF:-1 tvg-id="mrdragonlive" tvg-name="Mr DRAGON live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mrdragonlive_live.png" group-title="🎬 Кино",Mr DRAGON live
-http://kinowalk.hopto.org/mrdragonlive_live
-
-#EXTINF:-1 tvg-id="vovanb_iptv" tvg-name="MTV Old Россия" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vovanb_iptv.jpg" group-title="🎬 Кино",MTV Old Россия
-http://kinowalk.hopto.org/vovanb_iptv_live
-
-#EXTINF:-1 tvg-id="milah" tvg-name="MилаШ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/milah.jpg" group-title="🎬 Кино",MилаШ
-http://kinowalk.hopto.org/milah_live
 
 #EXTINF:-1 tvg-id="NasheLubimoeKinoUkraine.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/%D0%9D%D0%B0%D1%88%D0%B5_%D0%A3%D0%BB%D1%8E%D0%B1%D0%BB%D0%B5%D0%BD%D0%B5_%D0%9A%D1%96%D0%BD%D0%BE.webp" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" group-title="🎬 Кино",Nashe Lubimoe Kino Ukraine (1080p)
 http://stream.mcquack.net/456/index.m3u8
@@ -575,20 +335,8 @@ http://stream.mcquack.net/456/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/QRWKpmb.png" group-title="🎬 Кино",Nashe muzhskoe HD (1080p)
 http://stream.mcquack.net/362/index.m3u8
 
-#EXTINF:-1 tvg-id="neovisiontv" tvg-name="NeoVision TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/neovisiontv.jpg" group-title="🎬 Кино",NeoVision TV
-http://kinowalk.hopto.org/neovisiontv_live
-
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/nevski_llive.jpg" group-title="🎬 Кино",Nevskiy (1080p)
 https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8
-
-#EXTINF:-1 tvg-id="nezabudka" tvg-name="NEZABUDKA" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nezabudka.jpg" group-title="🎬 Кино",NEZABUDKA
-http://kinowalk.hopto.org/nezabudka_live
-
-#EXTINF:-1 tvg-id="nztv" tvg-name="NZTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nztv.jpg" group-title="🎬 Кино",NZTV
-http://kinowalk.hopto.org/nztv_live
-
-#EXTINF:-1 tvg-id="oldclip" tvg-name="OldClip TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/oldclip.png" group-title="🎬 Кино",OldClip TV
-http://kinowalk.hopto.org/oldclip_live
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NwQ7GBy.png" group-title="🎬 Кино",Ostrosyuzhetnoye HD (1080p)
 http://stream.mcquack.net/214/index.m3u8
@@ -602,47 +350,11 @@ https://cdn-dvr.ntv.ru/Pes/index.m3u8
 #EXTINF:-1 group-title="🎬 Кино",Plan B
 http://stream.mcquack.net/196/index.m3u8
 
-#EXTINF:-1 tvg-id="play4fun" tvg-name="Play 4 Fun" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/play4fun.jpg" group-title="🎬 Кино",Play 4 Fun
-http://kinowalk.hopto.org/play4fun_live
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ck4aLBP.png" group-title="🎬 Кино",Premialnoe HD (1080p)
 http://stream.mcquack.net/421/index.m3u8
 
-#EXTINF:-1 tvg-id="priest_kod" tvg-name="priest_kod" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/priest_kod.jpg" group-title="🎬 Кино",priest_kod
-http://kinowalk.hopto.org/priest_kod_live
-
 #EXTINF:-1 tvg-id="che" tvg-logo="https://i.imgur.com/qQ6pPPQ.png" group-title="🎬 Кино",Priklyucheniya HD (1080p)
 http://stream.mcquack.net/198/index.m3u8
-
-#EXTINF:-1 tvg-id="rsf" tvg-name="Real State Films" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/rsf.jpg" group-title="🎬 Кино",Real State Films
-http://kinowalk.hopto.org/rsf_live
-
-#EXTINF:-1 tvg-id="retromus" tvg-name="RetroMusic" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/retromus_live.jpg" group-title="🎬 Кино",RetroMusic
-http://kinowalk.hopto.org/retromus_live
-
-#EXTINF:-1 tvg-id="san4ez09" tvg-name="SaN4еZ09" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/san4ez09.png" group-title="🎬 Кино",SaN4еZ09
-http://kinowalk.hopto.org/san4ez09_live
-
-#EXTINF:-1 tvg-id="sansey_ru" tvg-name="SANSEY_RU" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/sansey_ru.jpg" group-title="🎬 Кино",SANSEY_RU
-http://kinowalk.hopto.org/sansey_ru_live
-
-#EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="🎬 Кино",ScripachTV
-http://kinowalk.hopto.org/scripachtv_live
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/SeleCaoTV.png" group-title="🎬 Кино",SeleCaoTV Фильм
-http://kinowalk.hopto.org/selecaotv_live
-
-#EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="🎬 Кино",SeleCaoTV1
-http://kinowalk.hopto.org/selecaotv1_live
-
-#EXTINF:-1 tvg-id="re_boot" tvg-name="Serials RE_BOOT" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/re_boot.jpg" group-title="🎬 Кино",Serials RE_BOOT
-http://kinowalk.hopto.org/re_boot_live
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/30346500/avatar?change_time=1767118302&croped=1&mh=140&mw=140" group-title="🎬 Кино", SerialTV
-http://kinowalk.hopto.org/serialtv_live
-
-#EXTINF:-1 tvg-id="severtv" tvg-name="sever_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/severtv.jpg" group-title="🎬 Кино",sever_tv
-http://kinowalk.hopto.org/severtv_live
 
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/shef_llive.jpg" group-title="🎬 Кино",Shef (1080p)
 https://cdn-dvr.ntv.ru/Shef/index.m3u8
@@ -656,9 +368,6 @@ https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/skoraya_pom_llive.jpg" group-title="🎬 Кино",Skoraya pomoshch (1080p)
 https://cdn-dvr.ntv.ru/Skoraja_pomosh/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/16123819/avatar?change_time=1744393606&croped=1&mh=140&mw=140" tvg-id="no_epg_cinema" group-title="🎬 Кино", Solo ink
-http://kinowalk.hopto.org/soloink_live
-
 #EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://i.imgur.com/5sis895.png" group-title="🎬 Кино",Star Cinema
 https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 
@@ -671,74 +380,11 @@ http://176.118.197.101/START_AIR/index.m3u8
 #EXTINF:-1 tvg-id="STARTWorld.ru@SD" tvg-logo="https://images.iptv.rt.ru/images/d6iist8mifeailfopupg.png" group-title="🎬 Кино",START World (576p)
 https://fs.uplink.kz/start_world/mono.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-id="swat2k" tvg-name="swat2k" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/swat2k.jpg" group-title="🎬 Кино",swat2k
-http://kinowalk.hopto.org/swat2k_live
-
-#EXTINF:-1 tvg-id="technodancemusic" tvg-name="TechnoDanceMusic" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/technodancemusic.png" group-title="🎬 Кино",TechnoDanceMusic
-http://kinowalk.hopto.org/technodancemusic_live
-
-#EXTINF:-1 tvg-id="timetohorror" tvg-name="TimeToHorror" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_horror.png" group-title="🎬 Кино",TimeToHorror
-http://kinowalk.hopto.org/timetohorror_live
-
-#EXTINF:-1 tvg-id="timetomovie" tvg-name="TimeToMovie" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_movie.png" group-title="🎬 Кино",TimeToMovie
-http://kinowalk.hopto.org/timetomovie_live
-
-#EXTINF:-1 tvg-id="topmomentlive" tvg-name="TopMoment LiVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/topmomentlive.jpg" group-title="🎬 Кино",TopMoment LiVE
-http://kinowalk.hopto.org/topmomentlive_live
-
-#EXTINF:-1 tvg-id="topmoment" tvg-name="TopMoment TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/topmoment.jpg" group-title="🎬 Кино",TopMoment TV
-http://kinowalk.hopto.org/topmoment_live
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv1000.png" tvg-id="tv1000" group-title="🎬 Кино",TV1000
 https://flussonic.mkpnet.ru/tv-aab84159a39fbe84/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" group-title="🎬 Кино",TV1000 action
 https://flussonic.mkpnet.ru/tv-0991ea2ac6292de8/video.m3u8
-
-#EXTINF:-1 tvg-id="ordinary_people" tvg-name="Tоny" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ordinary_people.jpg" group-title="🎬 Кино",Tоny
-http://kinowalk.hopto.org/ordinary_people_live
-
-#EXTINF:-1 tvg-id="umelyiretro" tvg-name="Um! Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/umelyiretro.png" group-title="🎬 Кино",Um! Music
-http://kinowalk.hopto.org/umelyiretro_live
-
-#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i128.fastpic.org/big/2026/0730/07/d9764ae7e54fe2220bd749d0d2bfe007.jpg" group-title="🎬 Кино",VB Русская Танцевальная Попса 80х-90х
-http://kinowalk.hopto.org/vbrusdancepops80_live
-
-#EXTINF:-1 tvg-id="vb-all-in-one" tvg-name="VB-All-In-One" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vb-all-in-one.jpg" group-title="🎬 Кино",VB-All-In-One
-http://kinowalk.hopto.org/vb-all-in-one_live
-
-#EXTINF:-1 tvg-id="russerials" tvg-name="VB-RusSerails" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/russerials.png" group-title="🎬 Кино",VB-RusSerails
-http://kinowalk.hopto.org/russerials_live
-
-#EXTINF:-1 tvg-id="vb_edh90sanddh90s" tvg-name="VB_EDH90sandDH90s" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vb_edh90sanddh90s.png" group-title="🎬 Кино",VB_EDH90sandDH90s
-http://kinowalk.hopto.org/vb_edh90sanddh90s_live
-
-#EXTINF:-1 tvg-id="gh_and_randb" tvg-name="VB_GH_and_RandB" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/gh_and_randb.png" group-title="🎬 Кино",VB_GH_and_RandB
-http://kinowalk.hopto.org/gh_and_randb_live
-
-#EXTINF:-1 tvg-id="vhs-forever" tvg-name="VHS Forever" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs-forever.jpg" group-title="🎬 Кино",VHS Forever
-http://kinowalk.hopto.org/vhs-forever_live
-
-#EXTINF:-1 tvg-id="noir" tvg-name="VHS Power" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/noir.jpg" group-title="🎬 Кино",VHS Power
-http://kinowalk.hopto.org/noir_live
-
-#EXTINF:-1 tvg-id="channel36774366" tvg-name="VHS store" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel36774366_live.jpg" group-title="🎬 Кино",VHS store
-http://kinowalk.hopto.org/channel36774366_live
-
-#EXTINF:-1 tvg-id="and7610" tvg-name="VHS кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/and7610.png" group-title="🎬 Кино",VHS кино
-http://kinowalk.hopto.org/and7610_live
-
-#EXTINF:-1 tvg-id="video_channel" tvg-name="Video Channel" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_channel.png" group-title="🎬 Кино",Video Channel
-http://kinowalk.hopto.org/video_channel_live
-
-#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="🎬 Кино",Video_Prokat
-http://kinowalk.hopto.org/video_prokat_live
-
-#EXTINF:-1 tvg-id="videoarsenal" tvg-name="VideoArsenal" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videoarsenal.png" group-title="🎬 Кино",VideoArsenal
-http://kinowalk.hopto.org/videoarsenal_live
-
-#EXTINF:-1 tvg-id="videovk" tvg-name="VideoVk" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videovk.png" group-title="🎬 Кино",VideoVk
-http://kinowalk.hopto.org/videovk_live
 
 #EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://i.imgur.com/YoNOFu7.png" group-title="🎬 Кино",viju+ Comedy HD (1080p)
 http://stream.mcquack.net/201/index.m3u8
@@ -761,74 +407,17 @@ https://flussonic.mkpnet.ru/tv-3d1cedf99303d057/video.m3u8
 #EXTINF:-1 group-title="🎬 Кино",Vip Premiere HD
 https://flussonic.mkpnet.ru/tv-e107d21a90cb808f/video.m3u8
 
-#EXTINF:-1 tvg-id="vitun_88" tvg-name="Vitun1988" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vitun_88.jpg" group-title="🎬 Кино",Vitun1988
-http://kinowalk.hopto.org/vitun_88_live
-
-#EXTINF:-1 tvg-id="vktv_hd_cinema" tvg-name="VKTV HD CINEMA" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vktv_hd_cinema.png" group-title="🎬 Кино",VKTV HD CINEMA
-http://kinowalk.hopto.org/vktv_hd_cinema_live
-
-#EXTINF:-1 tvg-id="wfliq" tvg-name="Wfliq" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/Wfliq.png" group-title="🎬 Кино",Wfliq
-http://kinowalk.hopto.org/wfliq_live
-
-#EXTINF:-1 tvg-id="zumibox" tvg-name="ZumiBox" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zumibox.jpg" group-title="🎬 Кино",ZumiBox
-http://kinowalk.hopto.org/zumibox_live
-
-#EXTINF:-1 tvg-id="apricus" tvg-name="АPRICUS live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/apricus.png" group-title="🎬 Кино",АPRICUS live
-http://kinowalk.hopto.org/apricus_live
-
-#EXTINF:-1 tvg-id="channel35772578" tvg-name="БУДУ СМОТЕТЬ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel35772578.png" group-title="🎬 Кино",БУДУ СМОТЕТЬ
-http://kinowalk.hopto.org/channel35772578_live
-
-#EXTINF:-1 tvg-id="poe2proxodim" tvg-name="ВАСЬКИНЫ ЗАБАВЫ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/poe2proxodim.jpg" group-title="🎬 Кино",ВАСЬКИНЫ ЗАБАВЫ
-http://kinowalk.hopto.org/poe2proxodim_live
-
-#EXTINF:-1 tvg-id="vhs90e" tvg-name="ВИДЕОКАССЕТА" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs90e.png" group-title="🎬 Кино",ВИДЕОКАССЕТА
-http://kinowalk.hopto.org/vhs90e_live
-
 #EXTINF:-1 group-title="🎬 Кино",Время
 https://fs.uplink.kz/vremya/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-27/c1/58/c158f2953bf501c79015111beffbc606.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Гарри Поттер
-https://bl.rutube.ru/livestream/f6a3656e5ef574982994ddf2e5003341/index.m3u8?s=w3HwRFG8CRLteg6rMlCSXQ&e=2088894152&scheme=https
-
-#EXTINF:-1 tvg-id="dikarka" tvg-name="Дикарка" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dikarka.jpg" group-title="🎬 Кино",Дикарка
-http://kinowalk.hopto.org/dikarka_live
 
 #EXTINF:-1 group-title="🎬 Кино",Дом кино
 https://fs.uplink.kz/dom_kino/mono.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-id="vhs90s" tvg-name="Евгений / Эра VHS" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs90s.png" group-title="🎬 Кино",Евгений / Эра VHS
-http://kinowalk.hopto.org/vhs90s_live
-
 #EXTINF:-1 group-title="🎬 Кино",Еврокино
 https://fs.uplink.kz/eurokino/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-id="yegor_yegorych" tvg-name="Егор Егорыч ))" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/yegor_yegorych.jpg" group-title="🎬 Кино",Егор Егорыч ))
-http://kinowalk.hopto.org/yegor_yegorych_live
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/2024-10-24/52/3d/523daa9a87b0cd43303c5a11a6d09f9a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Звездные войны
-https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=V6xxaC-8NJNujIneTTwOQQ&e=2088894152&scheme=https
-
-#EXTINF:-1 tvg-id="igrun1997" tvg-name="Игрун 1997" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/igrun1997.jpg" group-title="🎬 Кино",Игрун 1997
-http://kinowalk.hopto.org/igrun1997_live
-
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/kino-i-zhizn.png" tvg-id="kino-i-zhizn" group-title="🎬 Кино", Кино и Жизнь HD
-https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=ix0NUYiM353oJ7eEIovyVA&e=2066519843&scheme=https
-
-#EXTINF:-1 tvg-id="kinopro" tvg-name="кино кино кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinopro.jpg" group-title="🎬 Кино",кино кино кино
-http://kinowalk.hopto.org/kinopro_live
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinokomedia.png" tvg-id="kinokomedia" group-title="🎬 Кино", Кинокомедия
 http://stream.mcquack.net/265/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2025-03-14/87/c6/87c6d211fd30f5019ebf2bc074b5f7e5.jpg" tvg-id="no_epg" group-title="🎬 Кино",Кинолаффка HD
-https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=uWEwgWbkG33r2o5mU0X38A&e=2082027011&scheme=https
-
-#EXTINF:-1 tvg-id="kinolenta" tvg-name="КИНОЛЕНТА LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolenta_live.png" group-title="🎬 Кино",КИНОЛЕНТА LIVE
-http://kinowalk.hopto.org/kinolenta_live
-
-#EXTINF:-1 tvg-id="nonestopmovie" tvg-name="КиноНонСтоп" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nonestopmovie.jpg" group-title="🎬 Кино",КиноНонСтоп
-http://kinowalk.hopto.org/nonestopmovie_live
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" group-title="🎬 Кино", Кинопремьера HD
 https://fs.uplink.kz/kinopremiera_hd/tracks-v1a1/mono.ts.m3u8?token=onlinetv
@@ -839,47 +428,11 @@ https://flussonic.mkpnet.ru/tv-e055808223a74709/video.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" group-title="🎬 Кино",Киносемья
 https://fs.uplink.kz/kinosemya/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 
-#EXTINF:-1 tvg-id="zagar" tvg-name="КиноСериалы" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zagar.jpg" group-title="🎬 Кино",КиноСериалы
-http://kinowalk.hopto.org/zagar_live
-
-#EXTINF:-1 tvg-id="channel30001568" tvg-name="КиноСтрим#7184980" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel30001568.png" group-title="🎬 Кино",КиноСтрим#7184980
-http://kinowalk.hopto.org/channel30001568_live
-
-#EXTINF:-1 tvg-id="x-x-vanes-x-x" tvg-name="Кинотеатр без билетов" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/x-x-vanes-x-x.jpg" group-title="🎬 Кино",Кинотеатр без билетов
-http://kinowalk.hopto.org/x-x-vanes-x-x_live
-
-#EXTINF:-1 tvg-id="kinoteka_full_hd_top" tvg-name="Кинотека FULL_HD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoteka_full_hd_top.jpg" group-title="🎬 Кино",Кинотека FULL_HD
-http://kinowalk.hopto.org/kinoteka_full_hd_top_live
-
 #EXTINF:-1 tvg-id="kinouzhas" tvg-logo="https://epg.iptvx.one/picons/kinouzhas.png" group-title="🎬 Кино",Киноужас HD
 http://stream.mcquack.net/278/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" group-title="🎬 Кино", Кинохит HD
 http://stream.mcquack.net/126/index.m3u8
-
-#EXTINF:-1 tvg-id="kinoshkino" tvg-name="КИНОШКИНО" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoshkino.jpg" group-title="🎬 Кино",КИНОШКИНО
-http://kinowalk.hopto.org/kinoshkino_live
-
-#EXTINF:-1 tvg-id="skladfilm" tvg-name="Кладовая Фильмов" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/skladfilm.png" group-title="🎬 Кино",Кладовая Фильмов
-http://kinowalk.hopto.org/skladfilm_live
-
-#EXTINF:-1 tvg-id="cmexye4ku" tvg-name="КОМЕДИИ 24/7" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cmexye4ku.jpg" group-title="🎬 Кино",КОМЕДИИ 24/7
-http://kinowalk.hopto.org/cmexye4ku_live
-
-#EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="🎬 Кино",Коновал ТВ
-http://kinowalk.hopto.org/tvkonoval_live
-
-#EXTINF:-1 tvg-id="lucyvedminaaaa" tvg-name="Люська Ведьма" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/lucyvedminaaaa.jpg" group-title="🎬 Кино",Люська Ведьма
-http://kinowalk.hopto.org/lucyvedminaaaa_live
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/29545720/avatar?change_time=1760619525&croped=1&mh=140&mw=140" group-title="🎬 Кино", Малдер Всё ТВ
-http://kinowalk.hopto.org/maldrvsetv_live
-
-#EXTINF:-1 tvg-id="mirdobro" tvg-name="Мир Ехо" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mirdobro_live.png" group-title="🎬 Кино",Мир Ехо
-http://kinowalk.hopto.org/mirdobro_live
-
-#EXTINF:-1 tvg-id="ncd" tvg-name="МирКино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ncd_live.jpg" group-title="🎬 Кино",МирКино
-http://kinowalk.hopto.org/ncd_live
 
 #EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epg.iptvx.one/picons/mosfilm.png" group-title="🎬 Кино",Мосфильм. Золотая коллекция HD
 http://stream.mcquack.net/369/index.m3u8
@@ -890,89 +443,14 @@ http://stream.mcquack.net/107/index.m3u8
 #EXTINF:-1 group-title="🎬 Кино",Мужской
 https://flussonic.mkpnet.ru/tv-55c94e838b306657/video.m3u8
 
-#EXTINF:-1 tvg-id="muzcoverradio" tvg-name="МузCOVERрадио" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/muzcoverradio_live.jpg" group-title="🎬 Кино",МузCOVERрадио
-http://kinowalk.hopto.org/muzcoverradio_live
-
-#EXTINF:-1 tvg-id="miiz90x" tvg-name="Мы из 90-х" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/miiz90x.jpg" group-title="🎬 Кино",Мы из 90-х
-http://kinowalk.hopto.org/miiz90x_live
-
-#EXTINF:-1 tvg-id="backtotheussr" tvg-name="Назад в СССР" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/backtotheussr.jpg" group-title="🎬 Кино",Назад в СССР
-http://kinowalk.hopto.org/backtotheussr_live
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" group-title="🎬 Кино", Наше новое кино
 https://fs.uplink.kz/nashe_novoe_kino/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 tvg-id="notnotes" tvg-name="не Кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/notnotes.jpg" group-title="🎬 Кино",не Кино
-http://kinowalk.hopto.org/notnotes_live
-
-#EXTINF:-1 tvg-id="nostal77" tvg-name="НОСТАЛЬГИЯ LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nostal77_live.jpg" group-title="🎬 Кино",НОСТАЛЬГИЯ LIVE
-http://kinowalk.hopto.org/nostal77_live
 
 #EXTINF:-1 group-title="🎬 Кино",НСТ
 http://stream.mcquack.net/207/index.m3u8
 
-#EXTINF:-1 tvg-id="ostorozhnomodern2" tvg-name="ОсторожноМодерн2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ostorozhnomodern2.jpg" group-title="🎬 Кино",ОсторожноМодерн2
-http://kinowalk.hopto.org/ostorozhnomodern2_live
-
-#EXTINF:-1 tvg-id="paranormal404" tvg-name="ПАРАНОРМАЛЬНЫЙ АРХИВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/paranormal404_live.jpg" group-title="🎬 Кино",ПАРАНОРМАЛЬНЫЙ АРХИВ
-http://kinowalk.hopto.org/paranormal404_live
-
-#EXTINF:-1 tvg-id="perviryad" tvg-name="Пᛊየᛒьᵻӥ የጸሏ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/perviryad.png" group-title="🎬 Кино",Пᛊየᛒьᵻӥ የጸሏ
-http://kinowalk.hopto.org/perviryad_live
-
-#EXTINF:-1 tvg-id="misha-sdyt" tvg-name="СВЯТОЙ LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/misha-sdyt.jpg" group-title="🎬 Кино",СВЯТОЙ LIVE
-http://kinowalk.hopto.org/misha-sdyt_live
-
-#EXTINF:-1 tvg-id="liveprointerny" tvg-name="СЕМЕЙНЫЙ ПРОСМОТР LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/liveprointerny_live.jpg" group-title="🎬 Кино",СЕМЕЙНЫЙ ПРОСМОТР LIVE
-http://kinowalk.hopto.org/liveprointerny_live
-
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv21m.png" tvg-id="tv21m" group-title="🎬 Кино",ТВ21
 http://stream.mcquack.net/152/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/2024-10-24/52/3d/523daa9a87b0cd43303c5a11a6d09f9a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино", Твой кинотеатр
-https://bl.rutube.ru/livestream/e08e513c4e33f52fce3a975b5cb6932c/index.m3u8?s=CDANA7lfLAqGndYFwAD5Eg&e=2088894154&scheme=https
-
-#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="🎬 Кино",Тоха Киноман
-http://kinowalk.hopto.org/kinomania_stream_live
-
-#EXTINF:-1 tvg-id="toxa_stream" tvg-name="Тоха Стрим" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/toxa_stream.jpg" group-title="🎬 Кино",Тоха Стрим
-http://kinowalk.hopto.org/toxa_stream_live
-
-#EXTINF:-1 tvg-id="ddator" tvg-name="У КРАЯ БЕЗДНЫ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ddator.jpg" group-title="🎬 Кино",У КРАЯ БЕЗДНЫ
-http://kinowalk.hopto.org/ddator_live
-
-#EXTINF:-1 tvg-id="horrortv" tvg-name="УЖАС ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/horrortv.png" group-title="🎬 Кино",УЖАС ТВ
-http://kinowalk.hopto.org/horrortv_live
-
-#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/d0/24/d02422c0078c8517a1a4c2678a25529b.jpg" tvg-id="no_epg_cinema" group-title="🎬 Кино",Фильмач
-https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=ts6K4yoGVWl3-MeiAHjvnw&e=2088807301&scheme=https
-
-#EXTINF:-1 tvg-id="filmscope" tvg-name="Фильмоскоп" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/filmscope.png" group-title="🎬 Кино",Фильмоскоп
-http://kinowalk.hopto.org/filmscope_live
-
-#EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="🎬 Кино",Фильмы сериалы трансляции
-http://kinowalk.hopto.org/id582512126_live
-
-#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="🎬 Кино",ФИЛЬМЫ у Максима
-http://kinowalk.hopto.org/mmaxim0vich_live
-
-#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="🎬 Кино",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
-http://kinowalk.hopto.org/films_serials_24_7_live_live
-
-#EXTINF:-1 tvg-id="durkalive" tvg-name="Х-TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/durkalive_live.png" group-title="🎬 Кино",Х-TV
-http://kinowalk.hopto.org/durkalive_live
-
-#EXTINF:-1 tvg-id="xutmahtv" tvg-name="ХИТМАН ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/xutmahtv_live.jpg" group-title="🎬 Кино",ХИТМАН ТВ
-http://kinowalk.hopto.org/xutmahtv_live
-
-#EXTINF:-1 tvg-id="shurentiy_live_live" tvg-name="Шурентий Live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/shurentiy_live.png" group-title="🎬 Кино",Шурентий Live
-http://kinowalk.hopto.org/shurentiy_live_live
-
-#EXTINF:-1 tvg-id="equilibrium" tvg-name="Эквилибриум69" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/equilibrium.png" group-title="🎬 Кино",Эквилибриум69
-http://kinowalk.hopto.org/equilibrium_live
-
-#EXTINF:-1 tvg-id="kasseta" tvg-name="ℂℂ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kasseta.png" group-title="🎬 Кино",ℂℂ
-http://kinowalk.hopto.org/kasseta_live
 
 #EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Adventure
 http://stream.mcquack.net/432/index.m3u8
@@ -1010,6 +488,561 @@ http://stream.mcquack.net/434/index.m3u8
 #EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh VHS
 http://stream.mcquack.net/428/index.m3u8
 
+#EXTINF:-1 tvg-id="witch" tvg-name="1st_witch" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/witch.jpg" group-title="🎬 Kinowalk",1st_witch
+http://kinowalk.hopto.org/witch_live
+
+#EXTINF:-1 tvg-id="3jiou_tatapuh" tvg-name="3JIou TaTapuH" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/3jiou_tatapuh.jpg" group-title="🎬 Kinowalk",3JIou TaTapuH
+http://kinowalk.hopto.org/3jiou_tatapuh_live
+
+#EXTINF:-1 tvg-id="_kurt_tv__live" tvg-name="_Kurt_TV_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kurt_tv__live.jpg" group-title="🎬 Kinowalk",_Kurt_TV_
+http://kinowalk.hopto.org/_kurt_tv__live
+
+#EXTINF:-1 tvg-id="aisman" tvg-name="Aisman" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/aisman.jpg" group-title="🎬 Kinowalk",Aisman
+http://kinowalk.hopto.org/aisman_live
+
+#EXTINF:-1 tvg-id="akudjitv" tvg-name="AkudjiTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/akudjitv.jpg" group-title="🎬 Kinowalk",AkudjiTV
+http://kinowalk.hopto.org/akudjitv_live
+
+#EXTINF:-1 tvg-id="aleksej26" tvg-name="Aleksej 54 rus" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/aleksej26.png" group-title="🎬 Kinowalk",Aleksej 54 rus
+http://kinowalk.hopto.org/aleksej26_live
+
+#EXTINF:-1 tvg-id="alex.films" tvg-name="Alex.Films" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/alex.films.jpg" group-title="🎬 Kinowalk",Alex.Films
+http://kinowalk.hopto.org/alex.films_live
+
+#EXTINF:-1 tvg-id="alexvira" tvg-name="AlexVira" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/alexvira.png" group-title="🎬 Kinowalk",AlexVira
+http://kinowalk.hopto.org/alexvira_live
+
+#EXTINF:-1 tvg-id="baragozz_tv" tvg-name="Baragozz_TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/Baragozz_TV.png" group-title="🎬 Kinowalk",Baragozz_TV
+http://kinowalk.hopto.org/baragozz_tv_live
+
+#EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="🎬 Kinowalk",Blockbusters Time
+http://kinowalk.hopto.org/blockbusterstime_live
+
+#EXTINF:-1 tvg-id="boh_music" tvg-name="BOH" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/boh_music.png" group-title="🎬 Kinowalk",BOH
+http://kinowalk.hopto.org/boh_music_live
+
+#EXTINF:-1 tvg-id="bossfilm" tvg-name="BOSSFILM" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/bossfilm.jpg" group-title="🎬 Kinowalk",BOSSFILM
+http://kinowalk.hopto.org/bossfilm_live
+
+#EXTINF:-1 tvg-id="bstmsc" tvg-name="bstmsc" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/bstmsc.png" group-title="🎬 Kinowalk",bstmsc
+http://kinowalk.hopto.org/bstmsc_live
+
+#EXTINF:-1 tvg-id="chowamigo" tvg-name="ChowAmigo" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/chowamigo.jpg" group-title="🎬 Kinowalk",ChowAmigo
+http://kinowalk.hopto.org/chowamigo_live
+
+#EXTINF:-1 tvg-id="cinematime" tvg-name="Cinema Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cinematime.png" group-title="🎬 Kinowalk",Cinema Time
+http://kinowalk.hopto.org/cinematime_live
+
+#EXTINF:-1 tvg-id="czmmusic" tvg-name="CZM Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/czmmusic.png" group-title="🎬 Kinowalk",CZM Music
+http://kinowalk.hopto.org/czmmusic_live
+
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://goodgame.ru/files/avatars/av_1643154_P8Jo.jpg" group-title="🎬 Kinowalk", Dimpon TV
+http://kinowalk.hopto.org/dimpon_live
+
+#EXTINF:-1 tvg-id="zsmedia" tvg-name="dj Zour" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zsmedia_live.jpg" group-title="🎬 Kinowalk",dj Zour
+http://kinowalk.hopto.org/zsmedia_live
+
+#EXTINF:-1 tvg-id="kinostream_rezerv" tvg-name="DVD online" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinostream_rezerv.jpg" group-title="🎬 Kinowalk",DVD online
+http://kinowalk.hopto.org/kinostream_rezerv_live
+
+#EXTINF:-1 tvg-id="film4khdclub" tvg-name="film4khdLIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/film4khdclub_live.png" group-title="🎬 Kinowalk",film4khdLIVE
+http://kinowalk.hopto.org/film4khdclub_live
+
+#EXTINF:-1 tvg-id="filmsserialseveryday" tvg-name="FilmsSerialsEveryDay" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/filmsserialseveryday.jpg" group-title="🎬 Kinowalk",FilmsSerialsEveryDay
+http://kinowalk.hopto.org/filmsserialseveryday_live
+
+#EXTINF:-1 tvg-id="foxkids_remastered" tvg-name="FoxKids-Remastered" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/foxkids_remastered.jpg" group-title="🎬 Kinowalk",FoxKids-Remastered
+http://kinowalk.hopto.org/foxkids_remastered_live
+
+#EXTINF:-1 tvg-id="frxnkl1n" tvg-name="FRXNKL1N" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/frxnkl1n.jpg" group-title="🎬 Kinowalk",FRXNKL1N
+http://kinowalk.hopto.org/frxnkl1n_live
+
+#EXTINF:-1 tvg-id="grislytoe" tvg-name="grislytoe" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/grislytoe_live.jpg" group-title="🎬 Kinowalk",grislytoe
+http://kinowalk.hopto.org/grislytoe_live
+
+#EXTINF:-1 tvg-id="hurumburumum" tvg-name="hurumburumum" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/hurumburumum.png" group-title="🎬 Kinowalk",hurumburumum
+http://kinowalk.hopto.org/hurumburumum_live
+
+#EXTINF:-1 tvg-id="igrocomp" tvg-name="IGROComp" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/igrocomp.jpg" group-title="🎬 Kinowalk",IGROComp
+http://kinowalk.hopto.org/igrocomp_live
+
+#EXTINF:-1 tvg-id="inmuna" tvg-name="InMuNa Live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/inmuna.jpg" group-title="🎬 Kinowalk",InMuNa Live
+http://kinowalk.hopto.org/inmuna_live
+
+#EXTINF:-1 tvg-id="johan_grohan_live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/johan_grohan_live.jpg" group-title="🎬 Kinowalk",Johan Grohan Live
+http://kinowalk.hopto.org/johan_grohan_live
+
+#EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="🎬 Kinowalk",Just enjoy serial4u
+http://kinowalk.hopto.org/serial4u_live
+
+#EXTINF:-1 tvg-id="katastroff" tvg-name="KatastroFF" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/katastroff.png" group-title="🎬 Kinowalk",KatastroFF
+http://kinowalk.hopto.org/katastroff_live
+
+#EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="🎬 Kinowalk",Kino Jam
+http://kinowalk.hopto.org/kinojam_live
+
+#EXTINF:-1 tvg-id="kinofans" tvg-name="KinoFans" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofans.jpg" group-title="🎬 Kinowalk",KinoFans
+http://kinowalk.hopto.org/kinofans_live
+
+#EXTINF:-1 tvg-id="kinofon" tvg-name="kinofon_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofon.png" group-title="🎬 Kinowalk",kinofon_
+http://kinowalk.hopto.org/kinofon_live
+
+#EXTINF:-1 tvg-id="kinolampa" tvg-name="kinolampa" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolampa.png" group-title="🎬 Kinowalk",kinolampa
+http://kinowalk.hopto.org/kinolampa_live
+
+#EXTINF:-1 tvg-id="yurich_kinomix" tvg-name="KinoMix Юрич" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomix.png" group-title="🎬 Kinowalk",KinoMix Юрич
+http://kinowalk.hopto.org/yurich_kinomix_live
+
+#EXTINF:-1 tvg-id="dak3767" tvg-name="KinoMix Юрич 2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dak3767.png" group-title="🎬 Kinowalk",KinoMix Юрич 2
+http://kinowalk.hopto.org/dak3767_live
+
+#EXTINF:-1 tvg-id="kinoshnik_8" tvg-name="Kinoshnik_8" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoshnik_8.png" group-title="🎬 Kinowalk",Kinoshnik_8
+http://kinowalk.hopto.org/kinoshnik_8_live
+
+#EXTINF:-1 tvg-id="kinowalk_prime" tvg-name="Kinowalk prime" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_prime.png" group-title="🎬 Kinowalk",Kinowalk prime
+http://kinowalk.hopto.org/kinowalk_prime_live
+
+#EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="🎬 Kinowalk",Kinowalk_tv
+http://kinowalk.hopto.org/kinowalk_live
+
+#EXTINF:-1 tvg-id="moviebytes" tvg-name="KinoБайт-Лучшие фильмы" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/moviebytes_live.jpg" group-title="🎬 Kinowalk",KinoБайт-Лучшие фильмы
+http://kinowalk.hopto.org/moviebytes_live
+
+#EXTINF:-1 tvg-id="kirafreak" tvg-name="Kira_freak1993" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kirafreak_live.png" group-title="🎬 Kinowalk",Kira_freak1993
+http://kinowalk.hopto.org/kirafreak_live
+
+#EXTINF:-1 tvg-id="kycman" tvg-name="Kycman" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kycman.jpg" group-title="🎬 Kinowalk",Kycman
+http://kinowalk.hopto.org/kycman_live
+
+#EXTINF:-1 tvg-id="lampotv" tvg-name="lampoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/lampotv.png" group-title="🎬 Kinowalk",lampoTV
+http://kinowalk.hopto.org/lampotv_live
+
+#EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="🎬 Kinowalk",LEGION TV
+http://kinowalk.hopto.org/legion-tv_live
+
+#EXTINF:-1 tvg-id="zhekos" tvg-name="LifeZ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zhekos.jpg" group-title="🎬 Kinowalk",LifeZ
+http://kinowalk.hopto.org/zhekos_live
+
+#EXTINF:-1 tvg-id="makarstrim" tvg-name="MAKARSTRIM" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/makarstrim.jpg" group-title="🎬 Kinowalk",MAKARSTRIM
+http://kinowalk.hopto.org/makarstrim_live
+
+#EXTINF:-1 tvg-id="maximum" tvg-name="MAX LIVЕ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maximum.png" group-title="🎬 Kinowalk",MAX LIVЕ
+http://kinowalk.hopto.org/maximum_live
+
+#EXTINF:-1 tvg-id="mayhem" tvg-name="Mayhеm" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mayhem_live.jpg" group-title="🎬 Kinowalk",Mayhеm
+http://kinowalk.hopto.org/mayhem_live
+
+#EXTINF:-1 tvg-id="metalalex" tvg-name="MetalAlex" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/metalalex.jpg" group-title="🎬 Kinowalk",MetalAlex
+http://kinowalk.hopto.org/metalalex_live
+
+#EXTINF:-1 tvg-id="meteor" tvg-name="meteor" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/meteor.png" group-title="🎬 Kinowalk",meteor
+http://kinowalk.hopto.org/meteor_live
+
+#EXTINF:-1 tvg-id="movietoper" tvg-name="MovieToper" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/movietoper.png" group-title="🎬 Kinowalk",MovieToper
+http://kinowalk.hopto.org/movietoper_live
+
+#EXTINF:-1 tvg-id="mp4_collection" tvg-name="mp4_collection" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mp4_collection.jpg" group-title="🎬 Kinowalk",mp4_collection
+http://kinowalk.hopto.org/mp4_collection_live
+
+#EXTINF:-1 tvg-id="mrdragonlive" tvg-name="Mr DRAGON live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mrdragonlive_live.png" group-title="🎬 Kinowalk",Mr DRAGON live
+http://kinowalk.hopto.org/mrdragonlive_live
+
+#EXTINF:-1 tvg-id="vovanb_iptv" tvg-name="MTV Old Россия" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vovanb_iptv.jpg" group-title="🎬 Kinowalk",MTV Old Россия
+http://kinowalk.hopto.org/vovanb_iptv_live
+
+#EXTINF:-1 tvg-id="milah" tvg-name="MилаШ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/milah.jpg" group-title="🎬 Kinowalk",MилаШ
+http://kinowalk.hopto.org/milah_live
+
+#EXTINF:-1 tvg-id="neovisiontv" tvg-name="NeoVision TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/neovisiontv.jpg" group-title="🎬 Kinowalk",NeoVision TV
+http://kinowalk.hopto.org/neovisiontv_live
+
+#EXTINF:-1 tvg-id="nezabudka" tvg-name="NEZABUDKA" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nezabudka.jpg" group-title="🎬 Kinowalk",NEZABUDKA
+http://kinowalk.hopto.org/nezabudka_live
+
+#EXTINF:-1 tvg-id="nztv" tvg-name="NZTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nztv.jpg" group-title="🎬 Kinowalk",NZTV
+http://kinowalk.hopto.org/nztv_live
+
+#EXTINF:-1 tvg-id="oldclip" tvg-name="OldClip TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/oldclip.png" group-title="🎬 Kinowalk",OldClip TV
+http://kinowalk.hopto.org/oldclip_live
+
+#EXTINF:-1 tvg-id="play4fun" tvg-name="Play 4 Fun" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/play4fun.jpg" group-title="🎬 Kinowalk",Play 4 Fun
+http://kinowalk.hopto.org/play4fun_live
+
+#EXTINF:-1 tvg-id="priest_kod" tvg-name="priest_kod" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/priest_kod.jpg" group-title="🎬 Kinowalk",priest_kod
+http://kinowalk.hopto.org/priest_kod_live
+
+#EXTINF:-1 tvg-id="rsf" tvg-name="Real State Films" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/rsf.jpg" group-title="🎬 Kinowalk",Real State Films
+http://kinowalk.hopto.org/rsf_live
+
+#EXTINF:-1 tvg-id="retromus" tvg-name="RetroMusic" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/retromus_live.jpg" group-title="🎬 Kinowalk",RetroMusic
+http://kinowalk.hopto.org/retromus_live
+
+#EXTINF:-1 tvg-id="san4ez09" tvg-name="SaN4еZ09" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/san4ez09.png" group-title="🎬 Kinowalk",SaN4еZ09
+http://kinowalk.hopto.org/san4ez09_live
+
+#EXTINF:-1 tvg-id="sansey_ru" tvg-name="SANSEY_RU" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/sansey_ru.jpg" group-title="🎬 Kinowalk",SANSEY_RU
+http://kinowalk.hopto.org/sansey_ru_live
+
+#EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="🎬 Kinowalk",ScripachTV
+http://kinowalk.hopto.org/scripachtv_live
+
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/SeleCaoTV.png" group-title="🎬 Kinowalk",SeleCaoTV Фильм
+http://kinowalk.hopto.org/selecaotv_live
+
+#EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="🎬 Kinowalk",SeleCaoTV1
+http://kinowalk.hopto.org/selecaotv1_live
+
+#EXTINF:-1 tvg-id="re_boot" tvg-name="Serials RE_BOOT" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/re_boot.jpg" group-title="🎬 Kinowalk",Serials RE_BOOT
+http://kinowalk.hopto.org/re_boot_live
+
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/30346500/avatar?change_time=1767118302&croped=1&mh=140&mw=140" group-title="🎬 Kinowalk", SerialTV
+http://kinowalk.hopto.org/serialtv_live
+
+#EXTINF:-1 tvg-id="severtv" tvg-name="sever_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/severtv.jpg" group-title="🎬 Kinowalk",sever_tv
+http://kinowalk.hopto.org/severtv_live
+
+#EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/16123819/avatar?change_time=1744393606&croped=1&mh=140&mw=140" tvg-id="no_epg_cinema" group-title="🎬 Kinowalk", Solo ink
+http://kinowalk.hopto.org/soloink_live
+
+#EXTINF:-1 tvg-id="swat2k" tvg-name="swat2k" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/swat2k.jpg" group-title="🎬 Kinowalk",swat2k
+http://kinowalk.hopto.org/swat2k_live
+
+#EXTINF:-1 tvg-id="technodancemusic" tvg-name="TechnoDanceMusic" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/technodancemusic.png" group-title="🎬 Kinowalk",TechnoDanceMusic
+http://kinowalk.hopto.org/technodancemusic_live
+
+#EXTINF:-1 tvg-id="timetohorror" tvg-name="TimeToHorror" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_horror.png" group-title="🎬 Kinowalk",TimeToHorror
+http://kinowalk.hopto.org/timetohorror_live
+
+#EXTINF:-1 tvg-id="timetomovie" tvg-name="TimeToMovie" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/time_to_movie.png" group-title="🎬 Kinowalk",TimeToMovie
+http://kinowalk.hopto.org/timetomovie_live
+
+#EXTINF:-1 tvg-id="topmomentlive" tvg-name="TopMoment LiVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/topmomentlive.jpg" group-title="🎬 Kinowalk",TopMoment LiVE
+http://kinowalk.hopto.org/topmomentlive_live
+
+#EXTINF:-1 tvg-id="topmoment" tvg-name="TopMoment TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/topmoment.jpg" group-title="🎬 Kinowalk",TopMoment TV
+http://kinowalk.hopto.org/topmoment_live
+
+#EXTINF:-1 tvg-id="ordinary_people" tvg-name="Tоny" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ordinary_people.jpg" group-title="🎬 Kinowalk",Tоny
+http://kinowalk.hopto.org/ordinary_people_live
+
+#EXTINF:-1 tvg-id="umelyiretro" tvg-name="Um! Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/umelyiretro.png" group-title="🎬 Kinowalk",Um! Music
+http://kinowalk.hopto.org/umelyiretro_live
+
+#EXTINF:-1 tvg-id="no_epg_music" tvg-logo="https://i128.fastpic.org/big/2026/0730/07/d9764ae7e54fe2220bd749d0d2bfe007.jpg" group-title="🎬 Kinowalk",VB Русская Танцевальная Попса 80х-90х
+http://kinowalk.hopto.org/vbrusdancepops80_live
+
+#EXTINF:-1 tvg-id="vb-all-in-one" tvg-name="VB-All-In-One" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vb-all-in-one.jpg" group-title="🎬 Kinowalk",VB-All-In-One
+http://kinowalk.hopto.org/vb-all-in-one_live
+
+#EXTINF:-1 tvg-id="russerials" tvg-name="VB-RusSerails" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/russerials.png" group-title="🎬 Kinowalk",VB-RusSerails
+http://kinowalk.hopto.org/russerials_live
+
+#EXTINF:-1 tvg-id="vb_edh90sanddh90s" tvg-name="VB_EDH90sandDH90s" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vb_edh90sanddh90s.png" group-title="🎬 Kinowalk",VB_EDH90sandDH90s
+http://kinowalk.hopto.org/vb_edh90sanddh90s_live
+
+#EXTINF:-1 tvg-id="gh_and_randb" tvg-name="VB_GH_and_RandB" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/gh_and_randb.png" group-title="🎬 Kinowalk",VB_GH_and_RandB
+http://kinowalk.hopto.org/gh_and_randb_live
+
+#EXTINF:-1 tvg-id="vhs-forever" tvg-name="VHS Forever" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs-forever.jpg" group-title="🎬 Kinowalk",VHS Forever
+http://kinowalk.hopto.org/vhs-forever_live
+
+#EXTINF:-1 tvg-id="noir" tvg-name="VHS Power" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/noir.jpg" group-title="🎬 Kinowalk",VHS Power
+http://kinowalk.hopto.org/noir_live
+
+#EXTINF:-1 tvg-id="channel36774366" tvg-name="VHS store" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel36774366_live.jpg" group-title="🎬 Kinowalk",VHS store
+http://kinowalk.hopto.org/channel36774366_live
+
+#EXTINF:-1 tvg-id="and7610" tvg-name="VHS кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/and7610.png" group-title="🎬 Kinowalk",VHS кино
+http://kinowalk.hopto.org/and7610_live
+
+#EXTINF:-1 tvg-id="video_channel" tvg-name="Video Channel" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_channel.png" group-title="🎬 Kinowalk",Video Channel
+http://kinowalk.hopto.org/video_channel_live
+
+#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="🎬 Kinowalk",Video_Prokat
+http://kinowalk.hopto.org/video_prokat_live
+
+#EXTINF:-1 tvg-id="videoarsenal" tvg-name="VideoArsenal" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videoarsenal.png" group-title="🎬 Kinowalk",VideoArsenal
+http://kinowalk.hopto.org/videoarsenal_live
+
+#EXTINF:-1 tvg-id="videovk" tvg-name="VideoVk" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videovk.png" group-title="🎬 Kinowalk",VideoVk
+http://kinowalk.hopto.org/videovk_live
+
+#EXTINF:-1 tvg-id="vitun_88" tvg-name="Vitun1988" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vitun_88.jpg" group-title="🎬 Kinowalk",Vitun1988
+http://kinowalk.hopto.org/vitun_88_live
+
+#EXTINF:-1 tvg-id="vktv_hd_cinema" tvg-name="VKTV HD CINEMA" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vktv_hd_cinema.png" group-title="🎬 Kinowalk",VKTV HD CINEMA
+http://kinowalk.hopto.org/vktv_hd_cinema_live
+
+#EXTINF:-1 tvg-id="wfliq" tvg-name="Wfliq" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/Wfliq.png" group-title="🎬 Kinowalk",Wfliq
+http://kinowalk.hopto.org/wfliq_live
+
+#EXTINF:-1 tvg-id="zumibox" tvg-name="ZumiBox" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zumibox.jpg" group-title="🎬 Kinowalk",ZumiBox
+http://kinowalk.hopto.org/zumibox_live
+
+#EXTINF:-1 tvg-id="apricus" tvg-name="АPRICUS live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/apricus.png" group-title="🎬 Kinowalk",АPRICUS live
+http://kinowalk.hopto.org/apricus_live
+
+#EXTINF:-1 tvg-id="channel35772578" tvg-name="БУДУ СМОТЕТЬ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel35772578.png" group-title="🎬 Kinowalk",БУДУ СМОТЕТЬ
+http://kinowalk.hopto.org/channel35772578_live
+
+#EXTINF:-1 tvg-id="poe2proxodim" tvg-name="ВАСЬКИНЫ ЗАБАВЫ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/poe2proxodim.jpg" group-title="🎬 Kinowalk",ВАСЬКИНЫ ЗАБАВЫ
+http://kinowalk.hopto.org/poe2proxodim_live
+
+#EXTINF:-1 tvg-id="vhs90e" tvg-name="ВИДЕОКАССЕТА" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs90e.png" group-title="🎬 Kinowalk",ВИДЕОКАССЕТА
+http://kinowalk.hopto.org/vhs90e_live
+
+#EXTINF:-1 tvg-id="dikarka" tvg-name="Дикарка" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dikarka.jpg" group-title="🎬 Kinowalk",Дикарка
+http://kinowalk.hopto.org/dikarka_live
+
+#EXTINF:-1 tvg-id="vhs90s" tvg-name="Евгений / Эра VHS" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vhs90s.png" group-title="🎬 Kinowalk",Евгений / Эра VHS
+http://kinowalk.hopto.org/vhs90s_live
+
+#EXTINF:-1 tvg-id="yegor_yegorych" tvg-name="Егор Егорыч ))" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/yegor_yegorych.jpg" group-title="🎬 Kinowalk",Егор Егорыч ))
+http://kinowalk.hopto.org/yegor_yegorych_live
+
+#EXTINF:-1 tvg-id="igrun1997" tvg-name="Игрун 1997" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/igrun1997.jpg" group-title="🎬 Kinowalk",Игрун 1997
+http://kinowalk.hopto.org/igrun1997_live
+
+#EXTINF:-1 tvg-id="kinopro" tvg-name="кино кино кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinopro.jpg" group-title="🎬 Kinowalk",кино кино кино
+http://kinowalk.hopto.org/kinopro_live
+
+#EXTINF:-1 tvg-id="kinolenta" tvg-name="КИНОЛЕНТА LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinolenta_live.png" group-title="🎬 Kinowalk",КИНОЛЕНТА LIVE
+http://kinowalk.hopto.org/kinolenta_live
+
+#EXTINF:-1 tvg-id="nonestopmovie" tvg-name="КиноНонСтоп" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nonestopmovie.jpg" group-title="🎬 Kinowalk",КиноНонСтоп
+http://kinowalk.hopto.org/nonestopmovie_live
+
+#EXTINF:-1 tvg-id="zagar" tvg-name="КиноСериалы" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zagar.jpg" group-title="🎬 Kinowalk",КиноСериалы
+http://kinowalk.hopto.org/zagar_live
+
+#EXTINF:-1 tvg-id="channel30001568" tvg-name="КиноСтрим#7184980" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/channel30001568.png" group-title="🎬 Kinowalk",КиноСтрим#7184980
+http://kinowalk.hopto.org/channel30001568_live
+
+#EXTINF:-1 tvg-id="x-x-vanes-x-x" tvg-name="Кинотеатр без билетов" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/x-x-vanes-x-x.jpg" group-title="🎬 Kinowalk",Кинотеатр без билетов
+http://kinowalk.hopto.org/x-x-vanes-x-x_live
+
+#EXTINF:-1 tvg-id="kinoteka_full_hd_top" tvg-name="Кинотека FULL_HD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoteka_full_hd_top.jpg" group-title="🎬 Kinowalk",Кинотека FULL_HD
+http://kinowalk.hopto.org/kinoteka_full_hd_top_live
+
+#EXTINF:-1 tvg-id="kinoshkino" tvg-name="КИНОШКИНО" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoshkino.jpg" group-title="🎬 Kinowalk",КИНОШКИНО
+http://kinowalk.hopto.org/kinoshkino_live
+
+#EXTINF:-1 tvg-id="skladfilm" tvg-name="Кладовая Фильмов" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/skladfilm.png" group-title="🎬 Kinowalk",Кладовая Фильмов
+http://kinowalk.hopto.org/skladfilm_live
+
+#EXTINF:-1 tvg-id="cmexye4ku" tvg-name="КОМЕДИИ 24/7" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/cmexye4ku.jpg" group-title="🎬 Kinowalk",КОМЕДИИ 24/7
+http://kinowalk.hopto.org/cmexye4ku_live
+
+#EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="🎬 Kinowalk",Коновал ТВ
+http://kinowalk.hopto.org/tvkonoval_live
+
+#EXTINF:-1 tvg-id="lucyvedminaaaa" tvg-name="Люська Ведьма" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/lucyvedminaaaa.jpg" group-title="🎬 Kinowalk",Люська Ведьма
+http://kinowalk.hopto.org/lucyvedminaaaa_live
+
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/29545720/avatar?change_time=1760619525&croped=1&mh=140&mw=140" group-title="🎬 Kinowalk", Малдер Всё ТВ
+http://kinowalk.hopto.org/maldrvsetv_live
+
+#EXTINF:-1 tvg-id="mirdobro" tvg-name="Мир Ехо" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mirdobro_live.png" group-title="🎬 Kinowalk",Мир Ехо
+http://kinowalk.hopto.org/mirdobro_live
+
+#EXTINF:-1 tvg-id="ncd" tvg-name="МирКино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ncd_live.jpg" group-title="🎬 Kinowalk",МирКино
+http://kinowalk.hopto.org/ncd_live
+
+#EXTINF:-1 tvg-id="muzcoverradio" tvg-name="МузCOVERрадио" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/muzcoverradio_live.jpg" group-title="🎬 Kinowalk",МузCOVERрадио
+http://kinowalk.hopto.org/muzcoverradio_live
+
+#EXTINF:-1 tvg-id="miiz90x" tvg-name="Мы из 90-х" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/miiz90x.jpg" group-title="🎬 Kinowalk",Мы из 90-х
+http://kinowalk.hopto.org/miiz90x_live
+
+#EXTINF:-1 tvg-id="backtotheussr" tvg-name="Назад в СССР" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/backtotheussr.jpg" group-title="🎬 Kinowalk",Назад в СССР
+http://kinowalk.hopto.org/backtotheussr_live
+
+#EXTINF:-1 tvg-id="notnotes" tvg-name="не Кино" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/notnotes.jpg" group-title="🎬 Kinowalk",не Кино
+http://kinowalk.hopto.org/notnotes_live
+
+#EXTINF:-1 tvg-id="nostal77" tvg-name="НОСТАЛЬГИЯ LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/nostal77_live.jpg" group-title="🎬 Kinowalk",НОСТАЛЬГИЯ LIVE
+http://kinowalk.hopto.org/nostal77_live
+
+#EXTINF:-1 tvg-id="ostorozhnomodern2" tvg-name="ОсторожноМодерн2" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ostorozhnomodern2.jpg" group-title="🎬 Kinowalk",ОсторожноМодерн2
+http://kinowalk.hopto.org/ostorozhnomodern2_live
+
+#EXTINF:-1 tvg-id="paranormal404" tvg-name="ПАРАНОРМАЛЬНЫЙ АРХИВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/paranormal404_live.jpg" group-title="🎬 Kinowalk",ПАРАНОРМАЛЬНЫЙ АРХИВ
+http://kinowalk.hopto.org/paranormal404_live
+
+#EXTINF:-1 tvg-id="perviryad" tvg-name="Пᛊየᛒьᵻӥ የጸሏ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/perviryad.png" group-title="🎬 Kinowalk",Пᛊየᛒьᵻӥ የጸሏ
+http://kinowalk.hopto.org/perviryad_live
+
+#EXTINF:-1 tvg-id="misha-sdyt" tvg-name="СВЯТОЙ LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/misha-sdyt.jpg" group-title="🎬 Kinowalk",СВЯТОЙ LIVE
+http://kinowalk.hopto.org/misha-sdyt_live
+
+#EXTINF:-1 tvg-id="liveprointerny" tvg-name="СЕМЕЙНЫЙ ПРОСМОТР LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/liveprointerny_live.jpg" group-title="🎬 Kinowalk",СЕМЕЙНЫЙ ПРОСМОТР LIVE
+http://kinowalk.hopto.org/liveprointerny_live
+
+#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="🎬 Kinowalk",Тоха Киноман
+http://kinowalk.hopto.org/kinomania_stream_live
+
+#EXTINF:-1 tvg-id="toxa_stream" tvg-name="Тоха Стрим" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/toxa_stream.jpg" group-title="🎬 Kinowalk",Тоха Стрим
+http://kinowalk.hopto.org/toxa_stream_live
+
+#EXTINF:-1 tvg-id="ddator" tvg-name="У КРАЯ БЕЗДНЫ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/ddator.jpg" group-title="🎬 Kinowalk",У КРАЯ БЕЗДНЫ
+http://kinowalk.hopto.org/ddator_live
+
+#EXTINF:-1 tvg-id="horrortv" tvg-name="УЖАС ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/horrortv.png" group-title="🎬 Kinowalk",УЖАС ТВ
+http://kinowalk.hopto.org/horrortv_live
+
+#EXTINF:-1 tvg-id="filmscope" tvg-name="Фильмоскоп" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/filmscope.png" group-title="🎬 Kinowalk",Фильмоскоп
+http://kinowalk.hopto.org/filmscope_live
+
+#EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="🎬 Kinowalk",Фильмы сериалы трансляции
+http://kinowalk.hopto.org/id582512126_live
+
+#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="🎬 Kinowalk",ФИЛЬМЫ у Максима
+http://kinowalk.hopto.org/mmaxim0vich_live
+
+#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="🎬 Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
+http://kinowalk.hopto.org/films_serials_24_7_live_live
+
+#EXTINF:-1 tvg-id="durkalive" tvg-name="Х-TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/durkalive_live.png" group-title="🎬 Kinowalk",Х-TV
+http://kinowalk.hopto.org/durkalive_live
+
+#EXTINF:-1 tvg-id="xutmahtv" tvg-name="ХИТМАН ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/xutmahtv_live.jpg" group-title="🎬 Kinowalk",ХИТМАН ТВ
+http://kinowalk.hopto.org/xutmahtv_live
+
+#EXTINF:-1 tvg-id="shurentiy_live_live" tvg-name="Шурентий Live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/shurentiy_live.png" group-title="🎬 Kinowalk",Шурентий Live
+http://kinowalk.hopto.org/shurentiy_live_live
+
+#EXTINF:-1 tvg-id="equilibrium" tvg-name="Эквилибриум69" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/equilibrium.png" group-title="🎬 Kinowalk",Эквилибриум69
+http://kinowalk.hopto.org/equilibrium_live
+
+#EXTINF:-1 tvg-id="kasseta" tvg-name="ℂℂ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kasseta.png" group-title="🎬 Kinowalk",ℂℂ
+http://kinowalk.hopto.org/kasseta_live
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-21/cb/00/cb00bf0b844dadef144f7b9fb208e18b.jpg?width=500" tvg-id="no_epg_cinema" group-title="🎬 Rutube", Amazon Prime Video mans' club
+https://bl.rutube.ru/livestream/99f8f1d827641b766de62fe9023642fa/index.m3u8?s=VuhfAnwVN0QaMpV2AjMFNQ&e=2088894153&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-19/cb/51/cb517861e0143a571958f43b5c6a0f66.jpg?width=500" tvg-id="no_epg_cinema" group-title="🎬 Rutube", Amazon Prime Video Romance
+https://bl.rutube.ru/livestream/7758ac4d77fac95e187144ee2c8b368d/index.m3u8?s=vDrzYErdC_oimMeApzw5Ig&e=2088894154&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-28/81/8c/818cc0846fd903cd2943d9cfc9a48486.jpg?size=l" tvg-id="no_epg_cinema" group-title="🎬 Rutube", Apple TV+Action Time
+https://bl.rutube.ru/livestream/74bb437ef478a52f42198c50d4241dc7/index.m3u8?s=waj95cuyyi8uqhMviY5J5Q&e=2088331937&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-28/ff/e0/ffe0813d42945ce49830c8631a8eeb72.jpg?size=l" tvg-id="no_epg_cinema" group-title="🎬 Rutube", Apple TV+Woman's Story
+https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=MyL89IE96vyCNFX0quwgMA&e=2088331938&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" group-title="🎬 Rutube",Discovery Channel HD
+https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=G_MLL6rXsWu3E14ydKWGCg&e=2088894145&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/c4/53/c453149b8774d33966cf7967c0647bfd.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Epic Media Love
+https://bl.rutube.ru/livestream/21f3993ed8291b70208aa06c982c731f/index.m3u8?s=O_uQSQyXnTgjsU14sGfEuw&e=2088807304&scheme=https
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/epic.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Epic Media Plus
+https://bl.rutube.ru/livestream/0ed0696149c131d3a7349372d730d4e6/index.m3u8?s=1HXyp-V_dC9Tc4r0glGRCA&e=2088807305&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt-music.png" tvg-id="tnt-music" group-title="🎬 Rutube",FON Music HD
+https://bl.rutube.ru/livestream/5a294ae1ed12c44c7053301fb5fa9ba0/index.m3u8?s=6QcJACKS47Q7h0LTv8kAgw&e=2071746933&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-26/5f/5f/5f5f4258f912baf2c5a5c0a07550183a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Marvel
+https://bl.rutube.ru/livestream/3abeb7577fd38ac4b8130bb8e03418f2/index.m3u8?s=GDM7F7_8DDUK3Mdk_lwaPg&e=2088894153&scheme=https
+
+#EXTINF:-1 tvg-logo="https://telik.live/images/mixm-tv.png" tvg-id="no_epg_music" group-title="🎬 Rutube", MM TB rut
+https://bl.rutube.ru/livestream/965a025e4ebbaf0957415f80c6de8534/index.m3u8?s=v7dOOrEjRKjoFtTAlfRRcg&e=2088807401&scheme=https
+
+#EXTINF:-1 group-title="🎬 Rutube",National Geographic HD
+https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=XIlYETIzEf8C7a-PCDWWwA&e=2088331934&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/nba-tv.png" tvg-id="nba-tv" group-title="🎬 Rutube", NBA TV
+https://bl.rutube.ru/livestream/d01241e9fd2bc2d65dbf6d74cca02f89/index.m3u8?s=PQW3hpuI4ixSmkvZ8DFYSA&e=2081160974&scheme=https
+
+#EXTINF:-1 group-title="🎬 Rutube" tvg-id="nhl-network-us" tvg-logo="https://epg.iptvx.one/picons/nhl-network-us.png",NHL Network
+https://bl.rutube.ru/livestream/7a485ef5da9fe50ba939f36ca3e6ed96/index.m3u8?s=kzFd14_NM5e7oc008gaZnQ&e=2073777469&scheme=https
+
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://i.imgur.com/9r1BKzK.png" group-title="🎬 Rutube",NTV (Russia) HD (1080p)
+https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
+
+#EXTINF:-1 tvg-logo="https://sun9-77.userapi.com/impf/nNai67zCi4neIS8l4QLfgnnWVuhl_fotKh-Nxw/64vA7mNVAHA.jpg?size=443x398&quality=96&sign=12ca16e7ca675d44f59977116dc59f6d&c_uniq_tag=wDKxRd8s_gFvBGjnDUmOEBkJF6kO59JXXGpEoTgAMEw&type=album" tvg-id="no_epg_music" group-title="🎬 Rutube", Record Megamix
+https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=A6TrQmZyPv2n8X6TnDy-AA&e=2068506969&scheme=https
+
+#EXTINF:-1 tvg-id="ru-tv" tvg-logo="https://i.imgur.com/Z7HUU7V.png" group-title="🎬 Rutube",RU.TV (1080p)
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rutube-tv.png" tvg-id="no_epg" group-title="🎬 Rutube", Rutube TV
+https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=0n7KfJ7ClPM1At-kR4sR8g&e=2072265313&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/sky-sports-apl.png" tvg-id="sky-sports-apl" group-title="🎬 Rutube",Sky Sports Premier League
+https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=f6Lrx1cPYx2SfJ9mbaHnbw&e=2068506972&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt.png" tvg-id="tnt" group-title="🎬 Rutube", THT HD
+https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=E0R2kfCL_-Hcl58HPM1jgA&e=2072222110&scheme=https
+
+#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://epg.iptvx.one/picons/tnt4.png" group-title="🎬 Rutube",THT4 HD
+https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=YmLsZ86xBHJzGryIFXgrmg&e=2069500953&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tlc.png" tvg-id="tlc" group-title="🎬 Rutube", TLC
+https://bl.rutube.ru/livestream/7c3d1a4cc0b4dff1176aa2dbb0b90000/index.m3u8?s=-HHmJQR_TatTnycAQ62KUg&e=2088331935&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt-sports-prem-ar.png" tvg-id="tnt-sports-prem-ar" group-title="🎬 Rutube",TNT SPORTS 1 HD
+https://bl.rutube.ru/livestream/3aa782bace452e7c4b9f81d767512147/index.m3u8?s=hrqmu7iM34XUP7Jw7GqFHg&e=2082500310&scheme=https
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/34RINpb.png" group-title="🎬 Rutube",Tsargrad TV (1080p) [Geo-blocked]
+https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?e=2070278263&s=is_mLq_kjPYLsOJ4qj85tw&scheme=https
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KDZvt0Q.png" group-title="🎬 Rutube",U (720p)
+https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/viva-rus.png" tvg-id="viva-rus" group-title="🎬 Rutube",VIVA Russia rut
+https://bl.rutube.ru/livestream/f712ae5ff3db23ec09b3674133d44daa/index.m3u8?s=gMiCSZ4n6zXhu914XD0K0Q&e=2088807415&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2026-08-27/c1/58/c158f2953bf501c79015111beffbc606.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Гарри Поттер
+https://bl.rutube.ru/livestream/f6a3656e5ef574982994ddf2e5003341/index.m3u8?s=w3HwRFG8CRLteg6rMlCSXQ&e=2088894152&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/2024-10-24/52/3d/523daa9a87b0cd43303c5a11a6d09f9a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Звездные войны
+https://bl.rutube.ru/livestream/dcd36c7833f9431e6e6c902515c6c3ac/index.m3u8?s=V6xxaC-8NJNujIneTTwOQQ&e=2088894152&scheme=https
+
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/kino-i-zhizn.png" tvg-id="kino-i-zhizn" group-title="🎬 Rutube", Кино и Жизнь HD
+https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=ix0NUYiM353oJ7eEIovyVA&e=2066519843&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/video/2025-03-14/87/c6/87c6d211fd30f5019ebf2bc074b5f7e5.jpg" tvg-id="no_epg" group-title="🎬 Rutube",Кинолаффка HD
+https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=uWEwgWbkG33r2o5mU0X38A&e=2082027011&scheme=https
+
+#EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://epg.iptvx.one/picons/krik-tv.png" group-title="🎬 Rutube",КРИК-ТВ HD
+https://bl.rutube.ru/livestream/f372aa2aff09518d050ecdf70956012c/index.m3u8?s=zqF8COx7qN-jbhFv7NK-7A&e=2066519811&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-tv.png" tvg-id="match-tv" group-title="🎬 Rutube", Матч! HD
+https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=eZv38IdfIqR5Qp4wrPZIog&e=2069500994&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/mir24.png" tvg-id="mir-24" group-title="🎬 Rutube",  Мир 24 HD
+https://bl.rutube.ru/livestream/43269ba8fb179e298b1e497f557e8d2d/index.m3u8?s=AHyYF5k7S-kCLd06laF3_w&e=2069500976&scheme=https
+
+#EXTINF:-1 tvg-id="moskva-24" tvg-logo="https://epg.iptvx.one/picons/moskva-24.png" group-title="🎬 Rutube" ,Москва 24
+https://bl.rutube.ru/livestream/ca70d39eba2e8771358bbcb4bfbad860/index.m3u8?s=2hpFHyGd4ABvaVKRieBvOg&e=2077359297&scheme=https
+
+#EXTINF:-1 tvg-id="muztv" tvg-logo="https://epg.iptvx.one/picons/muztv.png" group-title="🎬 Rutube",Муз ТВ HD
+https://bl.rutube.ru/livestream/df6fe73494a26f74da51573fd97b9baa/index.m3u8?s=JTAW4J-xV9JKMAUbJmgmIQ&e=2068506966&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/ntv.png" tvg-id="ntv" group-title="🎬 Rutube",  НТВ HD
+https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=KRpRtdju100oOaCoxpKyPg&e=2066519750&scheme=https
+
+#EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://epg.iptvx.one/picons/prodvizhenie.png" group-title="🎬 Rutube",Продвижение HD
+https://bl.rutube.ru/livestream/ff5c11c9a51750f5d33427762abc315c/index.m3u8?s=IBzoayhf0EhnnlzfDnDidg&e=2066519813&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/piatnica.png" tvg-id="piatnica" group-title="🎬 Rutube",  Пятница HD
+https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=XhfUK7cRUF2Ss3pJ9kCOmg&e=2069846622&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/super.png" tvg-id="super" group-title="🎬 Rutube",Суббота
+https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?s=ygOk2tDua8hSzJnHH27dwA&e=2069500956&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" group-title="🎬 Rutube",ТВ3 HD
+https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=574vg6yabF0PZrSsdpRKuw&e=2069846623&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/2024-10-24/52/3d/523daa9a87b0cd43303c5a11a6d09f9a.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube", Твой кинотеатр
+https://bl.rutube.ru/livestream/e08e513c4e33f52fce3a975b5cb6932c/index.m3u8?s=CDANA7lfLAqGndYFwAD5Eg&e=2088894154&scheme=https
+
+#EXTINF:-1 tvg-logo="https://pic.rtbcdn.ru/user/d0/24/d02422c0078c8517a1a4c2678a25529b.jpg" tvg-id="no_epg_cinema" group-title="🎬 Rutube",Фильмач
+https://bl.rutube.ru/livestream/300560a65014ec501a25b1f79df9ad90/index.m3u8?s=ts6K4yoGVWl3-MeiAHjvnw&e=2088807301&scheme=https
+
+#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/yu.png" tvg-id="yu" group-title="🎬 Rutube",Ю
+https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?s=x45t0M4xuuiCNqRQBW70Jg&e=2069285051&scheme=https
+
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/city-tv-bg.png" tvg-id="city-tv-bg" group-title="🎵 Музыка",City TV
 https://tv.city.bg/play/tshls/citytv/2.m3u8
 
@@ -1027,9 +1060,6 @@ http://stream.mcquack.net/184/index.m3u8
 
 #EXTINF:-1 tvg-id="ntv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="🎵 Музыка",FashionTV (1080p)
 http://fashionlive.mediacdn.ru/cdn/fashiontv/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tnt-music.png" tvg-id="tnt-music" group-title="🎵 Музыка",FON Music HD
-https://bl.rutube.ru/livestream/5a294ae1ed12c44c7053301fb5fa9ba0/index.m3u8?s=6QcJACKS47Q7h0LTv8kAgw&e=2071746933&scheme=https
 
 #EXTINF:-1 tvg-id="HitFM.md@SD" tvg-logo="https://i.imgur.com/QwqM5j6.png" group-title="🎵 Музыка",Hit FM
 https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8
@@ -1052,20 +1082,11 @@ http://live-3.otcnet.ru/Mezzo/index.m3u8
 #EXTINF:-1 tvg-id="mezzo-live-hd" tvg-logo="https://i.imgur.com/H9ytKPN.png" group-title="🎵 Музыка",Mezzo Live (1080p)
 http://stream.mcquack.net/276/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://telik.live/images/mixm-tv.png" tvg-id="no_epg_music" group-title="🎵 Музыка", MM TB rut
-https://bl.rutube.ru/livestream/965a025e4ebbaf0957415f80c6de8534/index.m3u8?s=v7dOOrEjRKjoFtTAlfRRcg&e=2088807401&scheme=https
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pdCAUrP.png" group-title="🎵 Музыка",MTV Volgograd (720p) [Not 24/7]
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://i115.fastpic.org/big/2021/0924/b4/206c12e5512b5f3646db19d45c620bb4.png" tvg-id="no_epg_music" group-title="🎵 Музыка",radio m2o
 http://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/chunklist_b1728000.m3u8
-
-#EXTINF:-1 tvg-logo="https://sun9-77.userapi.com/impf/nNai67zCi4neIS8l4QLfgnnWVuhl_fotKh-Nxw/64vA7mNVAHA.jpg?size=443x398&quality=96&sign=12ca16e7ca675d44f59977116dc59f6d&c_uniq_tag=wDKxRd8s_gFvBGjnDUmOEBkJF6kO59JXXGpEoTgAMEw&type=album" tvg-id="no_epg_music" group-title="🎵 Музыка", Record Megamix
-https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=A6TrQmZyPv2n8X6TnDy-AA&e=2068506969&scheme=https
-
-#EXTINF:-1 tvg-id="ru-tv" tvg-logo="https://i.imgur.com/Z7HUU7V.png" group-title="🎵 Музыка",RU.TV (1080p)
-https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/nM7LbmV.png" group-title="🎵 Музыка",SONGTV Russia
 https://songtv.hls.iptvdc.com/web-russia/playlist.m3u8
@@ -1079,14 +1100,8 @@ http://de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/viva-rus.png" tvg-id="viva-rus" group-title="🎵 Музыка",VIVA Russia
 https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/viva-rus.png" tvg-id="viva-rus" group-title="🎵 Музыка",VIVA Russia rut
-https://bl.rutube.ru/livestream/f712ae5ff3db23ec09b3674133d44daa/index.m3u8?s=gMiCSZ4n6zXhu914XD0K0Q&e=2088807415&scheme=https
-
 #EXTINF:-1 tvg-logo="https://avatars.mds.yandex.net/i?id=a5cfa43179f7b313920bf743b1cf92191a0302c1-5333794-images-thumbs&n=13" tvg-id="no_epg_music" group-title="🎵 Музыка",Залипательные ролики
 https://lbgo.bozztv.com/07/ushba60/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="muztv" tvg-logo="https://epg.iptvx.one/picons/muztv.png" group-title="🎵 Музыка",Муз ТВ HD
-https://bl.rutube.ru/livestream/df6fe73494a26f74da51573fd97b9baa/index.m3u8?s=JTAW4J-xV9JKMAUbJmgmIQ&e=2068506966&scheme=https
 
 #EXTINF:-1 tvg-id="smotrim-100-muzhskoe" tvg-logo="https://epg.iptvx.one/picons/smotrim-100-muzhskoe.png" group-title="🎵 Музыка",Смотрим 100% Мужское HD
 https://stream.smotrim.ru/hls3/fasttv02/playlist_3.m3u8
@@ -1115,9 +1130,6 @@ http://stream.mcquack.net/274/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/e3BFVgt.png" group-title="📚 Познавательные",Dikaya rybalka HD (1080p)
 http://stream.mcquack.net/275/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" group-title="📚 Познавательные",Discovery Channel HD
-https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=G_MLL6rXsWu3E14ydKWGCg&e=2088894145&scheme=https
-
 #EXTINF:-1 tvg-id="DocuBox.nl@Russia" tvg-logo="https://i.imgur.com/pX4U9OG.png" group-title="📚 Познавательные",DocuBox Russia (1080p)
 http://str2.iptvhd.ru:8080/DocuBoxHD/index.m3u8
 
@@ -1138,9 +1150,6 @@ http://stream.mcquack.net/149/index.m3u8
 
 #EXTINF:-1 tvg-id="NationalGeographic.ru@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="📚 Познавательные",National Geographic (Russia) (1080p)
 http://dtv.vol.net.ua/National_Geographic-HD/index.m3u8
-
-#EXTINF:-1 group-title="📚 Познавательные",National Geographic HD
-https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=XIlYETIzEf8C7a-PCDWWwA&e=2088331934&scheme=https
 
 #EXTINF:-1 tvg-id="Nauka.ru@SD" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="📚 Познавательные",Nauka (Russia) (1080p)
 http://31.148.48.15/Nauka_2.0/index.m3u8
@@ -1168,9 +1177,6 @@ http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
 
 #EXTINF:-1 tvg-id="che" tvg-logo="https://cdn-st3.smotrim.ru/vh/pictures/svg/444/241/8.svg" group-title="📚 Познавательные",Smotrim Chestnyy Detektiv (1080p)
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/tlc.png" tvg-id="tlc" group-title="📚 Познавательные", TLC
-https://bl.rutube.ru/livestream/7c3d1a4cc0b4dff1176aa2dbb0b90000/index.m3u8?s=-HHmJQR_TatTnycAQ62KUg&e=2088331935&scheme=https
 
 #EXTINF:-1 tvg-id="travel-adventure" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="📚 Познавательные",Travel+Adventure HD (1080p)
 http://stream.mcquack.net/206/index.m3u8
@@ -1244,9 +1250,6 @@ http://stream.mcquack.net/464/index.m3u8
 #EXTINF:-1 tvg-id="RAZ3International.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Raz_3_%282026%29.png" group-title="🎭 Развлечения",RAZ 3 International
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/rutube-tv.png" tvg-id="no_epg" group-title="🎭 Развлечения", Rutube TV
-https://bl.rutube.ru/livestream/9ae8e8a6dc58bdad66190475f9872ecd/index.m3u8?s=0n7KfJ7ClPM1At-kR4sR8g&e=2072265313&scheme=https
-
 #EXTINF:-1 tvg-logo="https://i.imgur.com/071JRrb.png" group-title="🎭 Развлечения",TeleDom
 https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
 
@@ -1261,9 +1264,6 @@ https://flussonic.mkpnet.ru/tv-319cadb3fff5fb3e/video.m3u8
 
 #EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epg.iptvx.one/picons/kvn-tv.png" group-title="🎭 Развлечения",КВН ТВ
 https://fs.uplink.kz/kvn_tv/mono.m3u8?token=onlinetv
-
-#EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://epg.iptvx.one/picons/krik-tv.png" group-title="🎭 Развлечения",КРИК-ТВ HD
-https://bl.rutube.ru/livestream/f372aa2aff09518d050ecdf70956012c/index.m3u8?s=zqF8COx7qN-jbhFv7NK-7A&e=2066519811&scheme=https
 
 #EXTINF:-1 group-title="🎭 Развлечения",Кухня ТВ
 http://stream.mcquack.net/179/index.m3u8
