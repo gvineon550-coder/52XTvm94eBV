@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated: 2026-09-24 14:30 UTC | Total: 155
+# Updated: 2026-09-25 04:05 UTC | Total: 162
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Russia",2x2 (576i)
 https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?e=2068731801&s=tenr-yHXUv1wibfka78s2A&scheme=https
@@ -31,6 +31,9 @@ https://janya-digimix.akamaized.net/vglive-sk-955415/russia/ngrp:angelrussia_all
 #EXTINF:-1 tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="Russia",Aris 24 (720p) [Not 24/7]
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/blAtdkJ.png" group-title="Russia",Arkhyz 24 (1080p)
+https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/9WcnjQN.png" group-title="Russia",Astrahan 24 (720p)
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 
@@ -51,6 +54,9 @@ https://12channel.bonus-tv.ru/cdn/12channel/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qpe8L27.png" group-title="Russia",City Eden AutoGid [Not 24/7]
 https://cityeden.catcast.tv/content/47515/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/38Q5L5W.png" group-title="Russia",City Eden Birma Play [Not 24/7]
+https://cityeden.catcast.tv/content/34364/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/l7BE8l6.png" group-title="Russia",City Eden Classic Music [Not 24/7]
 https://cityeden.catcast.tv/content/47400/index.m3u8
@@ -169,6 +175,12 @@ https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="Russia",Komediynoe HD (1080p)
 http://stream.mcquack.net/74/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://tvcongress.ru/bitrix/templates/mbntheme/img/logo_tvc.svg" group-title="Russia",Kongress TV (1080p)
+https://live-3.otcnet.ru/congresstv/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="Russia",Krik-TV (1080p)
+http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Russia",Leomax 24 (1080p)
 https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
 
@@ -282,6 +294,12 @@ https://stream1.dc.beltelecom.by/radiomir/studio.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Radio_Rossii_logo.svg/1920px-Radio_Rossii_logo.svg.png" group-title="Russia",Radio Rossii (720p)
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
+
+#EXTINF:-1 tvg-logo="https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg" group-title="Russia",RT Balkan (1080p)
+https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Russia",RT Documentary Russian (1080p)
+https://rt-doc.rttv.com/dvr/rtdru/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ZMKPAho.png" group-title="Russia",RTG TV HD (1080p)
 http://stream.mcquack.net/164/index.m3u8
@@ -456,6 +474,9 @@ http://stream.mcquack.net/492/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8ANUZAu.png" group-title="Russia",Setanta Sports 1 HD
 https://fs.uplink.kz/setanta_sports_1_hd/mono.m3u8?token=onlinetv
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="Russia",Sportivnyy (1080p)
+https://live-3.otcnet.ru/sportivny/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://radiopotok.ru/f/station/512/1812.png" group-title="Russia [Geo]",Radio 1 (Russia) (720p) [Geo-blocked]
 https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8

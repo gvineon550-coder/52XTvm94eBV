@@ -1,20 +1,20 @@
 # Romaxa55 Russia Report
 
-Date: 2026-09-24 14:30 UTC
+Date: 2026-09-25 04:05 UTC
 
 ## Funnel
-- Total in source: 13865
-- Russia group: 351
-- After quality (>= 720p): 216 (dropped 135)
-- After URL cleanup: 158 (dropped 58)
-- After dedup: 156 (dropped 2)
-- Whitelist (skip check): 5
+- Total in source: 13941
+- Russia group: 364
+- After quality (>= 720p): 228 (dropped 136)
+- After URL cleanup: 165 (dropped 63)
+- After dedup: 163 (dropped 2)
+- Whitelist (skip check): 6
 - Geo-blocked (auto-include): 3
-- To check: 148
-- Alive checked: 147
-- Stable in playlist: 155
+- To check: 154
+- Alive checked: 153
+- Stable in playlist: 162
 - Filtered as unstable: 0
-- Too new (collecting stats): 2
+- Too new (collecting stats): 0
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
 
