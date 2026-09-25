@@ -27,6 +27,12 @@ KIDS_EXCEPTIONS = ["start air", "start world"]
 BLOCKED_CHANNELS = ["legislative rada", "rada tv", "рада", "rada"]
 BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
 
+# Радио-каналы по имени (не ТВ)
+RADIO_NAME_KEYWORDS = [
+    "radio 1", "radio rossii", "radio russia", "radio mir", "radio mayak",
+    "vesti fm", "радио 1", "радио россии", "радио маяк", "радио шансон",
+]
+
 WHITELIST = ["channel one", "первый канал", "1tv", "ort",
              "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
              "russia-1", "russia 1", "russia1", "россия-1", "россия 1",
@@ -37,7 +43,6 @@ WHITELIST = ["channel one", "первый канал", "1tv", "ort",
 
 URL_CATEGORY_MAP = [("kinowalk.hopto.org", "🎬 Кино")]
 
-# IPTV-org DB: убран "general" - иначе кино уходит в Федеральные
 IPTV_CATEGORY_MAP = {
     "news": "📰 Новости", "sports": "⚽ Спорт",
     "movies": "🎬 Кино", "series": "🎬 Кино", "comedy": "🎬 Кино",
@@ -53,7 +58,7 @@ IPTV_CATEGORY_MAP = {
     "weather": "🌤 Погода", "religious": "⛪ Религия",
 }
 
-# ТОЧНЫЕ tvg-id → категория (самый точный уровень)
+# ТОЧНЫЕ tvg-id → категория
 TVG_CATEGORY = {
     # ФЕДЕРАЛЬНЫЕ
     "pervy": "📺 Федеральные", "ntv": "📺 Федеральные",
@@ -114,7 +119,7 @@ TVG_CATEGORY = {
     "shanson-tv": "🎵 Музыка", "zhara": "🎵 Музыка",
     "tnt-music": "🎵 Музыка", "muzyka": "🎵 Музыка",
     "mezzo": "🎵 Музыка", "mezzo-live-hd": "🎵 Музыка",
-    "1hd": "🎵 Музыка",
+    "1hd": "🎵 Музыка", "magnat": "🎵 Музыка",
 
     # НОВОСТИ
     "rbc": "📰 Новости", "rbc-tv": "📰 Новости",
@@ -167,7 +172,7 @@ TVG_CATEGORY = {
     "stv-by": "🌐 Международные", "tsv": "🌐 Международные",
     "channel-one-cis": "🌐 Международные", "channel-one-eurasia": "🌐 Международные",
     "ntv-mir": "🌐 Международные", "ren-tv-international": "🌐 Международные",
-    "rtvi-us": "🌐 Международные",
+    "rtvi-us": "🌐 Международные", "raz3international": "🌐 Международные",
 
     # МАГАЗИНЫ
     "shopping-live": "🛒 Магазины", "leomax-24": "🛒 Магазины",
@@ -186,7 +191,6 @@ TVG_CATEGORY = {
     "world-fashion-channel": "🎭 Развлечения",
 }
 
-# Grouptitle: УБРАНЫ russia/ru/general
 GROUP_TITLE_MAP = {
     "movies": "🎬 Кино", "кино": "🎬 Кино", "cinema": "🎬 Кино", "фильмы": "🎬 Кино",
     "sport": "⚽ Спорт", "спорт": "⚽ Спорт",
@@ -199,11 +203,11 @@ GROUP_TITLE_MAP = {
     "religion": "⛪ Религия", "религия": "⛪ Религия",
 }
 
-# Порядок ВАЖЕН: специфичные категории раньше Федеральных
 CATEGORIES_KEYWORDS = {
     "🎬 Fresh": ["fresh adventure", "fresh family", "fresh fantastic",
                  "fresh horror", "fresh premiere", "fresh rating",
-                 "fresh romantic", "fresh series", "fresh thriller"],
+                 "fresh romantic", "fresh series", "fresh thriller",
+                 "fresh cinema", "fresh comedy"],
 
     "⚽ Спорт": ["okko sport", "okko futbol", "okko prajm", "setanta",
                 "mma-tv", "khl", "khl prime", "eurosport", "football",
@@ -228,7 +232,13 @@ CATEGORIES_KEYWORDS = {
                 "kinofon", "kinopro", "kinojam", "kino24",
                 "сериал", "serial", "vhs", "кассета", "kasseta",
                 "film", "фильм", "movie", "кинотеатр", "kinoshkino",
-                "filmscope", "skladfilm", "nonestopmovie", "ncd"],
+                "filmscope", "skladfilm", "nonestopmovie", "ncd",
+                "city eden kino", "cityeden kino",
+                "nevskiy", "невский",
+                "perviy otdel", "первый отдел",
+                "shef (", "skoraya pomoshch", "pes (",
+                "nashe muzhskoe", "мужской",
+                "время"],
 
     "📰 Новости": ["izvestia", "moskva 24", "rbc", "рбк", "solovyov",
                    "tsargrad", "tv rain", "vmeste-rf", "prodvizhenie",
@@ -240,7 +250,7 @@ CATEGORIES_KEYWORDS = {
                   "songtv", "mezzo", "muzyka", "1hd", "1 hd music",
                   "mcm", "shanson", "шансон", "zhara", "жара",
                   "tnt music", "kn music", "strana fm", "bridge",
-                  "fashion tv", "fashiontv"],
+                  "fashion tv", "fashiontv", "magnat"],
 
     "📚 Познавательные": ["nat geo", "national geographic", "discovery",
                           "istoriya", "viju explore", "viju nature",
@@ -248,10 +258,26 @@ CATEGORIES_KEYWORDS = {
                           "rzd tv", "chestny", "dikaya okhota", "dikaya rybalka",
                           "ohotnik", "moya stikhiya", "v mire zhivotnykh",
                           "zhivaya priroda", "travel+adventure", "health",
-                          "med-", "recepty"],
+                          "med-", "recepty",
+                          "istoki", "истоки",
+                          "patriot", "патриот",
+                          "dialogi o rybalke", "диалоги о рыбалке",
+                          "oruzhie", "оружие",
+                          "rybalka", "рыбалка",
+                          "kto kuda", "кто куда"],
 
     "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom", "teld",
-                       "tnt4 comedy", "humor", "юмор"],
+                       "tnt4 comedy", "humor", "юмор",
+                       "gagsnetwork", "gags",
+                       "raz 3", "raz3",
+                       "rutube tv",
+                       "tv pro",
+                       "аппетитный",
+                       "бобер",
+                       "зал суда",
+                       "кухня тв",
+                       "наша тема",
+                       "телекафе"],
 
     "🌍 Регионы": ["krasnoyarsk", "novosibirsk", "dagestan", "ingushetia",
                    "belgorod", "astrahan", "arkhyz", "abaza", "apsua",
@@ -262,7 +288,11 @@ CATEGORIES_KEYWORDS = {
                    "владивосток", "сахалин", "мурманск", "архангельск",
                    "вологда", "калининград", "ростов", "ставрополь",
                    "махачкала", "грозный", "твк", "tvk", "твр",
-                   "енисей", "enisey", "nnov", "vitebsk", "витебск"],
+                   "енисей", "enisey", "nnov", "vitebsk", "витебск",
+                   "s1 (", "samara-gis", "самара",
+                   "tkr", "ткр",
+                   "ulytau", "улытау",
+                   "eurasia", "евразия"],
 
     "🌐 Международные": ["belarus", "moldova", "kentron", "naxcivan",
                          "silk way", "rtr planeta", "rtvi", "rt balkan",
@@ -279,7 +309,7 @@ CATEGORIES_KEYWORDS = {
 
     "💼 Бизнес": ["pro business", "business"],
 
-    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ — чтобы кино/спорт перехватывали раньше
+    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ
     "📺 Федеральные": ["channel one", "первый канал", "1tv",
                        "russia-1", "россия 1", "россия-1", "rossiya 1",
                        "russia-24", "россия 24", "россия-24",
@@ -298,7 +328,8 @@ CATEGORIES_KEYWORDS = {
                        "домашний", "domashny",
                        "звезда", "zvezda",
                        "360", "8 канал", "карусель", "karusel",
-                       "че!", "che!", "ю ", "yu "],
+                       "че!", "che!", "ю ", "yu ",
+                       "мир"],
 }
 
 CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
@@ -427,6 +458,14 @@ def is_blocked_url(url):
     return False
 
 
+def is_radio_by_name(extinf):
+    name = base_name(extinf)
+    for kw in RADIO_NAME_KEYWORDS:
+        if kw in name:
+            return True
+    return False
+
+
 def load_quality_data():
     if not os.path.exists(QUALITY_FILE):
         return {}
@@ -475,23 +514,18 @@ def download_iptv_org_db():
 
 
 def get_category(extinf, url, iptv_db):
-    # 1. URL
     url_lower = url.lower()
     for pattern, cat in URL_CATEGORY_MAP:
         if pattern in url_lower:
             return cat, "url"
 
-    # 2. Точный tvg-id
     tvg_id = extract_tvg_id(extinf)
     if tvg_id:
         tvg_id_low = tvg_id.lower()
-        # точное совпадение
         if tvg_id_low in TVG_CATEGORY:
             return TVG_CATEGORY[tvg_id_low], "tvg-id"
-        # база IPTV-org
         if tvg_id_low in iptv_db:
             return iptv_db[tvg_id_low], "tvg-id-db"
-        # паттерны в tvg-id
         t = tvg_id_low
         if any(p in t for p in ["kino", "film", "cinema", "kasseta", "serial"]):
             return "🎬 Кино", "tvg-pattern"
@@ -502,14 +536,12 @@ def get_category(extinf, url, iptv_db):
         if any(p in t for p in ["news"]) and "rtvi" not in t:
             return "📰 Новости", "tvg-pattern"
 
-    # 3. group-title (только специфичные)
     group = get_group(extinf)
     if group:
         for k, v in GROUP_TITLE_MAP.items():
             if k in group:
                 return v, "group-title"
 
-    # 4. Keywords (по порядку — специфичные раньше)
     name = base_name(extinf)
     for category, keywords in CATEGORIES_KEYWORDS.items():
         for kw in keywords:
@@ -559,6 +591,9 @@ def main():
             dropped_blocked += 1
             continue
         if is_blocked_url(ch["url"]):
+            dropped_radio += 1
+            continue
+        if is_radio_by_name(ch["extinf"]):
             dropped_radio += 1
             continue
         non_blocked.append(ch)
