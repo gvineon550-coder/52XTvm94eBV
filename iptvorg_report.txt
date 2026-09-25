@@ -1,20 +1,20 @@
 # IPTV-org RUS Report
 
-Date: 2026-09-24 13:05 UTC
+Date: 2026-09-25 05:16 UTC
 
 ## Funnel
 - Total in source: 672
 - Whitelist (found in source, BEFORE filters): 64
 - Non-whitelist: 608
-- After quality (>= 720p): 390 (dropped 218)
-- After URL cleanup: 270 (dropped 120)
+- After quality (>= 720p): 391 (dropped 217)
+- After URL cleanup: 270 (dropped 121)
 - After dedup: 265 (dropped 5)
 - Whitelist after dedup: 53
 - Geo-blocked (auto-include): 9
 - To check: 256
-- Alive checked: 215
+- Alive checked: 216
 - Stable in playlist: 276
-- Filtered as unstable: 1
+- Filtered as unstable: 2
 - Too new (collecting stats): 8
 
 Thresholds: min quality 720p, min checks 3, uptime >= 70%
@@ -77,7 +77,7 @@ Whitelist channels are included REGARDLESS of quality, URL, uptime.
 - TVK (Russia) (576p) | https://air.tvk6.ru/tvk24/playlist.m3u8
 - Unknown Russia (1080p) | https://cdn.ntv.ru/unknown_russia/playlist.m3u8
 
-## Dead today (41)
+## Dead today (40)
 
 - 15+ Music (1080p) | conn_error
 - Afontovo | conn_error
@@ -85,10 +85,9 @@ Whitelist channels are included REGARDLESS of quality, URL, uptime.
 - Arktika 24 (1080p) | conn_error
 - ARTN TV (1080p) [Not 24/7] | http_403
 - Bashkortostan 24 (1080p) | conn_error
-- Belarus-2 HD (1080p) | conn_error
 - Belarus-4 Gomel | http_404
 - Black Sea TV | http_404
-- CGTN Russian (1080p) | http_404
+- CGTN Russian (1080p) | timeout
 - City Eden KinoSemya [Not 24/7] | http_503
 - Crimea 24 | timeout
 - Detskoe kino [Not 24/7] | http_503
@@ -112,7 +111,7 @@ Whitelist channels are included REGARDLESS of quality, URL, uptime.
 - Sibir 24 (1080p) | conn_error
 - Sibir 24 KYA (1080p) | conn_error
 - Simferopol 24 | conn_error
-- Start Triumf | http_403
+- Start Triumf (1080p) | http_403
 - TV15 (1080p) [Not 24/7] | conn_error
 - Ural 24 (1080p) | conn_error
 - Vera 24 | conn_error
@@ -121,6 +120,7 @@ Whitelist channels are included REGARDLESS of quality, URL, uptime.
 - Vostok 24 (1080p) | conn_error
 - Zapad 24 (1080p) | conn_error
 
-## Filtered as unstable (1)
+## Filtered as unstable (2)
 
-- Belarus-3 HD (1080p) [Not 24/7] | uptime 62.5% (5/8)
+- Belarus-2 HD (1080p) | uptime 66.7% (6/9)
+- Belarus-3 HD (1080p) [Not 24/7] | uptime 66.7% (6/9)
