@@ -66,9 +66,11 @@ def build_epg_db(data):
                 count += 1
                 if count % 1000 == 0:
                     print("  parsed " + str(count) + " channels")
-
-        # ВСЕГДА очищаем элемент — критично для памяти!
-        elem.clear()
+            # Очищаем channel ПОСЛЕ обработки
+            elem.clear()
+        elif elem.tag == "programme":
+            # programme не нужен — сразу очищаем чтобы не копить в памяти
+            elem.clear()
 
     print("Total EPG channels: " + str(count) + ", unique names: " + str(len(epg_db)))
     return epg_db
