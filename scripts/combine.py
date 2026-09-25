@@ -62,6 +62,13 @@ WHITELIST = [
     "ntv", "нтв",
 ]
 
+# === URL-детекция (приоритет 1) ===
+URL_CATEGORY_MAP = [
+    ("kinowalk.hopto.org", "🎬 Кино"),
+    ("radiorecord.hostingradio.ru", "🎵 Музыка"),
+    ("radiorecord.ru", "🎵 Музыка"),
+]
+
 # === Маппинг категорий IPTV-org → русские ===
 IPTV_CATEGORY_MAP = {
     "general": "📺 Федеральные",
@@ -89,15 +96,43 @@ IPTV_CATEGORY_MAP = {
     "relax": "🌿 Релакс",
     "weather": "🌤 Погода",
     "religious": "⛪ Религия",
-    "kids": "📦 Прочее",
-    "legislative": "📦 Прочее",
+}
+
+# === Шорткаты tvg-id (когда база IPTV-org не находит) ===
+SHORT_TVG_MAP = {
+    "tnt": "📺 Федеральные",
+    "tnt4": "📺 Федеральные",
+    "pervy": "📺 Федеральные",
+    "kultura": "📺 Федеральные",
+    "yu": "📺 Федеральные",
+    "super": "📺 Федеральные",
+    "che": "📺 Федеральные",
+    "5kanal-ru": "📺 Федеральные",
+    "rtd-ru": "🌐 Международные",
+    "kvn-tv": "🎭 Развлечения",
+    "mir-uvlecheniy": "🎭 Развлечения",
+    "prodvizhenie": "📰 Новости",
+    "krik-tv": "🎭 Развлечения",
+    "solovjinypomiot": "📰 Новости",
+    "chestny-detektiv": "📚 Познавательные",
+    "smotrim-100-klassika": "🎬 Кино",
+    "smotrim-100-lubov": "🎬 Кино",
+    "smotrim-100-muzhskoe": "🎬 Кино",
+    "smotrim-100-prazdnik": "🎬 Кино",
+    "smotrim-100-fakty": "📚 Познавательные",
+    "kinomist": "🎬 Кино",
+    "cityedem-kinomist": "🎬 Кино",
+    "cityedem-kinoact": "🎬 Кино",
+    "world-fashion-channel": "🎭 Развлечения",
+    "no_epg_cinema": "🎬 Кино",
+    "no_epg_music": "🎵 Музыка",
 }
 
 # === Маппинг group-title от источников ===
 GROUP_TITLE_MAP = {
     "movies": "🎬 Кино", "кино": "🎬 Кино", "cinema": "🎬 Кино", "фильмы": "🎬 Кино",
     "sport": "⚽ Спорт", "спорт": "⚽ Спорт", "sports": "⚽ Спорт",
-    "news": "📰 Новости", "новости": "📰 Новости", "новости ": "📰 Новости",
+    "news": "📰 Новости", "новости": "📰 Новости",
     "music": "🎵 Музыка", "музыка": "🎵 Музыка",
     "kids": "📦 Прочее", "детск": "📦 Прочее", "детские": "📦 Прочее",
     "russia": "📺 Федеральные", "россия": "📺 Федеральные", "российские": "📺 Федеральные",
@@ -118,11 +153,14 @@ CATEGORIES_KEYWORDS = {
         "russia-24", "russia 24", "россия-24", "россия 24", "rossiya-24", "rossiya 24",
         "russia-k", "россия-к", "россия к", "kultura", "культура",
         "ntv", "нтв", "ren tv", "ren-tv", "рен тв", "рен-тв", "rentv",
-        "tnt", "тнт", "sts", "стс", "tv3", "тв3", "тв-3",
+        "tnt", "тнт", "tht", "tnt4", "тнт4", "тнт-4",
+        "sts", "стс", "tv3", "тв3", "тв-3",
         "tvc", "твц", "tv centr", "тв центр",
+        "пятый канал", "5 kanal", "5kanal", "channel 5",
         "karusel", "карусель", "che", "че", "пятница", "pyatnica", "friday",
         "domashniy", "домашний", "zvezda", "звезда",
         "mir", "мир", "otr", "отр", "спас", "spas",
+        "суббота", "subbota", "смотрим", "smotrim",
     ],
     "⚽ Спорт": [
         "match", "матч", "khl", "кхл", "setanta", "sport", "спорт",
@@ -144,6 +182,8 @@ CATEGORIES_KEYWORDS = {
         "kinowalk", "movietoper", "timetomovie", "timetohorror",
         "blockbusters", "kinolampa", "videoarsenal", "kinomix юрич",
         "cinema time", "scripachtv",
+        "сериал", "serial", "vhs", "кассета", "kasseta",
+        "film", "фильм", "movie", "кинотеатр",
     ],
     "📰 Новости": [
         "24", "news", "новости", "rbc", "рбк", "izvestia", "известия",
@@ -157,6 +197,7 @@ CATEGORIES_KEYWORDS = {
         "bridge", "brigde", "1hd", "1 hd music", "mcm",
         "shanson", "шансон", "zhara", "жара", "tnt music",
         "sony music", "viva", "a-one", "tracce", "муз-тв",
+        "radio", "fm",
     ],
     "🌍 Регионы": [
         "астрахань", "astrahan", "белгород", "belgorod",
@@ -172,6 +213,7 @@ CATEGORIES_KEYWORDS = {
         "ставрополь", "stavropol", "махачкала", "грозный",
         "регион", "region", "область", "край", "республика",
         "твк", "tvk", "твр", "c1", "енисей", "enisey",
+        "харьков", "kharkov", "vitebsk", "витебск",
     ],
     "🌐 Международные": [
         "rtr planeta", "rtr-planeta", "channel one cis",
@@ -180,7 +222,6 @@ CATEGORIES_KEYWORDS = {
     ],
 }
 
-# Порядок категорий в плейлисте
 CATEGORY_ORDER = [
     "📺 Федеральные",
     "📰 Новости",
@@ -344,7 +385,6 @@ def is_dead_by_quality(extinf, quality_data):
 
 
 def download_iptv_org_db():
-    """Скачивает базу каналов IPTV-org. Возвращает {id: категория_ru}."""
     print("Downloading IPTV-org channels DB...")
     try:
         r = requests.get(IPTV_ORG_CHANNELS_URL, timeout=60)
@@ -364,28 +404,49 @@ def download_iptv_org_db():
         for cat in cats:
             ru = IPTV_CATEGORY_MAP.get(cat)
             if ru:
-                mapping[ch_id] = ru
+                mapping[ch_id.lower()] = ru
                 break
 
     print("IPTV-org DB mapped: " + str(len(mapping)) + " channels")
     return mapping
 
 
-def get_category(extinf, iptv_db):
-    """3 уровня: tvg-id (база) → group-title (источник) → keywords → Прочее."""
-    # 1. tvg-id из базы IPTV-org
-    tvg_id = extract_tvg_id(extinf)
-    if tvg_id and tvg_id in iptv_db:
-        return iptv_db[tvg_id], "tvg-id"
+def get_category(extinf, url, iptv_db):
+    """6 уровней определения категории."""
 
-    # 2. group-title источника
+    # 1. URL-детекция (самый точный для известных хостингов)
+    url_lower = url.lower()
+    for pattern, cat in URL_CATEGORY_MAP:
+        if pattern in url_lower:
+            return cat, "url"
+
+    # 2. tvg-id → база IPTV-org (нормализация регистра)
+    tvg_id = extract_tvg_id(extinf)
+    if tvg_id:
+        tvg_id_low = tvg_id.lower()
+        if tvg_id_low in iptv_db:
+            return iptv_db[tvg_id_low], "tvg-id-db"
+
+    # 3. tvg-id → шорткаты
+    if tvg_id and tvg_id in SHORT_TVG_MAP:
+        return SHORT_TVG_MAP[tvg_id], "tvg-id-short"
+
+    # 4. tvg-id → паттерны (kino, film, vhs, serial)
+    if tvg_id:
+        t = tvg_id.lower()
+        if any(p in t for p in ["kino", "film", "cinema", "vhs", "serial", "kasseta"]):
+            return "🎬 Кино", "tvg-id-pattern"
+        if any(p in t for p in ["music", "radio", "fm"]):
+            return "🎵 Музыка", "tvg-id-pattern"
+
+    # 5. group-title источника
     group = get_group(extinf)
     if group:
         for k, v in GROUP_TITLE_MAP.items():
             if k in group:
                 return v, "group-title"
 
-    # 3. Keywords по имени
+    # 6. Keywords по имени
     name = base_name(extinf)
     for category, keywords in CATEGORIES_KEYWORDS.items():
         for kw in keywords:
@@ -465,16 +526,14 @@ def main():
     dropped_dups = len(non_dead) - len(deduped)
     print("After dedup: " + str(len(deduped)) + " (dropped dups: " + str(dropped_dups) + ")")
 
-    # === Скачиваем базу IPTV-org ===
     iptv_db = download_iptv_org_db()
 
-    # === Категоризация ===
     categorized = {}
-    source_used = {"tvg-id": 0, "group-title": 0, "keywords": 0, "fallback": 0}
+    source_used = {"url": 0, "tvg-id-db": 0, "tvg-id-short": 0, "tvg-id-pattern": 0, "group-title": 0, "keywords": 0, "fallback": 0}
 
     for ch in deduped:
-        cat, src_used = get_category(ch["extinf"], iptv_db)
-        source_used[src_used] += 1
+        cat, src_used = get_category(ch["extinf"], ch["url"], iptv_db)
+        source_used[src_used] = source_used.get(src_used, 0) + 1
         if cat not in categorized:
             categorized[cat] = []
         categorized[cat].append(ch)
@@ -489,7 +548,6 @@ def main():
     for k, v in source_used.items():
         print("  " + k + ": " + str(v))
 
-    # Сортировка
     sorted_channels = []
     for cat in CATEGORY_ORDER:
         if cat not in categorized:
