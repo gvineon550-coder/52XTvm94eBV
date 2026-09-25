@@ -24,7 +24,10 @@ KIDS_KEYWORDS = ["kids", "kid", "junior", "jr", "baby", "cartoon", "toon",
                  "детск", "детcк", "мульт", "малыш", "карусель", "ребенок", "ребёнок"]
 KIDS_EXCEPTIONS = ["start air", "start world"]
 
-BLOCKED_CHANNELS = ["legislative rada", "rada tv", "рада", "rada"]
+BLOCKED_CHANNELS = [
+    "legislative rada", "rada tv", "рада", "rada",
+    "cineman",          # CineMan — все каналы
+]
 BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
 
 RADIO_NAME_KEYWORDS = [
@@ -40,10 +43,9 @@ WHITELIST = ["channel one", "первый канал", "1tv", "ort",
              "start air", "start-air", "startair", "start world", "start-world", "startworld",
              "ntv", "нтв"]
 
-# URL-детекция (уникальные ID стримов)
 URL_CATEGORY_MAP = [
     ("kinowalk.hopto.org", "🎬 Кино"),
-    ("5c9327074e25ca86f3111d4085cbbb65", "📺 Федеральные"),  # U / Ю
+    ("5c9327074e25ca86f3111d4085cbbb65", "📺 Федеральные"),
 ]
 
 IPTV_CATEGORY_MAP = {
@@ -62,15 +64,15 @@ IPTV_CATEGORY_MAP = {
 }
 
 # ТОЧНЫЕ tvg-id → категория
+# УБРАНЫ мусорные: pervy, ntv, che, mir (они висят на чужих каналах)
 TVG_CATEGORY = {
     # ФЕДЕРАЛЬНЫЕ
-    "pervy": "📺 Федеральные", "ntv": "📺 Федеральные",
     "tnt": "📺 Федеральные", "tnt4": "📺 Федеральные",
-    "che": "📺 Федеральные", "sts": "📺 Федеральные",
-    "sts-love": "📺 Федеральные", "tv3-ru": "📺 Федеральные",
+    "sts": "📺 Федеральные", "sts-love": "📺 Федеральные",
+    "tv3-ru": "📺 Федеральные",
     "tvcentr": "📺 Федеральные", "piatnica": "📺 Федеральные",
     "domashny": "📺 Федеральные", "zvezda": "📺 Федеральные",
-    "zvezda-plus": "📺 Федеральные", "mir": "📺 Федеральные",
+    "zvezda-plus": "📺 Федеральные",
     "mir-24": "📺 Федеральные", "kultura": "📺 Федеральные",
     "rossia1": "📺 Федеральные", "rossia-24": "📺 Федеральные",
     "rentv": "📺 Федеральные", "5kanal-ru": "📺 Федеральные",
@@ -78,6 +80,8 @@ TVG_CATEGORY = {
     "yu": "📺 Федеральные", "otr": "📺 Федеральные",
     "tvc": "📺 Федеральные", "360": "📺 Федеральные",
     "360-lv": "📺 Федеральные",
+    "russiak": "📺 Федеральные",
+    "channel8": "📺 Федеральные",
 
     # КИНО
     "amedia-hit": "🎬 Кино", "amedia-2": "🎬 Кино",
@@ -153,7 +157,7 @@ TVG_CATEGORY = {
     "arkhyz-24": "🌍 Регионы", "astrahan-24": "🌍 Регионы",
     "belgorod-24": "🌍 Регионы", "channel-8-krasnoyarsk": "🌍 Регионы",
     "channel-8-novosibirsk": "🌍 Регионы", "dagestan": "🌍 Регионы",
-    "eurasia": "🌍 Регионы", "groznyj": "🌍 Регионы",
+    "groznyj": "🌍 Регионы",
     "ingushetia": "🌍 Регионы", "novgor-obl-tv": "🌍 Регионы",
     "ntk-21": "🌍 Регионы", "ntm": "🌍 Регионы",
     "nts": "🌍 Регионы", "nvk-sakha": "🌍 Регионы",
@@ -163,7 +167,7 @@ TVG_CATEGORY = {
     "svoyo-tv": "🌍 Регионы", "telekanal-krasnodar": "🌍 Регионы",
     "tkr": "🌍 Регионы", "tnv-tatarstan": "🌍 Регионы",
     "tolk": "🌍 Регионы", "tooku": "🌍 Регионы",
-    "ugra-tv": "🌍 Регионы", "ulytau": "🌍 Регионы",
+    "ugra-tv": "🌍 Регионы",
     "volga": "🌍 Регионы", "prima": "🌍 Регионы",
     "kharkov-z": "🌍 Регионы",
 
@@ -214,13 +218,15 @@ CATEGORIES_KEYWORDS = {
     "🎬 Fresh": ["fresh adventure", "fresh family", "fresh fantastic",
                  "fresh horror", "fresh premiere", "fresh rating",
                  "fresh romantic", "fresh series", "fresh thriller",
-                 "fresh cinema", "fresh comedy"],
+                 "fresh cinema", "fresh comedy", "fresh vhs"],
 
     "⚽ Спорт": ["okko sport", "okko futbol", "okko prajm", "setanta",
                 "mma-tv", "khl", "khl prime", "eurosport", "football",
                 "match tv", "match! arena", "match! boets", "match! igra",
                 "match! strana", "match! ultra", "sportivnyy", "extreme sport",
-                "astrahan.ru sport", "formula 1"],
+                "astrahan.ru sport", "formula 1", "nhl network", "nba tv",
+                "sky sports", "tnt sports", "trace sport", "удар hd",
+                "belarus-5"],
 
     "🎬 Кино": ["amedia", "viju", "tv1000", "tv 1000", "viasat",
                 "kinopokaz", "kinopremyera", "kinohit", "kinomix",
@@ -245,14 +251,22 @@ CATEGORIES_KEYWORDS = {
                 "nevskiy", "невский",
                 "perviy otdel", "первый отдел",
                 "shef", "skoraya pomoshch", "pes",
-                "nashe muzhskoe", "мужской",
-                "время"],
+                "nashe muzhskoe", "мужской", "мужское кино",
+                "время", "kino-i-zhizn", "кино и жизнь",
+                "bcu", "blokbaster",
+                "5 minut tishiny", "balabol",
+                "fox (russia)", "fx (russia)",
+                "viasat kino", "viasat serial", "viasat comedy",
+                "silver way cinema", "silk way cinema",
+                "kino 1", "kino 2", "kino boevik", "mirovoe kino",
+                "nashe lubimoe kino"],
 
     "📰 Новости": ["izvestia", "moskva 24", "rbc", "рбк", "solovyov",
                    "tsargrad", "tv rain", "vmeste-rf", "prodvizhenie",
                    "maidan", "osn", "russia today", "euronews",
                    "france 24", "dw ", "bbc news", "cnn",
-                   "kongress"],
+                   "kongress", "freedom", "govorit moskva", "belarus-24",
+                   "perviy informationniy"],
 
     "🎵 Музыка": ["ru.tv", "ru tv", "rutv", "муз-тв", "muz-tv", "mtv",
                   "vh1", "europa plus", "европа плюс", "music box",
@@ -260,7 +274,11 @@ CATEGORIES_KEYWORDS = {
                   "mcm", "shanson", "шансон", "zhara", "жара",
                   "tnt music", "kn music", "strana fm", "bridge",
                   "fashion tv", "fashiontv", "magnat",
-                  "city eden classic music"],
+                  "city eden classic music",
+                  "classic music", "deluxe music", "kiss tv",
+                  "kronehit", "radio m2o", "tmf rus", "v2beat", "viva",
+                  "record megamix", "first music channel", "fon music",
+                  "hit fm", "mm tb", "звук", "wink", "deejay"],
 
     "📚 Познавательные": ["nat geo", "national geographic", "discovery",
                           "istoriya", "viju explore", "viju nature",
@@ -276,12 +294,20 @@ CATEGORIES_KEYWORDS = {
                           "rybalka", "рыбалка",
                           "kto kuda", "кто куда",
                           "dacha", "дача",
-                          "city eden medzdrav"],
+                          "city eden medzdrav",
+                          "ocean tv", "ocean-tv", "docubox",
+                          "love nature", "epic hd", "tlc",
+                          "travelxp", "viasat explore", "viasat history",
+                          "viju planet", "visast history",
+                          "atr ", "trofei", "ost west 24",
+                          "city eden recepty",
+                          "neizvestnaya planeta", "живая природа",
+                          "приключения", "city eden birma"],
 
     "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom",
                        "tnt4 comedy", "humor", "юмор",
                        "gagsnetwork", "gags",
-                       "raz 3", "raz3",
+                       "raz 1", "raz 2", "raz 3", "raz1", "raz2", "raz3",
                        "rutube tv",
                        "tv pro",
                        "аппетитный",
@@ -291,7 +317,9 @@ CATEGORIES_KEYWORDS = {
                        "наша тема",
                        "телекафе",
                        "city eden play",
-                       "teledom", "tele dom"],
+                       "teledom", "tele dom",
+                       "novyi channel", "quiz tv", "etv+",
+                       "city eden tv"],
 
     "🌍 Регионы": ["krasnoyarsk", "novosibirsk", "dagestan", "ingushetia",
                    "belgorod", "astrahan", "arkhyz", "abaza", "apsua",
@@ -302,33 +330,42 @@ CATEGORIES_KEYWORDS = {
                    "владивосток", "сахалин", "мурманск", "архангельск",
                    "вологда", "калининград", "ростов", "ставрополь",
                    "махачкала", "грозный", "твк", "tvk", "твр",
-                   "енисей", "enisey", "nnov", "vitebsk", "витебск",
+                   "енисей", "enisey", "nnov",
                    "s1", "samara-gis", "самара",
                    "tkr", "ткр",
-                   "ulytau", "улытау",
-                   "eurasia", "евразия",
-                   "харьков"],
+                   "eurasia",
+                   "харьков", "tvk (russia)",
+                   "aist tv", "86 (", "channel 12"],
 
     "🌐 Международные": ["belarus", "moldova", "kentron", "naxcivan",
                          "silk way", "rtr planeta", "rtr-planeta", "rtvi",
                          "rt balkan", "rt documentary", "rtd", "rtg", "simon",
                          "channel one cis", "channel one eurasia",
                          "ntv mir", "ren tv international", "stv ",
-                         "tsv", "vitebsk"],
+                         "tsv", "vitebsk", "ulytau",
+                         "tv8 (moldova)", "etv+",
+                         "raz 1", "raz 2", "raz 3",
+                         "novyi channel", "quiz tv",
+                         "stv (belarus)", "channel 9 (israel)"],
 
-    "🛒 Магазины": ["shopping live", "leomax", "vitrina", "shop"],
+    "🛒 Магазины": ["shopping live", "leomax", "vitrina", "shop",
+                    "ntv vitrina"],
 
-    "⛪ Религия": ["3abn", "hope channel", "soyuz", "союз", "спас"],
+    "⛪ Религия": ["3abn", "hope channel", "soyuz", "союз", "спас",
+                   "huzur", "mana tserkov", "tbn baltia", "tv mana"],
 
     "🚗 Авто": ["auto plus", "avto 24", "avto24", "drive", "авто",
-                "city eden autogid"],
+                "city eden autogid", "авто 24"],
 
     "💼 Бизнес": ["pro business", "business"],
 
+    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ
     "📺 Федеральные": ["channel one", "первый канал", "1tv",
+                       "первый fhd",
                        "russia-1", "россия 1", "россия-1", "rossiya 1",
                        "russia-24", "россия 24", "россия-24",
                        "russia-k", "россия к", "россия-к", "kultura",
+                       "russia-k +", "russia k +",
                        "нтв hd", "ntv (russia)", "ntv hd",
                        "рен тв", "ren tv",
                        "тнт hd", "tnt hd", "тнт 4", "tht hd", "tht4",
@@ -344,7 +381,8 @@ CATEGORIES_KEYWORDS = {
                        "звезда", "zvezda",
                        "360", "8 канал", "карусель", "karusel",
                        "че!", "che!", "ю ", "yu ",
-                       "мир"],
+                       "channel 8 (russia)",
+                       "тнт international"],
 }
 
 CATEGORY_ORDER = ["📺 Федеральные", "📰 Новости", "⚽ Спорт", "🎬 Кино", "🎬 Fresh",
@@ -629,14 +667,27 @@ def main():
             non_dead.append(ch)
     print("After quality: " + str(len(non_dead)) + " (dead: " + str(dropped_dead) + ", wl: " + str(whitelist_protected) + ")")
 
-    best = {}
+    # === ДЕДУП ===
+    # 1) Дедуп по имени (берём лучший по качеству)
+    best_by_name = {}
     for ch in non_dead:
         key = base_name(ch["extinf"])
         q = get_quality(ch["extinf"])
         clean = 0 if is_bad_url(ch["url"]) else 1
         score = (clean, q)
-        if key not in best or score > best[key][0]:
-            best[key] = (score, ch)
+        if key not in best_by_name or score > best_by_name[key][0]:
+            best_by_name[key] = (score, ch)
+
+    # 2) Дедуп по URL (если URL один — оставляем лучший по имени)
+    seen_urls = set()
+    best = {}
+    sorted_items = sorted(best_by_name.items(), key=lambda x: x[1][0], reverse=True)
+    for key, (score, ch) in sorted_items:
+        url = ch["url"]
+        if url in seen_urls:
+            continue
+        best[key] = (score, ch)
+        seen_urls.add(url)
 
     deduped = [v[1] for v in best.values()]
     dropped_dups = len(non_dead) - len(deduped)
