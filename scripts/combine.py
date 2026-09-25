@@ -27,7 +27,6 @@ KIDS_EXCEPTIONS = ["start air", "start world"]
 BLOCKED_CHANNELS = ["legislative rada", "rada tv", "рада", "rada"]
 BLOCKED_URL_PATTERNS = ["radiorecord.hostingradio.ru", "radiorecord.ru", "hostingradio.ru"]
 
-# Радио-каналы по имени (не ТВ)
 RADIO_NAME_KEYWORDS = [
     "radio 1", "radio rossii", "radio russia", "radio mir", "radio mayak",
     "vesti fm", "радио 1", "радио россии", "радио маяк", "радио шансон",
@@ -41,7 +40,11 @@ WHITELIST = ["channel one", "первый канал", "1tv", "ort",
              "start air", "start-air", "startair", "start world", "start-world", "startworld",
              "ntv", "нтв"]
 
-URL_CATEGORY_MAP = [("kinowalk.hopto.org", "🎬 Кино")]
+# URL-детекция (уникальные ID стримов)
+URL_CATEGORY_MAP = [
+    ("kinowalk.hopto.org", "🎬 Кино"),
+    ("5c9327074e25ca86f3111d4085cbbb65", "📺 Федеральные"),  # U / Ю
+]
 
 IPTV_CATEGORY_MAP = {
     "news": "📰 Новости", "sports": "⚽ Спорт",
@@ -98,6 +101,7 @@ TVG_CATEGORY = {
     "kinofans": "🎬 Кино", "kinojam": "🎬 Кино",
     "kinopro": "🎬 Кино", "kinofon": "🎬 Кино",
     "no_epg_cinema": "🎬 Кино",
+    "pes": "🎬 Кино", "shef": "🎬 Кино",
 
     # СПОРТ
     "match": "⚽ Спорт", "match-tv": "⚽ Спорт",
@@ -161,12 +165,14 @@ TVG_CATEGORY = {
     "tolk": "🌍 Регионы", "tooku": "🌍 Регионы",
     "ugra-tv": "🌍 Регионы", "ulytau": "🌍 Регионы",
     "volga": "🌍 Регионы", "prima": "🌍 Регионы",
+    "kharkov-z": "🌍 Регионы",
 
     # МЕЖДУНАРОДНЫЕ
     "belarus1": "🌐 Международные", "belarus4": "🌐 Международные",
     "moldova1": "🌐 Международные", "moldova2": "🌐 Международные",
     "kentron-tv": "🌐 Международные", "naxcivan-tv": "🌐 Международные",
     "silk-way": "🌐 Международные", "rtr-planeta": "🌐 Международные",
+    "rtrplaneta": "🌐 Международные",
     "rt-balkan": "🌐 Международные", "rtd-ru": "🌐 Международные",
     "rtg-tv": "🌐 Международные", "simon": "🌐 Международные",
     "stv-by": "🌐 Международные", "tsv": "🌐 Международные",
@@ -189,6 +195,7 @@ TVG_CATEGORY = {
     "fashiontv": "🎭 Развлечения", "krik-tv": "🎭 Развлечения",
     "kvn-tv": "🎭 Развлечения", "tele-dom": "🎭 Развлечения",
     "world-fashion-channel": "🎭 Развлечения",
+    "gags-network": "🎭 Развлечения",
 }
 
 GROUP_TITLE_MAP = {
@@ -234,23 +241,26 @@ CATEGORIES_KEYWORDS = {
                 "film", "фильм", "movie", "кинотеатр", "kinoshkino",
                 "filmscope", "skladfilm", "nonestopmovie", "ncd",
                 "city eden kino", "cityeden kino",
+                "city eden sirtaki", "city eden telenovella",
                 "nevskiy", "невский",
                 "perviy otdel", "первый отдел",
-                "shef (", "skoraya pomoshch", "pes (",
+                "shef", "skoraya pomoshch", "pes",
                 "nashe muzhskoe", "мужской",
                 "время"],
 
     "📰 Новости": ["izvestia", "moskva 24", "rbc", "рбк", "solovyov",
                    "tsargrad", "tv rain", "vmeste-rf", "prodvizhenie",
                    "maidan", "osn", "russia today", "euronews",
-                   "france 24", "dw ", "bbc news", "cnn"],
+                   "france 24", "dw ", "bbc news", "cnn",
+                   "kongress"],
 
     "🎵 Музыка": ["ru.tv", "ru tv", "rutv", "муз-тв", "muz-tv", "mtv",
                   "vh1", "europa plus", "европа плюс", "music box",
                   "songtv", "mezzo", "muzyka", "1hd", "1 hd music",
                   "mcm", "shanson", "шансон", "zhara", "жара",
                   "tnt music", "kn music", "strana fm", "bridge",
-                  "fashion tv", "fashiontv", "magnat"],
+                  "fashion tv", "fashiontv", "magnat",
+                  "city eden classic music"],
 
     "📚 Познавательные": ["nat geo", "national geographic", "discovery",
                           "istoriya", "viju explore", "viju nature",
@@ -264,9 +274,11 @@ CATEGORIES_KEYWORDS = {
                           "dialogi o rybalke", "диалоги о рыбалке",
                           "oruzhie", "оружие",
                           "rybalka", "рыбалка",
-                          "kto kuda", "кто куда"],
+                          "kto kuda", "кто куда",
+                          "dacha", "дача",
+                          "city eden medzdrav"],
 
-    "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom", "teld",
+    "🎭 Развлечения": ["fashion", "krik-tv", "kvn", "tele-dom",
                        "tnt4 comedy", "humor", "юмор",
                        "gagsnetwork", "gags",
                        "raz 3", "raz3",
@@ -277,7 +289,9 @@ CATEGORIES_KEYWORDS = {
                        "зал суда",
                        "кухня тв",
                        "наша тема",
-                       "телекафе"],
+                       "телекафе",
+                       "city eden play",
+                       "teledom", "tele dom"],
 
     "🌍 Регионы": ["krasnoyarsk", "novosibirsk", "dagestan", "ingushetia",
                    "belgorod", "astrahan", "arkhyz", "abaza", "apsua",
@@ -289,14 +303,15 @@ CATEGORIES_KEYWORDS = {
                    "вологда", "калининград", "ростов", "ставрополь",
                    "махачкала", "грозный", "твк", "tvk", "твр",
                    "енисей", "enisey", "nnov", "vitebsk", "витебск",
-                   "s1 (", "samara-gis", "самара",
+                   "s1", "samara-gis", "самара",
                    "tkr", "ткр",
                    "ulytau", "улытау",
-                   "eurasia", "евразия"],
+                   "eurasia", "евразия",
+                   "харьков"],
 
     "🌐 Международные": ["belarus", "moldova", "kentron", "naxcivan",
-                         "silk way", "rtr planeta", "rtvi", "rt balkan",
-                         "rt documentary", "rtd", "rtg", "simon",
+                         "silk way", "rtr planeta", "rtr-planeta", "rtvi",
+                         "rt balkan", "rt documentary", "rtd", "rtg", "simon",
                          "channel one cis", "channel one eurasia",
                          "ntv mir", "ren tv international", "stv ",
                          "tsv", "vitebsk"],
@@ -305,11 +320,11 @@ CATEGORIES_KEYWORDS = {
 
     "⛪ Религия": ["3abn", "hope channel", "soyuz", "союз", "спас"],
 
-    "🚗 Авто": ["auto plus", "avto 24", "avto24", "drive", "авто"],
+    "🚗 Авто": ["auto plus", "avto 24", "avto24", "drive", "авто",
+                "city eden autogid"],
 
     "💼 Бизнес": ["pro business", "business"],
 
-    # ФЕДЕРАЛЬНЫЕ ПОСЛЕДНИМИ
     "📺 Федеральные": ["channel one", "первый канал", "1tv",
                        "russia-1", "россия 1", "россия-1", "rossiya 1",
                        "russia-24", "россия 24", "россия-24",
