@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz" x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz"
-# Combined from 4 sources | Updated: 2026-09-25 09:32 UTC
+# Combined from 4 sources | Updated: 2026-09-25 09:43 UTC
 # Total: 597 unique channels | Categorized
 
 #EXTINF:-1 tvg-id="360-lv" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="📺 Федеральные",360° (1080p)
@@ -13,6 +13,9 @@ https://hls.tv.3angels.ru/stream.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn2-static.ntv.ru/home/promo/24740/5minut_live.jpg" group-title="📺 Федеральные",5 minut tishiny (1080p)
 https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8
+
+#EXTINF:-1 group-title="📺 Федеральные",8 канал
+https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/0dRS4Cb.png" group-title="📺 Федеральные",86 (1080p) [Not 24/7]
 https://sitv.ru/hls/s86.m3u8
@@ -124,6 +127,9 @@ https://cityeden.catcast.tv/content/46209/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/X9kACKi.png" group-title="📺 Федеральные",City Eden TV [Not 24/7]
 https://cityeden.catcast.tv/content/34246/index.m3u8
+
+#EXTINF:-1 tvg-id="sts-love" tvg-logo="https://epg.iptvx.one/picons/sts-love.png" group-title="📺 Федеральные",CTC Love
+https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/jumkRvc.png" group-title="📺 Федеральные",Dagestan (1080p)
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
@@ -751,6 +757,9 @@ https://bl.rutube.ru/livestream/680dfe110840cf882437082b948578d6/index.m3u8?s=My
 
 #EXTINF:-1 tvg-id="baragozz_tv" tvg-name="Baragozz_TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/Baragozz_TV.png" group-title="🎬 Кино",Baragozz_TV
 http://kinowalk.hopto.org/baragozz_tv_live
+
+#EXTINF:-1 group-title="🎬 Кино" tvg-rec="7" timeshift="7",BCU СССР HD
+http://stream.mcquack.net/488/index.m3u8
 
 #EXTINF:-1 tvg-id="blockbusterstime" tvg-name="Blockbusters Time" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/blockbusters_time.jpg" group-title="🎬 Кино",Blockbusters Time
 http://kinowalk.hopto.org/blockbusterstime_live
@@ -1496,6 +1505,33 @@ http://kinowalk.hopto.org/kasseta_live
 #EXTINF:-1 tvg-logo="https://images.live.vkvideo.ru/user/19254112/avatar?change_time=1736877622&croped=1&mh=140&mw=140" tvg-id="no_epg_cinema" group-title="🎬 Кино", 𝕂𝔸ℂℂ𝔼𝕋𝔸
 http://kinowalk.hopto.org/kasseta_live
 
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Adventure
+http://stream.mcquack.net/432/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Family
+http://stream.mcquack.net/427/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Fantastic
+http://stream.mcquack.net/429/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Horror
+http://stream.mcquack.net/431/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Premiere
+http://stream.mcquack.net/424/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Rating
+http://stream.mcquack.net/422/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Romantic
+http://stream.mcquack.net/433/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Series
+http://stream.mcquack.net/430/index.m3u8
+
+#EXTINF:-1 group-title="🎬 Fresh" tvg-rec="7" timeshift="7",Fresh Thriller
+http://stream.mcquack.net/434/index.m3u8
+
 #EXTINF:-1 tvg-id="bridge-tv-fresh" tvg-logo="https://epg.iptvx.one/picons/bridge-tv-fresh.png" group-title="🎵 Музыка",Bridge TV FRESH
 http://stream-tv-prostar.hf.space/ch/9230?key=AB001829BB
 
@@ -1712,44 +1748,8 @@ http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 #EXTINF:-1 tvg-id="TVManaRusskiy.pt@SD" tvg-logo="https://i.imgur.com/fACHqmY.png" group-title="⛪ Религия",TV Mana Russkiy (1080p)
 https://w1.manasat.com/tvmana-leste/smil:tvmana-leste.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="📦 Прочее",8 канал
-https://flussonic.mkpnet.ru/tv-a308d006109b1c1f/video.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",BCU СССР HD
-http://stream.mcquack.net/488/index.m3u8
-
-#EXTINF:-1 tvg-id="sts-love" tvg-logo="https://epg.iptvx.one/picons/sts-love.png" group-title="📦 Прочее",CTC Love
-https://flussonic.mkpnet.ru/tv-b9f0884f9a81b8c6/video.m3u8
-
 #EXTINF:-1 tvg-id="Dacha.ua@SD" tvg-logo="https://i.imgur.com/xq6p9BZ.png" group-title="📦 Прочее",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Adventure
-http://stream.mcquack.net/432/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Family
-http://stream.mcquack.net/427/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Fantastic
-http://stream.mcquack.net/429/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Horror
-http://stream.mcquack.net/431/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Premiere
-http://stream.mcquack.net/424/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Rating
-http://stream.mcquack.net/422/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Romantic
-http://stream.mcquack.net/433/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Series
-http://stream.mcquack.net/430/index.m3u8
-
-#EXTINF:-1 group-title="📦 Прочее" tvg-rec="7" timeshift="7",Fresh Thriller
-http://stream.mcquack.net/434/index.m3u8
 
 #EXTINF:-1 tvg-id="gags-network" tvg-logo="https://epg.iptvx.one/picons/gags-network.png" group-title="📦 Прочее",Gagsnetwork
 https://tinyurl.com/upwnsw7p/14024/index.m3u8
