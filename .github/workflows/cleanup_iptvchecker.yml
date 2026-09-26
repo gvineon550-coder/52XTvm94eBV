@@ -1,0 +1,30 @@
+name: Cleanup IPTVChecker
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: iptv-global
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Remove broken IPTVChecker
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Удаляем gitlink из индекса
+          git rm --cached IPTVChecker || rm -f IPTVChecker || true
+          
+          git add -A
+          git diff --cached --quiet || git commit -m "Remove broken IPTVChecker gitlink"
+          git push || true
