@@ -47,6 +47,13 @@ WHITELIST = [
     "ntv", "нтв",
 ]
 
+# ← НОВОЕ: whitelist по URL (ffprobe не трогает эти ссылки)
+URL_WHITELIST = [
+    "bl.rutube.ru/livestream",
+    "rutube.ru/livestream",
+    "rtbcdn.ru",  # старые CDN-ссылки Rutube
+]
+
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 
@@ -113,11 +120,17 @@ def base_name(extinf):
     return name
 
 
-def is_whitelisted(extinf):
+# ← ИЗМЕНЕНО: добавлен параметр url и проверка URL_WHITELIST
+def is_whitelisted(extinf, url=""):
     name = base_name(extinf)
     for w in WHITELIST:
         pattern = r'(?<![a-zа-яё0-9])' + re.escape(w) + r'(?![a-zа-яё0-9])'
         if re.search(pattern, name):
+            return True
+    # ← НОВОЕ: проверка по URL
+    url_lower = url.lower()
+    for pattern in URL_WHITELIST:
+        if pattern in url_lower:
             return True
     return False
 
@@ -165,7 +178,8 @@ def filter_channels():
     stable_count = 0
 
     for ch in channels:
-        if is_whitelisted(ch["extinf"]):
+        # ← ИЗМЕНЕНО: передаём URL вторым аргументом
+        if is_whitelisted(ch["extinf"], ch["url"]):
             selected.append(ch)
             whitelist_count += 1
         elif is_stable_by_stats(ch["extinf"], stats):
@@ -300,7 +314,8 @@ def run_checks_in_batches(channels):
                     result = {"status": "dead", "error": type(e).__name__}
                 result["name"] = get_name(ch["extinf"])
                 result["url"] = ch["url"]
-                result["is_whitelist"] = is_whitelisted(ch["extinf"])
+                # ← ИЗМЕНЕНО: передаём URL
+                result["is_whitelist"] = is_whitelisted(ch["extinf"], ch["url"])
                 all_results.append(result)
 
         ok_count = sum(1 for r in all_results if r["status"] == "alive")
