@@ -1,11 +1,17 @@
 #EXTM3U
-# Updated: 2026-09-26 10:13 UTC | Alive: 161/173
+# Updated: 2026-09-26 11:07 UTC | Alive: 164/176
 
 #EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
 http://kinowalk.hopto.org/legion-tv_live
 
+#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="Kinowalk",Video_Prokat
+http://kinowalk.hopto.org/video_prokat_live
+
 #EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="Kinowalk",DimponHD
 http://kinowalk.hopto.org/dimpon_live
+
+#EXTINF:-1 tvg-id="maldrvsetv" tvg-name="Малдер всё тв hd" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maldrvsetv.png" group-title="Kinowalk",Малдер всё тв hd
+http://kinowalk.hopto.org/maldrvsetv_live
 
 #EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="Kinowalk",Kino Jam
 http://kinowalk.hopto.org/kinojam_live
@@ -16,20 +22,14 @@ http://kinowalk.hopto.org/selecaotv_live
 #EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="Kinowalk",SeleCaoTV1
 http://kinowalk.hopto.org/selecaotv1_live
 
-#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
-http://kinowalk.hopto.org/films_serials_24_7_live_live
-
-#EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="Kinowalk",Just enjoy serial4u
-http://kinowalk.hopto.org/serial4u_live
+#EXTINF:-1 tvg-id="serialtv" tvg-name="SerialTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serialtv.jpg" group-title="Kinowalk",SerialTV
+http://kinowalk.hopto.org/serialtv_live
 
 #EXTINF:-1 tvg-id="video_serial" tvg-name="VideoSerial" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_serial.jpg" group-title="Kinowalk",VideoSerial
 http://kinowalk.hopto.org/video_serial_live
 
-#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="Kinowalk",ФИЛЬМЫ у Максима
-http://kinowalk.hopto.org/mmaxim0vich_live
-
-#EXTINF:-1 tvg-id="kanaldisneyonline" tvg-name="Канал Disney Онлайн" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kanaldisneyonline.jpg" group-title="Kinowalk",Канал Disney Онлайн
-http://kinowalk.hopto.org/kanaldisneyonline_live
+#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="Kinowalk",Тоха Киноман
+http://kinowalk.hopto.org/kinomania_stream_live
 
 #EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="Kinowalk",Коновал ТВ
 http://kinowalk.hopto.org/tvkonoval_live
@@ -436,50 +436,59 @@ https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2w
 #EXTINF:-1 group-title="Rutube",Тнт 4
 https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=MchU3jytJK5_XoSzeP_PJA&e=2090410583&scheme=https
 
-#EXTINF:-1 group-title="Rutube",1 канал
+#EXTINF:-1 group-title="Rutube",Россия 24
+https://bl.rutube.ru/livestream/ad6ba2e9e587406b29978b861b7b7dd1/index.m3u8?s=2xI0szFZPbr-yIu5m8Ee2Q&e=2090410051&scheme=https
+
+#EXTINF:-1 group-title="Rutube",Тнт
+https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=2wFiZzRdBsgLEi-A59erSg&e=2090410357&scheme=https
+
+#EXTINF:-1 group-title="Rutube",Тнт 4
+https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=MchU3jytJK5_XoSzeP_PJA&e=2090410583&scheme=https
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/perkanal.png" group-title="Rutube",1 канал
 https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=JyNB_SyDDtTUTsOhEtTYyQ&e=2090410689&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Анимач
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/animach.jpg" group-title="Rutube",Анимач
 https://bl.rutube.ru/livestream/b3019a8983105f5e33f038246f860c32/index.m3u8?s=6dkVBoo-i3EU22zeb39XRw&e=2090410980&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Дорамы
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/doramy.jpg" group-title="Rutube",Дорамы
 https://bl.rutube.ru/livestream/5e3edd063411550ed6b67a8c0d7c96ea/index.m3u8?s=GPFL9jYqJqOMKFaj1TXKBg&e=2090411056&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Тлс
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/tlchd.png" group-title="Rutube",Тлс
 https://bl.rutube.ru/livestream/7c3d1a4cc0b4dff1176aa2dbb0b90000/index.m3u8?s=PEMYhKL8n2SQrGBSPIxxqA&e=2090412016&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Дискавери на русском
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/discovery_rus.jpeg" group-title="Rutube",Дискавери на русском
 https://bl.rutube.ru/livestream/6422d62f7e1f87bc3aec45b462cd89ea/index.m3u8?s=TTfdBN9kOfOaVh4nhbSyfQ&e=2090412072&scheme=https
 
-#EXTINF:-1 group-title="Rutube",National Geographic RU
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/nationgeografic.jpg" group-title="Rutube",National Geographic RU
 https://bl.rutube.ru/livestream/2619fc295c16585ef018041d88f14db0/index.m3u8?s=oKHai8bZHsJDY-Gt6vRkeA&e=2090412162&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Уайлд
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/geowild.jpg" group-title="Rutube",Уайлд
 https://bl.rutube.ru/livestream/c11af26c0ab831ce6c37a4888056479b/index.m3u8?s=JWJzne3-IPKrqZ_CyE2rZQ&e=2090412236&scheme=https
 
-#EXTINF:-1 group-title="Rutube",анимал планет
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/animal_planet.png" group-title="Rutube",анимал планет
 https://bl.rutube.ru/livestream/4004c8f6817b9ae1bd0d418905ae2b02/index.m3u8?s=lTFEM-ng6U9uCMBA0ySKSA&e=2090412305&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Айди Иксра
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/id_ixtra.jpeg" group-title="Rutube",Айди Иксра
 https://bl.rutube.ru/livestream/a91d58870b9a0d23b2309d020ac4b354/index.m3u8?s=SWt-lFqXrgPTHcgEKeY9Sw&e=2090412421&scheme=https
 
-#EXTINF:-1 group-title="Rutube",невский проспект
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/prospect.jpeg" group-title="Rutube",Невский Проспект
 https://bl.rutube.ru/livestream/1217bd14907ff59c5c64bcc4cbe1af41/index.m3u8?s=bUoO6Ss_ysH7lmN3kWTmUQ&e=2090412526&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Новый канал
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/rick_morti.jpg" group-title="Rutube",Рик и Морти
 https://bl.rutube.ru/livestream/478a825bfd784e1e9de08ceceb3d2121/index.m3u8?s=3tB6xTDGpRaXGITEPckG_g&e=2090412772&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Индийское Кино и сериалы
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/indiakinoserial.jpeg" group-title="Rutube",Индийское Кино и сериалы
 https://bl.rutube.ru/livestream/8b077d20877c0cd70b5bc4a090b9f37e/index.m3u8?s=5Q53sRXuMdN6MGk42gWB5A&e=2090412835&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Турецкое Кино и сериалы
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/turk.jpeg" group-title="Rutube",Турецкое Кино и сериалы
 https://bl.rutube.ru/livestream/2814e12b4ef6c528967736441c2e2803/index.m3u8?s=g94bBK7hUENU83K4Autfuw&e=2090412964&scheme=https
 
 #EXTINF:-1 group-title="Rutube",Латиноамериканскре кино и сериалы
 https://bl.rutube.ru/livestream/4d06d4d152d087f3792a5b15dc729562/index.m3u8?s=XNy8zs-nADoWvtgFatx0PA&e=2090413023&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Музач
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/muzach.jpg" group-title="Rutube",Музач
 https://bl.rutube.ru/livestream/e7e04192431a24a750fd8704fa221461/index.m3u8?s=R88SVFiISgCZ5mcWNgkIAw&e=2090413125&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Образовач
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/obrazovach.png" group-title="Rutube",Образовач
 https://bl.rutube.ru/livestream/eddcc86d1dee0b5def546ea388eb38ea/index.m3u8?s=yB2QyHQvyETyjlpmZSn0yw&e=2090413246&scheme=https
