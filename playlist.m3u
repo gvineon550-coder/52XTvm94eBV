@@ -1,14 +1,8 @@
 #EXTM3U
-# Updated: 2026-09-26 11:07 UTC | Alive: 164/176
+# Updated: 2026-09-26 11:18 UTC | Alive: 164/176
 
 #EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
 http://kinowalk.hopto.org/legion-tv_live
-
-#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="Kinowalk",Video_Prokat
-http://kinowalk.hopto.org/video_prokat_live
-
-#EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="Kinowalk",DimponHD
-http://kinowalk.hopto.org/dimpon_live
 
 #EXTINF:-1 tvg-id="maldrvsetv" tvg-name="Малдер всё тв hd" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maldrvsetv.png" group-title="Kinowalk",Малдер всё тв hd
 http://kinowalk.hopto.org/maldrvsetv_live
@@ -16,11 +10,14 @@ http://kinowalk.hopto.org/maldrvsetv_live
 #EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="Kinowalk",Kino Jam
 http://kinowalk.hopto.org/kinojam_live
 
-#EXTINF:-1 tvg-id="selecaotv" tvg-name="SeleCaoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv.png" group-title="Kinowalk",SeleCaoTV
-http://kinowalk.hopto.org/selecaotv_live
-
 #EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="Kinowalk",SeleCaoTV1
 http://kinowalk.hopto.org/selecaotv1_live
+
+#EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="Kinowalk",Фильмы сериалы трансляции
+http://kinowalk.hopto.org/id582512126_live
+
+#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
+http://kinowalk.hopto.org/films_serials_24_7_live_live
 
 #EXTINF:-1 tvg-id="serialtv" tvg-name="SerialTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serialtv.jpg" group-title="Kinowalk",SerialTV
 http://kinowalk.hopto.org/serialtv_live
@@ -28,8 +25,11 @@ http://kinowalk.hopto.org/serialtv_live
 #EXTINF:-1 tvg-id="video_serial" tvg-name="VideoSerial" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_serial.jpg" group-title="Kinowalk",VideoSerial
 http://kinowalk.hopto.org/video_serial_live
 
-#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="Kinowalk",Тоха Киноман
-http://kinowalk.hopto.org/kinomania_stream_live
+#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="Kinowalk",ФИЛЬМЫ у Максима
+http://kinowalk.hopto.org/mmaxim0vich_live
+
+#EXTINF:-1 tvg-id="kanaldisneyonline" tvg-name="Канал Disney Онлайн" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kanaldisneyonline.jpg" group-title="Kinowalk",Канал Disney Онлайн
+http://kinowalk.hopto.org/kanaldisneyonline_live
 
 #EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="Kinowalk",Коновал ТВ
 http://kinowalk.hopto.org/tvkonoval_live
@@ -484,7 +484,7 @@ https://bl.rutube.ru/livestream/8b077d20877c0cd70b5bc4a090b9f37e/index.m3u8?s=5Q
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/turk.jpeg" group-title="Rutube",Турецкое Кино и сериалы
 https://bl.rutube.ru/livestream/2814e12b4ef6c528967736441c2e2803/index.m3u8?s=g94bBK7hUENU83K4Autfuw&e=2090412964&scheme=https
 
-#EXTINF:-1 group-title="Rutube",Латиноамериканскре кино и сериалы
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/latinos.jpeg" group-title="Rutube",Латиноамериканские кино и сериалы
 https://bl.rutube.ru/livestream/4d06d4d152d087f3792a5b15dc729562/index.m3u8?s=XNy8zs-nADoWvtgFatx0PA&e=2090413023&scheme=https
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/muzach.jpg" group-title="Rutube",Музач
