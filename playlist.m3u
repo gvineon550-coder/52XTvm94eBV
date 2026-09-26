@@ -1,5 +1,5 @@
 #EXTM3U
-# Updated: 2026-09-25 03:15 UTC | Alive: 140/154
+# Updated: 2026-09-26 03:15 UTC | Alive: 150/163
 
 #EXTINF:-1 tvg-id="legion_tv" tvg-name="LEGION TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/legion_tv.jpg" group-title="Kinowalk",LEGION TV
 http://kinowalk.hopto.org/legion-tv_live
@@ -7,8 +7,14 @@ http://kinowalk.hopto.org/legion-tv_live
 #EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="Kinowalk",Video_Prokat
 http://kinowalk.hopto.org/video_prokat_live
 
-#EXTINF:-1 tvg-id="kinojam" tvg-name="Kino Jam" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinojam.png" group-title="Kinowalk",Kino Jam
-http://kinowalk.hopto.org/kinojam_live
+#EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="Kinowalk",DimponHD
+http://kinowalk.hopto.org/dimpon_live
+
+#EXTINF:-1 tvg-id="maldrvsetv" tvg-name="Малдер всё тв hd" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maldrvsetv.png" group-title="Kinowalk",Малдер всё тв hd
+http://kinowalk.hopto.org/maldrvsetv_live
+
+#EXTINF:-1 tvg-id="selecaotv" tvg-name="SeleCaoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv.png" group-title="Kinowalk",SeleCaoTV
+http://kinowalk.hopto.org/selecaotv_live
 
 #EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="Kinowalk",SeleCaoTV1
 http://kinowalk.hopto.org/selecaotv1_live
@@ -19,23 +25,17 @@ http://kinowalk.hopto.org/id582512126_live
 #EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
 http://kinowalk.hopto.org/films_serials_24_7_live_live
 
+#EXTINF:-1 tvg-id="serialtv" tvg-name="SerialTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serialtv.jpg" group-title="Kinowalk",SerialTV
+http://kinowalk.hopto.org/serialtv_live
+
 #EXTINF:-1 tvg-id="serial4u" tvg-name="Just enjoy serial4u" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/serial4u.png" group-title="Kinowalk",Just enjoy serial4u
 http://kinowalk.hopto.org/serial4u_live
-
-#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="Kinowalk",ФИЛЬМЫ у Максима
-http://kinowalk.hopto.org/mmaxim0vich_live
-
-#EXTINF:-1 tvg-id="kanaldisneyonline" tvg-name="Канал Disney Онлайн" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kanaldisneyonline.jpg" group-title="Kinowalk",Канал Disney Онлайн
-http://kinowalk.hopto.org/kanaldisneyonline_live
-
-#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="Kinowalk",Тоха Киноман
-http://kinowalk.hopto.org/kinomania_stream_live
 
 #EXTINF:-1 tvg-id="tvkonoval" tvg-name="Коновал ТВ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/tvkonoval.jpg" group-title="Kinowalk",Коновал ТВ
 http://kinowalk.hopto.org/tvkonoval_live
 
-#EXTINF:-1 tvg-id="alex.films" tvg-name="Alex.Films" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/alex.films.jpg" group-title="Kinowalk",Alex.Films
-http://kinowalk.hopto.org/alex.films_live
+#EXTINF:-1 tvg-id="jtxonline" tvg-name="JTX Online" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/jtxonline.png" group-title="Kinowalk",JTX Online
+http://kinowalk.hopto.org/jtxonline_live
 
 #EXTINF:-1 tvg-id="kinofon" tvg-name="kinofon_" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinofon.png" group-title="Kinowalk",kinofon_
 http://kinowalk.hopto.org/kinofon_live
@@ -313,6 +313,9 @@ http://kinowalk.hopto.org/vb_edh90sanddh90s_live
 #EXTINF:-1 tvg-id="kinoshkino" tvg-name="КИНОШКИНО" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinoshkino.jpg" group-title="Kinowalk",КИНОШКИНО
 http://kinowalk.hopto.org/kinoshkino_live
 
+#EXTINF:-1 tvg-id="myvhs" tvg-name="Мультфильмы VHS" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/myvhs.png" group-title="Kinowalk",Мультфильмы VHS
+http://kinowalk.hopto.org/myvhs_live
+
 #EXTINF:-1 tvg-id="vb-all-in-one" tvg-name="VB-All-In-One" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/vb-all-in-one.jpg" group-title="Kinowalk",VB-All-In-One
 http://kinowalk.hopto.org/vb-all-in-one_live
 
@@ -384,6 +387,33 @@ http://kinowalk.hopto.org/paranormal404_live
 
 #EXTINF:-1 tvg-id="johan_grohan_live" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/johan_grohan_live.jpg" group-title="Kinowalk",Johan Grohan Live
 http://kinowalk.hopto.org/johan_grohan_live
+
+#EXTINF:-1 group-title="Rutube",Аниме Двач
+https://river-ntv-rtk-d405.rtbcdn.ru/stream/genetta-402.ntv.rutube.ru/MBIWsPPP8wcNTCv9A7cnag/1790976825/b3019a8983105f5e33f038246f860c32/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Мультики Двач
+https://river-ntv-rtk-d447.rtbcdn.ru/stream/genetta-311.m9.rutube.ru/js_vJme15RWGRUMDxEh0LQ/1790977051/76de13007ff82a001f786f148e9fd39a/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Фильмы и Сериалы Двач
+https://river-m9-rtk-391.rtbcdn.ru/stream/genetta-320.m9.rutube.ru/ZY6G1l1kJaPZ3Uz4uhl84A/1790977397/300560a65014ec501a25b1f79df9ad90/720p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Документалки Двач
+https://river-ntv-rtk-d406.rtbcdn.ru/stream/genetta-321.m9.rutube.ru/PHkoQI0LeCqzB5epniTEfw/1790977787/eddcc86d1dee0b5def546ea388eb38ea/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Музыкальные Клипы Двач
+https://river-ntv-rtk-d404.rtbcdn.ru/stream/genetta-321.m9.rutube.ru/5GQ9SayO3vwRco8HJ-2x9A/1790980769/e7e04192431a24a750fd8704fa221461/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Индийское Кино и Сериалы Двач
+https://river-m9-rtk-391.rtbcdn.ru/stream/genetta-406.ntv.rutube.ru/OgZQlfekqMA00MT7GxAH1A/1790980881/8b077d20877c0cd70b5bc4a090b9f37e/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Турецкое Кино и Сериалы Двач
+https://river-ntv-rtk-d446.rtbcdn.ru/stream/genetta-318.m9.rutube.ru/SeH5vOvOQDg484Pba716VQ/1790980942/2814e12b4ef6c528967736441c2e2803/720p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Латинское Кино и Сериалы Двач
+https://river-m9-rtk-388.rtbcdn.ru/stream/genetta-402.ntv.rutube.ru/-4fv8yqYFwCEx1zetAHo_Q/1790980987/4d06d4d152d087f3792a5b15dc729562/1080p_stream.m3u8
+
+#EXTINF:-1 group-title="Rutube",Дорамы Двач
+https://river-ntv-rtk-d409.rtbcdn.ru/stream/genetta-326.m9.rutube.ru/a21VE4XA6-n2b6FszB4c7g/1790981146/5e3edd063411550ed6b67a8c0d7c96ea/1080p_stream.m3u8
 
 #EXTINF:-1 tvg-id="kinowalk_tv" tvg-name="Kinowalk_tv" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinowalk_tv.png" group-title="Kinowalk",Kinowalk_tv
 http://kinowalk.hopto.org/kinowalk_live
