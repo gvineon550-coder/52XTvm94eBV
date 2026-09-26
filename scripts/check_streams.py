@@ -24,6 +24,12 @@ WHITELIST = [
     "scripachtv",
 ]
 
+# ← НОВОЕ: whitelist по URL (не проверять эти ссылки)
+URL_WHITELIST = [
+    "bl.rutube.ru/livestream",
+    "rutube.ru/livestream",
+]
+
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
 
@@ -79,10 +85,16 @@ def base_name(extinf):
     return name
 
 
-def is_whitelisted(extinf):
+# ← ИЗМЕНЕНО: добавлен параметр url и проверка URL_WHITELIST
+def is_whitelisted(extinf, url=""):
     name = base_name(extinf)
     for w in WHITELIST:
         if w in name:
+            return True
+    # ← НОВОЕ: проверка по URL
+    url_lower = url.lower()
+    for pattern in URL_WHITELIST:
+        if pattern in url_lower:
             return True
     return False
 
@@ -161,7 +173,8 @@ def main():
     check_channels = []
 
     for ch in channels:
-        if is_whitelisted(ch["extinf"]):
+        # ← ИЗМЕНЕНО: передаём URL вторым аргументом
+        if is_whitelisted(ch["extinf"], ch["url"]):
             whitelist_channels.append(ch)
         else:
             check_channels.append(ch)
