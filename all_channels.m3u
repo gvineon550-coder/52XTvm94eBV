@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz" x-tvg-url="https://iptvx.one/epg/epg_lite.xml.gz"
-# Combined from 4 sources | Updated: 2026-09-26 11:09 UTC
-# Total: 499 unique channels | Categorized
+# Combined from 4 sources | Updated: 2026-09-26 11:19 UTC
+# Total: 501 unique channels | Categorized
 
 #EXTINF:-1 tvg-id="360-lv" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="📺 Федеральные",360° (1080p)
 https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
@@ -485,7 +485,7 @@ http://kinowalk.hopto.org/cinematime_live
 #EXTINF:-1 tvg-id="czmmusic" tvg-name="CZM Music" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/czmmusic.png" group-title="🎬 Kinowalk",CZM Music
 http://kinowalk.hopto.org/czmmusic_live
 
-#EXTINF:-1 tvg-id="dimponhd" tvg-name="DimponHD" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/dimpon_hd.png" group-title="🎬 Kinowalk",DimponHD
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://goodgame.ru/files/avatars/av_1643154_P8Jo.jpg" group-title="🎬 Kinowalk", Dimpon TV
 http://kinowalk.hopto.org/dimpon_live
 
 #EXTINF:-1 tvg-id="zsmedia" tvg-name="dj Zour" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/zsmedia_live.jpg" group-title="🎬 Kinowalk",dj Zour
@@ -575,9 +575,6 @@ http://kinowalk.hopto.org/zhekos_live
 #EXTINF:-1 tvg-id="makarstrim" tvg-name="MAKARSTRIM" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/makarstrim.jpg" group-title="🎬 Kinowalk",MAKARSTRIM
 http://kinowalk.hopto.org/makarstrim_live
 
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://avatars.mds.yandex.net/i?id=d8bb932a618b126fd382904f1cde2371_sr-5429110-images-thumbs&n=13" group-title="🎬 Kinowalk",Maksim Films
-http://kinowalk.hopto.org/mmaxim0vich_live
-
 #EXTINF:-1 tvg-id="maximum" tvg-name="MAX LIVЕ" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/maximum.png" group-title="🎬 Kinowalk",MAX LIVЕ
 http://kinowalk.hopto.org/maximum_live
 
@@ -638,7 +635,7 @@ http://kinowalk.hopto.org/sansey_ru_live
 #EXTINF:-1 tvg-id="scripachtv" tvg-name="ScripachTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/scripachtv.png" group-title="🎬 Kinowalk",ScripachTV
 http://kinowalk.hopto.org/scripachtv_live
 
-#EXTINF:-1 tvg-id="selecaotv" tvg-name="SeleCaoTV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv.png" group-title="🎬 Kinowalk",SeleCaoTV
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://raw.githubusercontent.com/UFOTVM/LOGO/refs/heads/main/SeleCaoTV.png" group-title="🎬 Kinowalk",SeleCaoTV Фильм
 http://kinowalk.hopto.org/selecaotv_live
 
 #EXTINF:-1 tvg-id="selecaotv1" tvg-name="SeleCaoTV1" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/selecaotv1.png" group-title="🎬 Kinowalk",SeleCaoTV1
@@ -710,7 +707,7 @@ http://kinowalk.hopto.org/and7610_live
 #EXTINF:-1 tvg-id="video_channel" tvg-name="Video Channel" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_channel.png" group-title="🎬 Kinowalk",Video Channel
 http://kinowalk.hopto.org/video_channel_live
 
-#EXTINF:-1 tvg-id="video_prokat" tvg-name="Video_Prokat" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/video_prokat.png" group-title="🎬 Kinowalk",Video_Prokat
+#EXTINF:-1 tvg-logo="https://images.live.vkplay.ru/user/18142699/avatar?change_time=1696376813&croped=1&mh=140&mw=140" tvg-id="no_epg_cinema" group-title="🎬 Kinowalk", Video_Prokat
 http://kinowalk.hopto.org/video_prokat_live
 
 #EXTINF:-1 tvg-id="videoarsenal" tvg-name="VideoArsenal" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/videoarsenal.png" group-title="🎬 Kinowalk",VideoArsenal
@@ -833,7 +830,7 @@ http://kinowalk.hopto.org/misha-sdyt_live
 #EXTINF:-1 tvg-id="liveprointerny" tvg-name="СЕМЕЙНЫЙ ПРОСМОТР LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/liveprointerny_live.jpg" group-title="🎬 Kinowalk",СЕМЕЙНЫЙ ПРОСМОТР LIVE
 http://kinowalk.hopto.org/liveprointerny_live
 
-#EXTINF:-1 tvg-id="kinomania_stream" tvg-name="Тоха Киноман" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/kinomania_stream.png" group-title="🎬 Kinowalk",Тоха Киноман
+#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="https://images.live.vkvideo.ru/user/15503490/avatar?change_time=1769803131&croped=1&mh=140&mw=140" group-title="🎬 Kinowalk", Тоха Киноман
 http://kinowalk.hopto.org/kinomania_stream_live
 
 #EXTINF:-1 tvg-id="toxa_stream" tvg-name="Тоха Стрим" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/toxa_stream.jpg" group-title="🎬 Kinowalk",Тоха Стрим
@@ -847,6 +844,15 @@ http://kinowalk.hopto.org/horrortv_live
 
 #EXTINF:-1 tvg-id="filmscope" tvg-name="Фильмоскоп" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/filmscope.png" group-title="🎬 Kinowalk",Фильмоскоп
 http://kinowalk.hopto.org/filmscope_live
+
+#EXTINF:-1 tvg-id="id582512126" tvg-name="Фильмы сериалы трансляции" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/id582512126.jpg" group-title="🎬 Kinowalk",Фильмы сериалы трансляции
+http://kinowalk.hopto.org/id582512126_live
+
+#EXTINF:-1 tvg-id="mmaxim0vich" tvg-name="ФИЛЬМЫ у Максима" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/mmaxim0vich.jpg" group-title="🎬 Kinowalk",ФИЛЬМЫ у Максима
+http://kinowalk.hopto.org/mmaxim0vich_live
+
+#EXTINF:-1 tvg-id="films_serials_24_7" tvg-name="ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/films_serials_24_7_live.jpg" group-title="🎬 Kinowalk",ФИЛЬМЫ_СЕРИАЛЫ_24_7_LIVE
+http://kinowalk.hopto.org/films_serials_24_7_live_live
 
 #EXTINF:-1 tvg-id="durkalive" tvg-name="Х-TV" tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/logotips/main/durkalive_live.png" group-title="🎬 Kinowalk",Х-TV
 http://kinowalk.hopto.org/durkalive_live
@@ -977,7 +983,7 @@ https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=uW
 #EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://epg.iptvx.one/picons/krik-tv.png" group-title="🎬 Rutube",КРИК-ТВ HD
 https://bl.rutube.ru/livestream/f372aa2aff09518d050ecdf70956012c/index.m3u8?s=zqF8COx7qN-jbhFv7NK-7A&e=2066519811&scheme=https
 
-#EXTINF:-1 group-title="🎬 Rutube",Латиноамериканскре кино и сериалы
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/gvineon550-coder/bl_logos/main/latinos.jpeg" group-title="🎬 Rutube",Латиноамериканские кино и сериалы
 https://bl.rutube.ru/livestream/4d06d4d152d087f3792a5b15dc729562/index.m3u8?s=XNy8zs-nADoWvtgFatx0PA&e=2090413023&scheme=https
 
 #EXTINF:-1 tvg-logo="https://epg.iptvx.one/picons/match-tv.png" tvg-id="match-tv" group-title="🎬 Rutube", Матч! HD
